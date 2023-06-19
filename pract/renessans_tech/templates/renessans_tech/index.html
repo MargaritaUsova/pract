@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="rus">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renessans Tech</title>
+  <link rel="shortcut icon" href="Renessans-icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles/general.css">
+</head>
+<body>
+
+  <div class="wrap">
+    <!-- Заголовок -->
+    <header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
+
+      <div class="site-header-bottom">
+        <a href="https://rencredit.ru/">
+          <img class="logo" src="{% static 'pictures/logo.svg' %}">
+        </a>
+        <a class="cathegory-items">
+          Смартфоны
+        </a>
+        <a class="cathegory-items">
+          Ноутбуки
+        </a>
+        <a class="cathegory-items">
+          Бытовая техника
+        </a>
+        <a class="cathegory-items">
+          Компьютеры
+        </a> 
+        <a class="cathegory-items">
+          Планшеты
+        </a>
+        <a class="cathegory-items">
+          Умные колонки
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart">
+          Корзина
+        </a>
+      </div>
+
+    </header>
+    <!-- Тело -->
+    <div class="main-body">
+      <div class="main-text">
+        <p style="margin-top: 30px;">Покупайте технику и получайте кэшбек</p>
+        <p style="margin-bottom: 30px;">А если на что-то не хватает, оформите наш потребительский кредит и ни в чем себе не отказывайте!</p>
+      </div>
+      <div class="banner-and-buttons">
+        <div class="left-section">
+          <img class="banner-img" src="{% static 'pictures/banner.png' %}" alt="пу пу">
+          <div class="banner-btns">
+            <button onclick="window.location.href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'" class="fill-btn">Заполнить заявку</button>
+            <button onclick="window.location.href = 'https://rencredit.ru/loans/main/'" class="details-btn">Подробнее</button>
+          </div>
+        </div>
+        <div class="right-section">
+          <button>Оформить потребительский кредит</button>
+          <button>Новинки</button>
+          <button>Популярные товары</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+
+</body>
+</html>
