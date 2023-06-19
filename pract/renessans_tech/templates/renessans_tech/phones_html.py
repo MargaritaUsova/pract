@@ -8,7 +8,6 @@ with open('phones.html', 'a') as f:
     for i in templates:
         f.write("""    <h1>{link}</h1>
         """.format(link=templates[i]['item_name']))
-        print(templates[i]['item_name'])
     f.write("""</body>
     </html>""")
 
