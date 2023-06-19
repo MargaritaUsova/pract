@@ -32,3 +32,6 @@ def tablets(request):
 
 def smart_speakers(request):
     return render(request, 'renessans_tech/smart_speakers.html')
+
+def basket(request):
+    return render(request, 'renessans_tech/basket.html')
