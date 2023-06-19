@@ -4,6 +4,202 @@
     "body": {
         "products": [
             {
+                "productId": "30064943",
+                "name": "Смартфон Apple iPhone 14 Pro 128GB eSim Deep Purple",
+                "nameTranslit": "smartfon-apple-iphone-14-pro-128gb-esim-deep-purple",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30064943",
+                "materialSource": "ERP",
+                "modelName": "iPhone 14 Pro 128GB Deep Purple eSIM",
+                "rating": {
+                    "star": 4.857142857142857,
+                    "count": 7,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30064943b.jpg",
+                "brandId": "685",
+                "brandName": "Apple",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "914",
+                    "name": "iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30064943.jpg",
+                    "Pdb/30064943b.jpg",
+                    "Pdb/30064943b1.jpg",
+                    "Pdb/30064943b2.jpg",
+                    "Pdb/30064943b3.jpg",
+                    "Pdb/30064943b4.jpg",
+                    "Pdb/30064943s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30848201,
+                        "name": "Экран",
+                        "value": "6.1\"/2556x1179 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852907,
+                        "name": "Технология экрана",
+                        "value": "OLED",
+                        "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 637,
+                        "name": "Тип процессора",
+                        "value": "A16 Bionic",
+                        "nameDescription": "Процессоры каждого производителя объединяются в линейки по своему типу. Тип процессора указывает на его основное назначение: для домашнего компьютера, рабочего или игрового.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "128",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30848204,
+                        "name": "Основная камера МПикс",
+                        "value": "48/12/12",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30063482",
+                "name": "Смартфон Samsung Galaxy S22 5G 8/128GB Phantom Black (SM-S901B/DS)",
+                "nameTranslit": "smartfon-samsung-galaxy-s22-5g-8-128gb-phantom-black-sm-s901b-ds",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30063482",
+                "materialSource": "ERP",
+                "modelName": "Galaxy S22 5G 8/128GB Phantom Black (SM-S901B/DS)",
+                "rating": {
+                    "star": 4.793103448275862,
+                    "count": 29,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30063482b.jpg",
+                "brandId": "13",
+                "brandName": "Samsung",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "761",
+                    "name": "Смартфоны"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30063482.jpg",
+                    "Pdb/30063482b.jpg",
+                    "Pdb/30063482b1.jpg",
+                    "Pdb/30063482b10.jpg",
+                    "Pdb/30063482b11.jpg",
+                    "Pdb/30063482b12.jpg",
+                    "Pdb/30063482b13.jpg",
+                    "Pdb/30063482b14.jpg",
+                    "Pdb/30063482b15.jpg",
+                    "Pdb/30063482b16.jpg",
+                    "Pdb/30063482b17.jpg",
+                    "Pdb/30063482b18.jpg",
+                    "Pdb/30063482b2.jpg",
+                    "Pdb/30063482b3.jpg",
+                    "Pdb/30063482b4.jpg",
+                    "Pdb/30063482b5.jpg",
+                    "Pdb/30063482b6.jpg",
+                    "Pdb/30063482b7.jpg",
+                    "Pdb/30063482b8.jpg",
+                    "Pdb/30063482b9.jpg",
+                    "Pdb/30063482s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30848201,
+                        "name": "Экран",
+                        "value": "6.1\"/2400x1080 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 619180,
+                        "name": "Процессор",
+                        "value": "Samsung Exynos 2200 1 x 2.59 ГГц + 3 x 2.5 ГГц + 4 x 1.73 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "128",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30848204,
+                        "name": "Основная камера МПикс",
+                        "value": "12/50/10/TOF",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
                 "productId": "30063640",
                 "name": "Смартфон Xiaomi Redmi 10 2022 64GB Carbon Gray",
                 "nameTranslit": "smartfon-xiaomi-redmi-10-2022-64gb-carbon-gray",
@@ -13,8 +209,8 @@
                 "materialSource": "ERP",
                 "modelName": "Redmi 10 2022 64GB Carbon Gray",
                 "rating": {
-                    "star": 4.888888888888889,
-                    "count": 27,
+                    "star": 4.90625,
+                    "count": 32,
                     "percent": 91
                 },
                 "supplier": null,
@@ -288,6 +484,107 @@
                 ]
             },
             {
+                "productId": "30067223",
+                "name": "Смартфон Samsung Galaxy S23 Ultra 256GB Phant.Black (SM-S918B/DS)",
+                "nameTranslit": "smartfon-samsung-galaxy-s23-ultra-256gb-phantblack-sm-s918b-ds",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30067223",
+                "materialSource": "ERP",
+                "modelName": "Galaxy S23 Ultra 256GB Phant.Black (SM-S918B/DS)",
+                "rating": {
+                    "star": 4.863636363636363,
+                    "count": 44,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30067223b.jpg",
+                "brandId": "13",
+                "brandName": "Samsung",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "761",
+                    "name": "Смартфоны"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30067223.jpg",
+                    "Pdb/30067223b.jpg",
+                    "Pdb/30067223b1.jpg",
+                    "Pdb/30067223b10.jpg",
+                    "Pdb/30067223b11.jpg",
+                    "Pdb/30067223b12.jpg",
+                    "Pdb/30067223b13.jpg",
+                    "Pdb/30067223b14.jpg",
+                    "Pdb/30067223b2.jpg",
+                    "Pdb/30067223b3.jpg",
+                    "Pdb/30067223b4.jpg",
+                    "Pdb/30067223b5.jpg",
+                    "Pdb/30067223b6.jpg",
+                    "Pdb/30067223b7.jpg",
+                    "Pdb/30067223b8.jpg",
+                    "Pdb/30067223b9.jpg",
+                    "Pdb/30067223s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30848201,
+                        "name": "Экран",
+                        "value": "6.8\"/3088x1440 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 619180,
+                        "name": "Процессор",
+                        "value": "Qualcomm Snapdragon 8 Gen 2",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "12",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "256",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30848204,
+                        "name": "Основная камера МПикс",
+                        "value": "12/200/10/10",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
                 "productId": "400148134",
                 "name": "Смартфон realme GT3 240W 16/1TB Booster Black",
                 "nameTranslit": "smartfon-realme-gt3-240w-16-1tb-booster-black",
@@ -370,295 +667,6 @@
                         "id": 30848204,
                         "name": "Основная камера МПикс",
                         "value": "50/8/2/AF",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 7,
-                        "measure": null
-                    }
-                ]
-            },
-            {
-                "productId": "30064939",
-                "name": "Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple",
-                "nameTranslit": "smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "30064939",
-                "materialSource": "ERP",
-                "modelName": "iPhone 14 Pro Max 128GB Deep Purple",
-                "rating": {
-                    "star": 4.851851851851852,
-                    "count": 27,
-                    "percent": 91
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30064939b.jpg",
-                "brandId": "685",
-                "brandName": "Apple",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "914",
-                    "name": "iPhone"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/30064939.jpg",
-                    "Pdb/30064939b.jpg",
-                    "Pdb/30064939b1.jpg",
-                    "Pdb/30064939b2.jpg",
-                    "Pdb/30064939b3.jpg",
-                    "Pdb/30064939b4.jpg",
-                    "Pdb/30064939s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 30848201,
-                        "name": "Экран",
-                        "value": "6.7\"/2796x1290 Пикс",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852907,
-                        "name": "Технология экрана",
-                        "value": "OLED",
-                        "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
-                        "valueDescription": null,
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 637,
-                        "name": "Тип процессора",
-                        "value": "A16 Bionic",
-                        "nameDescription": "Процессоры каждого производителя объединяются в линейки по своему типу. Тип процессора указывает на его основное назначение: для домашнего компьютера, рабочего или игрового.",
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 613463,
-                        "name": "Встроенная память (ROM)",
-                        "value": "128",
-                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
-                        "valueDescription": null,
-                        "priority": 4,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 30848204,
-                        "name": "Основная камера МПикс",
-                        "value": "48/12/12",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 6,
-                        "measure": null
-                    }
-                ]
-            },
-            {
-                "productId": "30067209",
-                "name": "Смартфон Samsung Galaxy S23+ 512GB Cream (SM-S916/DS)",
-                "nameTranslit": "smartfon-samsung-galaxy-s23-512gb-cream-sm-s916-ds",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "30067209",
-                "materialSource": "ERP",
-                "modelName": "Galaxy S23+ 512GB Cream (SM-S916/DS)",
-                "rating": {
-                    "star": 4.923076923076923,
-                    "count": 13,
-                    "percent": 91
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30067209b.jpg",
-                "brandId": "13",
-                "brandName": "Samsung",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "761",
-                    "name": "Смартфоны"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/30067209.jpg",
-                    "Pdb/30067209b.jpg",
-                    "Pdb/30067209b1.jpg",
-                    "Pdb/30067209b10.jpg",
-                    "Pdb/30067209b11.jpg",
-                    "Pdb/30067209b12.jpg",
-                    "Pdb/30067209b13.jpg",
-                    "Pdb/30067209b2.jpg",
-                    "Pdb/30067209b3.jpg",
-                    "Pdb/30067209b4.jpg",
-                    "Pdb/30067209b5.jpg",
-                    "Pdb/30067209b6.jpg",
-                    "Pdb/30067209b7.jpg",
-                    "Pdb/30067209b8.jpg",
-                    "Pdb/30067209b9.jpg",
-                    "Pdb/30067209s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 30848201,
-                        "name": "Экран",
-                        "value": "6.6\"/2340x1080 Пикс",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 619180,
-                        "name": "Процессор",
-                        "value": "Qualcomm Snapdragon 8 Gen 2",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852805,
-                        "name": "Оперативная память (RAM)",
-                        "value": "8",
-                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                        "valueDescription": null,
-                        "priority": 5,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 613463,
-                        "name": "Встроенная память (ROM)",
-                        "value": "512",
-                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
-                        "valueDescription": null,
-                        "priority": 6,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 30848204,
-                        "name": "Основная камера МПикс",
-                        "value": "12/50/10/TOF",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 7,
-                        "measure": null
-                    }
-                ]
-            },
-            {
-                "productId": "400021183",
-                "name": "Смартфон Infinix Smart 6 Plus X6823C 2/64Gb Black",
-                "nameTranslit": "smartfon-infinix-smart-6-plus-x6823c-2-64gb-black",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "400021183",
-                "materialSource": "ERP",
-                "modelName": "SMART 6 PLUS X6823C 2/64Gb Black",
-                "rating": {
-                    "star": 5,
-                    "count": 1,
-                    "percent": 101
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/400021183b.jpg",
-                "brandId": "10059",
-                "brandName": "Infinix",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "761",
-                    "name": "Смартфоны"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/400021183.jpg",
-                    "Pdb/400021183b.jpg",
-                    "Pdb/400021183b1.jpg",
-                    "Pdb/400021183b2.jpg",
-                    "Pdb/400021183b20.jpg",
-                    "Pdb/400021183b21.jpg",
-                    "Pdb/400021183b22.jpg",
-                    "Pdb/400021183b23.jpg",
-                    "Pdb/400021183b24.jpg",
-                    "Pdb/400021183b25.jpg",
-                    "Pdb/400021183b26.jpg",
-                    "Pdb/400021183b27.jpg",
-                    "Pdb/400021183b3.jpg",
-                    "Pdb/400021183s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 30848201,
-                        "name": "Экран",
-                        "value": "6.82\"/720x1640 Пикс",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 619180,
-                        "name": "Процессор",
-                        "value": "Spreadtrum MT6762 2 ГГц",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852805,
-                        "name": "Оперативная память (RAM)",
-                        "value": "2",
-                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
-                        "valueDescription": null,
-                        "priority": 5,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 613463,
-                        "name": "Встроенная память (ROM)",
-                        "value": "64",
-                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
-                        "valueDescription": null,
-                        "priority": 6,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 30848204,
-                        "name": "Основная камера МПикс",
-                        "value": "8/0.08",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 7,
@@ -764,18 +772,18 @@
                 ]
             },
             {
-                "productId": "30065350",
-                "name": "Смартфон vivo V25e 8/128Gb Sunrise Gold",
-                "nameTranslit": "smartfon-vivo-v25e-8-128gb-sunrise-gold",
+                "productId": "30067439",
+                "name": "Смартфон HUAWEI P60 Pro 8/256GB Rococo Pearl",
+                "nameTranslit": "smartfon-huawei-p60-pro-8-256gb-rococo-pearl",
                 "productType": "DIG",
                 "usedProductType": null,
-                "materialCisNumber": "30065350",
+                "materialCisNumber": "30067439",
                 "materialSource": "ERP",
-                "modelName": "V25e 8/128GB восход солнца",
+                "modelName": "P60 Pro 8/256GB Rococo Pearl",
                 "rating": {
-                    "star": 4.615384615384615,
-                    "count": 52,
-                    "percent": 91
+                    "star": 5,
+                    "count": 1,
+                    "percent": 101
                 },
                 "supplier": null,
                 "vendorCatalog": null,
@@ -783,9 +791,9 @@
                 "partnerType": null,
                 "preorder": null,
                 "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30065350b.jpg",
-                "brandId": "2232",
-                "brandName": "vivo",
+                "image": "Pdb/small_pic/480/30067439b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
                 "status": {
                     "showCase": false,
                     "availableOnlyInRetailStore": false,
@@ -798,23 +806,22 @@
                 },
                 "properties": null,
                 "images": [
-                    "Pdb/30065350.jpg",
-                    "Pdb/30065350b.jpg",
-                    "Pdb/30065350b1.jpg",
-                    "Pdb/30065350b2.jpg",
-                    "Pdb/30065350b3.jpg",
-                    "Pdb/30065350b4.jpg",
-                    "Pdb/30065350b5.jpg",
-                    "Pdb/30065350b6.jpg",
-                    "Pdb/30065350b7.jpg",
-                    "Pdb/30065350b8.jpg",
-                    "Pdb/30065350s.jpg"
+                    "Pdb/30067439.jpg",
+                    "Pdb/30067439b.jpg",
+                    "Pdb/30067439b1.jpg",
+                    "Pdb/30067439b2.jpg",
+                    "Pdb/30067439b3.jpg",
+                    "Pdb/30067439b4.jpg",
+                    "Pdb/30067439b5.jpg",
+                    "Pdb/30067439b6.jpg",
+                    "Pdb/30067439b7.jpg",
+                    "Pdb/30067439s.jpg"
                 ],
                 "propertiesPortion": [
                     {
                         "id": 30848201,
                         "name": "Экран",
-                        "value": "6.44\"/2404x1080 Пикс",
+                        "value": "6.67\"",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 1,
@@ -823,7 +830,7 @@
                     {
                         "id": 619180,
                         "name": "Процессор",
-                        "value": "Mediatek Helio G99 2 x 2.2 ГГц + 6 x 2 ГГц",
+                        "value": "Qualcomm Snapdragon 8 Gen 1",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 3,
@@ -841,7 +848,7 @@
                     {
                         "id": 613463,
                         "name": "Встроенная память (ROM)",
-                        "value": "128",
+                        "value": "256",
                         "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
                         "valueDescription": null,
                         "priority": 6,
@@ -850,7 +857,7 @@
                     {
                         "id": 30848204,
                         "name": "Основная камера МПикс",
-                        "value": "64/2/2",
+                        "value": "48/13/48",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 7,
@@ -859,18 +866,18 @@
                 ]
             },
             {
-                "productId": "30067630",
-                "name": "Смартфон Apple iPhone SE 64GB Black",
-                "nameTranslit": "smartfon-apple-iphone-se-64gb-black",
+                "productId": "30064939",
+                "name": "Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple",
+                "nameTranslit": "smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple",
                 "productType": "DIG",
                 "usedProductType": null,
-                "materialCisNumber": "30067630",
+                "materialCisNumber": "30064939",
                 "materialSource": "ERP",
-                "modelName": "iPhone SE 64GB Black",
+                "modelName": "iPhone 14 Pro Max 128GB Deep Purple",
                 "rating": {
-                    "star": 5,
-                    "count": 3,
-                    "percent": 101
+                    "star": 4.851851851851852,
+                    "count": 27,
+                    "percent": 91
                 },
                 "supplier": null,
                 "vendorCatalog": null,
@@ -878,7 +885,7 @@
                 "partnerType": null,
                 "preorder": null,
                 "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30067630b.jpg",
+                "image": "Pdb/small_pic/480/30064939b.jpg",
                 "brandId": "685",
                 "brandName": "Apple",
                 "status": {
@@ -893,21 +900,19 @@
                 },
                 "properties": null,
                 "images": [
-                    "Pdb/30067630.jpg",
-                    "Pdb/30067630b.jpg",
-                    "Pdb/30067630b1.jpg",
-                    "Pdb/30067630b2.jpg",
-                    "Pdb/30067630b3.jpg",
-                    "Pdb/30067630b4.jpg",
-                    "Pdb/30067630b5.jpg",
-                    "Pdb/30067630b6.jpg",
-                    "Pdb/30067630s.jpg"
+                    "Pdb/30064939.jpg",
+                    "Pdb/30064939b.jpg",
+                    "Pdb/30064939b1.jpg",
+                    "Pdb/30064939b2.jpg",
+                    "Pdb/30064939b3.jpg",
+                    "Pdb/30064939b4.jpg",
+                    "Pdb/30064939s.jpg"
                 ],
                 "propertiesPortion": [
                     {
                         "id": 30848201,
                         "name": "Экран",
-                        "value": "4.7\"/1334x750 Пикс",
+                        "value": "6.7\"/2796x1290 Пикс",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 1,
@@ -916,16 +921,16 @@
                     {
                         "id": 30852907,
                         "name": "Технология экрана",
-                        "value": "IPS",
+                        "value": "OLED",
                         "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
-                        "valueDescription": "Разновидность жидкокристаллического дисплея, изготовленного по технологии TFT. Характеризуется хорошей цветопередачей, высокой яркостью и контрастностью, широкими углами обзора (до 178 градусов).",
+                        "valueDescription": null,
                         "priority": 2,
                         "measure": null
                     },
                     {
                         "id": 637,
                         "name": "Тип процессора",
-                        "value": "A13 Bionic",
+                        "value": "A16 Bionic",
                         "nameDescription": "Процессоры каждого производителя объединяются в линейки по своему типу. Тип процессора указывает на его основное назначение: для домашнего компьютера, рабочего или игрового.",
                         "valueDescription": null,
                         "priority": 3,
@@ -934,7 +939,7 @@
                     {
                         "id": 613463,
                         "name": "Встроенная память (ROM)",
-                        "value": "64",
+                        "value": "128",
                         "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
                         "valueDescription": null,
                         "priority": 4,
@@ -943,7 +948,7 @@
                     {
                         "id": 30848204,
                         "name": "Основная камера МПикс",
-                        "value": "12",
+                        "value": "48/12/12",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 6,
@@ -1142,6 +1147,97 @@
                 ]
             },
             {
+                "productId": "30063236",
+                "name": "Смартфон Apple iPhone 11 128GB nanoSim/eSim Black",
+                "nameTranslit": "smartfon-apple-iphone-11-128gb-nanosim-esim-black",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30063236",
+                "materialSource": "ERP",
+                "modelName": "iPhone 11 128GB Black",
+                "rating": {
+                    "star": 4.8979591836734695,
+                    "count": 49,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30063236b.jpg",
+                "brandId": "685",
+                "brandName": "Apple",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "914",
+                    "name": "iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30063236.jpg",
+                    "Pdb/30063236b.jpg",
+                    "Pdb/30063236b1.jpg",
+                    "Pdb/30063236b2.jpg",
+                    "Pdb/30063236b3.jpg",
+                    "Pdb/30063236b4.jpg",
+                    "Pdb/30063236s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30848201,
+                        "name": "Экран",
+                        "value": "6.1\"/1792x828 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852907,
+                        "name": "Технология экрана",
+                        "value": "IPS",
+                        "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
+                        "valueDescription": "Разновидность жидкокристаллического дисплея, изготовленного по технологии TFT. Характеризуется хорошей цветопередачей, высокой яркостью и контрастностью, широкими углами обзора (до 178 градусов).",
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 637,
+                        "name": "Тип процессора",
+                        "value": "A13 Bionic",
+                        "nameDescription": "Процессоры каждого производителя объединяются в линейки по своему типу. Тип процессора указывает на его основное назначение: для домашнего компьютера, рабочего или игрового.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "128",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30848204,
+                        "name": "Основная камера МПикс",
+                        "value": "12/12",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
                 "productId": "50170400",
                 "name": "Смартфон HONOR X8 6/128GB Midnight Black (5109ACXU)",
                 "nameTranslit": "smartfon-honor-x8-6-128gb-midnight-black-5109acxu",
@@ -1238,97 +1334,6 @@
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 7,
-                        "measure": null
-                    }
-                ]
-            },
-            {
-                "productId": "30063236",
-                "name": "Смартфон Apple iPhone 11 128GB nanoSim/eSim Black",
-                "nameTranslit": "smartfon-apple-iphone-11-128gb-nanosim-esim-black",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "30063236",
-                "materialSource": "ERP",
-                "modelName": "iPhone 11 128GB Black",
-                "rating": {
-                    "star": 4.8979591836734695,
-                    "count": 49,
-                    "percent": 91
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30063236b.jpg",
-                "brandId": "685",
-                "brandName": "Apple",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "914",
-                    "name": "iPhone"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/30063236.jpg",
-                    "Pdb/30063236b.jpg",
-                    "Pdb/30063236b1.jpg",
-                    "Pdb/30063236b2.jpg",
-                    "Pdb/30063236b3.jpg",
-                    "Pdb/30063236b4.jpg",
-                    "Pdb/30063236s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 30848201,
-                        "name": "Экран",
-                        "value": "6.1\"/1792x828 Пикс",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852907,
-                        "name": "Технология экрана",
-                        "value": "IPS",
-                        "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
-                        "valueDescription": "Разновидность жидкокристаллического дисплея, изготовленного по технологии TFT. Характеризуется хорошей цветопередачей, высокой яркостью и контрастностью, широкими углами обзора (до 178 градусов).",
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 637,
-                        "name": "Тип процессора",
-                        "value": "A13 Bionic",
-                        "nameDescription": "Процессоры каждого производителя объединяются в линейки по своему типу. Тип процессора указывает на его основное назначение: для домашнего компьютера, рабочего или игрового.",
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 613463,
-                        "name": "Встроенная память (ROM)",
-                        "value": "128",
-                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
-                        "valueDescription": null,
-                        "priority": 4,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 30848204,
-                        "name": "Основная камера МПикс",
-                        "value": "12/12",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 6,
                         "measure": null
                     }
                 ]
@@ -1513,6 +1518,103 @@
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30067635",
+                "name": "Смартфон HUAWEI nova 11i 8/128Gb Starry Black (MAO-LX9N)",
+                "nameTranslit": "smartfon-huawei-nova-11i-8-128gb-starry-black-mao-lx9n",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30067635",
+                "materialSource": "ERP",
+                "modelName": "nova 11i 8/128Gb Starry Black (MAO-LX9N)",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30067635b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "761",
+                    "name": "Смартфоны"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30067635.jpg",
+                    "Pdb/30067635b.jpg",
+                    "Pdb/30067635b1.jpg",
+                    "Pdb/30067635b10.jpg",
+                    "Pdb/30067635b2.jpg",
+                    "Pdb/30067635b3.jpg",
+                    "Pdb/30067635b4.jpg",
+                    "Pdb/30067635b5.jpg",
+                    "Pdb/30067635b6.jpg",
+                    "Pdb/30067635b7.jpg",
+                    "Pdb/30067635b8.jpg",
+                    "Pdb/30067635b9.jpg",
+                    "Pdb/30067635s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30848201,
+                        "name": "Экран",
+                        "value": "6.8\"/2388x1080 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 619180,
+                        "name": "Процессор",
+                        "value": "Qualcomm Snapdragon 680 2.4 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "128",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30848204,
+                        "name": "Основная камера МПикс",
+                        "value": "48/2",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
                         "measure": null
                     }
                 ]
@@ -1710,17 +1812,17 @@
                 ]
             },
             {
-                "productId": "30064934",
-                "name": "Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Space Black",
-                "nameTranslit": "smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-space-black",
+                "productId": "30065350",
+                "name": "Смартфон vivo V25e 8/128Gb Sunrise Gold",
+                "nameTranslit": "smartfon-vivo-v25e-8-128gb-sunrise-gold",
                 "productType": "DIG",
                 "usedProductType": null,
-                "materialCisNumber": "30064934",
+                "materialCisNumber": "30065350",
                 "materialSource": "ERP",
-                "modelName": "iPhone 14 Pro Max 128GB Space Black",
+                "modelName": "V25e 8/128GB восход солнца",
                 "rating": {
-                    "star": 4.928571428571429,
-                    "count": 14,
+                    "star": 4.615384615384615,
+                    "count": 52,
                     "percent": 91
                 },
                 "supplier": null,
@@ -1729,9 +1831,9 @@
                 "partnerType": null,
                 "preorder": null,
                 "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30064934b.jpg",
-                "brandId": "685",
-                "brandName": "Apple",
+                "image": "Pdb/small_pic/480/30065350b.jpg",
+                "brandId": "2232",
+                "brandName": "vivo",
                 "status": {
                     "showCase": false,
                     "availableOnlyInRetailStore": false,
@@ -1739,46 +1841,50 @@
                     "isCannotBeExchanged": false
                 },
                 "category": {
-                    "id": "914",
-                    "name": "iPhone"
+                    "id": "761",
+                    "name": "Смартфоны"
                 },
                 "properties": null,
                 "images": [
-                    "Pdb/30064934.jpg",
-                    "Pdb/30064934b.jpg",
-                    "Pdb/30064934b1.jpg",
-                    "Pdb/30064934b2.jpg",
-                    "Pdb/30064934b3.jpg",
-                    "Pdb/30064934b4.jpg",
-                    "Pdb/30064934s.jpg"
+                    "Pdb/30065350.jpg",
+                    "Pdb/30065350b.jpg",
+                    "Pdb/30065350b1.jpg",
+                    "Pdb/30065350b2.jpg",
+                    "Pdb/30065350b3.jpg",
+                    "Pdb/30065350b4.jpg",
+                    "Pdb/30065350b5.jpg",
+                    "Pdb/30065350b6.jpg",
+                    "Pdb/30065350b7.jpg",
+                    "Pdb/30065350b8.jpg",
+                    "Pdb/30065350s.jpg"
                 ],
                 "propertiesPortion": [
                     {
                         "id": 30848201,
                         "name": "Экран",
-                        "value": "6.7\"/2796x1290 Пикс",
+                        "value": "6.44\"/2404x1080 Пикс",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 1,
                         "measure": null
                     },
                     {
-                        "id": 30852907,
-                        "name": "Технология экрана",
-                        "value": "OLED",
-                        "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
-                        "valueDescription": null,
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 637,
-                        "name": "Тип процессора",
-                        "value": "A16 Bionic",
-                        "nameDescription": "Процессоры каждого производителя объединяются в линейки по своему типу. Тип процессора указывает на его основное назначение: для домашнего компьютера, рабочего или игрового.",
+                        "id": 619180,
+                        "name": "Процессор",
+                        "value": "Mediatek Helio G99 2 x 2.2 ГГц + 6 x 2 ГГц",
+                        "nameDescription": null,
                         "valueDescription": null,
                         "priority": 3,
                         "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
                     },
                     {
                         "id": 613463,
@@ -1786,107 +1892,16 @@
                         "value": "128",
                         "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
                         "valueDescription": null,
-                        "priority": 4,
+                        "priority": 6,
                         "measure": "ГБ"
                     },
                     {
                         "id": 30848204,
                         "name": "Основная камера МПикс",
-                        "value": "48/12/12",
+                        "value": "64/2/2",
                         "nameDescription": null,
                         "valueDescription": null,
-                        "priority": 6,
-                        "measure": null
-                    }
-                ]
-            },
-            {
-                "productId": "30064918",
-                "name": "Смартфон Apple iPhone 14 Pro 256GB nanoSim/eSim Deep Purple",
-                "nameTranslit": "smartfon-apple-iphone-14-pro-256gb-nanosim-esim-deep-purple",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "30064918",
-                "materialSource": "ERP",
-                "modelName": "iPhone 14 Pro 256GB Deep Purple",
-                "rating": {
-                    "star": 4.869565217391305,
-                    "count": 23,
-                    "percent": 91
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30064918b.jpg",
-                "brandId": "685",
-                "brandName": "Apple",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "914",
-                    "name": "iPhone"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/30064918.jpg",
-                    "Pdb/30064918b.jpg",
-                    "Pdb/30064918b1.jpg",
-                    "Pdb/30064918b2.jpg",
-                    "Pdb/30064918b3.jpg",
-                    "Pdb/30064918b4.jpg",
-                    "Pdb/30064918s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 30848201,
-                        "name": "Экран",
-                        "value": "6.1\"/2556x1179 Пикс",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852907,
-                        "name": "Технология экрана",
-                        "value": "OLED",
-                        "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
-                        "valueDescription": null,
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 637,
-                        "name": "Тип процессора",
-                        "value": "A16 Bionic",
-                        "nameDescription": "Процессоры каждого производителя объединяются в линейки по своему типу. Тип процессора указывает на его основное назначение: для домашнего компьютера, рабочего или игрового.",
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 613463,
-                        "name": "Встроенная память (ROM)",
-                        "value": "256",
-                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
-                        "valueDescription": null,
-                        "priority": 4,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 30848204,
-                        "name": "Основная камера МПикс",
-                        "value": "48/12/12",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 6,
+                        "priority": 7,
                         "measure": null
                     }
                 ]
@@ -1983,18 +1998,18 @@
                 ]
             },
             {
-                "productId": "30065144",
-                "name": "Смартфон Apple iPhone 14 Pro Max 256GB eSim Deep Purple",
-                "nameTranslit": "smartfon-apple-iphone-14-pro-max-256gb-esim-deep-purple",
+                "productId": "30067636",
+                "name": "Смартфон HUAWEI nova 11i 8/128Gb Mint Green (MAO-LX9N)",
+                "nameTranslit": "smartfon-huawei-nova-11i-8-128gb-mint-green-mao-lx9n",
                 "productType": "DIG",
                 "usedProductType": null,
-                "materialCisNumber": "30065144",
+                "materialCisNumber": "30067636",
                 "materialSource": "ERP",
-                "modelName": "iPhone 14 Pro Max 256GB Deep Purple eSIM",
+                "modelName": "nova 11i 8/128Gb Mint Green (MAO-LX9N)",
                 "rating": {
-                    "star": 5,
-                    "count": 9,
-                    "percent": 101
+                    "star": null,
+                    "count": null,
+                    "percent": null
                 },
                 "supplier": null,
                 "vendorCatalog": null,
@@ -2002,7 +2017,104 @@
                 "partnerType": null,
                 "preorder": null,
                 "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30065144b.jpg",
+                "image": "Pdb/small_pic/480/30067636b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "761",
+                    "name": "Смартфоны"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30067636.jpg",
+                    "Pdb/30067636b.jpg",
+                    "Pdb/30067636b1.jpg",
+                    "Pdb/30067636b10.jpg",
+                    "Pdb/30067636b2.jpg",
+                    "Pdb/30067636b3.jpg",
+                    "Pdb/30067636b4.jpg",
+                    "Pdb/30067636b5.jpg",
+                    "Pdb/30067636b6.jpg",
+                    "Pdb/30067636b7.jpg",
+                    "Pdb/30067636b8.jpg",
+                    "Pdb/30067636b9.jpg",
+                    "Pdb/30067636s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30848201,
+                        "name": "Экран",
+                        "value": "6.8\"/2388x1080 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 619180,
+                        "name": "Процессор",
+                        "value": "Qualcomm Snapdragon 680 2.4 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "128",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30848204,
+                        "name": "Основная камера МПикс",
+                        "value": "48/2",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30064918",
+                "name": "Смартфон Apple iPhone 14 Pro 256GB nanoSim/eSim Deep Purple",
+                "nameTranslit": "smartfon-apple-iphone-14-pro-256gb-nanosim-esim-deep-purple",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30064918",
+                "materialSource": "ERP",
+                "modelName": "iPhone 14 Pro 256GB Deep Purple",
+                "rating": {
+                    "star": 4.875,
+                    "count": 24,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30064918b.jpg",
                 "brandId": "685",
                 "brandName": "Apple",
                 "status": {
@@ -2017,17 +2129,19 @@
                 },
                 "properties": null,
                 "images": [
-                    "Pdb/30065144.jpg",
-                    "Pdb/30065144b.jpg",
-                    "Pdb/30065144b1.jpg",
-                    "Pdb/30065144b2.jpg",
-                    "Pdb/30065144s.jpg"
+                    "Pdb/30064918.jpg",
+                    "Pdb/30064918b.jpg",
+                    "Pdb/30064918b1.jpg",
+                    "Pdb/30064918b2.jpg",
+                    "Pdb/30064918b3.jpg",
+                    "Pdb/30064918b4.jpg",
+                    "Pdb/30064918s.jpg"
                 ],
                 "propertiesPortion": [
                     {
                         "id": 30848201,
                         "name": "Экран",
-                        "value": "6.7\"/2796x1290 Пикс",
+                        "value": "6.1\"/2556x1179 Пикс",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 1,
@@ -2072,108 +2186,17 @@
                 ]
             },
             {
-                "productId": "30063237",
-                "name": "Смартфон Apple iPhone 11 128GB nanoSim/eSim White",
-                "nameTranslit": "smartfon-apple-iphone-11-128gb-nanosim-esim-white",
+                "productId": "30063379",
+                "name": "Смартфон Xiaomi Redmi 10 2022 128GB Carbon Gray",
+                "nameTranslit": "smartfon-xiaomi-redmi-10-2022-128gb-carbon-gray",
                 "productType": "DIG",
                 "usedProductType": null,
-                "materialCisNumber": "30063237",
+                "materialCisNumber": "30063379",
                 "materialSource": "ERP",
-                "modelName": "iPhone 11 128GB White",
+                "modelName": "Redmi 10 2022 128GB Carbon Gray",
                 "rating": {
-                    "star": 5,
-                    "count": 27,
-                    "percent": 101
-                },
-                "supplier": null,
-                "vendorCatalog": null,
-                "sublicense": false,
-                "partnerType": null,
-                "preorder": null,
-                "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/30063237b.jpg",
-                "brandId": "685",
-                "brandName": "Apple",
-                "status": {
-                    "showCase": false,
-                    "availableOnlyInRetailStore": false,
-                    "soldOut": false,
-                    "isCannotBeExchanged": false
-                },
-                "category": {
-                    "id": "914",
-                    "name": "iPhone"
-                },
-                "properties": null,
-                "images": [
-                    "Pdb/30063237.jpg",
-                    "Pdb/30063237b.jpg",
-                    "Pdb/30063237b1.jpg",
-                    "Pdb/30063237b2.jpg",
-                    "Pdb/30063237b3.jpg",
-                    "Pdb/30063237b4.jpg",
-                    "Pdb/30063237s.jpg"
-                ],
-                "propertiesPortion": [
-                    {
-                        "id": 30848201,
-                        "name": "Экран",
-                        "value": "6.1\"/1792x828 Пикс",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 1,
-                        "measure": null
-                    },
-                    {
-                        "id": 30852907,
-                        "name": "Технология экрана",
-                        "value": "IPS",
-                        "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
-                        "valueDescription": "Разновидность жидкокристаллического дисплея, изготовленного по технологии TFT. Характеризуется хорошей цветопередачей, высокой яркостью и контрастностью, широкими углами обзора (до 178 градусов).",
-                        "priority": 2,
-                        "measure": null
-                    },
-                    {
-                        "id": 637,
-                        "name": "Тип процессора",
-                        "value": "A13 Bionic",
-                        "nameDescription": "Процессоры каждого производителя объединяются в линейки по своему типу. Тип процессора указывает на его основное назначение: для домашнего компьютера, рабочего или игрового.",
-                        "valueDescription": null,
-                        "priority": 3,
-                        "measure": null
-                    },
-                    {
-                        "id": 613463,
-                        "name": "Встроенная память (ROM)",
-                        "value": "128",
-                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
-                        "valueDescription": null,
-                        "priority": 4,
-                        "measure": "ГБ"
-                    },
-                    {
-                        "id": 30848204,
-                        "name": "Основная камера МПикс",
-                        "value": "12/12",
-                        "nameDescription": null,
-                        "valueDescription": null,
-                        "priority": 6,
-                        "measure": null
-                    }
-                ]
-            },
-            {
-                "productId": "400078854",
-                "name": "Смартфон HONOR X8A 6/128GB 5109APCN Midnight black",
-                "nameTranslit": "smartfon-honor-x8a-6-128gb-5109apcn-midnight-black",
-                "productType": "DIG",
-                "usedProductType": null,
-                "materialCisNumber": "400078854",
-                "materialSource": "ERP",
-                "modelName": "X8A 6/128GB 5109APCN Midnight black",
-                "rating": {
-                    "star": 4.75,
-                    "count": 40,
+                    "star": 4.55,
+                    "count": 20,
                     "percent": 91
                 },
                 "supplier": null,
@@ -2182,9 +2205,9 @@
                 "partnerType": null,
                 "preorder": null,
                 "isMprimeSubscription": false,
-                "image": "Pdb/small_pic/480/400078854b.jpg",
-                "brandId": "1077",
-                "brandName": "HONOR",
+                "image": "Pdb/small_pic/480/30063379b.jpg",
+                "brandId": "1083",
+                "brandName": "Xiaomi",
                 "status": {
                     "showCase": false,
                     "availableOnlyInRetailStore": false,
@@ -2197,21 +2220,20 @@
                 },
                 "properties": null,
                 "images": [
-                    "Pdb/400078854.jpg",
-                    "Pdb/400078854b.jpg",
-                    "Pdb/400078854b1.jpg",
-                    "Pdb/400078854b2.jpg",
-                    "Pdb/400078854b3.jpg",
-                    "Pdb/400078854b4.jpg",
-                    "Pdb/400078854b5.jpg",
-                    "Pdb/400078854b6.jpg",
-                    "Pdb/400078854s.jpg"
+                    "Pdb/30063379.jpg",
+                    "Pdb/30063379b.jpg",
+                    "Pdb/30063379b1.jpg",
+                    "Pdb/30063379b2.jpg",
+                    "Pdb/30063379b3.jpg",
+                    "Pdb/30063379b4.jpg",
+                    "Pdb/30063379b5.jpg",
+                    "Pdb/30063379s.jpg"
                 ],
                 "propertiesPortion": [
                     {
                         "id": 30848201,
                         "name": "Экран",
-                        "value": "6.7\"/1080x2388 Пикс",
+                        "value": "6.5\"/2400x1080 Пикс",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 1,
@@ -2220,7 +2242,7 @@
                     {
                         "id": 619180,
                         "name": "Процессор",
-                        "value": "Mediatek Helio G88 2 x 2.0ГГц + 6 x 1.8ГГц",
+                        "value": "Mediatek Helio G88 2 x 2 ГГц + 6 x 1.8 ГГц",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 3,
@@ -2229,7 +2251,7 @@
                     {
                         "id": 30852805,
                         "name": "Оперативная память (RAM)",
-                        "value": "6",
+                        "value": "4",
                         "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
                         "valueDescription": null,
                         "priority": 5,
@@ -2247,7 +2269,7 @@
                     {
                         "id": 30848204,
                         "name": "Основная камера МПикс",
-                        "value": "100/5/2",
+                        "value": "50/8/2/2",
                         "nameDescription": null,
                         "valueDescription": null,
                         "priority": 7,

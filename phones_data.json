@@ -1,74 +1,146 @@
 {
-    "30064939": {
-        "item_name": "Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple"
-    },
-    "30063538": {
-        "item_name": "Смартфон Apple iPhone 13 128GB nanoSim/eSim Blue"
-    },
-    "400021183": {
-        "item_name": "Смартфон Infinix Smart 6 Plus X6823C 2/64Gb Black"
-    },
-    "30067209": {
-        "item_name": "Смартфон Samsung Galaxy S23+ 512GB Cream (SM-S916/DS)"
-    },
-    "400148134": {
-        "item_name": "Смартфон realme GT3 240W 16/1TB Booster Black"
-    },
-    "30063682": {
-        "item_name": "Смартфон Xiaomi Redmi 9A 32GB Glacial Blue"
-    },
-    "30064918": {
-        "item_name": "Смартфон Apple iPhone 14 Pro 256GB nanoSim/eSim Deep Purple"
-    },
-    "30065144": {
-        "item_name": "Смартфон Apple iPhone 14 Pro Max 256GB eSim Deep Purple"
-    },
-    "30063492": {
-        "item_name": "Смартфон Apple iPhone 11 64GB nanoSim/eSim Black"
-    },
-    "30067243": {
-        "item_name": "Смартфон Samsung Galaxy A54 256GB Awesome White"
-    },
-    "30063689": {
-        "item_name": "Смартфон realme C31 3/32 Dark Green (RMX3501)"
-    },
-    "50170400": {
-        "item_name": "Смартфон HONOR X8 6/128GB Midnight Black (5109ACXU)"
-    },
-    "30063534": {
-        "item_name": "Смартфон Apple iPhone 13 128GB nanoSim/eSim Midnight"
-    },
-    "30065350": {
-        "item_name": "Смартфон vivo V25e 8/128Gb Sunrise Gold"
-    },
-    "30063237": {
-        "item_name": "Смартфон Apple iPhone 11 128GB nanoSim/eSim White"
-    },
-    "30064911": {
-        "item_name": "Смартфон Apple iPhone 14 Pro 128GB nanoSim/eSim Deep Purple"
-    },
-    "30064934": {
-        "item_name": "Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Space Black"
-    },
-    "30064210": {
-        "item_name": "Смартфон realme C31 3/32 Light Silver (RMX3501)"
-    },
-    "30063236": {
-        "item_name": "Смартфон Apple iPhone 11 128GB nanoSim/eSim Black"
-    },
-    "400078854": {
-        "item_name": "Смартфон HONOR X8A 6/128GB 5109APCN Midnight black"
+    "30067223": {
+        "item_base_price": 109999,
+        "item_discount_price": 102999,
+        "item_bonus": 3090,
+        "id": "30067223"
     },
     "30065649": {
-        "item_name": "Смартфон HONOR X8 6+128Gb Titanium Silver"
+        "item_base_price": 23999,
+        "item_discount_price": 14999,
+        "item_bonus": 450,
+        "id": "30065649"
     },
-    "30063640": {
-        "item_name": "Смартфон Xiaomi Redmi 10 2022 64GB Carbon Gray"
+    "30063689": {
+        "item_base_price": 12999,
+        "item_discount_price": 5399,
+        "item_bonus": 162,
+        "id": "30063689"
+    },
+    "30063538": {
+        "item_base_price": 79999,
+        "item_discount_price": 69999,
+        "item_bonus": 2100,
+        "id": "30063538"
+    },
+    "30063236": {
+        "item_base_price": 62999,
+        "item_discount_price": 52999,
+        "item_bonus": 1590,
+        "id": "30063236"
+    },
+    "30067439": {
+        "item_base_price": 79999,
+        "item_discount_price": 69999,
+        "item_bonus": 2100,
+        "id": "30067439"
+    },
+    "30064911": {
+        "item_base_price": 119999,
+        "item_discount_price": 109499,
+        "item_bonus": 3285,
+        "id": "30064911"
+    },
+    "30063492": {
+        "item_base_price": 57999,
+        "item_discount_price": 45999,
+        "item_bonus": 1380,
+        "id": "30063492"
+    },
+    "30067636": {
+        "item_base_price": 17999,
+        "item_discount_price": 15999,
+        "item_bonus": 480,
+        "id": "30067636"
+    },
+    "30064939": {
+        "item_base_price": 129999,
+        "item_discount_price": 119999,
+        "item_bonus": 3600,
+        "id": "30064939"
     },
     "30063535": {
-        "item_name": "Смартфон Apple iPhone 13 128GB nanoSim/eSim Starlight"
+        "item_base_price": 79999,
+        "item_discount_price": 69999,
+        "item_bonus": 2100,
+        "id": "30063535"
     },
-    "30067630": {
-        "item_name": "Смартфон Apple iPhone SE 64GB Black"
+    "30063482": {
+        "item_base_price": 59999,
+        "item_discount_price": 59999,
+        "item_bonus": 1800,
+        "id": "30063482"
+    },
+    "30065350": {
+        "item_base_price": 27999,
+        "item_discount_price": 18999,
+        "item_bonus": 570,
+        "id": "30065350"
+    },
+    "30067243": {
+        "item_base_price": 37999,
+        "item_discount_price": 37999,
+        "item_bonus": 1140,
+        "id": "30067243"
+    },
+    "400148134": {
+        "item_base_price": 79999,
+        "item_discount_price": 69999,
+        "item_bonus": 2100,
+        "id": "400148134"
+    },
+    "50170400": {
+        "item_base_price": 23999,
+        "item_discount_price": 14999,
+        "item_bonus": 450,
+        "id": "50170400"
+    },
+    "30064918": {
+        "item_base_price": 129999,
+        "item_discount_price": 120499,
+        "item_bonus": 3615,
+        "id": "30064918"
+    },
+    "30063379": {
+        "item_base_price": 18999,
+        "item_discount_price": 11999,
+        "item_bonus": 360,
+        "id": "30063379"
+    },
+    "30063640": {
+        "item_base_price": 16999,
+        "item_discount_price": 9999,
+        "item_bonus": 300,
+        "id": "30063640"
+    },
+    "30063534": {
+        "item_base_price": 79999,
+        "item_discount_price": 69999,
+        "item_bonus": 2100,
+        "id": "30063534"
+    },
+    "30067635": {
+        "item_base_price": 17999,
+        "item_discount_price": 15999,
+        "item_bonus": 480,
+        "id": "30067635"
+    },
+    "30063682": {
+        "item_base_price": 8999,
+        "item_discount_price": 4999,
+        "item_bonus": 150,
+        "id": "30063682"
+    },
+    "30064943": {
+        "item_base_price": 119999,
+        "item_discount_price": 106499,
+        "item_bonus": 3195,
+        "id": "30064943"
+    },
+    "30064210": {
+        "item_base_price": 12999,
+        "item_discount_price": 5399,
+        "item_bonus": 162,
+        "id": "30064210"
     }
 }
