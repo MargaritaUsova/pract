@@ -35,3 +35,6 @@ def smart_speakers(request):
 
 def basket(request):
     return render(request, 'renessans_tech/basket.html')
+
+def item_page(request):
+    return render(request, 'renessans_tech/item_page.html')
