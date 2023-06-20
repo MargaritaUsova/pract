@@ -1,43 +1,120 @@
 import json
 
-with open('C:/Users/Пользователь/PycharmProjects/pract/phones_data.json') as f:
-    templates = json.load(f)
+with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
+    prices = json.load(f1)
 
-with open('phones.html', 'a') as f:
+with open('phones1.html', 'w') as f:
+    f.write("""
+    <!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Смартфоны</title>
+  <link rel="stylesheet" href="{% static 'css/phones.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
 
-    for i in templates:
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/logo.svg' %}">
+        </a>
+        <a class="cathegory-items" href = 'phones'>
+          Смартфоны
+        </a>
+        <a class="cathegory-items" href = 'laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="appliances">
+          Бытовая техника
+        </a>
+        <a class="cathegory-items" href = 'computers'>
+          Компьютеры
+        </a>
+        <a class="cathegory-items" href = 'tablets'>
+          Планшеты
+        </a>
+        <a class="cathegory-items" href = 'smart speakers'>
+          Умные колонки
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = 'basket'>
+          Корзина
+        </a>
+      </div>
+
+    </header> <br>
+    
+    """)
+    for i in prices:
         f.write("""    <div class="item-box">
     <div class="item-photo-container">
-      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+      <a href='item_page'>
+        <img class="item-photo" src="https://github.com/MargaritaUsova/pract/blob/9a3f2e416db3fc429b15578f2280301cfe70b7be/pract/renessans_tech/static/pictures/phones/test-img.jpg">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком {cashback}">Кэшбек {cashback}</p>
     </div>
     <div class="item-info">
-      <p class="item-name">
-        {name}}
-      </p>
+      <a href='item_page'>
+        <p class="item-name">
+            {name}
+        </p>
+      </a>
       <ul>
-        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
-        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
-        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
-        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
-        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+        <li>Бренд: <span class="text-highligt">{brand}</span></li>
+        <li>Экран: <span class="text-highligt">{screen}</span></li>
+        <li>Тип процессора: <span class="text-highligt">{proc}</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">{rom}</span></li>
+        
+        <li>Основная камера МПикс <span class="text-highligt">{camera}</span></li>
       </ul>
     </div>
     <div class="item-price-container">
       <p class="item-current-price">
-        103 999 ₽
+        {cur_price}
       </p>
       <p class="item-previous-price">
-        119 999
+        {previous_price}
       </p>
       <button class="add-to-cart">В корзину</button> <br>
-      <button class="credit-btn">Купить в кредит</button>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
     </div>
   </div>
-        """.format(name=templates[i]['item_name']))
+        """.format(price=prices[i]['item_discount_price'],
+                   name = prices[i]['item_name'],
+                   cashback=prices[i]['item_cashback'],
+                   screen = prices[i]['Экран'],
+                   brand = prices[i]['brand'],
+                   proc = prices[i]['Процессор'],
+                   rom = prices[i]['Встроенная память (ROM)'],
+                   camera = prices[i]['Основная камера МПикс'],
+                   cur_price = prices[i]['item_discount_price'],
+                   previous_price = prices[i]['item_base_price']
+                   ))
     f.write("""</body>
     </html>""")
-
-
-
-

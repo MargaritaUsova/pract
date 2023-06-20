@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import json
 
-def get_data():
+def get_data_names_prices():
     cookies = {
         '__lhash_': '4dc15c1b1cd8f6f3d623e3cb2b9a6d93',
         'MVID_AB_TOP_SERVICES': '1',
@@ -215,10 +215,49 @@ def get_data():
     with open('phone_prices.json', 'w') as file:
         json.dump(item_prices, file, indent=4, ensure_ascii=False)
 
+def get_data_cashback():
+    with open('phone_prices.json') as f1:
+        prices = json.load(f1)
+        item_cashback = {}
+        for i in prices:
+            item_cashback[i] = {'item_cashback': '10%'}
+            prices[i].update(item_cashback[i])
 
+    with open('phone_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+
+def get_data_characteristics():
+    item_characteristics = {}
+    shoma_characteristics = {}
+    with open('phones_list.json') as f2:
+        data = json.load(f2)
+        for i in data['products']:
+            #print(i['productId']) id
+            prod_id = i['productId']
+            #print(i['brandName']) brand
+            item_characteristics[prod_id] = {
+                'id' : prod_id,
+                'brand' : i['brandName']
+            }
+            for j in i['propertiesPortion']:
+                #print(f"{j['name'] + ' ' + j['value']}", j['name'] + ' ' + j['value'])
+                shoma_characteristics[prod_id] = {
+                    f"{j['name']}": j['name'] + ' ' + j['value']
+                }
+                item_characteristics[prod_id].update(shoma_characteristics[prod_id])
+
+    with open('phone_prices.json') as f1:
+        prices = json.load(f1)
+        item_cashback = {}
+        for i in item_characteristics:
+            prices[i].update(item_characteristics[i])
+
+    with open('phone_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
 
 def main():
-    get_data()
+    get_data_characteristics()
 
 if __name__ == '__main__':
     main()

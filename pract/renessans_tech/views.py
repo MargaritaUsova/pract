@@ -16,7 +16,7 @@ def create(request):
     return render(request, 'renessans_tech/create.html', context)
 
 def phones(request):
-    return render(request, 'renessans_tech/phones.html')
+    return render(request, 'renessans_tech/phones1.html')
 
 def laptops(request):
     return render(request, 'renessans_tech/laptops.html')
