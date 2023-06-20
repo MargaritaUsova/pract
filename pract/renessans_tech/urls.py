@@ -13,4 +13,5 @@ urlpatterns = [
     path('tablets', views.tablets),
     path('smart_speakers', views.smart_speakers),
     path('basket', views.basket),
+    path('item_page', views.item_page),
 ]

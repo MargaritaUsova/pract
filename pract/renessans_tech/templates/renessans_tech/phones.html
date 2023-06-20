@@ -1,36 +1,360 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Смартфоны</title>
+  <link rel="stylesheet" href="{% static 'css/phones.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
 
-    <h1>Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple</h1>
-            <h1>Смартфон Apple iPhone 13 128GB nanoSim/eSim Blue</h1>
-            <h1>Смартфон Infinix Smart 6 Plus X6823C 2/64Gb Black</h1>
-            <h1>Смартфон Samsung Galaxy S23+ 512GB Cream (SM-S916/DS)</h1>
-            <h1>Смартфон realme GT3 240W 16/1TB Booster Black</h1>
-            <h1>Смартфон Xiaomi Redmi 9A 32GB Glacial Blue</h1>
-            <h1>Смартфон Apple iPhone 14 Pro 256GB nanoSim/eSim Deep Purple</h1>
-            <h1>Смартфон Apple iPhone 14 Pro Max 256GB eSim Deep Purple</h1>
-            <h1>Смартфон Apple iPhone 11 64GB nanoSim/eSim Black</h1>
-            <h1>Смартфон Samsung Galaxy A54 256GB Awesome White</h1>
-            <h1>Смартфон realme C31 3/32 Dark Green (RMX3501)</h1>
-            <h1>Смартфон HONOR X8 6/128GB Midnight Black (5109ACXU)</h1>
-            <h1>Смартфон Apple iPhone 13 128GB nanoSim/eSim Midnight</h1>
-            <h1>Смартфон vivo V25e 8/128Gb Sunrise Gold</h1>
-            <h1>Смартфон Apple iPhone 11 128GB nanoSim/eSim White</h1>
-            <h1>Смартфон Apple iPhone 14 Pro 128GB nanoSim/eSim Deep Purple</h1>
-            <h1>Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Space Black</h1>
-            <h1>Смартфон realme C31 3/32 Light Silver (RMX3501)</h1>
-            <h1>Смартфон Apple iPhone 11 128GB nanoSim/eSim Black</h1>
-            <h1>Смартфон HONOR X8A 6/128GB 5109APCN Midnight black</h1>
-            <h1>Смартфон HONOR X8 6+128Gb Titanium Silver</h1>
-            <h1>Смартфон Xiaomi Redmi 10 2022 64GB Carbon Gray</h1>
-            <h1>Смартфон Apple iPhone 13 128GB nanoSim/eSim Starlight</h1>
-            <h1>Смартфон Apple iPhone SE 64GB Black</h1>
-        </body>
-    </html>
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/logo.svg' %}">
+        </a>
+        <a class="cathegory-items" href = 'phones'>
+          Смартфоны
+        </a>
+        <a class="cathegory-items" href = 'laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="appliances">
+          Бытовая техника
+        </a>
+        <a class="cathegory-items" href = 'computers'>
+          Компьютеры
+        </a>
+        <a class="cathegory-items" href = 'tablets'>
+          Планшеты
+        </a>
+        <a class="cathegory-items" href = 'smart speakers'>
+          Умные колонки
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = 'basket'>
+          Корзина
+        </a>
+      </div>
+
+    </header> <br>
+
+  <div class="item-box">
+    <div class="item-photo-container">
+      <a href='item_page'>
+        <img class="item-photo" src="{% static 'pictures/phones/test-img.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <a href='item_page'>
+        <p class="item-name">
+          Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+        </p>
+      </a>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+
+<div class="item-box">
+    <div class="item-photo-container">
+      <img class="item-photo" src="{% static 'pictures/test-img.jpg' %}">
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+    </div>
+    <div class="item-info">
+      <p class="item-name">
+        Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+      </p>
+      <ul>
+        <li>Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+        <li>Технология экрана: <span class="text-highligt">OLED</span></li>
+        <li>Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+        <li>Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+        <li>Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        103 999 ₽
+      </p>
+      <p class="item-previous-price">
+        119 999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <button class="credit-btn">Купить в кредит</button>
+    </div>
+  </div>
+</body>
+</html>
