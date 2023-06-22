@@ -118,7 +118,6 @@ with open('phones1.html', 'w') as f:
                    cur_price = prices[i]['item_discount_price'],
                    previous_price = prices[i]['item_base_price'],
                    nameTranslit = prices[i]['nameTranslit'],
-                   link = 'slug'
                    ))
     f.write("""</body>
     </html>""")
