@@ -42,7 +42,7 @@ with open('phones1.html', 'w') as f:
         <a href='/'>
           <img class="logo" src="{% static 'pictures/logo.svg' %}">
         </a>
-        <a class="cathegory-items" href = 'phones1'>
+        <a class="cathegory-items" href = 'phones'>
           Смартфоны
         </a>
         <a class="cathegory-items" href = 'laptops'>
