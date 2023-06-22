@@ -75,6 +75,7 @@ with open('phones1.html', 'w') as f:
     for i in prices:
         f.write("""    <div class="item-box">
     <div class="item-photo-container">
+    <a>
         <img class="item-photo" src="https://github.com/MargaritaUsova/pract/blob/9a3f2e416db3fc429b15578f2280301cfe70b7be/pract/renessans_tech/static/pictures/phones/test-img.jpg">
       </a>
       <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком {cashback}">Кэшбек {cashback}</p>
@@ -84,7 +85,7 @@ with open('phones1.html', 'w') as f:
         <p class="item-name">
             {name}
         </p>
-      </li>
+      </a>
       <ul>
         <li>Бренд: <span class="text-highligt">{brand}</span></li>
         <li>Экран: <span class="text-highligt">{screen}</span></li>
