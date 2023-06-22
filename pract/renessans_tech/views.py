@@ -1,19 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse
+from django.template import loader
 from .models import Task
-from .forms import TaskForm
 def index(request):
-    tasks = Task.objects.all()
-    return render(request, 'renessans_tech/index.html', {'title' : 'Главная страница сайта', 'tasks': tasks})
+    return render(request, 'renessans_tech/index.html', {'title' : 'Главная страница сайта'})
 
 def about(request):
     return render(request, 'renessans_tech/about.html')
 
-def create(request):
-    form = TaskForm()
-    context = {
-        'form' : form
-    }
-    return render(request, 'renessans_tech/create.html', context)
 
 def phones(request):
     return render(request, 'renessans_tech/phones1.html')
@@ -36,5 +30,5 @@ def smart_speakers(request):
 def basket(request):
     return render(request, 'renessans_tech/basket.html')
 
-def item_page(request):
-    return render(request, 'renessans_tech/item_page.html')
+def phone_page(request):
+    return render(request, 'renessans_tech/phone_page.html')

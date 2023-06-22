@@ -256,8 +256,31 @@ def get_data_characteristics():
     with open('phone_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
+
+def get_data_href():
+    with open('phones_list.json') as f1:
+        prices = json.load(f1)
+        hrefs = {}
+        for i in prices['products']:
+            id = i['productId']
+            hrefs[id] = {
+                'nameTranslit': i['nameTranslit']
+            }
+
+    with open('phone_prices.json') as f1:
+        prices = json.load(f1)
+        for i in prices:
+            prices[i].update(hrefs[i])
+
+    with open('phone_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+
+
+
+
 def main():
-    get_data_characteristics()
+    get_data_href()
 
 if __name__ == '__main__':
     main()

@@ -1,4 +1,6 @@
 import json
+from django.urls import reverse
+
 
 with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
     prices = json.load(f1)
@@ -40,7 +42,7 @@ with open('phones1.html', 'w') as f:
         <a href='/'>
           <img class="logo" src="{% static 'pictures/logo.svg' %}">
         </a>
-        <a class="cathegory-items" href = 'phones'>
+        <a class="cathegory-items" href = 'phones1'>
           Смартфоны
         </a>
         <a class="cathegory-items" href = 'laptops'>
@@ -69,20 +71,20 @@ with open('phones1.html', 'w') as f:
     </header> <br>
     
     """)
+
     for i in prices:
         f.write("""    <div class="item-box">
     <div class="item-photo-container">
-      <a href='item_page'>
         <img class="item-photo" src="https://github.com/MargaritaUsova/pract/blob/9a3f2e416db3fc429b15578f2280301cfe70b7be/pract/renessans_tech/static/pictures/phones/test-img.jpg">
       </a>
       <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком {cashback}">Кэшбек {cashback}</p>
     </div>
     <div class="item-info">
-      <a href='item_page'>
+    <a href=phones/{nameTranslit}>
         <p class="item-name">
             {name}
         </p>
-      </a>
+      </li>
       <ul>
         <li>Бренд: <span class="text-highligt">{brand}</span></li>
         <li>Экран: <span class="text-highligt">{screen}</span></li>
@@ -114,7 +116,9 @@ with open('phones1.html', 'w') as f:
                    rom = prices[i]['Встроенная память (ROM)'],
                    camera = prices[i]['Основная камера МПикс'],
                    cur_price = prices[i]['item_discount_price'],
-                   previous_price = prices[i]['item_base_price']
+                   previous_price = prices[i]['item_base_price'],
+                   nameTranslit = prices[i]['nameTranslit'],
+                   link = 'slug'
                    ))
     f.write("""</body>
     </html>""")
