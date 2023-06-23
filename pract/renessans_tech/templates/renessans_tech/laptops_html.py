@@ -14,7 +14,7 @@ with open('laptops.html', 'w') as f:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Смартфоны</title>
   <link rel="stylesheet" href="{% static 'css/phones.css' %}">
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
 <body>
 <header class="site-header">
@@ -39,7 +39,7 @@ with open('laptops.html', 'w') as f:
 
       <div class="site-header-bottom">
         <a href='/'>
-          <img class="logo" src="{% static 'pictures/logo.svg' %}">
+          <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
         </a>
         <a class="cathegory-items" href = 'phones'>
           Смартфоны
@@ -72,9 +72,9 @@ with open('laptops.html', 'w') as f:
     """)
 
     for i in prices:
-        f.write("""    <div class="item-box">
+        f.write("""     <div class="item-box">
     <div class="item-photo-container">
-    <a>
+    <a href="laptops/{nameTranslit}">
         <img class="item-photo" src="{{% static 'pictures/laptops/{image}.jpg' %}}">
       </a>
       <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком {cashback}">Кэшбек {cashback}</p>
@@ -87,8 +87,10 @@ with open('laptops.html', 'w') as f:
       </a>
       <ul>
         <li>Бренд: <span class="text-highligt">{brand}</span></li>
-        <li>Диагональ/разрешение: <span class="text-highligt">{screen}</span></li>
-        <li>Тип процессора: <span class="text-highligt">{proc}</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">{diagonal}"</span></li>
+        <li>Процессор: <span class="text-highligt"{proc}</span></li>
+        <li>Оперативная память (RAM)<span class="text-highligt">{ram}</span></li>
+        
       </ul>
     </div>
     <div class="item-price-container">
@@ -107,9 +109,10 @@ with open('laptops.html', 'w') as f:
         """.format(price=prices[i]['item_discount_price'],
                    name=prices[i]['item_name'],
                    cashback=prices[i]['item_cashback'],
-                   screen=prices[i]['Диагональ/разрешение'],
                    brand=prices[i]['brand'],
                    proc=prices[i]['Процессор'],
+                   ram = prices[i]['Оперативная память (RAM)'],
+                   diagonal = prices[i]['Диагональ/разрешение'],
                    cur_price=prices[i]['item_discount_price'],
                    previous_price=prices[i]['item_base_price'],
                    nameTranslit=prices[i]['nameTranslit'],

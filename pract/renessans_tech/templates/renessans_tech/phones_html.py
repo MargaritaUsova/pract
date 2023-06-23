@@ -15,7 +15,7 @@ with open('phones1.html', 'w') as f:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Смартфоны</title>
   <link rel="stylesheet" href="{% static 'css/phones.css' %}">
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
 <body>
 <header class="site-header">
@@ -40,7 +40,7 @@ with open('phones1.html', 'w') as f:
 
       <div class="site-header-bottom">
         <a href='/'>
-          <img class="logo" src="{% static 'pictures/logo.svg' %}">
+          <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
         </a>
         <a class="cathegory-items" href = 'phones'>
           Смартфоны
@@ -73,9 +73,9 @@ with open('phones1.html', 'w') as f:
     """)
 
     for i in prices:
-        f.write("""    <div class="item-box">
+        f.write("""     <div class="item-box">
     <div class="item-photo-container">
-    <a>
+    <a href="phones/{nameTranslit}">
         <img class="item-photo" src="{{% static 'pictures/phones/{image}.jpg' %}}">
       </a>
       <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком {cashback}">Кэшбек {cashback}</p>
@@ -88,7 +88,7 @@ with open('phones1.html', 'w') as f:
       </a>
       <ul>
         <li>Бренд: <span class="text-highligt">{brand}</span></li>
-        <li>Экран: <span class="text-highligt">{screen}</span></li>
+        <li>Экран: <span class="text-highligt">{screen}"</span></li>
         <li>Тип процессора: <span class="text-highligt">{proc}</span></li>
         <li>Встроенная память (ROM) <span class="text-highligt">{rom}</span></li>
         
