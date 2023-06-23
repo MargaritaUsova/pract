@@ -44,7 +44,7 @@ with open('laptops.html', 'w') as f:
         <a class="cathegory-items" href = 'phones'>
           Смартфоны
         </a>
-        <a class="cathegory-items" href = 'laptops'>
+        <a style="color: #ff0078;"class="cathegory-items" href = 'laptops'>
           Ноутбуки
         </a>
         <a class="cathegory-items" href="appliances">
