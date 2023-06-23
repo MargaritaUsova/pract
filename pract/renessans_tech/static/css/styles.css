@@ -2,6 +2,10 @@
   font-family: Mont,Inter,Verdana,Geneva,sans-serif;;
 }
 
+body {
+  background: linear-gradient(to right, rgb(85,111,253), rgb(254,102,197));
+}
+
 .site-header-top img {
   height: 12px;
   width: 12px;
@@ -12,7 +16,7 @@
 
 a {
   text-decoration:none;
-  color: #5b656d;
+  color: #383e43;
 }
 
 .logo {
@@ -42,17 +46,16 @@ a {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  top: 0;
+  margin-top: -2px;
   left: 0;
   right: 0;
   padding-left: 60px;
   padding-right: 60px;
-  background-color: white;
 
 }
 
 .site-header-bottom {
-  color: #4b5359;
+  color: rgb(75, 45, 158);
   font-size: 16px;
   font-weight: 500;
   height: 60px;
@@ -66,7 +69,7 @@ a {
   right: 0;
   padding-left: 60px;
   padding-right: 60px;
-  background-color: #DCDCDC;
+  background-color: #d0cbf8;
   border-radius: 10px;
 }
 
@@ -96,7 +99,7 @@ a {
 }
 
 .site-header-top a {
-  color: #5b656d;
+  color: white;
   cursor: pointer;
 }
 
@@ -121,6 +124,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: row;
+  margin-top: -50px;
 }
 
 .left-section {
@@ -129,28 +133,33 @@ a {
 }
 
 .right-section {
-padding-left: 50px;
-padding-right: 40px;
 display: flex;
-flex-direction: column;
-justify-content: space-around;
+flex-direction: row;
+justify-content: center;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .right-section button {
-  width: 100%;
-  font-size: 20px;
-  background-color: white;
-  border-color: #7964ec;
+  width: 250px;
+  font-size: 18px;
+  color: rgb(75, 45, 158);
+  background-color: #d0cbf8;
+  border-color: #d0cbf8;
   border-style: solid;
   border-radius: 0.375rem;
-  border-width: 3px;
-  padding: 20px 10px;
+  border-width: 1px;
+  padding: 8px 8px;
+  margin-left: 8px;
+  margin-right: 8px;
   transition: box-shadow 0.3s;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .right-section button:hover {
   cursor: pointer;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
 }
 
 
@@ -200,8 +209,10 @@ justify-content: space-around;
 }
 
 .banner-img {
-  margin-left: 0px;
-  width: 100%;
+  margin-left: -8px;
+  margin-right: 20px;
+  width: 101%;
+  margin-top: -4px;
 }
 
 .main-text {
