@@ -10,7 +10,7 @@ urlpatterns = [
     path('appliances', views.byt_techn),
     path('computers', views.computers),
     path('tablets', views.tablets),
-    path('smart_speakers', views.smart_speakers),
+    path('accessories', views.accessories),
     path('basket', views.basket),
 
 ]

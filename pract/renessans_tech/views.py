@@ -24,8 +24,8 @@ def computers(request):
 def tablets(request):
     return render(request, 'renessans_tech/laptops.html')
 
-def smart_speakers(request):
-    return render(request, 'renessans_tech/smart_speakers.html')
+def accessories(request):
+    return render(request, 'renessans_tech/accessories.html')
 
 def basket(request):
     return render(request, 'renessans_tech/basket.html')

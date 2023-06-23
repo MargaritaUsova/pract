@@ -57,8 +57,8 @@ with open('phones1.html', 'w') as f:
         <a class="cathegory-items" href = 'tablets'>
           Планшеты
         </a>
-        <a class="cathegory-items" href = 'smart speakers'>
-          Умные колонки
+        <a class="cathegory-items" href = 'accessories'>
+          Аксессуары
         </a>
         <a class="cathegory-items">
           Поиск
