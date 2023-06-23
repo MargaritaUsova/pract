@@ -47,8 +47,8 @@ with open('laptops.html', 'w') as f:
         <a style="color: #ff0078;"class="cathegory-items" href = 'laptops'>
           Ноутбуки
         </a>
-        <a class="cathegory-items" href="appliances">
-          Бытовая техника
+        <a class="cathegory-items" href="tv">
+          Телевизоры
         </a>
         <a class="cathegory-items" href = 'computers'>
           Компьютеры
@@ -88,7 +88,7 @@ with open('laptops.html', 'w') as f:
       <ul>
         <li>Бренд: <span class="text-highligt">{brand}</span></li>
         <li>Диагональ/разрешение: <span class="text-highligt">{diagonal}"</span></li>
-        <li>Процессор: <span class="text-highligt"{proc}</span></li>
+        <li>Процессор: <span class="text-highligt">{proc}</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">{ram}</span></li>
         
       </ul>

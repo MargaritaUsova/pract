@@ -1,11 +1,10 @@
 import json
 from django.urls import reverse
 
-
-with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
+with open('/Users/margaritausova/Documents/pract/tv_prices.json') as f1:
     prices = json.load(f1)
 
-with open('phones1.html', 'w') as f:
+with open('tv.html', 'w') as f:
     f.write("""
     <!DOCTYPE html>
 {% load static %}
@@ -42,13 +41,13 @@ with open('phones1.html', 'w') as f:
         <a href='/'>
           <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
         </a>
-        <a style="color: #ff0078;"class="cathegory-items" href = 'phones'>
+        <a class="cathegory-items" href = 'phones'>
           Смартфоны
         </a>
         <a class="cathegory-items" href = 'laptops'>
           Ноутбуки
         </a>
-        <a class="cathegory-items" href="tv">
+        <a style="color: #ff0078;"class="cathegory-items" href="tv">
           Телевизоры
         </a>
         <a class="cathegory-items" href = 'computers'>
@@ -69,19 +68,19 @@ with open('phones1.html', 'w') as f:
       </div>
 
     </header> <br>
-    
+
     """)
 
     for i in prices:
         f.write("""     <div class="item-box">
     <div class="item-photo-container">
-    <a href="phones/{nameTranslit}">
-        <img class="item-photo" src="{{% static 'pictures/phones/{image}.jpg' %}}">
+    <a href="tv/{nameTranslit}">
+        <img class="item-photo" src="{{% static 'pictures/tv/{image}.jpg' %}}">
       </a>
       <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком {cashback}">Кэшбек {cashback}</p>
     </div>
     <div class="item-info">
-    <a href=phones/{nameTranslit}>
+    <a href=tv/{nameTranslit}>
         <p class="item-name">
             {name}
         </p>
@@ -89,11 +88,10 @@ with open('phones1.html', 'w') as f:
       <ul>
         <li>Бренд: <span class="text-highligt">{brand}</span></li>
         <li>Экран: <span class="text-highligt">{screen}"</span></li>
-        <li>Тип процессора: <span class="text-highligt">{proc}</span></li>
-        <li>Встроенная память (ROM) <span class="text-highligt">{rom}</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">{smart_tv}</span></li>
+
         
-        <li>Основная камера МПикс <span class="text-highligt">{camera}</span></li>
-      </ul>
+        </ul>
     </div>
     <div class="item-price-container">
       <p class="item-current-price">
@@ -109,17 +107,16 @@ with open('phones1.html', 'w') as f:
     </div>
   </div>
         """.format(price=prices[i]['item_discount_price'],
-                   name = prices[i]['item_name'],
+                   name=prices[i]['item_name'],
                    cashback=prices[i]['item_cashback'],
-                   screen = prices[i]['Экран'],
-                   brand = prices[i]['brand'],
-                   proc = prices[i]['Процессор'],
-                   rom = prices[i]['Встроенная память (ROM)'],
-                   camera = prices[i]['Основная камера МПикс'],
-                   cur_price = prices[i]['item_discount_price'],
-                   previous_price = prices[i]['item_base_price'],
-                   nameTranslit = prices[i]['nameTranslit'],
-                   image = i
+                   screen=prices[i]['Экран'],
+                   brand=prices[i]['brand'],
+
+                   smart_tv=prices[i]['Поддержка Smart TV'],
+                   cur_price=prices[i]['item_discount_price'],
+                   previous_price=prices[i]['item_base_price'],
+                   nameTranslit=prices[i]['nameTranslit'],
+                   image=i
                    ))
     f.write("""</body>
     </html>""")

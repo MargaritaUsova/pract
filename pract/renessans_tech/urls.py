@@ -7,7 +7,7 @@ urlpatterns = [
     path('about-us', views.about, name = 'about'),
     path('phones', views.phones),
     path('laptops', views.laptops),
-    path('appliances', views.byt_techn),
+    path('tv', views.tv),
     path('computers', views.computers),
     path('tablets', views.tablets),
     path('accessories', views.accessories),
@@ -25,3 +25,10 @@ with open('/Users/margaritausova/Documents/pract/laptop_prices.json') as f1:
     prices = json.load(f1)
     for i in prices:
         urlpatterns.append(path(f'laptops/{prices[i]["nameTranslit"]}', views.laptop_page),)
+
+with open('/Users/margaritausova/Documents/pract/tv_prices.json') as f1:
+    prices = json.load(f1)
+    for i in prices:
+        urlpatterns.append(path(f'tv/{prices[i]["nameTranslit"]}', views.tv_page),)
+
+

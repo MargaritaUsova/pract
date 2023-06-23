@@ -1,0 +1,2269 @@
+{"products": [
+            {
+                "productId": "10030412",
+                "name": "Телевизор Hisense 55A6BG",
+                "nameTranslit": "televizor-hisense-55a6bg",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10030412",
+                "materialSource": "ERP",
+                "modelName": "55A6BG",
+                "rating": {
+                    "star": 4.803030303030303,
+                    "count": 66,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10030412b.jpg",
+                "brandId": "2081",
+                "brandName": "Hisense",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10030412.jpg",
+                    "Pdb/10030412b.jpg",
+                    "Pdb/10030412b1.jpg",
+                    "Pdb/10030412b2.jpg",
+                    "Pdb/10030412b3.jpg",
+                    "Pdb/10030412b4.jpg",
+                    "Pdb/10030412b5.jpg",
+                    "Pdb/10030412b6.jpg",
+                    "Pdb/10030412s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "55\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "16 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031390",
+                "name": "Телевизор Artel UA50H3502",
+                "nameTranslit": "televizor-artel-ua50h3502",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031390",
+                "materialSource": "ERP",
+                "modelName": "UA50H3502",
+                "rating": {
+                    "star": 4.756756756756757,
+                    "count": 37,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031390b.jpg",
+                "brandId": "7252",
+                "brandName": "Artel",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031390.jpg",
+                    "Pdb/10031390b.jpg",
+                    "Pdb/10031390b1.jpg",
+                    "Pdb/10031390b2.jpg",
+                    "Pdb/10031390b3.jpg",
+                    "Pdb/10031390b4.jpg",
+                    "Pdb/10031390b5.jpg",
+                    "Pdb/10031390b6.jpg",
+                    "Pdb/10031390b7.jpg",
+                    "Pdb/10031390b8.jpg",
+                    "Pdb/10031390s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "50\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 10 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10030413",
+                "name": "Телевизор Hisense 65A6BG",
+                "nameTranslit": "televizor-hisense-65a6bg",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10030413",
+                "materialSource": "ERP",
+                "modelName": "65A6BG",
+                "rating": {
+                    "star": 4.505747126436781,
+                    "count": 87,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10030413b.jpg",
+                "brandId": "2081",
+                "brandName": "Hisense",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10030413.jpg",
+                    "Pdb/10030413b.jpg",
+                    "Pdb/10030413b1.jpg",
+                    "Pdb/10030413b2.jpg",
+                    "Pdb/10030413b3.jpg",
+                    "Pdb/10030413s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "65\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "20 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10027344",
+                "name": "Телевизор Philips 43PUS7406/60",
+                "nameTranslit": "televizor-philips-43pus7406-60",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10027344",
+                "materialSource": "ERP",
+                "modelName": "43PUS7406/60",
+                "rating": {
+                    "star": 4.18,
+                    "count": 50,
+                    "percent": 81
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10027344b.jpg",
+                "brandId": "11",
+                "brandName": "Philips",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10027344.jpg",
+                    "Pdb/10027344b.jpg",
+                    "Pdb/10027344b1.jpg",
+                    "Pdb/10027344b2.jpg",
+                    "Pdb/10027344b21.jpg",
+                    "Pdb/10027344b22.jpg",
+                    "Pdb/10027344b23.jpg",
+                    "Pdb/10027344b24.jpg",
+                    "Pdb/10027344b26.jpg",
+                    "Pdb/10027344b27.jpg",
+                    "Pdb/10027344b3.jpg",
+                    "Pdb/10027344b4.jpg",
+                    "Pdb/10027344b5.jpg",
+                    "Pdb/10027344s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "43\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 10 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400078123",
+                "name": "Телевизор Hi VHIX-32F199MSA",
+                "nameTranslit": "televizor-hi-vhix-32f199msa",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "400078123",
+                "materialSource": "ERP",
+                "modelName": "VHIX-32F199MSA",
+                "rating": {
+                    "star": 5,
+                    "count": 11,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400078123b.jpg",
+                "brandId": "4317",
+                "brandName": "Hi",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "990",
+                    "name": "ЖК LED-телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400078123.jpg",
+                    "Pdb/400078123b.jpg",
+                    "Pdb/400078123b20.jpg",
+                    "Pdb/400078123b21.jpg",
+                    "Pdb/400078123b22.jpg",
+                    "Pdb/400078123b23.jpg",
+                    "Pdb/400078123b24.jpg",
+                    "Pdb/400078123b26.jpg",
+                    "Pdb/400078123b27.jpg",
+                    "Pdb/400078123s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "32\"/1920x1080 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 8 Вт / 16 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 30851720,
+                        "name": "Операционная система",
+                        "value": "Android",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 9,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031854",
+                "name": "Телевизор Haier 50 Smart TV S3",
+                "nameTranslit": "televizor-haier-50-smart-tv-s3",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031854",
+                "materialSource": "ERP",
+                "modelName": "50 Smart TV S3",
+                "rating": {
+                    "star": 4.722222222222222,
+                    "count": 18,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031854b.jpg",
+                "brandId": "1687",
+                "brandName": "Haier",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031854.jpg",
+                    "Pdb/10031854b.jpg",
+                    "Pdb/10031854b1.jpg",
+                    "Pdb/10031854b2.jpg",
+                    "Pdb/10031854b20.jpg",
+                    "Pdb/10031854b21.jpg",
+                    "Pdb/10031854b22.jpg",
+                    "Pdb/10031854b23.jpg",
+                    "Pdb/10031854b24.jpg",
+                    "Pdb/10031854b26.jpg",
+                    "Pdb/10031854b27.jpg",
+                    "Pdb/10031854b3.jpg",
+                    "Pdb/10031854b4.jpg",
+                    "Pdb/10031854s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "50\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 10 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031346",
+                "name": "Телевизор Artel A32KH5500",
+                "nameTranslit": "televizor-artel-a32kh5500",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031346",
+                "materialSource": "ERP",
+                "modelName": "A32KH5500",
+                "rating": {
+                    "star": 4.868421052631579,
+                    "count": 38,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031346b.jpg",
+                "brandId": "7252",
+                "brandName": "Artel",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "990",
+                    "name": "ЖК LED-телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031346.jpg",
+                    "Pdb/10031346b.jpg",
+                    "Pdb/10031346b1.jpg",
+                    "Pdb/10031346b2.jpg",
+                    "Pdb/10031346b3.jpg",
+                    "Pdb/10031346b4.jpg",
+                    "Pdb/10031346b5.jpg",
+                    "Pdb/10031346b6.jpg",
+                    "Pdb/10031346b7.jpg",
+                    "Pdb/10031346b8.jpg",
+                    "Pdb/10031346s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "32\"/1366x768 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 10 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 613102,
+                        "name": "Встроенный модуль Bluetooth",
+                        "value": "Да",
+                        "nameDescription": "Модуль для беспроводного подключения к другим устройствам, в том числе и смартфонам.",
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031216",
+                "name": "Телевизор Grundig 50 GFU 7800B",
+                "nameTranslit": "televizor-grundig-50-gfu-7800b",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031216",
+                "materialSource": "ERP",
+                "modelName": "50 GFU 7800B",
+                "rating": {
+                    "star": 4.859649122807017,
+                    "count": 57,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031216b.jpg",
+                "brandId": "20",
+                "brandName": "Grundig",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031216.jpg",
+                    "Pdb/10031216b.jpg",
+                    "Pdb/10031216b1.jpg",
+                    "Pdb/10031216b2.jpg",
+                    "Pdb/10031216b3.jpg",
+                    "Pdb/10031216b4.jpg",
+                    "Pdb/10031216b5.jpg",
+                    "Pdb/10031216s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "50\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 613102,
+                        "name": "Встроенный модуль Bluetooth",
+                        "value": "Да",
+                        "nameDescription": "Модуль для беспроводного подключения к другим устройствам, в том числе и смартфонам.",
+                        "valueDescription": null,
+                        "priority": 9,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031348",
+                "name": "Телевизор Artel UA43H3401",
+                "nameTranslit": "televizor-artel-ua43h3401",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031348",
+                "materialSource": "ERP",
+                "modelName": "UA43H3401",
+                "rating": {
+                    "star": 4.621621621621622,
+                    "count": 37,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031348b.jpg",
+                "brandId": "7252",
+                "brandName": "Artel",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "990",
+                    "name": "ЖК LED-телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031348.jpg",
+                    "Pdb/10031348b.jpg",
+                    "Pdb/10031348b1.jpg",
+                    "Pdb/10031348b2.jpg",
+                    "Pdb/10031348b3.jpg",
+                    "Pdb/10031348b4.jpg",
+                    "Pdb/10031348b5.jpg",
+                    "Pdb/10031348b6.jpg",
+                    "Pdb/10031348b7.jpg",
+                    "Pdb/10031348b8.jpg",
+                    "Pdb/10031348s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "43\"/1920x1080 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 10 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 613102,
+                        "name": "Встроенный модуль Bluetooth",
+                        "value": "Да",
+                        "nameDescription": "Модуль для беспроводного подключения к другим устройствам, в том числе и смартфонам.",
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031656",
+                "name": "Телевизор Яндекс 43'' - умный телевизор с Алисой (YNDX-00071)",
+                "nameTranslit": "televizor-yandeks-43---umnyi-televizor-s-alisoi-yndx-00071",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031656",
+                "materialSource": "ERP",
+                "modelName": "43'' с Алисой (YNDX-00071)",
+                "rating": {
+                    "star": 4.8493150684931505,
+                    "count": 73,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031656b.jpg",
+                "brandId": "4292",
+                "brandName": "Yandex",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031656.jpg",
+                    "Pdb/10031656b.jpg",
+                    "Pdb/10031656b1.jpg",
+                    "Pdb/10031656b10.jpg",
+                    "Pdb/10031656b11.jpg",
+                    "Pdb/10031656b12.jpg",
+                    "Pdb/10031656b2.jpg",
+                    "Pdb/10031656b3.jpg",
+                    "Pdb/10031656b4.jpg",
+                    "Pdb/10031656b5.jpg",
+                    "Pdb/10031656b6.jpg",
+                    "Pdb/10031656b7.jpg",
+                    "Pdb/10031656b8.jpg",
+                    "Pdb/10031656b9.jpg",
+                    "Pdb/10031656s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "43\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 613102,
+                        "name": "Встроенный модуль Bluetooth",
+                        "value": "Да",
+                        "nameDescription": "Модуль для беспроводного подключения к другим устройствам, в том числе и смартфонам.",
+                        "valueDescription": null,
+                        "priority": 9,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10030411",
+                "name": "Телевизор Hisense 50A6BG",
+                "nameTranslit": "televizor-hisense-50a6bg",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10030411",
+                "materialSource": "ERP",
+                "modelName": "50A6BG",
+                "rating": {
+                    "star": 4.831932773109243,
+                    "count": 119,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10030411b.jpg",
+                "brandId": "2081",
+                "brandName": "Hisense",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10030411.jpg",
+                    "Pdb/10030411b.jpg",
+                    "Pdb/10030411b1.jpg",
+                    "Pdb/10030411b2.jpg",
+                    "Pdb/10030411b3.jpg",
+                    "Pdb/10030411b4.jpg",
+                    "Pdb/10030411b5.jpg",
+                    "Pdb/10030411b6.jpg",
+                    "Pdb/10030411s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "50\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "16 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10030423",
+                "name": "Телевизор Hisense 55E7HQ",
+                "nameTranslit": "televizor-hisense-55e7hq",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10030423",
+                "materialSource": "ERP",
+                "modelName": "55E7HQ",
+                "rating": {
+                    "star": 4.702702702702703,
+                    "count": 37,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10030423b.jpg",
+                "brandId": "2081",
+                "brandName": "Hisense",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10030423.jpg",
+                    "Pdb/10030423b.jpg",
+                    "Pdb/10030423b1.jpg",
+                    "Pdb/10030423b2.jpg",
+                    "Pdb/10030423b3.jpg",
+                    "Pdb/10030423b4.jpg",
+                    "Pdb/10030423b5.jpg",
+                    "Pdb/10030423s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "55\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 8390,
+                        "name": "Технология QLED",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031853",
+                "name": "Телевизор Haier 50 Smart TV S1",
+                "nameTranslit": "televizor-haier-50-smart-tv-s1",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031853",
+                "materialSource": "ERP",
+                "modelName": "50 Smart TV S1",
+                "rating": {
+                    "star": 4.625,
+                    "count": 48,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031853b.jpg",
+                "brandId": "1687",
+                "brandName": "Haier",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031853.jpg",
+                    "Pdb/10031853b.jpg",
+                    "Pdb/10031853b1.jpg",
+                    "Pdb/10031853b2.jpg",
+                    "Pdb/10031853b3.jpg",
+                    "Pdb/10031853b4.jpg",
+                    "Pdb/10031853b5.jpg",
+                    "Pdb/10031853b6.jpg",
+                    "Pdb/10031853b7.jpg",
+                    "Pdb/10031853s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "50\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 10 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031852",
+                "name": "Телевизор Haier 43 Smart TV S1",
+                "nameTranslit": "televizor-haier-43-smart-tv-s1",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031852",
+                "materialSource": "ERP",
+                "modelName": "43 Smart TV S1",
+                "rating": {
+                    "star": 4.854838709677419,
+                    "count": 62,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031852b.jpg",
+                "brandId": "1687",
+                "brandName": "Haier",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031852.jpg",
+                    "Pdb/10031852b.jpg",
+                    "Pdb/10031852b1.jpg",
+                    "Pdb/10031852b2.jpg",
+                    "Pdb/10031852b3.jpg",
+                    "Pdb/10031852b4.jpg",
+                    "Pdb/10031852b5.jpg",
+                    "Pdb/10031852b6.jpg",
+                    "Pdb/10031852b7.jpg",
+                    "Pdb/10031852b8.jpg",
+                    "Pdb/10031852b9.jpg",
+                    "Pdb/10031852s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "43\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 613102,
+                        "name": "Встроенный модуль Bluetooth",
+                        "value": "Да",
+                        "nameDescription": "Модуль для беспроводного подключения к другим устройствам, в том числе и смартфонам.",
+                        "valueDescription": null,
+                        "priority": 9,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031388",
+                "name": "Телевизор Haier 55 Smart TV S1",
+                "nameTranslit": "televizor-haier-55-smart-tv-s1",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031388",
+                "materialSource": "ERP",
+                "modelName": "55 Smart TV S1",
+                "rating": {
+                    "star": 4.545454545454546,
+                    "count": 22,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031388b.jpg",
+                "brandId": "1687",
+                "brandName": "Haier",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031388.jpg",
+                    "Pdb/10031388b.jpg",
+                    "Pdb/10031388b1.jpg",
+                    "Pdb/10031388b2.jpg",
+                    "Pdb/10031388b3.jpg",
+                    "Pdb/10031388b4.jpg",
+                    "Pdb/10031388b5.jpg",
+                    "Pdb/10031388b6.jpg",
+                    "Pdb/10031388b7.jpg",
+                    "Pdb/10031388b8.jpg",
+                    "Pdb/10031388s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "55\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 10 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031851",
+                "name": "Телевизор Haier 32 Smart TV S1",
+                "nameTranslit": "televizor-haier-32-smart-tv-s1",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031851",
+                "materialSource": "ERP",
+                "modelName": "32 Smart TV S1",
+                "rating": {
+                    "star": 4.63855421686747,
+                    "count": 83,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031851b.jpg",
+                "brandId": "1687",
+                "brandName": "Haier",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "990",
+                    "name": "ЖК LED-телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031851.jpg",
+                    "Pdb/10031851b.jpg",
+                    "Pdb/10031851b1.jpg",
+                    "Pdb/10031851b2.jpg",
+                    "Pdb/10031851b3.jpg",
+                    "Pdb/10031851b4.jpg",
+                    "Pdb/10031851b5.jpg",
+                    "Pdb/10031851b6.jpg",
+                    "Pdb/10031851b7.jpg",
+                    "Pdb/10031851b8.jpg",
+                    "Pdb/10031851b9.jpg",
+                    "Pdb/10031851s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "32\"/1920x1080 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 8 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400138188",
+                "name": "Телевизор SKYWORTH 32STE6600",
+                "nameTranslit": "televizor-skyworth-32ste6600",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "400138188",
+                "materialSource": "ERP",
+                "modelName": "32STE6600",
+                "rating": {
+                    "star": 4.818181818181818,
+                    "count": 11,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400138188b.jpg",
+                "brandId": "4555",
+                "brandName": "SKYWORTH",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "990",
+                    "name": "ЖК LED-телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400138188.jpg",
+                    "Pdb/400138188b.jpg",
+                    "Pdb/400138188b1.jpg",
+                    "Pdb/400138188b2.jpg",
+                    "Pdb/400138188b20.jpg",
+                    "Pdb/400138188b21.jpg",
+                    "Pdb/400138188b22.jpg",
+                    "Pdb/400138188b23.jpg",
+                    "Pdb/400138188b26.jpg",
+                    "Pdb/400138188b27.jpg",
+                    "Pdb/400138188b3.jpg",
+                    "Pdb/400138188b4.jpg",
+                    "Pdb/400138188s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "32\"/1366x768 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 613102,
+                        "name": "Встроенный модуль Bluetooth",
+                        "value": "Да",
+                        "nameDescription": "Модуль для беспроводного подключения к другим устройствам, в том числе и смартфонам.",
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    },
+                    {
+                        "id": 30851720,
+                        "name": "Операционная система",
+                        "value": "Android",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 9,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10030424",
+                "name": "Телевизор Hisense 55U7HQ",
+                "nameTranslit": "televizor-hisense-55u7hq",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10030424",
+                "materialSource": "ERP",
+                "modelName": "55U7HQ",
+                "rating": {
+                    "star": 4.935483870967742,
+                    "count": 93,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10030424b.jpg",
+                "brandId": "2081",
+                "brandName": "Hisense",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10030424.jpg",
+                    "Pdb/10030424b.jpg",
+                    "Pdb/10030424b1.jpg",
+                    "Pdb/10030424b2.jpg",
+                    "Pdb/10030424b3.jpg",
+                    "Pdb/10030424b4.jpg",
+                    "Pdb/10030424b5.jpg",
+                    "Pdb/10030424b6.jpg",
+                    "Pdb/10030424s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "55\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 8390,
+                        "name": "Технология QLED",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "120",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10021227",
+                "name": "Телевизор Витязь 32LH0202",
+                "nameTranslit": "televizor-vityaz-32lh0202",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10021227",
+                "materialSource": "ERP",
+                "modelName": "32LH0202",
+                "rating": {
+                    "star": 4.8,
+                    "count": 115,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10021227b.jpg",
+                "brandId": "3200",
+                "brandName": "Витязь",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "990",
+                    "name": "ЖК LED-телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10021227.jpg",
+                    "Pdb/10021227b.jpg",
+                    "Pdb/10021227s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "32\"/1366x768 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 8 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 134,
+                        "name": "Порт USB 2.0 тип A",
+                        "value": "1",
+                        "nameDescription": "Количество портов для подключения периферийных устройств и внешних носителей информации с интерфейсом USB 2.0.",
+                        "valueDescription": null,
+                        "priority": 13,
+                        "measure": "шт"
+                    },
+                    {
+                        "id": 5339,
+                        "name": "Воспроизведение с USB",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 14,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10031855",
+                "name": "Телевизор Haier 55 Smart TV S3",
+                "nameTranslit": "televizor-haier-55-smart-tv-s3",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10031855",
+                "materialSource": "ERP",
+                "modelName": "55 Smart TV S3",
+                "rating": {
+                    "star": 4.888888888888889,
+                    "count": 18,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10031855b.jpg",
+                "brandId": "1687",
+                "brandName": "Haier",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10031855.jpg",
+                    "Pdb/10031855b.jpg",
+                    "Pdb/10031855b1.jpg",
+                    "Pdb/10031855b2.jpg",
+                    "Pdb/10031855b3.jpg",
+                    "Pdb/10031855b4.jpg",
+                    "Pdb/10031855b5.jpg",
+                    "Pdb/10031855b6.jpg",
+                    "Pdb/10031855b7.jpg",
+                    "Pdb/10031855s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "55\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 10 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10030670",
+                "name": "Телевизор Haier 55 Smart TV AX Pro",
+                "nameTranslit": "televizor-haier-55-smart-tv-ax-pro",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10030670",
+                "materialSource": "ERP",
+                "modelName": "55 Smart TV AX Pro",
+                "rating": {
+                    "star": 4.223214285714286,
+                    "count": 112,
+                    "percent": 81
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10030670b.jpg",
+                "brandId": "1687",
+                "brandName": "Haier",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10030670.jpg",
+                    "Pdb/10030670b.jpg",
+                    "Pdb/10030670b1.jpg",
+                    "Pdb/10030670b10.jpg",
+                    "Pdb/10030670b2.jpg",
+                    "Pdb/10030670b3.jpg",
+                    "Pdb/10030670b4.jpg",
+                    "Pdb/10030670b5.jpg",
+                    "Pdb/10030670b6.jpg",
+                    "Pdb/10030670b7.jpg",
+                    "Pdb/10030670b8.jpg",
+                    "Pdb/10030670b9.jpg",
+                    "Pdb/10030670s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "55\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 143,
+                        "name": "Мощность фронтальных АС",
+                        "value": "2 x 13 Вт",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10030422",
+                "name": "Телевизор Hisense 50E7HQ",
+                "nameTranslit": "televizor-hisense-50e7hq",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10030422",
+                "materialSource": "ERP",
+                "modelName": "50E7HQ",
+                "rating": {
+                    "star": 4.8311688311688314,
+                    "count": 77,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10030422b.jpg",
+                "brandId": "2081",
+                "brandName": "Hisense",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10030422.jpg",
+                    "Pdb/10030422b.jpg",
+                    "Pdb/10030422b1.jpg",
+                    "Pdb/10030422b2.jpg",
+                    "Pdb/10030422b3.jpg",
+                    "Pdb/10030422b4.jpg",
+                    "Pdb/10030422b5.jpg",
+                    "Pdb/10030422b6.jpg",
+                    "Pdb/10030422s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "50\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 8390,
+                        "name": "Технология QLED",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400101354",
+                "name": "Телевизор Hisense 32A4K",
+                "nameTranslit": "televizor-hisense-32a4k",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "400101354",
+                "materialSource": "ERP",
+                "modelName": "32A4K",
+                "rating": {
+                    "star": 4.636363636363637,
+                    "count": 11,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400101354b.jpg",
+                "brandId": "2081",
+                "brandName": "Hisense",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "990",
+                    "name": "ЖК LED-телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400101354.jpg",
+                    "Pdb/400101354b.jpg",
+                    "Pdb/400101354b1.jpg",
+                    "Pdb/400101354b2.jpg",
+                    "Pdb/400101354b21.jpg",
+                    "Pdb/400101354b22.jpg",
+                    "Pdb/400101354b23.jpg",
+                    "Pdb/400101354b26.jpg",
+                    "Pdb/400101354b27.jpg",
+                    "Pdb/400101354b3.jpg",
+                    "Pdb/400101354b4.jpg",
+                    "Pdb/400101354b5.jpg",
+                    "Pdb/400101354s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "32\"/1366x768 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "60",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 30851720,
+                        "name": "Операционная система",
+                        "value": "Vidaa",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 9,
+                        "measure": null
+                    },
+                    {
+                        "id": 615868,
+                        "name": "Поддержка Wi-Fi",
+                        "value": "Да",
+                        "nameDescription": "Возможность устройства выходить в интернет, используя беспроводной интерфейс.",
+                        "valueDescription": null,
+                        "priority": 11,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "10030428",
+                "name": "Телевизор Hisense 65U7HQ",
+                "nameTranslit": "televizor-hisense-65u7hq",
+                "productType": "AV",
+                "usedProductType": null,
+                "materialCisNumber": "10030428",
+                "materialSource": "ERP",
+                "modelName": "65U7HQ",
+                "rating": {
+                    "star": 4.644736842105263,
+                    "count": 76,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/10030428b.jpg",
+                "brandId": "2081",
+                "brandName": "Hisense",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1682",
+                    "name": "4K (UHD) телевизоры"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/10030428.jpg",
+                    "Pdb/10030428b.jpg",
+                    "Pdb/10030428b1.jpg",
+                    "Pdb/10030428b2.jpg",
+                    "Pdb/10030428b3.jpg",
+                    "Pdb/10030428b4.jpg",
+                    "Pdb/10030428b5.jpg",
+                    "Pdb/10030428b6.jpg",
+                    "Pdb/10030428s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 30852874,
+                        "name": "Экран",
+                        "value": "65\"/3840x2160 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 8390,
+                        "name": "Технология QLED",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 2119,
+                        "name": "Частота обновления",
+                        "value": "120",
+                        "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "Гц"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Поддержка Smart TV",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 2473,
+                        "name": "Технология HDR",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            }
+        ]
+}

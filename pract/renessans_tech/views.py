@@ -15,8 +15,8 @@ def phones(request):
 def laptops(request):
     return render(request, 'renessans_tech/laptops.html')
 
-def byt_techn(request):
-    return render(request, 'renessans_tech/byt_techn.html')
+def tv(request):
+    return render(request, 'renessans_tech/tv.html')
 
 def computers(request):
     return render(request, 'renessans_tech/computers.html')
@@ -35,4 +35,8 @@ def phone_page(request):
 
 def laptop_page(request):
     return render(request, 'renessans_tech/laptop_page.html')
+
+def tv_page(request):
+    return render(request, 'renessans_tech/tv_page.html')
+
 
