@@ -19,3 +19,9 @@ with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
     prices = json.load(f1)
     for i in prices:
         urlpatterns.append(path(f'phones/{prices[i]["nameTranslit"]}', views.phone_page),)
+
+
+with open('/Users/margaritausova/Documents/pract/laptop_prices.json') as f1:
+    prices = json.load(f1)
+    for i in prices:
+        urlpatterns.append(path(f'laptops/{prices[i]["nameTranslit"]}', views.laptop_page),)

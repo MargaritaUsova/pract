@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import urllib.request
 
-def get_data_names_prices():
+def get_data_names_prices_phones():
     cookies = {
         '__lhash_': '4dc15c1b1cd8f6f3d623e3cb2b9a6d93',
         'MVID_AB_TOP_SERVICES': '1',
@@ -142,7 +142,7 @@ def get_data_names_prices():
 
     products_id = response.get('body').get('products')
 
-    with open('products_id_phones.json', 'w') as file:
+    with open('phones_data/products_id_phones.json', 'w') as file:
         json.dump(products_id, file, indent=4, ensure_ascii=False)
 
     json_data = {
@@ -165,7 +165,7 @@ def get_data_names_prices():
     response = requests.post('https://www.mvideo.ru/bff/product-details/list', cookies=cookies, headers=headers,
                              json=json_data).json()
 
-    with open('phones_list.json', 'w') as file:
+    with open('phones_data/phones_list.json', 'w') as file:
         json.dump(response, file, indent=4, ensure_ascii=False)
     products_names = response.get('body').get('products')
 
@@ -216,7 +216,7 @@ def get_data_names_prices():
     with open('phone_prices.json', 'w') as file:
         json.dump(item_prices, file, indent=4, ensure_ascii=False)
 
-def get_data_cashback():
+def get_data_cashback_phones():
     with open('phone_prices.json') as f1:
         prices = json.load(f1)
         item_cashback = {}
@@ -228,10 +228,10 @@ def get_data_cashback():
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
 
-def get_data_characteristics():
+def get_data_characteristics_phones():
     item_characteristics = {}
     shoma_characteristics = {}
-    with open('phones_list.json') as f2:
+    with open('phones_data/phones_list.json') as f2:
         data = json.load(f2)
         for i in data['products']:
             #print(i['productId']) id
@@ -258,8 +258,8 @@ def get_data_characteristics():
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
 
-def get_data_href():
-    with open('phones_list.json') as f1:
+def get_data_href_phones():
+    with open('phones_data/phones_list.json') as f1:
         prices = json.load(f1)
         hrefs = {}
         for i in prices['products']:
@@ -276,8 +276,9 @@ def get_data_href():
     with open('phone_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
-def get_images():
-    with open('phones_list.json') as f1:
+
+def get_images_phones():
+    with open('phones_data/phones_list.json') as f1:
         prices = json.load(f1)
         phone_images = {}
         for i in prices['products']:
@@ -300,9 +301,264 @@ def get_images():
         out.close()
 
 
+def get_data_laptops():
+    cookies = {
+        '__lhash_': '4dc15c1b1cd8f6f3d623e3cb2b9a6d93',
+        'MVID_AB_TOP_SERVICES': '1',
+        'MVID_ACTOR_API_AVAILABILITY': 'true',
+        'MVID_ALFA_PODELI_NEW': 'true',
+        'MVID_BLACK_FRIDAY_ENABLED': 'true',
+        'MVID_CATALOG_STATE': '1',
+        'MVID_CHECKOUT_STORE_SORTING': 'true',
+        'MVID_CITY_ID': 'CityCZ_975',
+        'MVID_CREDIT_SERVICES': 'true',
+        'MVID_CRITICAL_GTM_INIT_DELAY': '3000',
+        'MVID_FILTER_CODES': 'true',
+        'MVID_FILTER_TOOLTIP': '1',
+        'MVID_FLOCKTORY_ON': 'true',
+        'MVID_GEOLOCATION_NEEDED': 'true',
+        'MVID_GIFT_KIT': 'true',
+        'MVID_GLP_GLC': '2',
+        'MVID_GTM_ENABLED': '011',
+        'MVID_INTERVAL_DELIVERY': 'true',
+        'MVID_IS_NEW_BR_WIDGET': 'true',
+        'MVID_KLADR_ID': '7700000000000',
+        'MVID_LAYOUT_TYPE': '1',
+        'MVID_LP_SOLD_VARIANTS': '3',
+        'MVID_MCLICK': 'true',
+        'MVID_MINDBOX_DYNAMICALLY': 'true',
+        'MVID_MINI_PDP': 'true',
+        'MVID_NEW_ACCESSORY': 'true',
+        'MVID_NEW_LK_CHECK_CAPTCHA': 'true',
+        'MVID_NEW_LK_OTP_TIMER': 'true',
+        'MVID_NEW_MBONUS_BLOCK': 'true',
+        'MVID_PROMO_CATALOG_ON': 'true',
+        'MVID_RECOMENDATION': 'true',
+        'MVID_REGION_ID': '1',
+        'MVID_REGION_SHOP': 'S002',
+        'MVID_SERVICES': '111',
+        'MVID_SP': 'true',
+        'MVID_TIMEZONE_OFFSET': '3',
+        'MVID_TYP_CHAT': 'true',
+        'MVID_WEB_SBP': 'true',
+        'SENTRY_ERRORS_RATE': '0.1',
+        'SENTRY_TRANSACTIONS_RATE': '0.5',
+        'MVID_ENVCLOUD': 'prod2',
+        'MVID_GUEST_ID': '22635780952',
+        'MVID_VIEWED_PRODUCTS': '',
+        'wurfl_device_id': 'generic_web_browser',
+        'MVID_CALC_BONUS_RUBLES_PROFIT': 'true',
+        'NEED_REQUIRE_APPLY_DISCOUNT': 'true',
+        'MVID_CART_MULTI_DELETE': 'true',
+        'MVID_YANDEX_WIDGET': 'true',
+        'PROMOLISTING_WITHOUT_STOCK_AB_TEST': '2',
+        'MVID_GET_LOCATION_BY_DADATA': 'DaData',
+        'PRESELECT_COURIER_DELIVERY_FOR_KBT': 'false',
+        'HINTS_FIO_COOKIE_NAME': '1',
+        'searchType2': '2',
+        'COMPARISON_INDICATOR': 'false',
+        'CACHE_INDICATOR': 'false',
+        'MVID_NEW_OLD': 'eyJjYXJ0IjpmYWxzZSwiZmF2b3JpdGUiOnRydWUsImNvbXBhcmlzb24iOnRydWV9',
+        'MVID_OLD_NEW': 'eyJjb21wYXJpc29uIjogdHJ1ZSwgImZhdm9yaXRlIjogdHJ1ZSwgImNhcnQiOiB0cnVlfQ==',
+        'BIGipServeratg-ps-prod_tcp80': '2433014794.20480.0000',
+        'bIPs': '53593859',
+        '_ym_uid': '1687034037702065663',
+        '_ym_d': '1687034037',
+        '__SourceTracker': 'google__organic',
+        'admitad_deduplication_cookie': 'google__organic',
+        'SMSError': '',
+        'authError': '',
+        'gdeslon.ru.__arc_domain': 'gdeslon.ru',
+        'gdeslon.ru.user_id': '9d72349e-b6a4-46fd-a358-a2c81835bd3a',
+        'tmr_lvid': '5575ddaeb39d37be811069a4d1349b68',
+        'tmr_lvidTS': '1687034040384',
+        'advcake_track_id': '6a333a53-1395-e22f-3ebf-d95412e5412b',
+        'advcake_session_id': '23626ba4-53a7-b189-e116-4ab486335cc7',
+        'uxs_uid': '4aa9db80-0d4e-11ee-ae50-6d99611a2389',
+        'flocktory-uuid': 'ddfbb3c6-beb6-4383-8a01-632236b4392e-5',
+        'flacktory': 'no',
+        'BIGipServeratg-ps-prod_tcp80_clone': '2433014794.20480.0000',
+        'afUserId': '663be7db-4700-4881-b924-77ebdd9e0789-p',
+        'adrcid': 'AYVBc490MiC10QI1M9_KJxg',
+        'AF_SYNC': '1687034048415',
+        'cookie_ip_add': '79.139.209.174',
+        '_gid': 'GA1.2.890673097.1687432336',
+        '_ym_isad': '2',
+        'gssc218': '',
+        'gsscgib-w-mvideo': 'pJmhAeRSVY/9PhYjxtZB73G89LQAQ+5AFuNZHVVYKBc8Dpnpj+oowkzkR/37jWvSxMJsl/AbVjQFNcWeHF3lfhbbJFbsHTPF7pIDZ68Ruj65z74XGxZBPfhVdrg2+3X3iqfK7F7GFFUoT4+/tgNga8ZU7YmSM7ZNBzLg9391T6XoIoVnFnXnXEzrrvRTzvMoWVlRCG79wL3z5nWFCRGq1SpJECzPAFnZYRYeNTAcKECpRGli1HjE7mQY3aeCsIwYYpE=',
+        'gsscgib-w-mvideo': 'pJmhAeRSVY/9PhYjxtZB73G89LQAQ+5AFuNZHVVYKBc8Dpnpj+oowkzkR/37jWvSxMJsl/AbVjQFNcWeHF3lfhbbJFbsHTPF7pIDZ68Ruj65z74XGxZBPfhVdrg2+3X3iqfK7F7GFFUoT4+/tgNga8ZU7YmSM7ZNBzLg9391T6XoIoVnFnXnXEzrrvRTzvMoWVlRCG79wL3z5nWFCRGq1SpJECzPAFnZYRYeNTAcKECpRGli1HjE7mQY3aeCsIwYYpE=',
+        'fgsscgib-w-mvideo': '6a4ub0c32243f1043948b598d7a612da187c3602',
+        'fgsscgib-w-mvideo': '6a4ub0c32243f1043948b598d7a612da187c3602',
+        'cfidsgib-w-mvideo': 'GBm3Zuidr9K6A7n0Z+m8kJCvRRn3Vy1+taZ9GjAu23pBMbwfd98cebV78dttmE3McsA8C899pblb3Tuu3Bl+x6TIu2AlKtnJ22LxVft85rpOUemdl9KDiYIE3WHvGvmS52hFYYQv+pWuU2QL8nRDzSxkdl6eJ9QSa+BYpfs=',
+        '__hash_': 'b8c2f7d8dc28df9fb7515dea1f745b35',
+        '_ga_BNX5WPP3YK': 'GS1.1.1687525517.17.1.1687527348.60.0.0',
+        '_ga_CFMZTSS5FM': 'GS1.1.1687525517.17.1.1687527348.0.0.0',
+    }
 
+    headers = {
+        'authority': 'www.mvideo.ru',
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'baggage': 'sentry-environment=production,sentry-transaction=%2F**%2F,sentry-public_key=1e9efdeb57cf4127af3f903ec9db1466,sentry-trace_id=0da594e4e6824d9295a62f4fa2fea93c,sentry-sample_rate=0.5',
+        # 'cookie': '__lhash_=4dc15c1b1cd8f6f3d623e3cb2b9a6d93; MVID_AB_TOP_SERVICES=1; MVID_ACTOR_API_AVAILABILITY=true; MVID_ALFA_PODELI_NEW=true; MVID_BLACK_FRIDAY_ENABLED=true; MVID_CATALOG_STATE=1; MVID_CHECKOUT_STORE_SORTING=true; MVID_CITY_ID=CityCZ_975; MVID_CREDIT_SERVICES=true; MVID_CRITICAL_GTM_INIT_DELAY=3000; MVID_FILTER_CODES=true; MVID_FILTER_TOOLTIP=1; MVID_FLOCKTORY_ON=true; MVID_GEOLOCATION_NEEDED=true; MVID_GIFT_KIT=true; MVID_GLP_GLC=2; MVID_GTM_ENABLED=011; MVID_INTERVAL_DELIVERY=true; MVID_IS_NEW_BR_WIDGET=true; MVID_KLADR_ID=7700000000000; MVID_LAYOUT_TYPE=1; MVID_LP_SOLD_VARIANTS=3; MVID_MCLICK=true; MVID_MINDBOX_DYNAMICALLY=true; MVID_MINI_PDP=true; MVID_NEW_ACCESSORY=true; MVID_NEW_LK_CHECK_CAPTCHA=true; MVID_NEW_LK_OTP_TIMER=true; MVID_NEW_MBONUS_BLOCK=true; MVID_PROMO_CATALOG_ON=true; MVID_RECOMENDATION=true; MVID_REGION_ID=1; MVID_REGION_SHOP=S002; MVID_SERVICES=111; MVID_SP=true; MVID_TIMEZONE_OFFSET=3; MVID_TYP_CHAT=true; MVID_WEB_SBP=true; SENTRY_ERRORS_RATE=0.1; SENTRY_TRANSACTIONS_RATE=0.5; MVID_ENVCLOUD=prod2; MVID_GUEST_ID=22635780952; MVID_VIEWED_PRODUCTS=; wurfl_device_id=generic_web_browser; MVID_CALC_BONUS_RUBLES_PROFIT=true; NEED_REQUIRE_APPLY_DISCOUNT=true; MVID_CART_MULTI_DELETE=true; MVID_YANDEX_WIDGET=true; PROMOLISTING_WITHOUT_STOCK_AB_TEST=2; MVID_GET_LOCATION_BY_DADATA=DaData; PRESELECT_COURIER_DELIVERY_FOR_KBT=false; HINTS_FIO_COOKIE_NAME=1; searchType2=2; COMPARISON_INDICATOR=false; CACHE_INDICATOR=false; MVID_NEW_OLD=eyJjYXJ0IjpmYWxzZSwiZmF2b3JpdGUiOnRydWUsImNvbXBhcmlzb24iOnRydWV9; MVID_OLD_NEW=eyJjb21wYXJpc29uIjogdHJ1ZSwgImZhdm9yaXRlIjogdHJ1ZSwgImNhcnQiOiB0cnVlfQ==; BIGipServeratg-ps-prod_tcp80=2433014794.20480.0000; bIPs=53593859; _ym_uid=1687034037702065663; _ym_d=1687034037; __SourceTracker=google__organic; admitad_deduplication_cookie=google__organic; SMSError=; authError=; gdeslon.ru.__arc_domain=gdeslon.ru; gdeslon.ru.user_id=9d72349e-b6a4-46fd-a358-a2c81835bd3a; tmr_lvid=5575ddaeb39d37be811069a4d1349b68; tmr_lvidTS=1687034040384; advcake_track_id=6a333a53-1395-e22f-3ebf-d95412e5412b; advcake_session_id=23626ba4-53a7-b189-e116-4ab486335cc7; uxs_uid=4aa9db80-0d4e-11ee-ae50-6d99611a2389; flocktory-uuid=ddfbb3c6-beb6-4383-8a01-632236b4392e-5; flacktory=no; BIGipServeratg-ps-prod_tcp80_clone=2433014794.20480.0000; afUserId=663be7db-4700-4881-b924-77ebdd9e0789-p; adrcid=AYVBc490MiC10QI1M9_KJxg; AF_SYNC=1687034048415; cookie_ip_add=79.139.209.174; _gid=GA1.2.890673097.1687432336; _ym_isad=2; gssc218=; gsscgib-w-mvideo=pJmhAeRSVY/9PhYjxtZB73G89LQAQ+5AFuNZHVVYKBc8Dpnpj+oowkzkR/37jWvSxMJsl/AbVjQFNcWeHF3lfhbbJFbsHTPF7pIDZ68Ruj65z74XGxZBPfhVdrg2+3X3iqfK7F7GFFUoT4+/tgNga8ZU7YmSM7ZNBzLg9391T6XoIoVnFnXnXEzrrvRTzvMoWVlRCG79wL3z5nWFCRGq1SpJECzPAFnZYRYeNTAcKECpRGli1HjE7mQY3aeCsIwYYpE=; gsscgib-w-mvideo=pJmhAeRSVY/9PhYjxtZB73G89LQAQ+5AFuNZHVVYKBc8Dpnpj+oowkzkR/37jWvSxMJsl/AbVjQFNcWeHF3lfhbbJFbsHTPF7pIDZ68Ruj65z74XGxZBPfhVdrg2+3X3iqfK7F7GFFUoT4+/tgNga8ZU7YmSM7ZNBzLg9391T6XoIoVnFnXnXEzrrvRTzvMoWVlRCG79wL3z5nWFCRGq1SpJECzPAFnZYRYeNTAcKECpRGli1HjE7mQY3aeCsIwYYpE=; fgsscgib-w-mvideo=6a4ub0c32243f1043948b598d7a612da187c3602; fgsscgib-w-mvideo=6a4ub0c32243f1043948b598d7a612da187c3602; cfidsgib-w-mvideo=GBm3Zuidr9K6A7n0Z+m8kJCvRRn3Vy1+taZ9GjAu23pBMbwfd98cebV78dttmE3McsA8C899pblb3Tuu3Bl+x6TIu2AlKtnJ22LxVft85rpOUemdl9KDiYIE3WHvGvmS52hFYYQv+pWuU2QL8nRDzSxkdl6eJ9QSa+BYpfs=; __hash_=b8c2f7d8dc28df9fb7515dea1f745b35; _ga_BNX5WPP3YK=GS1.1.1687525517.17.1.1687527348.60.0.0; _ga_CFMZTSS5FM=GS1.1.1687525517.17.1.1687527348.0.0.0',
+        'referer': 'https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?from=homepage',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'sentry-trace': '0da594e4e6824d9295a62f4fa2fea93c-a7736c31c482a1fe-0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        'x-set-application-id': '4c5df736-1a11-4e91-a0c8-95954338d903',
+    }
+
+    params = {
+        'categoryId': '118',
+        'offset': '0',
+        'limit': '24',
+        'filterParams': 'WyJ0b2xrby12LW5hbGljaGlpIiwiLTEyIiwiZGEiXQ==',
+        'doTranslit': 'true',
+    }
+
+    response = requests.get('https://www.mvideo.ru/bff/products/listing', params=params, cookies=cookies,
+                            headers=headers).json()
+
+    products_id = response.get('body').get('products')
+
+    json_data = {
+        'productIds': products_id,
+        'mediaTypes': [
+            'images',
+        ],
+        'category': True,
+        'status': True,
+        'brand': True,
+        'propertyTypes': [
+            'KEY',
+        ],
+        'propertiesConfig': {
+            'propertiesPortionSize': 5,
+        },
+        'multioffer': False,
+    }
+
+    response = requests.post('https://www.mvideo.ru/bff/product-details/list', cookies=cookies, headers=headers,
+                             json=json_data).json()
+
+    with open('laptops_data/laptops_list.json', 'w') as file:
+        json.dump(response, file, indent=4, ensure_ascii=False)
+
+    products_names = response.get('body').get('products')
+
+    products_id_str = ','.join(products_id)
+
+    params = {
+        'productIds': products_id_str,
+        'addBonusRubles': 'true',
+        'isPromoApplied': 'true',
+    }
+
+    response = requests.get('https://www.mvideo.ru/bff/products/prices', params=params, cookies=cookies,
+                            headers=headers).json()
+
+    item_prices = {}
+    phone_prices = response.get('body').get('materialPrices')
+    for item in phone_prices:
+        item_id = item.get('price').get('productId')
+        item_base_price = item.get('price').get('basePrice')
+        item_discount_price = item.get('price').get('salePrice')
+        item_bonus = item.get('bonusRubles').get('total')
+
+        item_prices[item_id] = {
+            'item_base_price': item_base_price,
+            'item_discount_price': item_discount_price,
+            'item_bonus': item_bonus,
+            'id': item_id
+        }
+
+    item_names = {}
+    for item in products_names:
+        item_id = item.get('productId')
+        item_name = item.get('name')
+        item_names[item_id] = {'item_name': item_name, 'id': item_id}
+
+    for i in item_prices:
+        for j in item_names:
+            if j == i:
+                item_prices[j].update(item_names[i])
+
+    with open('laptop_prices.json', 'w') as file:
+        json.dump(item_prices, file, indent=4, ensure_ascii=False)
+
+
+def get_characteristics_laptops():
+    item_characteristics = {}
+    shoma_characteristics = {}
+    with open('laptops_data/laptops_list.json') as f2:
+        data = json.load(f2)
+        for i in data['products']:
+            # print(i['productId']) id
+            prod_id = i['productId']
+            # print(i['brandName']) brand
+            item_characteristics[prod_id] = {
+                'id': prod_id,
+                'brand': i['brandName'],
+                'nameTranslit': i['nameTranslit']
+            }
+            for j in i['propertiesPortion']:
+                # print(f"{j['name'] + ' ' + j['value']}", j['name'] + ' ' + j['value'])
+                shoma_characteristics[prod_id] = {
+                    f"{j['name']}": j['name'] + ' ' + j['value']
+                }
+                item_characteristics[prod_id].update(shoma_characteristics[prod_id])
+
+    with open('laptop_prices.json') as f1:
+        prices = json.load(f1)
+        item_cashback = {}
+        for i in item_characteristics:
+            prices[i].update(item_characteristics[i])
+
+    with open('laptop_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+
+def get_images_laptops():
+    with open('laptops_data/laptops_list.json') as f1:
+        prices = json.load(f1)
+        phone_images = {}
+        for i in prices['products']:
+            phone_images[i['productId']] = {
+                'image' : 'http://static.mvideo.ru/' + i['images'][0]
+            }
+    with open('laptop_prices.json') as f2:
+        prices = json.load(f2)
+        for i in prices:
+            prices[i].update(phone_images[i])
+
+    with open('laptop_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+    for i in prices:
+        img = prices[i]['image']
+        resource = urllib.request.urlopen(img)
+        out = open(f"pract/renessans_tech/static/pictures/laptops/{i}.jpg", 'wb')
+        out.write(resource.read())
+        out.close()
+
+
+def get_cashback_laptops():
+    with open('laptop_prices.json') as f1:
+        prices = json.load(f1)
+        item_cashback = {}
+        for i in prices:
+            item_cashback[i] = {'item_cashback': '10%'}
+            prices[i].update(item_cashback[i])
+
+    with open('laptop_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
 def main():
-    get_images()
+    get_cashback_laptops()
 
 if __name__ == '__main__':
     main()

@@ -1,13 +1,834 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+{% load static %}
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Смартфоны</title>
+  <link rel="stylesheet" href="{% static 'css/phones.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-<div style="display:flex; flex-direction: column" class="item-box">
-    <img style="width: 20px; height: 20px" class="item-img" src="">
-    <p class="item-name">Сюды название</p>
-</div>
-</body>
-</html>
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
+
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/logo.svg' %}">
+        </a>
+        <a class="cathegory-items" href = 'phones'>
+          Смартфоны
+        </a>
+        <a class="cathegory-items" href = 'laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="appliances">
+          Бытовая техника
+        </a>
+        <a class="cathegory-items" href = 'computers'>
+          Компьютеры
+        </a>
+        <a class="cathegory-items" href = 'tablets'>
+          Планшеты
+        </a>
+        <a class="cathegory-items" href = 'accessories'>
+          Аксессуары
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = 'basket'>
+          Корзина
+        </a>
+      </div>
+
+    </header> <br>
+
+        <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30067605.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-asus-vivobook-15-m1502i-90nb0y52-m002r0>
+        <p class="item-name">
+            Ноутбук ASUS VivoBook 15 M1502I (90NB0Y52-M002R0)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">ASUS</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор AMD Ryzen 5 4600H 3 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        37999
+      </p>
+      <p class="item-previous-price">
+        53999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400106264.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-haier-i1510sd-jb0b1be00ru>
+        <p class="item-name">
+            Ноутбук Haier i1510SD (JB0B1BE00RU)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i3 1115G4 3 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        27999
+      </p>
+      <p class="item-previous-price">
+        36999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400106660.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-honor-magicbook-x-15-i3-8-256gb-space-grey-bdr-wdi>
+        <p class="item-name">
+            Ноутбук HONOR MagicBook X 15 i3/8/256GB Space Grey (BDR-WDI)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i3 1115G4 3.0 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        42999
+      </p>
+      <p class="item-previous-price">
+        42999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30066660.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-honor-magicbook-16-r5-16-512-silver-hym-w56>
+        <p class="item-name">
+            Ноутбук HONOR MagicBook 16 R5/16/512 Silver (HYM-W56)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 16.1"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор AMD Ryzen 5 5600H 3.3 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        55999
+      </p>
+      <p class="item-previous-price">
+        69999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30066688.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-huawei-53013err-bod-wdh9-matebook-d15-i5-8gb-512gb-my-s>
+        <p class="item-name">
+            Ноутбук HUAWEI 53013ERR BoD-WDH9 MateBook D15 i5/8GB/512GB My/S
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 1135G7 2.4 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        49999
+      </p>
+      <p class="item-previous-price">
+        66999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400136875.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-honor-magicbook-x-16-16-512-space-gray-brn-f56>
+        <p class="item-name">
+            Ноутбук HONOR MagicBook X 16 16/512 Space Gray (BRN-F56)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 16"/1920x1200 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 12450H 3.3 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        67999
+      </p>
+      <p class="item-previous-price">
+        75999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400106659.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-honor-magicbook-x-15-i5-8-512gb-space-grey-bdr-wdh>
+        <p class="item-name">
+            Ноутбук HONOR MagicBook X 15 i5/8/512GB Space Grey (BDR-WDH)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 1135G7 2.4 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        49999
+      </p>
+      <p class="item-previous-price">
+        49999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30066689.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-huawei-53013plv-bod-wdi9-matebook-d15-i3-8gb-256gb-sp-gr>
+        <p class="item-name">
+            Ноутбук HUAWEI 53013PLV BoD-WDI9 MateBook D15 i3/8GB/256GB Sp/Gr
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i3 1115G4 3.0 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        39999
+      </p>
+      <p class="item-previous-price">
+        51999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30067705.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-apple-macbook-air-15-m2-8-512gb-space-gray-mqkq3>
+        <p class="item-name">
+            Ноутбук Apple MacBook Air 15 M2 8/512Gb Space Gray (MQKQ3)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Apple</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.3"/2880x1864 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Apple M2</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        187999
+      </p>
+      <p class="item-previous-price">
+        187999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30067507.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-asus-m515da-ej1697>
+        <p class="item-name">
+            Ноутбук ASUS M515DA-EJ1697
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">ASUS</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор AMD Ryzen 5 3500U 2.1 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        37999
+      </p>
+      <p class="item-previous-price">
+        49999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400136873.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-honor-magicbook-x-14-16-512-space-gray-fri-f56>
+        <p class="item-name">
+            Ноутбук HONOR MagicBook X 14 16/512 Space Gray (FRI-F56)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 14"/1920x1200 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 3.3 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        65999
+      </p>
+      <p class="item-previous-price">
+        73999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400136878.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-honor-magicbook-x-16-8-512-space-gray-brn-f58>
+        <p class="item-name">
+            Ноутбук HONOR MagicBook X 16 8/512 Space Gray (BRN-F58)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 16"/1920x1200 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 12450H 3.3 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        61999
+      </p>
+      <p class="item-previous-price">
+        68999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30065211.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-igrovoi-thunderobot-911-plus-x-jt009we07ru>
+        <p class="item-name">
+            Ноутбук игровой Thunderobot 911 Plus X (JT009WE07RU)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Thunderobot</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 17.3"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 12450H 2.0 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        89999
+      </p>
+      <p class="item-previous-price">
+        104999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30067509.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-asus-m1502ia-bq093>
+        <p class="item-name">
+            Ноутбук ASUS M1502IA-BQ093
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">ASUS</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор AMD Ryzen 7 4800H 2.9 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        47999
+      </p>
+      <p class="item-previous-price">
+        59999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30067463.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-huawei-matebook-d15-i5-1155g7-16-512-bode-wfh9-spacegray>
+        <p class="item-name">
+            Ноутбук HUAWEI MateBook D15 i5-1155G7/16/512 BoDE-WFH9 SpaceGray
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 1155G7 2.5 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        59999
+      </p>
+      <p class="item-previous-price">
+        68999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30064273.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-apple-macbook-air-13-m1-8-256-space-gray>
+        <p class="item-name">
+            Ноутбук Apple MacBook Air 13 M1/8/256 Space Gray
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Apple</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 13.3"/2560x1600 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Apple M1</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        86799
+      </p>
+      <p class="item-previous-price">
+        86799
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30064275.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-apple-macbook-air-13-m1-8-256-gold-mgnd3>
+        <p class="item-name">
+            Ноутбук Apple MacBook Air 13 M1/8/256 Gold (MGND3)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Apple</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 13.3"/2560x1600 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Apple M1</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        86799
+      </p>
+      <p class="item-previous-price">
+        86799
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30064274.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-apple-macbook-air-13-m1-8-256-silver>
+        <p class="item-name">
+            Ноутбук Apple MacBook Air 13 M1/8/256 Silver
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Apple</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 13.3"/2560x1600 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Apple M1</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        86799
+      </p>
+      <p class="item-previous-price">
+        86799
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30066686.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-huawei-matebook-d16-rlef-x-i5-16gb-512gb-space-gray>
+        <p class="item-name">
+            Ноутбук HUAWEI MateBook D16 RLEF-X i5/16GB/512GB Space Gray
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 16"/1920x1200 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 12450H 2.0 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        69999
+      </p>
+      <p class="item-previous-price">
+        79899
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400121699.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-haier-noutbuk-haier-a1440sm>
+        <p class="item-name">
+            Ноутбук Haier Ноутбук Haier A1440SM
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 14"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Celeron N4020C 1.1 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        19999
+      </p>
+      <p class="item-previous-price">
+        19999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400136876.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-honor-magicbook-x-14-8-512-space-gray-ndr-wdh>
+        <p class="item-name">
+            Ноутбук HONOR MagicBook X 14 8/512 Space Gray (NDR-WDH)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 14"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 1135G7 2.4 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        49999
+      </p>
+      <p class="item-previous-price">
+        55999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/400079994.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-igrovoi-thunderobot-911-air-wave-d-i5-11400h-rtx3050-8gb-ssd256-dos>
+        <p class="item-name">
+            Ноутбук игровой Thunderobot 911 Air Wave D (i5-11400H/RTX3050/8Gb/SSD256/DOS)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Thunderobot</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6"/1920x1080 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 11400H 2.7 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        59999
+      </p>
+      <p class="item-previous-price">
+        85999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30067704.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-apple-macbook-air-15-m2-8-256gb-space-gray-mqkp3>
+        <p class="item-name">
+            Ноутбук Apple MacBook Air 15 M2 8/256Gb Space Gray (MQKP3)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Apple</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.3"/2880x1864 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Apple M2</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        164999
+      </p>
+      <p class="item-previous-price">
+        164999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+            <div class="item-box">
+    <div class="item-photo-container">
+    <a>
+        <img class="item-photo" src="{% static 'pictures/laptops/30065457.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+    </div>
+    <div class="item-info">
+    <a href=laptops/noutbuk-huawei-matebook-e-drc-w56-16512gb-grey>
+        <p class="item-name">
+            Ноутбук HUAWEI MateBook E DRC-W56 16+512GB Grey
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 12.6"/2560x1600 пикс.</span></li>
+        <li>Тип процессора: <span class="text-highligt">Процессор Intel Core i5 1130G7 1.8 ГГц</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        89999
+      </p>
+      <p class="item-previous-price">
+        89999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+        </body>
+    </html>

@@ -32,3 +32,7 @@ def basket(request):
 
 def phone_page(request):
     return render(request, 'renessans_tech/phone_page.html')
+
+def laptop_page(request):
+    return render(request, 'renessans_tech/laptop_page.html')
+
