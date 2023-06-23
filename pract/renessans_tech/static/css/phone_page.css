@@ -1,0 +1,261 @@
+body {
+  font-family: Mont,Inter,Verdana,Geneva,sans-serif;;
+}
+
+li {
+  list-style-type: none;
+ }
+
+ ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+  line-height: 1.75;
+  font-size: 14px;
+  color: #8e8e93;
+ }
+
+.item-photo-container,
+.item-info,
+.item-price-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.item-box {
+  display: block;
+  margin-bottom: 30px;
+  width: 90%;
+  height: max-content;
+  /*box-shadow: 0px 2px 5px rgba(0,0,0,0.3); */
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-photo-container {
+  width: 350px;
+  height: 100%;
+  margin-left: 6px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.cashback-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  background-color: #ff0078;
+  font-weight: bold;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+
+ [data-tooltip]::after {
+  content: attr(data-tooltip); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  width: max-content; /* Ширина подсказки */
+  left: 0; top: 0; /* Положение подсказки */
+  background: white; /* Синий цвет фона */
+  color: black; /* Цвет текста */
+  padding: 0.5em; /* Поля вокруг текста */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+  pointer-events: none; /* Подсказка */
+  opacity: 0; /* Подсказка невидима */
+  transition: 0.25s; /* Время появления подсказки */
+ }
+ [data-tooltip]:hover::after {
+  opacity: 1; /* Показываем подсказку */
+  top: 2em; /* Положение подсказки */
+ }
+
+.item-photo {
+  width: 100%;
+  cursor: pointer;
+  padding-top: 32px;
+}
+
+.item-info {
+  width: 680px;
+  height: 105%;
+  font-size: 14px;
+  line-height: 8px;
+  margin: 0px 30px;
+  margin-left: 40px;
+}
+
+.item-name {
+  font-weight: bold;
+  line-height: 1.0;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.item-price-container {
+  width: fit-content;
+  margin-left: -50px;
+  padding-top: 60px;
+}
+
+.item-current-price {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.item-previous-price {
+ color: rgb(157, 157, 157);
+ font-size: 18px;
+ text-decoration: line-through;
+ margin-top: 0px;
+ margin-bottom: 20px;
+}
+
+.add-to-cart,
+.credit-btn {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  width: 200px;
+  cursor: pointer;
+  transition: box-shadow 0.15s,
+  opacity 0.15s;
+}
+
+.add-to-cart {
+  color: white;
+  background-color: #ff0078;
+  border: none;
+  transition: opacity 0.15s,
+              box-shadow background-color 0.3s;
+}
+.credit-btn {
+  color: #ff0078;
+  background-color: white;
+  border: none;
+  border-bottom: #ff0078;
+  border-style: solid;
+  border-radius: 1px;
+  border-radius: 6px;
+}
+
+.add-to-cart:hover,
+.credit-btn:hover {
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+
+.add-to-cart:hover {
+  background-color: #c2025c;
+}
+
+.add-to-cart:active,
+.credit-btn:active {
+  opacity: 0.6;
+}
+
+
+.text-highligt {
+  color: black;
+}
+
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
