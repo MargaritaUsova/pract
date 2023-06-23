@@ -22,7 +22,7 @@ def computers(request):
     return render(request, 'renessans_tech/computers.html')
 
 def tablets(request):
-    return render(request, 'renessans_tech/laptops.html')
+    return render(request, 'renessans_tech/tablets.html')
 
 def accessories(request):
     return render(request, 'renessans_tech/accessories.html')
