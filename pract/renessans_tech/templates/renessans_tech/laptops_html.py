@@ -95,7 +95,7 @@ with open('laptops.html', 'w') as f:
     </div>
     <div class="item-price-container">
       <p class="item-current-price">
-        {cur_price}
+        {cur_price} ₽
       </p>
       <p class="item-previous-price">
         {previous_price}
