@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import json
+import urllib.request
 
 def get_data_names_prices():
     cookies = {
@@ -275,12 +276,33 @@ def get_data_href():
     with open('phone_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
+def get_images():
+    with open('phones_list.json') as f1:
+        prices = json.load(f1)
+        phone_images = {}
+        for i in prices['products']:
+            phone_images[i['productId']] = {
+                'image' : 'http://static.mvideo.ru/' + i['images'][0]
+            }
+    with open('phone_prices.json') as f2:
+        prices = json.load(f2)
+        for i in prices:
+            prices[i].update(phone_images[i])
 
+    with open('phone_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+    for i in prices:
+        img = prices[i]['image']
+        resource = urllib.request.urlopen(img)
+        out = open(f"pract/renessans_tech/static/pictures/phones/{i}.jpg", 'wb')
+        out.write(resource.read())
+        out.close()
 
 
 
 def main():
-    get_data_href()
+    get_images()
 
 if __name__ == '__main__':
     main()

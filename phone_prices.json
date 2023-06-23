@@ -12,7 +12,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 8",
         "Встроенная память (ROM)": "Встроенная память (ROM) 256",
         "Основная камера МПикс": "Основная камера МПикс 48/13/48",
-        "nameTranslit": "smartfon-huawei-p60-pro-8-256gb-rococo-pearl"
+        "nameTranslit": "smartfon-huawei-p60-pro-8-256gb-rococo-pearl",
+        "image": "http://static.mvideo.ru/Pdb/30067439.jpg"
     },
     "30067636": {
         "item_base_price": 17999,
@@ -27,7 +28,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 8",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 48/2",
-        "nameTranslit": "smartfon-huawei-nova-11i-8-128gb-mint-green-mao-lx9n"
+        "nameTranslit": "smartfon-huawei-nova-11i-8-128gb-mint-green-mao-lx9n",
+        "image": "http://static.mvideo.ru/Pdb/30067636.jpg"
     },
     "30064918": {
         "item_base_price": 129999,
@@ -43,7 +45,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 256",
         "Основная камера МПикс": "Основная камера МПикс 48/12/12",
         "Процессор": "Процессор A16 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-14-pro-256gb-nanosim-esim-deep-purple"
+        "nameTranslit": "smartfon-apple-iphone-14-pro-256gb-nanosim-esim-deep-purple",
+        "image": "http://static.mvideo.ru/Pdb/30064918.jpg"
     },
     "400148134": {
         "item_base_price": 79999,
@@ -58,7 +61,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 16",
         "Встроенная память (ROM)": "Встроенная память (ROM) 1024",
         "Основная камера МПикс": "Основная камера МПикс 50/8/2/AF",
-        "nameTranslit": "smartfon-realme-gt3-240w-16-1tb-booster-black"
+        "nameTranslit": "smartfon-realme-gt3-240w-16-1tb-booster-black",
+        "image": "http://static.mvideo.ru/Pdb/400148134.jpg"
     },
     "30063682": {
         "item_base_price": 8999,
@@ -73,7 +77,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Основная камера МПикс": "Основная камера МПикс 13",
         "Фронтальная камера МПикс": "Фронтальная камера МПикс 5",
-        "nameTranslit": "smartfon-xiaomi-redmi-9a-32gb-glacial-blue"
+        "nameTranslit": "smartfon-xiaomi-redmi-9a-32gb-glacial-blue",
+        "image": "http://static.mvideo.ru/Pdb/30063682.jpg"
     },
     "30067223": {
         "item_base_price": 109999,
@@ -88,7 +93,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 12",
         "Встроенная память (ROM)": "Встроенная память (ROM) 256",
         "Основная камера МПикс": "Основная камера МПикс 12/200/10/10",
-        "nameTranslit": "smartfon-samsung-galaxy-s23-ultra-256gb-phantblack-sm-s918b-ds"
+        "nameTranslit": "smartfon-samsung-galaxy-s23-ultra-256gb-phantblack-sm-s918b-ds",
+        "image": "http://static.mvideo.ru/Pdb/30067223.jpg"
     },
     "50170400": {
         "item_base_price": 23999,
@@ -103,7 +109,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 6",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 64/5",
-        "nameTranslit": "smartfon-honor-x8-6-128gb-midnight-black-5109acxu"
+        "nameTranslit": "smartfon-honor-x8-6-128gb-midnight-black-5109acxu",
+        "image": "http://static.mvideo.ru/Pdb/50170400.jpg"
     },
     "30063535": {
         "item_base_price": 79999,
@@ -119,7 +126,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 12/12",
         "Процессор": "Процессор A15 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-13-128gb-nanosim-esim-starlight"
+        "nameTranslit": "smartfon-apple-iphone-13-128gb-nanosim-esim-starlight",
+        "image": "http://static.mvideo.ru/Pdb/30063535.jpg"
     },
     "30063482": {
         "item_base_price": 59999,
@@ -134,7 +142,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 8",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 12/50/10/TOF",
-        "nameTranslit": "smartfon-samsung-galaxy-s22-5g-8-128gb-phantom-black-sm-s901b-ds"
+        "nameTranslit": "smartfon-samsung-galaxy-s22-5g-8-128gb-phantom-black-sm-s901b-ds",
+        "image": "http://static.mvideo.ru/Pdb/30063482.jpg"
     },
     "30065649": {
         "item_base_price": 23999,
@@ -149,7 +158,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 6",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 64/5/2/2",
-        "nameTranslit": "smartfon-honor-x8-6128gb-titanium-silver"
+        "nameTranslit": "smartfon-honor-x8-6128gb-titanium-silver",
+        "image": "http://static.mvideo.ru/Pdb/30065649.jpg"
     },
     "30063689": {
         "item_base_price": 12999,
@@ -164,7 +174,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 3",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Основная камера МПикс": "Основная камера МПикс 13/2/2",
-        "nameTranslit": "smartfon-realme-c31-3-32-dark-green-rmx3501"
+        "nameTranslit": "smartfon-realme-c31-3-32-dark-green-rmx3501",
+        "image": "http://static.mvideo.ru/Pdb/30063689.jpg"
     },
     "30067635": {
         "item_base_price": 17999,
@@ -179,7 +190,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 8",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 48/2",
-        "nameTranslit": "smartfon-huawei-nova-11i-8-128gb-starry-black-mao-lx9n"
+        "nameTranslit": "smartfon-huawei-nova-11i-8-128gb-starry-black-mao-lx9n",
+        "image": "http://static.mvideo.ru/Pdb/30067635.jpg"
     },
     "30064210": {
         "item_base_price": 12999,
@@ -194,7 +206,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 3",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Основная камера МПикс": "Основная камера МПикс 13/2/2",
-        "nameTranslit": "smartfon-realme-c31-3-32-light-silver-rmx3501"
+        "nameTranslit": "smartfon-realme-c31-3-32-light-silver-rmx3501",
+        "image": "http://static.mvideo.ru/Pdb/30064210.jpg"
     },
     "30065350": {
         "item_base_price": 27999,
@@ -209,7 +222,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 8",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 64/2/2",
-        "nameTranslit": "smartfon-vivo-v25e-8-128gb-sunrise-gold"
+        "nameTranslit": "smartfon-vivo-v25e-8-128gb-sunrise-gold",
+        "image": "http://static.mvideo.ru/Pdb/30065350.jpg"
     },
     "30063379": {
         "item_base_price": 18999,
@@ -224,7 +238,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 50/8/2/2",
-        "nameTranslit": "smartfon-xiaomi-redmi-10-2022-128gb-carbon-gray"
+        "nameTranslit": "smartfon-xiaomi-redmi-10-2022-128gb-carbon-gray",
+        "image": "http://static.mvideo.ru/Pdb/30063379.jpg"
     },
     "30064943": {
         "item_base_price": 119999,
@@ -240,7 +255,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 48/12/12",
         "Процессор": "Процессор A16 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-14-pro-128gb-esim-deep-purple"
+        "nameTranslit": "smartfon-apple-iphone-14-pro-128gb-esim-deep-purple",
+        "image": "http://static.mvideo.ru/Pdb/30064943.jpg"
     },
     "30064911": {
         "item_base_price": 119999,
@@ -256,7 +272,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 48/12/12",
         "Процессор": "Процессор A16 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-14-pro-128gb-nanosim-esim-deep-purple"
+        "nameTranslit": "smartfon-apple-iphone-14-pro-128gb-nanosim-esim-deep-purple",
+        "image": "http://static.mvideo.ru/Pdb/30064911.jpg"
     },
     "30063640": {
         "item_base_price": 16999,
@@ -271,7 +288,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Основная камера МПикс": "Основная камера МПикс 50/8/2/2",
-        "nameTranslit": "smartfon-xiaomi-redmi-10-2022-64gb-carbon-gray"
+        "nameTranslit": "smartfon-xiaomi-redmi-10-2022-64gb-carbon-gray",
+        "image": "http://static.mvideo.ru/Pdb/30063640.jpg"
     },
     "30063492": {
         "item_base_price": 57999,
@@ -287,7 +305,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Основная камера МПикс": "Основная камера МПикс 12/12",
         "Процессор": "Процессор A13 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-11-64gb-nanosim-esim-black"
+        "nameTranslit": "smartfon-apple-iphone-11-64gb-nanosim-esim-black",
+        "image": "http://static.mvideo.ru/Pdb/30063492.jpg"
     },
     "30067243": {
         "item_base_price": 37999,
@@ -302,7 +321,8 @@
         "Оперативная память (RAM)": "Оперативная память (RAM) 8",
         "Встроенная память (ROM)": "Встроенная память (ROM) 256",
         "Основная камера МПикс": "Основная камера МПикс 50/12/5",
-        "nameTranslit": "smartfon-samsung-galaxy-a54-256gb-awesome-white"
+        "nameTranslit": "smartfon-samsung-galaxy-a54-256gb-awesome-white",
+        "image": "http://static.mvideo.ru/Pdb/30067243.jpg"
     },
     "30063236": {
         "item_base_price": 62999,
@@ -318,7 +338,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 12/12",
         "Процессор": "Процессор A13 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-11-128gb-nanosim-esim-black"
+        "nameTranslit": "smartfon-apple-iphone-11-128gb-nanosim-esim-black",
+        "image": "http://static.mvideo.ru/Pdb/30063236.jpg"
     },
     "30063538": {
         "item_base_price": 79999,
@@ -334,7 +355,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 12/12",
         "Процессор": "Процессор A15 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-13-128gb-nanosim-esim-blue"
+        "nameTranslit": "smartfon-apple-iphone-13-128gb-nanosim-esim-blue",
+        "image": "http://static.mvideo.ru/Pdb/30063538.jpg"
     },
     "30063534": {
         "item_base_price": 79999,
@@ -350,7 +372,8 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 12/12",
         "Процессор": "Процессор A15 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-13-128gb-nanosim-esim-midnight"
+        "nameTranslit": "smartfon-apple-iphone-13-128gb-nanosim-esim-midnight",
+        "image": "http://static.mvideo.ru/Pdb/30063534.jpg"
     },
     "30064939": {
         "item_base_price": 129999,
@@ -366,6 +389,7 @@
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Основная камера МПикс": "Основная камера МПикс 48/12/12",
         "Процессор": "Процессор A16 Bionic",
-        "nameTranslit": "smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple"
+        "nameTranslit": "smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple",
+        "image": "http://static.mvideo.ru/Pdb/30064939.jpg"
     }
 }

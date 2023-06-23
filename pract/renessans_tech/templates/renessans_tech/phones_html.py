@@ -76,7 +76,7 @@ with open('phones1.html', 'w') as f:
         f.write("""    <div class="item-box">
     <div class="item-photo-container">
     <a>
-        <img class="item-photo" src="https://github.com/MargaritaUsova/pract/blob/9a3f2e416db3fc429b15578f2280301cfe70b7be/pract/renessans_tech/static/pictures/phones/test-img.jpg">
+        <img class="item-photo" src="{{% static 'pictures/phones/{image}.jpg' %}}">
       </a>
       <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком {cashback}">Кэшбек {cashback}</p>
     </div>
@@ -119,6 +119,7 @@ with open('phones1.html', 'w') as f:
                    cur_price = prices[i]['item_discount_price'],
                    previous_price = prices[i]['item_base_price'],
                    nameTranslit = prices[i]['nameTranslit'],
+                   image = i
                    ))
     f.write("""</body>
     </html>""")
