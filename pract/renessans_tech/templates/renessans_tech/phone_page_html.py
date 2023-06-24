@@ -131,7 +131,7 @@ with open('phone_page1.html', 'w') as f:
             dots[slideIndex-1].className += " active";
           }}
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -141,7 +141,7 @@ with open('phone_page1.html', 'w') as f:
           Характеристики:
         </p>
         <ul>
-          <li class="feature-1">Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+          <li id="feature-1" class="feature-1">Экран: <p id="feature-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
           <li class="feature-2">Технология экрана: <span class="text-highligt">OLED</span></li>
           <li class="feature-3">Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
           <li class="feature-4">Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
@@ -171,11 +171,16 @@ with open('phone_page1.html', 'w') as f:
     )
     for i in prices:
         f.write("""
-    if (currentUrl == "http://127.0.0.1:8000/phones/{link}")
-      document.getElementById("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/{link}"){{
+      document.getElementById("item-name").innerHTML = "{name}";
+      document.getElementById("feature-1").innerHTML = "{screen}";
+      
+      }}
+      
     
             """.format(link=prices[i]['nameTranslit'],
                         name = prices[i]['item_name'],
+                       screen = prices[i]['Экран']
                        ))
     f.write("""
     </script>

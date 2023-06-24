@@ -4,7 +4,6 @@ import json
 
 urlpatterns = [
     path('', views.index, name = 'index'),
-    path('about-us', views.about, name = 'about'),
     path('phones', views.phones),
     path('laptops', views.laptops),
     path('tv', views.tv),
@@ -12,6 +11,8 @@ urlpatterns = [
     path('tablets', views.tablets),
     path('accessories', views.accessories),
     path('basket', views.basket),
+    path('about_us', views.about_us),
+    path('popular_items', views.popular_items),
 
 ]
 

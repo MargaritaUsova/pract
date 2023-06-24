@@ -117,17 +117,17 @@
             dots[slideIndex-1].className += " active";
           }}
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
+        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
       </div>
       <div class="item-info">
-        <p class="item-name">
+        <p id="item-name" class="item-name">
           Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
         </p>
         <p style="font-weight: bold;">
           Характеристики:
         </p>
         <ul>
-          <li class="feature-1">Экран: <span class="text-highligt">6.1"/2556x1179 Пикс</span></li>
+          <li id="feature-1" class="feature-1">Экран: <p id="feature-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
           <li class="feature-2">Технология экрана: <span class="text-highligt">OLED</span></li>
           <li class="feature-3">Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
           <li class="feature-4">Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
@@ -154,100 +154,196 @@
   <script>
     const currentUrl = window.location.href;
     
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-huawei-p60-pro-8-256gb-rococo-pearl")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-huawei-p60-pro-8-256gb-rococo-pearl"){
+      document.getElementById("item-name").innerHTML = "Смартфон HUAWEI P60 Pro 8/256GB Rococo Pearl";
+      document.getElementById("feature-1").innerHTML = "Экран 6.67"";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-huawei-nova-11i-8-128gb-mint-green-mao-lx9n")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-huawei-nova-11i-8-128gb-mint-green-mao-lx9n"){
+      document.getElementById("item-name").innerHTML = "Смартфон HUAWEI nova 11i 8/128Gb Mint Green (MAO-LX9N)";
+      document.getElementById("feature-1").innerHTML = "Экран 6.8"/2388x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-256gb-nanosim-esim-deep-purple")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-256gb-nanosim-esim-deep-purple"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 14 Pro 256GB nanoSim/eSim Deep Purple";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/2556x1179 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-gt3-240w-16-1tb-booster-black")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-gt3-240w-16-1tb-booster-black"){
+      document.getElementById("item-name").innerHTML = "Смартфон realme GT3 240W 16/1TB Booster Black";
+      document.getElementById("feature-1").innerHTML = "Экран 6.74"/2772x1240 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-9a-32gb-glacial-blue")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-9a-32gb-glacial-blue"){
+      document.getElementById("item-name").innerHTML = "Смартфон Xiaomi Redmi 9A 32GB Glacial Blue";
+      document.getElementById("feature-1").innerHTML = "Экран 6.53"/1600x720 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-s23-ultra-256gb-phantblack-sm-s918b-ds")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-s23-ultra-256gb-phantblack-sm-s918b-ds"){
+      document.getElementById("item-name").innerHTML = "Смартфон Samsung Galaxy S23 Ultra 256GB Phant.Black (SM-S918B/DS)";
+      document.getElementById("feature-1").innerHTML = "Экран 6.8"/3088x1440 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-honor-x8-6-128gb-midnight-black-5109acxu")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-honor-x8-6-128gb-midnight-black-5109acxu"){
+      document.getElementById("item-name").innerHTML = "Смартфон HONOR X8 6/128GB Midnight Black (5109ACXU)";
+      document.getElementById("feature-1").innerHTML = "Экран 6.7"/2388x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-starlight")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-starlight"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 13 128GB nanoSim/eSim Starlight";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/2532x1170 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-s22-5g-8-128gb-phantom-black-sm-s901b-ds")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-s22-5g-8-128gb-phantom-black-sm-s901b-ds"){
+      document.getElementById("item-name").innerHTML = "Смартфон Samsung Galaxy S22 5G 8/128GB Phantom Black (SM-S901B/DS)";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/2400x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-honor-x8-6128gb-titanium-silver")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-honor-x8-6128gb-titanium-silver"){
+      document.getElementById("item-name").innerHTML = "Смартфон HONOR X8 6+128Gb Titanium Silver";
+      document.getElementById("feature-1").innerHTML = "Экран 6.7"/2388x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-c31-3-32-dark-green-rmx3501")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-c31-3-32-dark-green-rmx3501"){
+      document.getElementById("item-name").innerHTML = "Смартфон realme C31 3/32 Dark Green (RMX3501)";
+      document.getElementById("feature-1").innerHTML = "Экран 6.5"/1600x720 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-huawei-nova-11i-8-128gb-starry-black-mao-lx9n")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-huawei-nova-11i-8-128gb-starry-black-mao-lx9n"){
+      document.getElementById("item-name").innerHTML = "Смартфон HUAWEI nova 11i 8/128Gb Starry Black (MAO-LX9N)";
+      document.getElementById("feature-1").innerHTML = "Экран 6.8"/2388x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-c31-3-32-light-silver-rmx3501")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-c31-3-32-light-silver-rmx3501"){
+      document.getElementById("item-name").innerHTML = "Смартфон realme C31 3/32 Light Silver (RMX3501)";
+      document.getElementById("feature-1").innerHTML = "Экран 6.5"/1600x720 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-vivo-v25e-8-128gb-sunrise-gold")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-vivo-v25e-8-128gb-sunrise-gold"){
+      document.getElementById("item-name").innerHTML = "Смартфон vivo V25e 8/128Gb Sunrise Gold";
+      document.getElementById("feature-1").innerHTML = "Экран 6.44"/2404x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-10-2022-128gb-carbon-gray")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-10-2022-128gb-carbon-gray"){
+      document.getElementById("item-name").innerHTML = "Смартфон Xiaomi Redmi 10 2022 128GB Carbon Gray";
+      document.getElementById("feature-1").innerHTML = "Экран 6.5"/2400x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-128gb-esim-deep-purple")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-128gb-esim-deep-purple"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 14 Pro 128GB eSim Deep Purple";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/2556x1179 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-128gb-nanosim-esim-deep-purple")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-128gb-nanosim-esim-deep-purple"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 14 Pro 128GB nanoSim/eSim Deep Purple";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/2556x1179 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-10-2022-64gb-carbon-gray")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-10-2022-64gb-carbon-gray"){
+      document.getElementById("item-name").innerHTML = "Смартфон Xiaomi Redmi 10 2022 64GB Carbon Gray";
+      document.getElementById("feature-1").innerHTML = "Экран 6.5"/2400x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-11-64gb-nanosim-esim-black")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-11-64gb-nanosim-esim-black"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 11 64GB nanoSim/eSim Black";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/1792x828 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-a54-256gb-awesome-white")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-a54-256gb-awesome-white"){
+      document.getElementById("item-name").innerHTML = "Смартфон Samsung Galaxy A54 256GB Awesome White";
+      document.getElementById("feature-1").innerHTML = "Экран 6.4"/2340x1080 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-11-128gb-nanosim-esim-black")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-11-128gb-nanosim-esim-black"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 11 128GB nanoSim/eSim Black";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/1792x828 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-blue")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-blue"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 13 128GB nanoSim/eSim Blue";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/2532x1170 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-midnight")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-midnight"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 13 128GB nanoSim/eSim Midnight";
+      document.getElementById("feature-1").innerHTML = "Экран 6.1"/2532x1170 Пикс";
+      
+      }
+      
     
             
-    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+    if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple"){
+      document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple";
+      document.getElementById("feature-1").innerHTML = "Экран 6.7"/2796x1290 Пикс";
+      
+      }
+      
     
             
     </script>

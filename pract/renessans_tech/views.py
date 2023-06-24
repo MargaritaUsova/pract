@@ -5,10 +5,6 @@ from .models import Task
 def index(request):
     return render(request, 'renessans_tech/index.html', {'title' : 'Главная страница сайта'})
 
-def about(request):
-    return render(request, 'renessans_tech/about.html')
-
-
 def phones(request):
     return render(request, 'renessans_tech/phones1.html')
 
@@ -38,5 +34,11 @@ def laptop_page(request):
 
 def tv_page(request):
     return render(request, 'renessans_tech/tv_page.html')
+
+def about_us(request):
+    return render(request, 'renessans_tech/about_us.html')
+
+def popular_items(request):
+    return render(request, 'renessans_tech/popular_items.html')
 
 
