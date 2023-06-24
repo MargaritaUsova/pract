@@ -1,0 +1,1705 @@
+{
+    "products": [
+            {
+                "productId": "400095282",
+                "name": "Чехол TFN для Samsung S23 Ultra HARD с поддержкой MagSafe",
+                "nameTranslit": "chehol-tfn-dlya-samsung-s23-ultra-hard-s-podderzhkoi-magsafe",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400095282",
+                "materialSource": "ERP",
+                "modelName": "для Samsung S23 Ultra HARD с поддержкой MagSafe",
+                "rating": {
+                    "star": 5,
+                    "count": 3,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400095282b.jpg",
+                "brandId": "4318",
+                "brandName": "TFN",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400095282.jpg",
+                    "Pdb/400095282b.jpg",
+                    "Pdb/400095282s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Samsung S23 Ultra",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.8\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400102186",
+                "name": "Чехол Deppa Galaxy A54 5G (88393)",
+                "nameTranslit": "chehol-deppa-galaxy-a54-5g-88393",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400102186",
+                "materialSource": "ERP",
+                "modelName": "Galaxy A54 5G (88393)",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400102186b.jpg",
+                "brandId": "2175",
+                "brandName": "Deppa",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400102186.jpg",
+                    "Pdb/400102186b.jpg",
+                    "Pdb/400102186s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Samsung Galaxy A54 5G",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "накладка, бампер",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.4\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 2702,
+                        "name": "Тип застежки",
+                        "value": "отсутствует",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 10,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400102185",
+                "name": "Чехол Deppa Galaxy A34 5G (88392)",
+                "nameTranslit": "chehol-deppa-galaxy-a34-5g-88392",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400102185",
+                "materialSource": "ERP",
+                "modelName": "Galaxy A34 5G (88392)",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400102185b.jpg",
+                "brandId": "2175",
+                "brandName": "Deppa",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400102185.jpg",
+                    "Pdb/400102185b.jpg",
+                    "Pdb/400102185s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Samsung Galaxy A34 5G",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "накладка, бампер",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.5\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 2702,
+                        "name": "Тип застежки",
+                        "value": "отсутствует",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 10,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50174114",
+                "name": "Чехол vlp Gloss для Honor 70 прозрачный",
+                "nameTranslit": "chehol-vlp-gloss-dlya-honor-70-prozrachnyi",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50174114",
+                "materialSource": "ERP",
+                "modelName": "Gloss для Honor 70 прозрачный",
+                "rating": {
+                    "star": 5,
+                    "count": 1,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50174114b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50174114.jpg",
+                    "Pdb/50174114b.jpg",
+                    "Pdb/50174114b1.jpg",
+                    "Pdb/50174114b2.jpg",
+                    "Pdb/50174114s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "чехол",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50173707",
+                "name": "Чехол Apple iPhone 14 Pro Max Clear MagSafe",
+                "nameTranslit": "chehol-apple-iphone-14-pro-max-clear-magsafe",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50173707",
+                "materialSource": "ERP",
+                "modelName": "iPhone 14 Pro Max Clear Case (MPU73)",
+                "rating": {
+                    "star": 4.5,
+                    "count": 2,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50173707b.jpg",
+                "brandId": "685",
+                "brandName": "Apple",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1122",
+                    "name": "Чехлы для iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50173707.jpg",
+                    "Pdb/50173707b.jpg",
+                    "Pdb/50173707b1.jpg",
+                    "Pdb/50173707b2.jpg",
+                    "Pdb/50173707b3.jpg",
+                    "Pdb/50173707s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Apple iPhone 14 Pro Max",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "клип-кейс (накладка)",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 869,
+                        "name": "Материал чехла",
+                        "value": "поликарбонат",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 89,
+                        "name": "Цвет",
+                        "value": "прозрачный",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50173397",
+                "name": "Чехол TFN для Realme C31 TPU clear",
+                "nameTranslit": "chehol-tfn-dlya-realme-c31-tpu-clear",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50173397",
+                "materialSource": "ERP",
+                "modelName": "для Realme C31 TPU clear",
+                "rating": {
+                    "star": 1,
+                    "count": 1,
+                    "percent": 21
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50173397b.jpg",
+                "brandId": "4318",
+                "brandName": "TFN",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50173397.jpg",
+                    "Pdb/50173397b.jpg",
+                    "Pdb/50173397b1.jpg",
+                    "Pdb/50173397b2.jpg",
+                    "Pdb/50173397b3.jpg",
+                    "Pdb/50173397s.jpg"
+                ],
+                "propertiesPortion": []
+            },
+            {
+                "productId": "50173554",
+                "name": "Чехол защитный vlp Gloss case MagSafe для iPhone 14 Pro прозрачный",
+                "nameTranslit": "chehol-zashhitnyi-vlp-gloss-case-magsafe-dlya-iphone-14-pro-prozrachnyi",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50173554",
+                "materialSource": "ERP",
+                "modelName": "iPhone 14 Pro Gloss case w/MagSafe прозрачный",
+                "rating": {
+                    "star": 4.444444444444445,
+                    "count": 9,
+                    "percent": 81
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50173554b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1122",
+                    "name": "Чехлы для iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50173554.jpg",
+                    "Pdb/50173554b.jpg",
+                    "Pdb/50173554b1.jpg",
+                    "Pdb/50173554b2.jpg",
+                    "Pdb/50173554s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Apple iPhone 14 Pro",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "чехол",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 869,
+                        "name": "Материал чехла",
+                        "value": "поликарбонат/ термополиуретан",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 618539,
+                        "name": "Поддержка MagSafe",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 89,
+                        "name": "Цвет",
+                        "value": "прозрачный",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400099329",
+                "name": "Чехол vlp Gloss для Honor X8a прозрачный",
+                "nameTranslit": "chehol-vlp-gloss-dlya-honor-x8a-prozrachnyi",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400099329",
+                "materialSource": "ERP",
+                "modelName": "Gloss для Honor X8a прозрачный",
+                "rating": {
+                    "star": 5,
+                    "count": 2,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400099329b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400099329.jpg",
+                    "Pdb/400099329b.jpg",
+                    "Pdb/400099329b1.jpg",
+                    "Pdb/400099329s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Honor X8a",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "чехол",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.7\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400095366",
+                "name": "Чехол TFN для Samsung S23 Plus HARD с поддержкой MagSafe",
+                "nameTranslit": "chehol-tfn-dlya-samsung-s23-plus-hard-s-podderzhkoi-magsafe",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400095366",
+                "materialSource": "ERP",
+                "modelName": "для Samsung S23 Plus HARD с поддержкой MagSafe",
+                "rating": {
+                    "star": 5,
+                    "count": 4,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400095366b.jpg",
+                "brandId": "4318",
+                "brandName": "TFN",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400095366.jpg",
+                    "Pdb/400095366b.jpg",
+                    "Pdb/400095366s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Samsung S23 Plus",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.7\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50173555",
+                "name": "Чехол vlp Gloss case MagSafe для iPhone 14 Pro Max прозрачный",
+                "nameTranslit": "chehol-vlp-gloss-case-magsafe-dlya-iphone-14-pro-max-prozrachnyi",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50173555",
+                "materialSource": "ERP",
+                "modelName": "iPhone 14 Pro Max Gloss case w/MagSafe прозрачный",
+                "rating": {
+                    "star": 3.6153846153846154,
+                    "count": 13,
+                    "percent": 71
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50173555b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1122",
+                    "name": "Чехлы для iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50173555.jpg",
+                    "Pdb/50173555b.jpg",
+                    "Pdb/50173555b1.jpg",
+                    "Pdb/50173555b2.jpg",
+                    "Pdb/50173555s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Apple iPhone 14 Pro Max",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "чехол",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 869,
+                        "name": "Материал чехла",
+                        "value": "поликарбонат/ термополиуретан",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 618539,
+                        "name": "Поддержка MagSafe",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 89,
+                        "name": "Цвет",
+                        "value": "прозрачный",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50173706",
+                "name": "Чехол Apple iPhone 14 Pro Clear MagSafe",
+                "nameTranslit": "chehol-apple-iphone-14-pro-clear-magsafe",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50173706",
+                "materialSource": "ERP",
+                "modelName": "iPhone 14 Pro Clear Case (MPU63)",
+                "rating": {
+                    "star": 5,
+                    "count": 2,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50173706b.jpg",
+                "brandId": "685",
+                "brandName": "Apple",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1122",
+                    "name": "Чехлы для iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50173706.jpg",
+                    "Pdb/50173706b.jpg",
+                    "Pdb/50173706b1.jpg",
+                    "Pdb/50173706b2.jpg",
+                    "Pdb/50173706b3.jpg",
+                    "Pdb/50173706b4.jpg",
+                    "Pdb/50173706b5.jpg",
+                    "Pdb/50173706s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Apple iPhone 14 Pro",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "клип-кейс (накладка)",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 869,
+                        "name": "Материал чехла",
+                        "value": "поликарбонат",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 89,
+                        "name": "Цвет",
+                        "value": "прозрачный",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50174460",
+                "name": "Чехол TFN для Honor 70 Slimskin черный",
+                "nameTranslit": "chehol-tfn-dlya-honor-70-slimskin-chernyi",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50174460",
+                "materialSource": "ERP",
+                "modelName": "для Honor 70 Slimskin черный",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50174460b.jpg",
+                "brandId": "4318",
+                "brandName": "TFN",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50174460.jpg",
+                    "Pdb/50174460b.jpg",
+                    "Pdb/50174460b1.jpg",
+                    "Pdb/50174460s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Honor 70",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "накладка",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400106121",
+                "name": "Чехол TFN для Samsung A14 TPU",
+                "nameTranslit": "chehol-tfn-dlya-samsung-a14-tpu",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400106121",
+                "materialSource": "ERP",
+                "modelName": "для Samsung A14 TPU",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400106121b.jpg",
+                "brandId": "4318",
+                "brandName": "TFN",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400106121.jpg",
+                    "Pdb/400106121b.jpg",
+                    "Pdb/400106121s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Samsung A14",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.78\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400095360",
+                "name": "Чехол TFN для Samsung S23 HARD с поддержкой MagSafe",
+                "nameTranslit": "chehol-tfn-dlyasamsung-s23-hard-s-podderzhkoi-magsafe",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400095360",
+                "materialSource": "ERP",
+                "modelName": "для Samsung S23 HARD с поддержкой MagSafe",
+                "rating": {
+                    "star": 5,
+                    "count": 3,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400095360b.jpg",
+                "brandId": "4318",
+                "brandName": "TFN",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400095360.jpg",
+                    "Pdb/400095360b.jpg",
+                    "Pdb/400095360s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Samsung S23",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.7\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400097311",
+                "name": "Чехол vlp Honor X9a 1053053",
+                "nameTranslit": "chehol-vlp-honor-x9a-1053053",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400097311",
+                "materialSource": "ERP",
+                "modelName": "Honor X9a 1053053",
+                "rating": {
+                    "star": 5,
+                    "count": 3,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400097311b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400097311.jpg",
+                    "Pdb/400097311b.jpg",
+                    "Pdb/400097311b1.jpg",
+                    "Pdb/400097311s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Honor X9a",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "чехол",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.67\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50172027",
+                "name": "Чехол Red Line Ultimate для Xiaomi Redmi 10C черный",
+                "nameTranslit": "chehol-red-line-ultimate-dlya-xiaomi-redmi-10c-chernyi",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50172027",
+                "materialSource": "ERP",
+                "modelName": "Ultimate для Xiaomi Redmi 10C черный",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50172027b.jpg",
+                "brandId": "2118",
+                "brandName": "Red Line",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50172027.jpg",
+                    "Pdb/50172027b.jpg",
+                    "Pdb/50172027b1.jpg",
+                    "Pdb/50172027b2.jpg",
+                    "Pdb/50172027s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Xiaomi Redmi Note 10C",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "клип-кейс (накладка)",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.43\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50173586",
+                "name": "Чехол vlp Silicone с MagSafe для iPhone 14 ProMax Purple",
+                "nameTranslit": "chehol-vlp-silicone-s-magsafe-dlya-iphone-14-promax-purple",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50173586",
+                "materialSource": "ERP",
+                "modelName": "Silicone с MagSafe для iPhone 14 ProMax Purple",
+                "rating": {
+                    "star": 4.8,
+                    "count": 5,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50173586b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1122",
+                    "name": "Чехлы для iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50173586.jpg",
+                    "Pdb/50173586b.jpg",
+                    "Pdb/50173586b1.jpg",
+                    "Pdb/50173586b2.jpg",
+                    "Pdb/50173586s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "чехол",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 869,
+                        "name": "Материал чехла",
+                        "value": "силикон",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 618539,
+                        "name": "Поддержка MagSafe",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 89,
+                        "name": "Цвет",
+                        "value": "фиолетовый темный",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 11929,
+                        "name": "Вес",
+                        "value": "15",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": "г"
+                    }
+                ]
+            },
+            {
+                "productId": "50171054",
+                "name": "Чехол Deppa Gel Shockproof Honor X8 прозрачный",
+                "nameTranslit": "chehol-deppa-gel-shockproof-honor-x8-prozrachnyi",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50171054",
+                "materialSource": "ERP",
+                "modelName": "Gel Shockproof Honor X8 прозрачный",
+                "rating": {
+                    "star": 5,
+                    "count": 2,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50171054b.jpg",
+                "brandId": "2175",
+                "brandName": "Deppa",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50171054.jpg",
+                    "Pdb/50171054b.jpg",
+                    "Pdb/50171054b1.jpg",
+                    "Pdb/50171054b2.jpg",
+                    "Pdb/50171054b3.jpg",
+                    "Pdb/50171054s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Honor X8",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "клипкейс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.7\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50173585",
+                "name": "Чехол vlp Silicone с MagSafe для iPhone 14 Pro Purple",
+                "nameTranslit": "chehol-vlp-silicone-s-magsafe-dlya-iphone-14-pro-purple",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50173585",
+                "materialSource": "ERP",
+                "modelName": "Silicone с MagSafe для iPhone 14 Pro Purple",
+                "rating": {
+                    "star": 3,
+                    "count": 2,
+                    "percent": 61
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50173585b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1122",
+                    "name": "Чехлы для iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50173585.jpg",
+                    "Pdb/50173585b.jpg",
+                    "Pdb/50173585b1.jpg",
+                    "Pdb/50173585b2.jpg",
+                    "Pdb/50173585s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "чехол",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 869,
+                        "name": "Материал чехла",
+                        "value": "силикон",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 618539,
+                        "name": "Поддержка MagSafe",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 89,
+                        "name": "Цвет",
+                        "value": "фиолетовый темный",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 11929,
+                        "name": "Вес",
+                        "value": "11",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": "г"
+                    }
+                ]
+            },
+            {
+                "productId": "50174463",
+                "name": "Чехол TFN для Honor X6 TPU прозрачный",
+                "nameTranslit": "chehol-tfn-dlya-honor-x6-tpu-prozrachnyi",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50174463",
+                "materialSource": "ERP",
+                "modelName": "для Honor X6 TPU прозрачный",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50174463b.jpg",
+                "brandId": "4318",
+                "brandName": "TFN",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50174463.jpg",
+                    "Pdb/50174463b.jpg",
+                    "Pdb/50174463s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Honor X6",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "накладка",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50175570",
+                "name": "Чехол Samsung Silicone Cover A54 Black (EF-PA546TBEGRU)",
+                "nameTranslit": "chehol-samsung-silicone-cover-a54-black-ef-pa546tbegru",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50175570",
+                "materialSource": "ERP",
+                "modelName": "Silicone Cover A54 Black (EF-PA546TBEGRU)",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50175570b.jpg",
+                "brandId": "13",
+                "brandName": "Samsung",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50175570.jpg",
+                    "Pdb/50175570b.jpg",
+                    "Pdb/50175570b1.jpg",
+                    "Pdb/50175570b2.jpg",
+                    "Pdb/50175570b3.jpg",
+                    "Pdb/50175570b4.jpg",
+                    "Pdb/50175570s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Samsung Galaxy A54 5G",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "клипкейс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "50173581",
+                "name": "Чехол vlp Silicone с MagSafe для iPhone 14 Pro Black",
+                "nameTranslit": "chehol-vlp-silicone-s-magsafe-dlya-iphone-14-pro-black",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50173581",
+                "materialSource": "ERP",
+                "modelName": "Silicone с MagSafe для iPhone 14 Pro Black",
+                "rating": {
+                    "star": 4.5,
+                    "count": 4,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50173581b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1122",
+                    "name": "Чехлы для iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50173581.jpg",
+                    "Pdb/50173581b.jpg",
+                    "Pdb/50173581b1.jpg",
+                    "Pdb/50173581b2.jpg",
+                    "Pdb/50173581s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "чехол",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 869,
+                        "name": "Материал чехла",
+                        "value": "силикон",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 618539,
+                        "name": "Поддержка MagSafe",
+                        "value": "Да",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 89,
+                        "name": "Цвет",
+                        "value": "черный",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    },
+                    {
+                        "id": 11929,
+                        "name": "Вес",
+                        "value": "11",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 8,
+                        "measure": "г"
+                    }
+                ]
+            },
+            {
+                "productId": "50163807",
+                "name": "Чехол TFN iPhone 13 Silicone Black (TFN-SС-IP13SBK)",
+                "nameTranslit": "chehol-tfn-iphone-13-silicone-black-tfn-ss-ip13sbk",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "50163807",
+                "materialSource": "ERP",
+                "modelName": "iPhone 13 Silicone Black (TFN-SС-IP13SBK)",
+                "rating": {
+                    "star": 3,
+                    "count": 2,
+                    "percent": 61
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/50163807b.jpg",
+                "brandId": "4318",
+                "brandName": "TFN",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1122",
+                    "name": "Чехлы для iPhone"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/50163807.jpg",
+                    "Pdb/50163807b.jpg",
+                    "Pdb/50163807b1.jpg",
+                    "Pdb/50163807s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 868,
+                        "name": "Тип корпуса",
+                        "value": "клип-кейс (накладка)",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 2,
+                        "measure": null
+                    },
+                    {
+                        "id": 869,
+                        "name": "Материал чехла",
+                        "value": "пластик",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    },
+                    {
+                        "id": 89,
+                        "name": "Цвет",
+                        "value": "черный",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400097321",
+                "name": "Чехол vlp Honor X9a 1051083",
+                "nameTranslit": "chehol-vlp-honor-x9a-1051083",
+                "productType": "ACSS",
+                "usedProductType": null,
+                "materialCisNumber": "400097321",
+                "materialSource": "ERP",
+                "modelName": "Honor X9a 1051083",
+                "rating": {
+                    "star": 5,
+                    "count": 3,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400097321b.jpg",
+                "brandId": "2308",
+                "brandName": "vlp",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "1189",
+                    "name": "Чехлы для смартфонов"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400097321.jpg",
+                    "Pdb/400097321b.jpg",
+                    "Pdb/400097321b1.jpg",
+                    "Pdb/400097321s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 876,
+                        "name": "Подходит для",
+                        "value": "Honor X9a",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 790,
+                        "name": "Для моделей с диагональю экрана",
+                        "value": "6.67\"",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": null
+                    }
+                ]
+            }
+        ]
+}

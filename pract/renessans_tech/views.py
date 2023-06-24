@@ -40,6 +40,9 @@ def computer_page(request):
 def tablet_page(request):
     return render(request, 'renessans_tech/tablet_page.html')
 
+def accessories_page(request):
+    return render(request, 'renessans_tech/accessories_page.html')
+
 def about_us(request):
     return render(request, 'renessans_tech/about_us.html')
 
