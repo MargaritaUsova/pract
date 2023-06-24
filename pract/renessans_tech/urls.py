@@ -32,4 +32,9 @@ with open('/Users/margaritausova/Documents/pract/tv_prices.json') as f1:
     for i in prices:
         urlpatterns.append(path(f'tv/{prices[i]["nameTranslit"]}', views.tv_page),)
 
+with open('/Users/margaritausova/Documents/pract/computers_prices.json') as f1:
+    prices = json.load(f1)
+    for i in prices:
+        urlpatterns.append(path(f'computers/{prices[i]["nameTranslit"]}', views.computer_page),)
+
 

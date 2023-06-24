@@ -1,10 +1,714 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+{% load static %}
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Компьютеры</title>
+  <link rel="stylesheet" href="{% static 'css/phones.css' %}">
+  <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
 <body>
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
 
-</body>
-</html>
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
+        </a>
+        <a class="cathegory-items" href = 'phones'>
+          Смартфоны
+        </a>
+        <a class="cathegory-items" href = 'laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="tv">
+          Телевизоры
+        </a>
+        <a style="color: #ff0078;"class="cathegory-items" href = 'computers'>
+          Компьютеры
+        </a>
+        <a class="cathegory-items" href = 'tablets'>
+          Планшеты
+        </a>
+        <a class="cathegory-items" href = 'accessories'>
+          Аксессуары
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = 'basket'>
+          Корзина
+        </a>
+      </div>
+
+    </header> <br>
+
+         <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-irbis-mb2385">
+        <img class="item-photo" src="{% static 'pictures/computers/30066145.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-irbis-mb2385>
+        <p class="item-name">
+            Моноблок Irbis MB2385
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Irbis</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 1135G7 2.4 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 16</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel Iris Xe Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        54999 ₽
+      </p>
+      <p class="item-previous-price">
+        58999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-hp-24-df1062ny-bundle-pc-4x5d8ea">
+        <img class="item-photo" src="{% static 'pictures/computers/30065782.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-hp-24-df1062ny-bundle-pc-4x5d8ea>
+        <p class="item-name">
+            Моноблок HP 24-df1062ny Bundle PC (4X5D8EA)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HP</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 1135G7 2.4 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel Iris Xe Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Не указан</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        49999 ₽
+      </p>
+      <p class="item-previous-price">
+        61999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-nerpa-saimaa-i510-i510-2305222">
+        <img class="item-photo" src="{% static 'pictures/computers/30063801.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-nerpa-saimaa-i510-i510-2305222>
+        <p class="item-name">
+            Моноблок Nerpa Saimaa I510 (I510-2305222)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Nerpa</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 11400 2.6 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 16</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel UHD Graphics 730</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        49999 ₽
+      </p>
+      <p class="item-previous-price">
+        56799
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-acer-aspire-c24-1650-dqbftmc00c">
+        <img class="item-photo" src="{% static 'pictures/computers/30065367.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-acer-aspire-c24-1650-dqbftmc00c>
+        <p class="item-name">
+            Моноблок Acer Aspire C24-1650 DQ.BFTMC.00C
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Acer</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i3 1115G4 1.7 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel UHD Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 256 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        54999 ₽
+      </p>
+      <p class="item-previous-price">
+        54999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-msi-9s6-ae0711-261">
+        <img class="item-photo" src="{% static 'pictures/computers/400147669.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-msi-9s6-ae0711-261>
+        <p class="item-name">
+            Моноблок MSI 9S6-AE0711-261
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">MSI</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i3 Intel Core i3 1.2 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер UHD Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 0.512 ТБx512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        64590 ₽
+      </p>
+      <p class="item-previous-price">
+        64590
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-hp-24-cb1021nh">
+        <img class="item-photo" src="{% static 'pictures/computers/30066138.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-hp-24-cb1021nh>
+        <p class="item-name">
+            Моноблок HP 24-cb1021nh
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HP</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 1235U</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel Iris Xe Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 256 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        54999 ₽
+      </p>
+      <p class="item-previous-price">
+        64999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-irbis-mb2700">
+        <img class="item-photo" src="{% static 'pictures/computers/30066146.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-irbis-mb2700>
+        <p class="item-name">
+            Моноблок Irbis MB2700
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Irbis</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 27"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 1135G7 2.4 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 16</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel Iris Xe Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        49999 ₽
+      </p>
+      <p class="item-previous-price">
+        66999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-acer-aspire-c24-1700-dqbjwmc006">
+        <img class="item-photo" src="{% static 'pictures/computers/30067652.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-acer-aspire-c24-1700-dqbjwmc006>
+        <p class="item-name">
+            Моноблок Acer Aspire C24-1700 DQ.BJWMC.006
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Acer</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 1235U</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 16</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel Iris Xe Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 1 ТБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        74999 ₽
+      </p>
+      <p class="item-previous-price">
+        82999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-lenovo-ideacentre-aio-3-24alc6-f0g100merk">
+        <img class="item-photo" src="{% static 'pictures/computers/30065368.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-lenovo-ideacentre-aio-3-24alc6-f0g100merk>
+        <p class="item-name">
+            Моноблок Lenovo IdeaCentre AIO 3 24ALC6 F0G100MERK
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Lenovo</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора AMD Ryzen 3 5300U 2.6 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Radeon Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 256 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        51999 ₽
+      </p>
+      <p class="item-previous-price">
+        61999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-msi-modern-am272-9s6-af8211-286">
+        <img class="item-photo" src="{% static 'pictures/computers/30066711.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-msi-modern-am272-9s6-af8211-286>
+        <p class="item-name">
+            Моноблок MSI Modern AM272 9S6-AF8211-286
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">MSI</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 27"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i7 1260P 3.4 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel Iris Xe Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        85999 ₽
+      </p>
+      <p class="item-previous-price">
+        85999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-msi-9s6-ae0311-826">
+        <img class="item-photo" src="{% static 'pictures/computers/400147670.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-msi-9s6-ae0311-826>
+        <p class="item-name">
+            Моноблок MSI 9S6-AE0311-826
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">MSI</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i3 Intel Core i3 3.7 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер UHD Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 0.25 ТБx250 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        64690 ₽
+      </p>
+      <p class="item-previous-price">
+        64690
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-acer-aspire-c24-1650-dqbfter00n-serebristyi">
+        <img class="item-photo" src="{% static 'pictures/computers/4199137.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-acer-aspire-c24-1650-dqbfter00n-serebristyi>
+        <p class="item-name">
+            Моноблок Acer Aspire C24-1650 DQ.BFTER.00N серебристый
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Acer</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i3 i3-1115G4</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер UHD Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        69990 ₽
+      </p>
+      <p class="item-previous-price">
+        69990
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-irbis-mb2390">
+        <img class="item-photo" src="{% static 'pictures/computers/30064482.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-irbis-mb2390>
+        <p class="item-name">
+            Моноблок Irbis MB2390
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Irbis</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Celeron N4020 1.1 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel UHD Graphics 600</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 256 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        31999 ₽
+      </p>
+      <p class="item-previous-price">
+        35999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-nerpa-saimaa-i510-i510-2405222">
+        <img class="item-photo" src="{% static 'pictures/computers/30063804.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-nerpa-saimaa-i510-i510-2405222>
+        <p class="item-name">
+            Моноблок Nerpa Saimaa I510 (I510-2405222)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Nerpa</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 27"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 11400 2.6 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 16</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel UHD Graphics 730</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        59999 ₽
+      </p>
+      <p class="item-previous-price">
+        67999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-hp-24-cb1022nh">
+        <img class="item-photo" src="{% static 'pictures/computers/30066139.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-hp-24-cb1022nh>
+        <p class="item-name">
+            Моноблок HP 24-cb1022nh
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HP</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 1235U 3.3 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel Iris Xe Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 256 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        54999 ₽
+      </p>
+      <p class="item-previous-price">
+        64999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-acer-c24-1700-dqbjfmc00e">
+        <img class="item-photo" src="{% static 'pictures/computers/400130459.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-acer-c24-1700-dqbjfmc00e>
+        <p class="item-name">
+            Моноблок Acer C24-1700 DQ.BJFMC.00E
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Acer</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i3 1215U 900 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер UHD Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        66490 ₽
+      </p>
+      <p class="item-previous-price">
+        73990
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-irbis-mb2381">
+        <img class="item-photo" src="{% static 'pictures/computers/30066144.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-irbis-mb2381>
+        <p class="item-name">
+            Моноблок Irbis MB2381
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Irbis</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 23.8"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Celeron N5095 2.0 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 8</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel UHD Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 256 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        29999 ₽
+      </p>
+      <p class="item-previous-price">
+        36999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="computers/monoblok-acer-aspire-c27-1700-dqbjkmc009">
+        <img class="item-photo" src="{% static 'pictures/computers/30067651.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=computers/monoblok-acer-aspire-c27-1700-dqbjkmc009>
+        <p class="item-name">
+            Моноблок Acer Aspire C27-1700 DQ.BJKMC.009
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Acer</span></li>
+        <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 27"/1920x1080 пикс."</span></li>
+        <li>Тип процессора: <span class="text-highligt">Тип процессора Intel Core i5 1235U</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 16</span></li>
+        <li>Графический контроллер: <span class="text-highligt">Графический контроллер Intel Iris Xe Graphics</span></li>
+
+        <li>Объем SSD <span class="text-highligt">Объем SSD 512 ГБ</span></li>
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        79999 ₽
+      </p>
+      <p class="item-previous-price">
+        87999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+        </body>
+    </html>

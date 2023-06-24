@@ -1,0 +1,1707 @@
+{"products": [
+            {
+                "productId": "30065782",
+                "name": "Моноблок HP 24-df1062ny Bundle PC (4X5D8EA)",
+                "nameTranslit": "monoblok-hp-24-df1062ny-bundle-pc-4x5d8ea",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30065782",
+                "materialSource": "ERP",
+                "modelName": "24-df1062ny Bundle PC (4X5D8EA)",
+                "rating": {
+                    "star": 5,
+                    "count": 5,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30065782b.jpg",
+                "brandId": "534",
+                "brandName": "HP",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30065782.jpg",
+                    "Pdb/30065782b.jpg",
+                    "Pdb/30065782b1.jpg",
+                    "Pdb/30065782b2.jpg",
+                    "Pdb/30065782b3.jpg",
+                    "Pdb/30065782b4.jpg",
+                    "Pdb/30065782b5.jpg",
+                    "Pdb/30065782b6.jpg",
+                    "Pdb/30065782s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 1135G7 2.4 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel Iris Xe Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850956,
+                        "name": "Объем HDD",
+                        "value": "1 ТБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 9,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30066144",
+                "name": "Моноблок Irbis MB2381",
+                "nameTranslit": "monoblok-irbis-mb2381",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30066144",
+                "materialSource": "ERP",
+                "modelName": "MB2381",
+                "rating": {
+                    "star": 4.933333333333334,
+                    "count": 15,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30066144b.jpg",
+                "brandId": "692",
+                "brandName": "Irbis",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30066144.jpg",
+                    "Pdb/30066144b.jpg",
+                    "Pdb/30066144b1.jpg",
+                    "Pdb/30066144b2.jpg",
+                    "Pdb/30066144b3.jpg",
+                    "Pdb/30066144b4.jpg",
+                    "Pdb/30066144b5.jpg",
+                    "Pdb/30066144b6.jpg",
+                    "Pdb/30066144b7.jpg",
+                    "Pdb/30066144s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Celeron N5095 2.0 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel UHD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "256 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30067651",
+                "name": "Моноблок Acer Aspire C27-1700 DQ.BJKMC.009",
+                "nameTranslit": "monoblok-acer-aspire-c27-1700-dqbjkmc009",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30067651",
+                "materialSource": "ERP",
+                "modelName": "Aspire C27-1700 DQ.BJKMC.009",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30067651b.jpg",
+                "brandId": "93",
+                "brandName": "Acer",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30067651.jpg",
+                    "Pdb/30067651b.jpg",
+                    "Pdb/30067651b1.jpg",
+                    "Pdb/30067651b2.jpg",
+                    "Pdb/30067651b3.jpg",
+                    "Pdb/30067651b4.jpg",
+                    "Pdb/30067651b5.jpg",
+                    "Pdb/30067651b6.jpg",
+                    "Pdb/30067651b7.jpg",
+                    "Pdb/30067651s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "27\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 1235U",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel Iris Xe Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30066145",
+                "name": "Моноблок Irbis MB2385",
+                "nameTranslit": "monoblok-irbis-mb2385",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30066145",
+                "materialSource": "ERP",
+                "modelName": "MB2385",
+                "rating": {
+                    "star": 5,
+                    "count": 12,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30066145b.jpg",
+                "brandId": "692",
+                "brandName": "Irbis",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30066145.jpg",
+                    "Pdb/30066145b.jpg",
+                    "Pdb/30066145b1.jpg",
+                    "Pdb/30066145b2.jpg",
+                    "Pdb/30066145b3.jpg",
+                    "Pdb/30066145b4.jpg",
+                    "Pdb/30066145b5.jpg",
+                    "Pdb/30066145b6.jpg",
+                    "Pdb/30066145b7.jpg",
+                    "Pdb/30066145s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 1135G7 2.4 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel Iris Xe Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30066146",
+                "name": "Моноблок Irbis MB2700",
+                "nameTranslit": "monoblok-irbis-mb2700",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30066146",
+                "materialSource": "ERP",
+                "modelName": "MB2700",
+                "rating": {
+                    "star": 4.9523809523809526,
+                    "count": 21,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30066146b.jpg",
+                "brandId": "692",
+                "brandName": "Irbis",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30066146.jpg",
+                    "Pdb/30066146b.jpg",
+                    "Pdb/30066146b1.jpg",
+                    "Pdb/30066146b2.jpg",
+                    "Pdb/30066146b3.jpg",
+                    "Pdb/30066146b4.jpg",
+                    "Pdb/30066146s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "27\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 1135G7 2.4 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel Iris Xe Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30067652",
+                "name": "Моноблок Acer Aspire C24-1700 DQ.BJWMC.006",
+                "nameTranslit": "monoblok-acer-aspire-c24-1700-dqbjwmc006",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30067652",
+                "materialSource": "ERP",
+                "modelName": "Aspire C24-1700 DQ.BJWMC.006",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30067652b.jpg",
+                "brandId": "93",
+                "brandName": "Acer",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30067652.jpg",
+                    "Pdb/30067652b.jpg",
+                    "Pdb/30067652b1.jpg",
+                    "Pdb/30067652b2.jpg",
+                    "Pdb/30067652b3.jpg",
+                    "Pdb/30067652b4.jpg",
+                    "Pdb/30067652b5.jpg",
+                    "Pdb/30067652b6.jpg",
+                    "Pdb/30067652b7.jpg",
+                    "Pdb/30067652s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 1235U",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel Iris Xe Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "1 ТБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30064482",
+                "name": "Моноблок Irbis MB2390",
+                "nameTranslit": "monoblok-irbis-mb2390",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30064482",
+                "materialSource": "ERP",
+                "modelName": "MB2390",
+                "rating": {
+                    "star": 4.9411764705882355,
+                    "count": 17,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30064482b.jpg",
+                "brandId": "692",
+                "brandName": "Irbis",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30064482.jpg",
+                    "Pdb/30064482b.jpg",
+                    "Pdb/30064482b1.jpg",
+                    "Pdb/30064482b2.jpg",
+                    "Pdb/30064482b21.jpg",
+                    "Pdb/30064482b22.jpg",
+                    "Pdb/30064482b23.jpg",
+                    "Pdb/30064482b24.jpg",
+                    "Pdb/30064482b25.jpg",
+                    "Pdb/30064482b26.jpg",
+                    "Pdb/30064482b3.jpg",
+                    "Pdb/30064482b4.jpg",
+                    "Pdb/30064482b5.jpg",
+                    "Pdb/30064482s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Celeron N4020 1.1 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel UHD Graphics 600",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "256 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30063804",
+                "name": "Моноблок Nerpa Saimaa I510 (I510-2405222)",
+                "nameTranslit": "monoblok-nerpa-saimaa-i510-i510-2405222",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30063804",
+                "materialSource": "ERP",
+                "modelName": "Saimaa I510 (I510-2405222)",
+                "rating": {
+                    "star": 4.583333333333333,
+                    "count": 12,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30063804b.jpg",
+                "brandId": "10309",
+                "brandName": "Nerpa",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30063804.jpg",
+                    "Pdb/30063804b.jpg",
+                    "Pdb/30063804b1.jpg",
+                    "Pdb/30063804b2.jpg",
+                    "Pdb/30063804b21.jpg",
+                    "Pdb/30063804b22.jpg",
+                    "Pdb/30063804b23.jpg",
+                    "Pdb/30063804b26.jpg",
+                    "Pdb/30063804s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "27\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 11400 2.6 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel UHD Graphics 730",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30066139",
+                "name": "Моноблок HP 24-cb1022nh",
+                "nameTranslit": "monoblok-hp-24-cb1022nh",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30066139",
+                "materialSource": "ERP",
+                "modelName": "24-cb1022nh",
+                "rating": {
+                    "star": 5,
+                    "count": 5,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30066139b.jpg",
+                "brandId": "534",
+                "brandName": "HP",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30066139.jpg",
+                    "Pdb/30066139b.jpg",
+                    "Pdb/30066139b1.jpg",
+                    "Pdb/30066139b2.jpg",
+                    "Pdb/30066139b3.jpg",
+                    "Pdb/30066139b4.jpg",
+                    "Pdb/30066139b5.jpg",
+                    "Pdb/30066139b6.jpg",
+                    "Pdb/30066139s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 1235U 3.3 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel Iris Xe Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "256 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30066711",
+                "name": "Моноблок MSI Modern AM272 9S6-AF8211-286",
+                "nameTranslit": "monoblok-msi-modern-am272-9s6-af8211-286",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30066711",
+                "materialSource": "ERP",
+                "modelName": "Modern AM272 9S6-AF8211-286",
+                "rating": {
+                    "star": 5,
+                    "count": 11,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30066711b.jpg",
+                "brandId": "1001",
+                "brandName": "MSI",
+                "status": {
+                    "showCase": true,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30066711.jpg",
+                    "Pdb/30066711b.jpg",
+                    "Pdb/30066711s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "27\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i7 1260P 3.4 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel Iris Xe Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30066138",
+                "name": "Моноблок HP 24-cb1021nh",
+                "nameTranslit": "monoblok-hp-24-cb1021nh",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30066138",
+                "materialSource": "ERP",
+                "modelName": "24-cb1021nh",
+                "rating": {
+                    "star": 5,
+                    "count": 5,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30066138b.jpg",
+                "brandId": "534",
+                "brandName": "HP",
+                "status": {
+                    "showCase": true,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30066138.jpg",
+                    "Pdb/30066138b.jpg",
+                    "Pdb/30066138b1.jpg",
+                    "Pdb/30066138b2.jpg",
+                    "Pdb/30066138b3.jpg",
+                    "Pdb/30066138b4.jpg",
+                    "Pdb/30066138b5.jpg",
+                    "Pdb/30066138b6.jpg",
+                    "Pdb/30066138s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 1235U",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel Iris Xe Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "256 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30063801",
+                "name": "Моноблок Nerpa Saimaa I510 (I510-2305222)",
+                "nameTranslit": "monoblok-nerpa-saimaa-i510-i510-2305222",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30063801",
+                "materialSource": "ERP",
+                "modelName": "Saimaa I510 (I510-2305222)",
+                "rating": {
+                    "star": 5,
+                    "count": 1,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30063801b.jpg",
+                "brandId": "10309",
+                "brandName": "Nerpa",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30063801.jpg",
+                    "Pdb/30063801b.jpg",
+                    "Pdb/30063801b1.jpg",
+                    "Pdb/30063801b2.jpg",
+                    "Pdb/30063801b21.jpg",
+                    "Pdb/30063801b22.jpg",
+                    "Pdb/30063801b23.jpg",
+                    "Pdb/30063801b24.jpg",
+                    "Pdb/30063801b26.jpg",
+                    "Pdb/30063801b3.jpg",
+                    "Pdb/30063801b4.jpg",
+                    "Pdb/30063801s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i5 11400 2.6 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "16",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel UHD Graphics 730",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30065368",
+                "name": "Моноблок Lenovo IdeaCentre AIO 3 24ALC6 F0G100MERK",
+                "nameTranslit": "monoblok-lenovo-ideacentre-aio-3-24alc6-f0g100merk",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30065368",
+                "materialSource": "ERP",
+                "modelName": "IdeaCentre AIO 3 24ALC6 F0G100MERK",
+                "rating": {
+                    "star": 5,
+                    "count": 1,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30065368b.jpg",
+                "brandId": "1006",
+                "brandName": "Lenovo",
+                "status": {
+                    "showCase": true,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30065368.jpg",
+                    "Pdb/30065368b.jpg",
+                    "Pdb/30065368b20.jpg",
+                    "Pdb/30065368b21.jpg",
+                    "Pdb/30065368b22.jpg",
+                    "Pdb/30065368b23.jpg",
+                    "Pdb/30065368b24.jpg",
+                    "Pdb/30065368b26.jpg",
+                    "Pdb/30065368s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "AMD Ryzen 3 5300U 2.6 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Radeon Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "256 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30065367",
+                "name": "Моноблок Acer Aspire C24-1650 DQ.BFTMC.00C",
+                "nameTranslit": "monoblok-acer-aspire-c24-1650-dqbftmc00c",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30065367",
+                "materialSource": "ERP",
+                "modelName": "Aspire C24-1650 DQ.BFTMC.00C",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30065367b.jpg",
+                "brandId": "93",
+                "brandName": "Acer",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30065367.jpg",
+                    "Pdb/30065367b.jpg",
+                    "Pdb/30065367s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i3 1115G4 1.7 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "Intel UHD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "256 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400130459",
+                "name": "Моноблок Acer C24-1700 DQ.BJFMC.00E",
+                "nameTranslit": "monoblok-acer-c24-1700-dqbjfmc00e",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "400130459",
+                "materialSource": "shelf",
+                "modelName": "C24-1700 DQ.BJFMC.00E",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000059472",
+                    "name": "ООО еКоммерс решения",
+                    "address": "123290, Москва, Причальный проезд, 2",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1197746510367",
+                    "inn": "9701143998",
+                    "phone": "+74956516288"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400130459b.jpg",
+                "brandId": "93",
+                "brandName": "Acer",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400130459.jpg",
+                    "Pdb/400130459b.jpg",
+                    "Pdb/400130459b1.jpg",
+                    "Pdb/400130459b2.jpg",
+                    "Pdb/400130459b3.jpg",
+                    "Pdb/400130459b4.jpg",
+                    "Pdb/400130459b5.jpg",
+                    "Pdb/400130459b6.jpg",
+                    "Pdb/400130459s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i3 1215U 900 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "UHD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400147670",
+                "name": "Моноблок MSI 9S6-AE0311-826",
+                "nameTranslit": "monoblok-msi-9s6-ae0311-826",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "400147670",
+                "materialSource": "shelf",
+                "modelName": "9S6-AE0311-826",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000057271",
+                    "name": "ООО Смарт технолоджи",
+                    "address": "142103, Подольск, улица Орджоникидзе, 8",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1215000121467",
+                    "inn": "5074072471",
+                    "phone": "+79267070545"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400147670b.jpg",
+                "brandId": "1001",
+                "brandName": "MSI",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400147670.jpg",
+                    "Pdb/400147670b.jpg",
+                    "Pdb/400147670b1.jpg",
+                    "Pdb/400147670b2.jpg",
+                    "Pdb/400147670b3.jpg",
+                    "Pdb/400147670b4.jpg",
+                    "Pdb/400147670b5.jpg",
+                    "Pdb/400147670b6.jpg",
+                    "Pdb/400147670b7.jpg",
+                    "Pdb/400147670b8.jpg",
+                    "Pdb/400147670s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i3 Intel Core i3 3.7 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "UHD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "0.25 ТБx250 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "400147669",
+                "name": "Моноблок MSI 9S6-AE0711-261",
+                "nameTranslit": "monoblok-msi-9s6-ae0711-261",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "400147669",
+                "materialSource": "shelf",
+                "modelName": "9S6-AE0711-261",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000057271",
+                    "name": "ООО Смарт технолоджи",
+                    "address": "142103, Подольск, улица Орджоникидзе, 8",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1215000121467",
+                    "inn": "5074072471",
+                    "phone": "+79267070545"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/400147669b.jpg",
+                "brandId": "1001",
+                "brandName": "MSI",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/400147669.jpg",
+                    "Pdb/400147669b.jpg",
+                    "Pdb/400147669b1.jpg",
+                    "Pdb/400147669b2.jpg",
+                    "Pdb/400147669b3.jpg",
+                    "Pdb/400147669b4.jpg",
+                    "Pdb/400147669b5.jpg",
+                    "Pdb/400147669b6.jpg",
+                    "Pdb/400147669s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i3 Intel Core i3 1.2 ГГц",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "UHD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "0.512 ТБx512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "4199137",
+                "name": "Моноблок Acer Aspire C24-1650 DQ.BFTER.00N серебристый",
+                "nameTranslit": "monoblok-acer-aspire-c24-1650-dqbfter00n-serebristyi",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4199137",
+                "materialSource": "shelf",
+                "modelName": "Aspire C24-1650 DQ.BFTER.00N серебристый",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000022241",
+                    "name": "ООО \"Эдил-Импорт\"",
+                    "address": "140125, село Михайловская Слобода, Промышленная улица, 1к1",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1037739972533",
+                    "inn": "7733510051",
+                    "phone": "+74957250408"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4199137b.jpg",
+                "brandId": "93",
+                "brandName": "Acer",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "603",
+                    "name": "Моноблоки"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4199137.jpg",
+                    "Pdb/4199137b.jpg",
+                    "Pdb/4199137b1.jpg",
+                    "Pdb/4199137b2.jpg",
+                    "Pdb/4199137b3.jpg",
+                    "Pdb/4199137b4.jpg",
+                    "Pdb/4199137s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 621,
+                        "name": "Диагональ/разрешение",
+                        "value": "23.8\"/1920x1080 пикс.",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 30853016,
+                        "name": "Тип процессора",
+                        "value": "Intel Core i3 i3-1115G4",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": null
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "8",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 620,
+                        "name": "Графический контроллер",
+                        "value": "UHD Graphics",
+                        "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    },
+                    {
+                        "id": 30850856,
+                        "name": "Объем SSD",
+                        "value": "512 ГБ",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 7,
+                        "measure": null
+                    }
+                ]
+            }
+        ]
+}

@@ -35,6 +35,9 @@ def laptop_page(request):
 def tv_page(request):
     return render(request, 'renessans_tech/tv_page.html')
 
+def computer_page(request):
+    return render(request, 'renessans_tech/computer_page.html')
+
 def about_us(request):
     return render(request, 'renessans_tech/about_us.html')
 
