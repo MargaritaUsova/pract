@@ -8,7 +8,7 @@ register = template.Library()
 def is_current_page(request, param):
     return reverse(request.path).view_name == param
 
-with open('C:/Users/Пользователь/PycharmProjects/pract/phone_prices.json') as f1:
+with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
     prices = json.load(f1)
 
 with open('phone_page1.html', 'w') as f:
@@ -80,15 +80,15 @@ with open('phone_page1.html', 'w') as f:
         <div class="slideshow-container">
 
           <div class="mySlides fade">
-            <img class="item-photo pic1" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
+            <img class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
           </div>
 
           <div class="mySlides fade">
-            <img class="item-photo pic2" src="{% static 'pictures/test-2.avif' %}" style="width:100%">
+            <img class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
           </div>
 
           <div class="mySlides fade">
-            <img class="item-photo pic3" src="{% static 'pictures/test-3.avif' %}" style="width:100%">
+            <img class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
           </div>
 
           <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -107,29 +107,29 @@ with open('phone_page1.html', 'w') as f:
           var slideIndex = 1;
           showSlides(slideIndex);
 
-          function plusSlides(n) {
+          function plusSlides(n) {{
             showSlides(slideIndex += n);
-          }
+          }}
 
-          function currentSlide(n) {
+          function currentSlide(n) {{
             showSlides(slideIndex = n);
-          }
+          }}
 
-          function showSlides(n) {
+          function showSlides(n) {{
             var i;
             var slides = document.getElementsByClassName("mySlides");
             var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
+            if (n > slides.length) {slideIndex = 1}}
+            if (n < 1) {slideIndex = slides.length}}
+            for (i = 0; i < slides.length; i++) {{
                 slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
+            }}
+            for (i = 0; i < dots.length; i++) {{
                 dots[i].className = dots[i].className.replace(" active", "");
-            }
+            }}
             slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " active";
-          }
+          }}
           </script>
         <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
       </div>
@@ -171,9 +171,9 @@ with open('phone_page1.html', 'w') as f:
     )
     for i in prices:
         f.write("""
-    if (currentUrl == "http://127.0.0.1:8000/phones/{link}") {
-      document.getElementByClass("item-name").innerHTML = {name}};
-    }
+    if (currentUrl == "http://127.0.0.1:8000/phones/{link}")
+      document.getElementByClass("item-name").innerHTML = "wertyui";
+    
             """.format(link=prices[i]['nameTranslit'],
                         name = prices[i]['item_name'],
                        ))
