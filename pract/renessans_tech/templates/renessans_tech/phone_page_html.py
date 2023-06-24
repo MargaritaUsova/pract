@@ -134,7 +134,7 @@ with open('phone_page1.html', 'w') as f:
         <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 15%">Кэшбек 15%</p>
       </div>
       <div class="item-info">
-        <p class="item-name">
+        <p id="item-name" class="item-name">
           Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
         </p>
         <p style="font-weight: bold;">
@@ -172,7 +172,7 @@ with open('phone_page1.html', 'w') as f:
     for i in prices:
         f.write("""
     if (currentUrl == "http://127.0.0.1:8000/phones/{link}")
-      document.getElementByClass("item-name").innerHTML = "wertyui";
+      document.getElementById("item-name").innerHTML = "wertyui";
     
             """.format(link=prices[i]['nameTranslit'],
                         name = prices[i]['item_name'],
