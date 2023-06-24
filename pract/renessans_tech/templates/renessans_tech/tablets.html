@@ -1,10 +1,930 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+{% load static %}
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Планшеты</title>
+  <link rel="stylesheet" href="{% static 'css/phones.css' %}">
+  <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
 <body>
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
 
-</body>
-</html>
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
+        </a>
+        <a class="cathegory-items" href = 'phones'>
+          Смартфоны
+        </a>
+        <a class="cathegory-items" href = 'laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="tv">
+          Телевизоры
+        </a>
+        <a class="cathegory-items" href = 'computers'>
+          Компьютеры
+        </a>
+        <a style="color: #ff0078;"class="cathegory-items" href = 'tablets'>
+          Планшеты
+        </a>
+        <a class="cathegory-items" href = 'accessories'>
+          Аксессуары
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = 'basket'>
+          Корзина
+        </a>
+      </div>
+
+    </header> <br>
+
+         <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-huawei-matepad-se-ags5-w09-3-32gb-wifi-black">
+        <img class="item-photo" src="{% static 'pictures/tablets/30065625.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-huawei-matepad-se-ags5-w09-3-32gb-wifi-black>
+        <p class="item-name">
+            Планшет HUAWEI MatePad SE (AGS5-W09) 3/32Gb WiFi Black
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.36"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 3</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 32</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        10699 ₽
+      </p>
+      <p class="item-previous-price">
+        12499
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-samsung-galaxy-tab-a7-lite-lte-3-32gb-gray-sm-t225">
+        <img class="item-photo" src="{% static 'pictures/tablets/30064024.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-samsung-galaxy-tab-a7-lite-lte-3-32gb-gray-sm-t225>
+        <p class="item-name">
+            Планшет Samsung Galaxy Tab A7 Lite LTE 3/32Gb Gray (SM-T225)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Samsung</span></li>
+        <li>Экран: <span class="text-highligt">Экран 8.7"/1340x800 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 3</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 32</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        12999 ₽
+      </p>
+      <p class="item-previous-price">
+        12999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-samsung-galaxy-tab-a8-105-128gb-lte-gray-sm-x205">
+        <img class="item-photo" src="{% static 'pictures/tablets/30064069.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-samsung-galaxy-tab-a8-105-128gb-lte-gray-sm-x205>
+        <p class="item-name">
+            Планшет Samsung Galaxy Tab A8 10.5 128GB LTE Gray (SM-X205)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Samsung</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.5"/1920x1200 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 2 x 2 ГГц + 6 x 1.8 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 128</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        22499 ₽
+      </p>
+      <p class="item-previous-price">
+        27999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-huawei-matepad-se-ags5-w09-4-128gb-wifi-black">
+        <img class="item-photo" src="{% static 'pictures/tablets/30065629.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-huawei-matepad-se-ags5-w09-4-128gb-wifi-black>
+        <p class="item-name">
+            Планшет HUAWEI MatePad SE (AGS5-W09) 4/128Gb WiFi Black
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.36"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 128</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        15999 ₽
+      </p>
+      <p class="item-previous-price">
+        17999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-huawei-matepad-se-ags5-w09-4-64gb-wifi-black">
+        <img class="item-photo" src="{% static 'pictures/tablets/30065627.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-huawei-matepad-se-ags5-w09-4-64gb-wifi-black>
+        <p class="item-name">
+            Планшет HUAWEI MatePad SE (AGS5-W09) 4/64Gb WiFi Black
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.36"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 64</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        13999 ₽
+      </p>
+      <p class="item-previous-price">
+        16899
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-huawei-matepad-se-ags5-l09-3-32gb-lte-black">
+        <img class="item-photo" src="{% static 'pictures/tablets/30065626.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-huawei-matepad-se-ags5-l09-3-32gb-lte-black>
+        <p class="item-name">
+            Планшет HUAWEI MatePad SE (AGS5-L09) 3/32Gb LTE Black
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.36"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 3</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 32</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        12499 ₽
+      </p>
+      <p class="item-previous-price">
+        14999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-xiaomi-redmi-pad-4-128gb-graphite-gray">
+        <img class="item-photo" src="{% static 'pictures/tablets/30066075.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-xiaomi-redmi-pad-4-128gb-graphite-gray>
+        <p class="item-name">
+            Планшет Xiaomi Redmi Pad 4/128GB Graphite Gray
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Xiaomi</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.61"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 2 x 2.2 ГГц + 6 x 2 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 128</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        20999 ₽
+      </p>
+      <p class="item-previous-price">
+        24999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-honor-pad-8-6-128gb-w-fi-blue-hey-w09">
+        <img class="item-photo" src="{% static 'pictures/tablets/400075550.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-honor-pad-8-6-128gb-w-fi-blue-hey-w09>
+        <p class="item-name">
+            Планшет HONOR Pad 8 6/128GB W-Fi Blue (HEY-W09)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Экран: <span class="text-highligt">Экран 12"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 1.9 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 6</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 128</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        23999 ₽
+      </p>
+      <p class="item-previous-price">
+        24999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-apple-ipad-102-wi-fi-256gb-space-grey-mk2n3">
+        <img class="item-photo" src="{% static 'pictures/tablets/30063252.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-apple-ipad-102-wi-fi-256gb-space-grey-mk2n3>
+        <p class="item-name">
+            Планшет Apple iPad 10.2 Wi-Fi 256GB Space Grey (MK2N3)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Apple</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.2"/1620x2160 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Не указана</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Не указана</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 256</span></li>
+        <li>Количество ядер: <span class="text-highligt">Не указано</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        43699 ₽
+      </p>
+      <p class="item-previous-price">
+        43699
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-digma-optima-1240c-2-32gb-black-rk3566">
+        <img class="item-photo" src="{% static 'pictures/tablets/400037694.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-digma-optima-1240c-2-32gb-black-rk3566>
+        <p class="item-name">
+            Планшет Digma Optima 1240C 2/32Gb Black (RK3566)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Digma</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.1"/1280x800 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 1.6 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 2</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 32</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 4</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        5299 ₽
+      </p>
+      <p class="item-previous-price">
+        6999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-apple-ipad-102-wi-fi-64gb-silver-mk2l3">
+        <img class="item-photo" src="{% static 'pictures/tablets/30064044.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-apple-ipad-102-wi-fi-64gb-silver-mk2l3>
+        <p class="item-name">
+            Планшет Apple iPad 10.2 Wi-Fi 64GB Silver (MK2L3)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Apple</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.2"/1620x2160 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Не указана</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Не указана</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 64</span></li>
+        <li>Количество ядер: <span class="text-highligt">Не указано</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        29999 ₽
+      </p>
+      <p class="item-previous-price">
+        31999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-honor-pad-x8-4-64gb-lte-blue-agm3-al09dhn">
+        <img class="item-photo" src="{% static 'pictures/tablets/400113927.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-honor-pad-x8-4-64gb-lte-blue-agm3-al09dhn>
+        <p class="item-name">
+            Планшет HONOR Pad X8 4/64GB LTE Blue (AGM3-AL09DHN)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HONOR</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.1"/1200x1920 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 1.5 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 64</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        13999 ₽
+      </p>
+      <p class="item-previous-price">
+        16999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-huawei-matepad-se-ags5-l09-4-64gb-lte-black">
+        <img class="item-photo" src="{% static 'pictures/tablets/30065628.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-huawei-matepad-se-ags5-l09-4-64gb-lte-black>
+        <p class="item-name">
+            Планшет HUAWEI MatePad SE (AGS5-L09) 4/64Gb LTE Black
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.36"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 64</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        14999 ₽
+      </p>
+      <p class="item-previous-price">
+        16999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-samsung-galaxy-tab-a8-105-64gb-lte-gray-sm-x205">
+        <img class="item-photo" src="{% static 'pictures/tablets/30064063.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-samsung-galaxy-tab-a8-105-64gb-lte-gray-sm-x205>
+        <p class="item-name">
+            Планшет Samsung Galaxy Tab A8 10.5 64GB LTE Gray (SM-X205)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Samsung</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.5"/1920x1200 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 2 x 2 ГГц + 6 x 1.8 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 64</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        22799 ₽
+      </p>
+      <p class="item-previous-price">
+        22799
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-samsung-galaxy-tab-a7-lite-lte-64gb-grey-sm-t225">
+        <img class="item-photo" src="{% static 'pictures/tablets/30064020.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-samsung-galaxy-tab-a7-lite-lte-64gb-grey-sm-t225>
+        <p class="item-name">
+            Планшет Samsung Galaxy Tab A7 Lite LTE 64GB Grey (SM-T225)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Samsung</span></li>
+        <li>Экран: <span class="text-highligt">Экран 8.7"/1340x800 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 64</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        19999 ₽
+      </p>
+      <p class="item-previous-price">
+        19999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-samsung-galaxy-tab-a7-lite-wi-fi-32gb-gray-sm-t220">
+        <img class="item-photo" src="{% static 'pictures/tablets/30064028.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-samsung-galaxy-tab-a7-lite-wi-fi-32gb-gray-sm-t220>
+        <p class="item-name">
+            Планшет Samsung Galaxy Tab A7 Lite Wi-Fi 32GB Gray (SM-T220)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Samsung</span></li>
+        <li>Экран: <span class="text-highligt">Экран 8.7"/1340x800 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 3</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 32</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        10999 ₽
+      </p>
+      <p class="item-previous-price">
+        10999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-apple-ipad-102-wi-fi-64gb-space-grey-mk2k3">
+        <img class="item-photo" src="{% static 'pictures/tablets/30064042.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-apple-ipad-102-wi-fi-64gb-space-grey-mk2k3>
+        <p class="item-name">
+            Планшет Apple iPad 10.2 Wi-Fi 64GB Space Grey (MK2K3)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Apple</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.2"/1620x2160 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Не указана</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Не указана</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 64</span></li>
+        <li>Количество ядер: <span class="text-highligt">Не указано</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        29999 ₽
+      </p>
+      <p class="item-previous-price">
+        31999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-digma-optima-8-x701-4g-ts8226pl">
+        <img class="item-photo" src="{% static 'pictures/tablets/30054940.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-digma-optima-8-x701-4g-ts8226pl>
+        <p class="item-name">
+            Планшет Digma Optima 8 X701 4G (TS8226PL)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Digma</span></li>
+        <li>Экран: <span class="text-highligt">Экран 8"/1280x800 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 1.6 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 3</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 32</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        4999 ₽
+      </p>
+      <p class="item-previous-price">
+        6999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-huawei-matepad-104-4-128gb-wi-fi-matte-grey-bah4-w09--chehol-klaviatura">
+        <img class="item-photo" src="{% static 'pictures/tablets/30066794.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-huawei-matepad-104-4-128gb-wi-fi-matte-grey-bah4-w09--chehol-klaviatura>
+        <p class="item-name">
+            Планшет HUAWEI MatePad 10.4 4/128GB WI-FI Matte Grey (BAH4-W09) + чехол-клавиатура
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.4"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 2.0 ГГц + 1.7 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 128</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        21499 ₽
+      </p>
+      <p class="item-previous-price">
+        27999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-huawei-matepad-se-ags5-l09-4-128gb-lte-black">
+        <img class="item-photo" src="{% static 'pictures/tablets/30065770.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-huawei-matepad-se-ags5-l09-4-128gb-lte-black>
+        <p class="item-name">
+            Планшет HUAWEI MatePad SE (AGS5-L09) 4/128Gb LTE Black
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.36"/1200x2000 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 128</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        16999 ₽
+      </p>
+      <p class="item-previous-price">
+        18999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-samsung-galaxy-tab-a-80-lte-32gb-black-sm-t295">
+        <img class="item-photo" src="{% static 'pictures/tablets/30063910.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-samsung-galaxy-tab-a-80-lte-32gb-black-sm-t295>
+        <p class="item-name">
+            Планшет Samsung Galaxy Tab A 8.0 LTE 32Gb Black (SM-T295)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Samsung</span></li>
+        <li>Экран: <span class="text-highligt">Экран 8"/1280x800 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 2 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 2</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 32</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 4</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        9499 ₽
+      </p>
+      <p class="item-previous-price">
+        13399
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-realme-pad-rmp2103-4-64-gb-gray">
+        <img class="item-photo" src="{% static 'pictures/tablets/30063160.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-realme-pad-rmp2103-4-64-gb-gray>
+        <p class="item-name">
+            Планшет realme Pad RMP2103 4/64 ГБ Gray
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">realme</span></li>
+        <li>Экран: <span class="text-highligt">Экран 10.4"/2000x1200 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 2 ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 4</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 64</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        14999 ₽
+      </p>
+      <p class="item-previous-price">
+        22999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-huawei-matepad-11-2023-128gb-wi-fi-graphite-blackklav">
+        <img class="item-photo" src="{% static 'pictures/tablets/30067460.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-huawei-matepad-11-2023-128gb-wi-fi-graphite-blackklav>
+        <p class="item-name">
+            Планшет HUAWEI MatePad 11 2023 128GB Wi-Fi Graphite Black+клав.
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">HUAWEI</span></li>
+        <li>Экран: <span class="text-highligt">Экран 1600x2560 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Не указана</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 6</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 128</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        39999 ₽
+      </p>
+      <p class="item-previous-price">
+        39999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tablets/planshet-samsung-galaxy-tab-a7-lite-lte-32gb-silver-sm-t225n">
+        <img class="item-photo" src="{% static 'pictures/tablets/30064026.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+    </div>
+    <div class="item-info">
+    <a href=tablets/planshet-samsung-galaxy-tab-a7-lite-lte-32gb-silver-sm-t225n>
+        <p class="item-name">
+            Планшет Samsung Galaxy Tab A7 Lite LTE 32GB Silver (SM-T225N)
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Samsung</span></li>
+        <li>Экран: <span class="text-highligt">Экран 8.7"/1340x800 Пикс"</span></li>
+        <li>Частота процессора: <span class="text-highligt">Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц</span></li>
+        <li>Оперативная память (RAM): <span class="text-highligt">Оперативная память (RAM) 3</span></li>
+        <li>Встроенная память (ROM): <span class="text-highligt">Встроенная память (ROM) 32</span></li>
+        <li>Количество ядер: <span class="text-highligt">Количество ядер 8</span></li>
+
+      </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        12999 ₽
+      </p>
+      <p class="item-previous-price">
+        12999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+        </body>
+    </html>
