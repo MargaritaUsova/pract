@@ -129,7 +129,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 }
-ul{
+.footer ul{
   margin:0;
 	padding:0;
 	box-sizing: border-box;
