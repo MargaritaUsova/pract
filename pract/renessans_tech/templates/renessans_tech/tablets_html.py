@@ -77,7 +77,7 @@ with open('tablets.html', 'w') as f:
     <a href="tablets/{nameTranslit}">
         <img class="item-photo" src="{{% static 'pictures/tablets/{image}.jpg' %}}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком {cashback}">Кэшбек {cashback}</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {cashback}">Кэшбек {cashback}</p>
     </div>
     <div class="item-info">
     <a href=tablets/{nameTranslit}>

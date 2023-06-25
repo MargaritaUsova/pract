@@ -131,7 +131,7 @@ with open('phone_page1.html', 'w', encoding="utf-8") as f:
             dots[slideIndex-1].className += " active";
           }
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -179,7 +179,49 @@ with open('phone_page1.html', 'w', encoding="utf-8") as f:
                        ))
     f.write("""
     </script>
-
+<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
   </body>
   </html>
     """
