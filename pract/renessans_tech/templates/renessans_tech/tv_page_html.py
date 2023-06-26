@@ -4,9 +4,12 @@ from django import template
 from django.urls import reverse
 
 register = template.Library()
+
+
 @register.filter
 def is_current_page(request, param):
     return reverse(request.path).view_name == param
+
 
 with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
     prices = json.load(f1)
@@ -171,7 +174,7 @@ with open('phone_page1.html', 'w') as f:
   <script>
     const currentUrl = window.location.href;
     """
-    )
+            )
     for i in prices:
         f.write("""
     if (currentUrl == "http://127.0.0.1:8000/phones/{link}"){{
@@ -189,23 +192,23 @@ with open('phone_page1.html', 'w') as f:
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
-      
+
       }}
             """.format(link=prices[i]['nameTranslit'],
-                        name = prices[i]['item_name'],
-                       screen = prices[i]['Экран'],
-                        price = str(prices[i]['item_discount_price']) + ' ₽',
-                        old_price = str(prices[i]['item_base_price']) + ' ₽',
-                       techn_screen = prices[i]['Технология экрана'],
-                       proc_type = prices[i]['Тип процессора'],
-                       rom = prices[i]['Встроенная память (ROM)'],
-                       osn_cam = prices[i]['Основная камера МПикс'],
-                       front_cam = prices[i]['Фронтальная камера МПик'],
-                       ram = prices[i]['Оперативная память (RAM)'],
-                       proc = prices[i]['Процессор'],
-                       photo1 = f'pictures/phones/img1/{i}.AVIF',
-                       photo2 = f'pictures/phones/img2/{i}.AVIF',
-                       photo3 = f'pictures/phones/img3/{i}.AVIF'
+                       name=prices[i]['item_name'],
+                       screen=prices[i]['Экран'],
+                       price=str(prices[i]['item_discount_price']) + ' ₽',
+                       old_price=str(prices[i]['item_base_price']) + ' ₽',
+                       techn_screen=prices[i]['Технология экрана'],
+                       proc_type=prices[i]['Тип процессора'],
+                       rom=prices[i]['Встроенная память (ROM)'],
+                       osn_cam=prices[i]['Основная камера МПикс'],
+                       front_cam=prices[i]['Фронтальная камера МПик'],
+                       ram=prices[i]['Оперативная память (RAM)'],
+                       proc=prices[i]['Процессор'],
+                       photo1=f'pictures/phones/img1/{i}.AVIF',
+                       photo2=f'pictures/phones/img2/{i}.AVIF',
+                       photo3=f'pictures/phones/img3/{i}.AVIF'
 
                        ))
     f.write("""
@@ -256,4 +259,4 @@ with open('phone_page1.html', 'w') as f:
   </body>
   </html>
     """
-    )
+            )

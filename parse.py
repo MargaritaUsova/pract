@@ -1812,8 +1812,170 @@ def full_data_phones():
     with open('phone_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
+
+def full_data_laptops():
+    with open('laptop_prices.json') as f1:
+        prices = json.load(f1)
+        graph_contr = {}
+        ssd = {}
+        akk = {}
+        sens_screen = {}
+        for i in prices:
+            if 'Графический контроллер' not in prices[i]:
+                graph_contr[i] = {"Графический контроллер": "Не указан"}
+                prices[i].update(graph_contr[i])
+            if 'Объем SSD' not in prices[i]:
+                ssd[i] = {'Объем SSD' : 'Не указан'}
+                prices[i].update(ssd[i])
+            if 'Работа от аккумулятора' not in prices[i]:
+                akk[i] = {'Работа от аккумулятора' : 'Не указано'}
+                prices[i].update(akk[i])
+            if 'Сенсорный экран' not in prices[i]:
+                sens_screen[i] = {'Сенсорный экран' : 'Не указан'}
+                prices[i].update(sens_screen[i])
+
+    with open('laptop_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+def full_data_tvs():
+    with open('tv_prices.json') as f1:
+        prices = json.load(f1)
+        diag = []
+        proc_type = []
+        ram = []
+        graph_proc = []
+        ssd = []
+        h = []
+        for i in prices:
+            if 'Диагональ/разрешение' not in prices[i]:
+                diag[i] = {'Диагональ/разрешение': 'Не указано'}
+                prices[i].update(diag[i])
+            if 'Тип процессора' not in prices[i]:
+                proc_type[i] = {'Тип процессора': 'Не указан'}
+                prices[i].update(proc_type[i])
+            if 'Оперативная память (RAM)' not in prices[i]:
+                ram[i] = {'Оперативная память (RAM)': 'Не указана'}
+                prices[i].update(ram[i])
+            if 'Графический контроллер' not in prices[i]:
+                graph_proc[i] = {'Графический контроллер': 'Не указан'}
+                prices[i].update(graph_proc[i])
+            if 'Объем SSD' not in prices[i]:
+                ssd[i] = {'Объем SSD': 'Не указан'}
+                prices[i].update(ssd[i])
+
+
+
+    with open('tv_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+
+def full_data_computers():
+    with open('computers_prices.json') as f1:
+        prices = json.load(f1)
+        mas = []
+        add_item = []
+        for i in prices:
+            for j in list(prices[i].keys()):
+                if j not in mas and j != 'Объем HDD':
+                    mas.append(j)
+
+        for i in prices:
+            for j in mas:
+                if j not in prices[i] :
+                    add_item[i] = {j: 'Не указано'}
+                    prices[i].update(add_item[i])
+
+    with open('computers_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+
+def full_data_tablets():
+    with open('tablets_prices.json') as f1:
+        prices = json.load(f1)
+        rom = []
+        ram = []
+        y = []
+        proc = []
+        t = []
+        wifi = []
+        bl = []
+        camera = []
+        for i in prices:
+            if 'Встроенная память (ROM)' not in prices[i]:
+                rom[i] = {'Встроенная память (ROM)': 'Не указана'}
+                prices[i].update(rom[i])
+            if 'Оперативная память (RAM)' not in prices[i]:
+                ram[i] = {'Оперативная память (RAM)': 'Не указана'}
+                prices[i].update(ram[i])
+            if 'Количество ядер' not in prices[i]:
+                y[i] = {'Количество ядер': 'Не указано'}
+                prices[i].update(y[i])
+            if 'Частота процессора' not in prices[i]:
+                proc[i] = {'Частота процессора': 'Не указано'}
+                prices[i].update(proc[i])
+    with open('tablets_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+
+def full_data_accessories():
+    with open('accessories_prices.json') as f1:
+        prices = json.load(f1)
+        suits = []
+        corp = []
+        screen = []
+        material = []
+        col = []
+        type_z = []
+        mag_safe = []
+        weight = []
+        for i in prices:
+            if 'Подходит для' not in prices[i]:
+                suits[i] = {'Подходит для': 'Не указано'}
+                prices[i].update(suits[i])
+            if 'Тип корпуса' not in prices[i]:
+                corp[i] = {'Тип корпуса': 'Не указано'}
+                prices[i].update(corp[i])
+            if 'Для моделей с диагональю экрана' not in prices[i]:
+                screen[i] = {'Для моделей с диагональю экрана': 'Не указано'}
+                prices[i].update(screen[i])
+            if 'Материал чехла' not in prices[i]:
+                material[i] = {'Материал чехла': 'Не указано'}
+                prices[i].update(material[i])
+
+
+
+
+
+    with open('accessories_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
+
+
+
+
 def main():
-    get_images_phones()
+    '''
+    with open('accessories_prices.json') as file:
+        mas = []
+        prices = json.load(file)
+        for i in prices:
+            for j in list(prices[i].keys()):
+                if j not in mas:
+                    mas.append(j)
+    '''
+    #full_data_accessories()
+    with open('laptop_prices.json') as file:
+        prices = json.load(file)
+        new_screens = {}
+        for i in prices:
+            if '"' in prices[i]['Диагональ/разрешение']:
+                new_screens[i] = {
+                    'Диагональ/разрешение': prices[i]['Диагональ/разрешение'].replace('"', '')
+                }
+                prices[i].update(new_screens[i])
+        with open('laptop_prices.json', 'w') as file:
+            json.dump(prices, file, indent=4, ensure_ascii=False)
+
 
 if __name__ == '__main__':
     main()

@@ -8,10 +8,11 @@ register = template.Library()
 def is_current_page(request, param):
     return reverse(request.path).view_name == param
 
-with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
+
+with open('/Users/margaritausova/Documents/pract/laptop_prices.json') as f1:
     prices = json.load(f1)
 
-with open('phone_page1.html', 'w') as f:
+with open('laptop_page.html', 'w') as f:
     f.write("""
     <!DOCTYPE html>
 {% load static %}
@@ -48,10 +49,10 @@ with open('phone_page1.html', 'w') as f:
         <a href='/'>
           <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
         </a>
-        <a style="color: #ff0078;" class="cathegory-items" href = '/phones'>
+        <a class="cathegory-items" href = '/phones'>
           Смартфоны
         </a>
-        <a class="cathegory-items" href = '/laptops'>
+        <a style="color: #ff0078;" class="cathegory-items" href = '/laptops'>
           Ноутбуки
         </a>
         <a class="cathegory-items" href="/tv">
@@ -141,14 +142,14 @@ with open('phone_page1.html', 'w') as f:
           Характеристики:
         </p>
         <ul>
-          <li class="feature-1">Экран: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
-          <li class="feature-2">Технология экрана: <span id="feature-info-2" class="text-highligt">OLED</span></li>
-          <li class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
-          <li class="feature-4">Встроенная память (ROM) <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
-          <li class="feature-5">Основная камера: МПикс <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
-          <li class="feature-6">Фронтальная камера МПикс: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
-          <li class="feature-7">Оперативная память (RAM): <span id="feature-info-7" class="text-highligt">128 ГБ</span></li>
-          <li class="feature-8">Процессор: <span id="feature-info-8" class="text-highligt">48/12/12</span></li>
+          <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
+          <li class="feature-2">Диагональ/разрешение: <span id="feature-info-2" class="text-highligt">OLED</span></li>
+          <li class="feature-3">Процессор: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-4">Оперативная память (RAM): <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-5">Графический контроллер: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-6">Объем SSD: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-7">Работа от аккумулятора: <span id="feature-info-7" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-8">Сенсорный экран: <span id="feature-info-8" class="text-highligt">48/12/12</span></li>
         </ul>
         <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
           Подробнее на сайте М.Видео
@@ -171,41 +172,40 @@ with open('phone_page1.html', 'w') as f:
   <script>
     const currentUrl = window.location.href;
     """
-    )
+            )
     for i in prices:
         f.write("""
-    if (currentUrl == "http://127.0.0.1:8000/phones/{link}"){{
+    if (currentUrl == "http://127.0.0.1:8000/laptops/{link}"){{
       document.getElementById("item-name").innerHTML = "{name}";
-      document.getElementById("feature-info-1").innerHTML = "{screen}";
+      document.getElementById("feature-info-1").innerHTML = "{brand}";
       document.getElementById("item-current-price").innerHTML = "{price}";
       document.getElementById("item-previous-price").innerHTML = "{old_price}";
-      document.getElementById("feature-info-2").innerHTML = "{techn_screen}";
-      document.getElementById("feature-info-3").innerHTML = "{proc_type}";
-      document.getElementById("feature-info-4").innerHTML = "{rom}";
-      document.getElementById("feature-info-5").innerHTML = "{osn_cam}";
-      document.getElementById("feature-info-6").innerHTML = "{front_cam}";
-      document.getElementById("feature-info-7").innerHTML = "{ram}";
-      document.getElementById("feature-info-8").innerHTML = "{proc}";
+      document.getElementById("feature-info-2").innerHTML = "{diag}";
+      document.getElementById("feature-info-3").innerHTML = "{proc}";
+      document.getElementById("feature-info-4").innerHTML = "{ram}";
+      document.getElementById("feature-info-5").innerHTML = "{graph}";
+      document.getElementById("feature-info-6").innerHTML = "{akk}";
+      document.getElementById("feature-info-7").innerHTML = "{sens}";
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
-      
+
       }}
             """.format(link=prices[i]['nameTranslit'],
-                        name = prices[i]['item_name'],
-                       screen = prices[i]['Экран'],
-                        price = str(prices[i]['item_discount_price']) + ' ₽',
-                        old_price = str(prices[i]['item_base_price']) + ' ₽',
-                       techn_screen = prices[i]['Технология экрана'],
-                       proc_type = prices[i]['Тип процессора'],
-                       rom = prices[i]['Встроенная память (ROM)'],
-                       osn_cam = prices[i]['Основная камера МПикс'],
-                       front_cam = prices[i]['Фронтальная камера МПик'],
-                       ram = prices[i]['Оперативная память (RAM)'],
-                       proc = prices[i]['Процессор'],
-                       photo1 = f'pictures/phones/img1/{i}.AVIF',
-                       photo2 = f'pictures/phones/img2/{i}.AVIF',
-                       photo3 = f'pictures/phones/img3/{i}.AVIF'
+                       name=prices[i]['item_name'],
+                       brand=prices[i]['brand'],
+                       price=str(prices[i]['item_discount_price']) + ' ₽',
+                       old_price=str(prices[i]['item_base_price']) + ' ₽',
+                       diag =prices[i]['Диагональ/разрешение'],
+                       proc=prices[i]['Процессор'],
+                       ram=prices[i]['Оперативная память (RAM)'],
+                       graph=prices[i]['Графический контроллер'],
+
+                       akk = prices[i]['Работа от аккумулятора'],
+                       sens = prices[i]['Сенсорный экран'],
+                       photo1=f'pictures/phones/img1/{i}.AVIF',
+                       photo2=f'pictures/phones/img2/{i}.AVIF',
+                       photo3=f'pictures/phones/img3/{i}.AVIF'
 
                        ))
     f.write("""
@@ -256,4 +256,4 @@ with open('phone_page1.html', 'w') as f:
   </body>
   </html>
     """
-    )
+            )

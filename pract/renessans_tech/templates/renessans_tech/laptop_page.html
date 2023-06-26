@@ -1,10 +1,614 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+{% load static %}
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="{% static 'css/phone_page.css' %}">
+  <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
 <body>
-НОУТБУКИ
-</body>
-</html>
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
+
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
+        </a>
+        <a class="cathegory-items" href = '/phones'>
+          Смартфоны
+        </a>
+        <a style="color: #ff0078;" class="cathegory-items" href = '/laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="/tv">
+          Телевизоры
+        </a>
+        <a class="cathegory-items" href = '/computers'>
+          Компьютеры
+        </a>
+        <a class="cathegory-items" href = '/tablets'>
+          Планшеты
+        </a>
+        <a class="cathegory-items" href = '/accessories'>
+          Аксессуары
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = '/basket'>
+          Корзина
+        </a>
+      </div>
+
+    </header> <br>
+    <div class="item-box">
+      <div class="item-photo-container">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img id="item-photo-1" class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img id="item-photo-2" class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img id="item-photo-3" class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+      </div>
+      <div class="item-info">
+        <p id="item-name" class="item-name">
+          Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+        </p>
+        <p style="font-weight: bold;">
+          Характеристики:
+        </p>
+        <ul>
+          <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
+          <li class="feature-2">Диагональ/разрешение: <span id="feature-info-2" class="text-highligt">OLED</span></li>
+          <li class="feature-3">Процессор: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-4">Оперативная память (RAM): <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-5">Графический контроллер: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-6">Объем SSD: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-7">Работа от аккумулятора: <span id="feature-info-7" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-8">Сенсорный экран: <span id="feature-info-8" class="text-highligt">48/12/12</span></li>
+        </ul>
+        <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
+          Подробнее на сайте М.Видео
+        </a>
+      </div>
+      <div class="item-price-container">
+        <p id="item-current-price" class="item-current-price">
+          103 999 ₽
+        </p>
+        <p id="item-previous-price" class="item-previous-price">
+          119 999
+        </p>
+        <button class="add-to-cart">В корзину</button> <br>
+        <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+          <button class="credit-btn">Купить в кредит</button>
+        </a>
+      </div>
+    </div>
+
+  <script>
+    const currentUrl = window.location.href;
+    
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-asus-vivobook-15-m1502i-90nb0y52-m002r0"){
+      document.getElementById("item-name").innerHTML = "Ноутбук ASUS VivoBook 15 M1502I (90NB0Y52-M002R0)";
+      document.getElementById("feature-info-1").innerHTML = "ASUS";
+      document.getElementById("item-current-price").innerHTML = "37999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "53999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор AMD Ryzen 5 4600H 3 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Radeon";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067605.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067605.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067605.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-haier-i1510sd-jb0b1be00ru"){
+      document.getElementById("item-name").innerHTML = "Ноутбук Haier i1510SD (JB0B1BE00RU)";
+      document.getElementById("feature-info-1").innerHTML = "Haier";
+      document.getElementById("item-current-price").innerHTML = "27999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "36999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i3 1115G4 3 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400106264.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400106264.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400106264.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-15-i3-8-256gb-space-grey-bdr-wdi"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HONOR MagicBook X 15 i3/8/256GB Space Grey (BDR-WDI)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "42999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "42999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i3 1115G4 3.0 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400106660.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400106660.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400106660.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-16-r5-16-512-silver-hym-w56"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HONOR MagicBook 16 R5/16/512 Silver (HYM-W56)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "55999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "69999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 16.1/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор AMD Ryzen 5 5600H 3.3 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Radeon Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30066660.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30066660.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30066660.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-53013err-bod-wdh9-matebook-d15-i5-8gb-512gb-my-s"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HUAWEI 53013ERR BoD-WDH9 MateBook D15 i5/8GB/512GB My/S";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "49999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "66999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 1135G7 2.4 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30066688.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30066688.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30066688.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-16-16-512-space-gray-brn-f56"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HONOR MagicBook X 16 16/512 Space Gray (BRN-F56)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "67999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "75999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 16/1920x1200 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 12450H 3.3 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400136875.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400136875.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400136875.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-15-i5-8-512gb-space-grey-bdr-wdh"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HONOR MagicBook X 15 i5/8/512GB Space Grey (BDR-WDH)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "49999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "49999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 1135G7 2.4 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400106659.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400106659.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400106659.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-53013plv-bod-wdi9-matebook-d15-i3-8gb-256gb-sp-gr"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HUAWEI 53013PLV BoD-WDI9 MateBook D15 i3/8GB/256GB Sp/Gr";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "39999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "51999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i3 1115G4 3.0 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30066689.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30066689.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30066689.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-15-m2-8-512gb-space-gray-mqkq3"){
+      document.getElementById("item-name").innerHTML = "Ноутбук Apple MacBook Air 15 M2 8/512Gb Space Gray (MQKQ3)";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "187999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "187999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.3/2880x1864 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Apple M2";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Работа от аккумулятора до 18 часов";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067705.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067705.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067705.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-asus-m515da-ej1697"){
+      document.getElementById("item-name").innerHTML = "Ноутбук ASUS M515DA-EJ1697";
+      document.getElementById("feature-info-1").innerHTML = "ASUS";
+      document.getElementById("item-current-price").innerHTML = "37999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "49999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор AMD Ryzen 5 3500U 2.1 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Radeon Vega";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067507.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067507.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067507.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-14-16-512-space-gray-fri-f56"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HONOR MagicBook X 14 16/512 Space Gray (FRI-F56)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "65999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "73999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 14/1920x1200 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 3.3 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400136873.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400136873.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400136873.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-16-8-512-space-gray-brn-f58"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HONOR MagicBook X 16 8/512 Space Gray (BRN-F58)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "61999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "68999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 16/1920x1200 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 12450H 3.3 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400136878.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400136878.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400136878.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-igrovoi-thunderobot-911-plus-x-jt009we07ru"){
+      document.getElementById("item-name").innerHTML = "Ноутбук игровой Thunderobot 911 Plus X (JT009WE07RU)";
+      document.getElementById("feature-info-1").innerHTML = "Thunderobot";
+      document.getElementById("item-current-price").innerHTML = "89999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "104999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 17.3/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 12450H 2.0 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер GeForce RTX 3050 Ti 4GB";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30065211.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30065211.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30065211.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-asus-m1502ia-bq093"){
+      document.getElementById("item-name").innerHTML = "Ноутбук ASUS M1502IA-BQ093";
+      document.getElementById("feature-info-1").innerHTML = "ASUS";
+      document.getElementById("item-current-price").innerHTML = "47999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "59999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор AMD Ryzen 7 4800H 2.9 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Radeon Vega 7";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067509.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067509.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067509.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-matebook-d15-i5-1155g7-16-512-bode-wfh9-spacegray"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HUAWEI MateBook D15 i5-1155G7/16/512 BoDE-WFH9 SpaceGray";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "59999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "68999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 1155G7 2.5 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067463.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067463.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067463.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-13-m1-8-256-space-gray"){
+      document.getElementById("item-name").innerHTML = "Ноутбук Apple MacBook Air 13 M1/8/256 Space Gray";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "86799 ₽";
+      document.getElementById("item-previous-price").innerHTML = "86799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 13.3/2560x1600 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Apple M1";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Работа от аккумулятора до 18 часов";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30064273.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30064273.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30064273.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-13-m1-8-256-gold-mgnd3"){
+      document.getElementById("item-name").innerHTML = "Ноутбук Apple MacBook Air 13 M1/8/256 Gold (MGND3)";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "86799 ₽";
+      document.getElementById("item-previous-price").innerHTML = "86799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 13.3/2560x1600 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Apple M1";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Работа от аккумулятора до 18 часов";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30064275.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30064275.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30064275.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-13-m1-8-256-silver"){
+      document.getElementById("item-name").innerHTML = "Ноутбук Apple MacBook Air 13 M1/8/256 Silver";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "86799 ₽";
+      document.getElementById("item-previous-price").innerHTML = "86799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 13.3/2560x1600 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Apple M1";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Работа от аккумулятора до 18 часов";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30064274.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30064274.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30064274.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-matebook-d16-rlef-x-i5-16gb-512gb-space-gray"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HUAWEI MateBook D16 RLEF-X i5/16GB/512GB Space Gray";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "69999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "79899 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 16/1920x1200 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 12450H 2.0 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30066686.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30066686.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30066686.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-haier-noutbuk-haier-a1440sm"){
+      document.getElementById("item-name").innerHTML = "Ноутбук Haier Ноутбук Haier A1440SM";
+      document.getElementById("feature-info-1").innerHTML = "Haier";
+      document.getElementById("item-current-price").innerHTML = "19999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "19999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 14/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Celeron N4020C 1.1 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics 600";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400121699.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400121699.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400121699.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-14-8-512-space-gray-ndr-wdh"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HONOR MagicBook X 14 8/512 Space Gray (NDR-WDH)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "49999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "55999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 14/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 1135G7 2.4 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400136876.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400136876.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400136876.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-igrovoi-thunderobot-911-air-wave-d-i5-11400h-rtx3050-8gb-ssd256-dos"){
+      document.getElementById("item-name").innerHTML = "Ноутбук игровой Thunderobot 911 Air Wave D (i5-11400H/RTX3050/8Gb/SSD256/DOS)";
+      document.getElementById("feature-info-1").innerHTML = "Thunderobot";
+      document.getElementById("item-current-price").innerHTML = "59999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "85999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.6/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 11400H 2.7 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер GeForce RTX 3050 4GB";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400079994.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400079994.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400079994.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-15-m2-8-256gb-space-gray-mqkp3"){
+      document.getElementById("item-name").innerHTML = "Ноутбук Apple MacBook Air 15 M2 8/256Gb Space Gray (MQKP3)";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "164999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "164999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 15.3/2880x1864 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Apple M2";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Работа от аккумулятора до 18 часов";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067704.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067704.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067704.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-matebook-e-drc-w56-16512gb-grey"){
+      document.getElementById("item-name").innerHTML = "Ноутбук HUAWEI MateBook E DRC-W56 16+512GB Grey";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "89999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "89999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 12.6/2560x1600 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Процессор Intel Core i5 1130G7 1.8 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указано";
+      document.getElementById("feature-info-7").innerHTML = "Сенсорный экран Да";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30065457.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30065457.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30065457.AVIF' %}";
+
+      }
+            
+    </script>
+<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="/about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col"> 
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+  </body>
+  </html>
+    
