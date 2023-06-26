@@ -1745,8 +1745,36 @@ def clear_screen_data():
             json.dump(prices, file, indent=4, ensure_ascii=False)
 
 
+def full_data_phones():
+    with open('phone_prices.json') as f1:
+        prices = json.load(f1)
+        proc = {}
+        techn_screen = {}
+        type_proc = {}
+        front_cam = {}
+        ram = {}
+        for i in prices:
+            if 'Процессор' not in prices[i]:
+                proc[i] = {"Процессор": "Не указан"}
+                prices[i].update(proc[i])
+            if 'Технология экрана' not in prices[i]:
+                techn_screen[i] = {"Технология экрана": "Не указана"}
+                prices[i].update(techn_screen[i])
+            if 'Тип процессора' not in prices[i]:
+                type_proc[i] = {"Тип процессора": "Не указан"}
+                prices[i].update(type_proc[i])
+            if 'Фронтальная камера МПик' not in prices[i]:
+                front_cam[i] = {"Фронтальная камера МПик": "Не указана"}
+                prices[i].update(front_cam[i])
+            if 'Оперативная память (RAM)' not in prices[i]:
+                ram[i] = {"Оперативная память (RAM)": "Не указана"}
+                prices[i].update(ram[i])
+
+    with open('phone_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
 def main():
-    clear_screen_data()
+    full_data_phones()
 
 if __name__ == '__main__':
     main()
