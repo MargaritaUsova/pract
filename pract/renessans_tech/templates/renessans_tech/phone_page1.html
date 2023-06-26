@@ -93,29 +93,29 @@
           var slideIndex = 1;
           showSlides(slideIndex);
 
-          function plusSlides(n) {{
+          function plusSlides(n) {
             showSlides(slideIndex += n);
-          }}
+          }
 
-          function currentSlide(n) {{
+          function currentSlide(n) {
             showSlides(slideIndex = n);
-          }}
+          }
 
-          function showSlides(n) {{
+          function showSlides(n) {
             var i;
             var slides = document.getElementsByClassName("mySlides");
             var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}}
-            if (n < 1) {slideIndex = slides.length}}
-            for (i = 0; i < slides.length; i++) {{
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";
-            }}
-            for (i = 0; i < dots.length; i++) {{
+            }
+            for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
-            }}
+            }
             slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " active";
-          }}
+          }
           </script>
         <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
       </div>
@@ -131,7 +131,10 @@
           <li class="feature-2">Технология экрана: <span id="feature-info-2" class="text-highligt">OLED</span></li>
           <li class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
           <li class="feature-4">Встроенная память (ROM) <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
-          <li class="feature-5">Основная камера МПикс <span  id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-5">Основная камера: МПикс <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-6">Фронтальная камера МПикс: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-7">Оперативная память (RAM): <span id="feature-info-7" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-8">Процессор: <span id="feature-info-8" class="text-highligt">48/12/12</span></li>
         </ul>
         <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
           Подробнее на сайте М.Видео
@@ -159,336 +162,360 @@
       document.getElementById("feature-info-1").innerHTML = "Экран 6.67";
       document.getElementById("item-current-price").innerHTML = "69999 ₽";
       document.getElementById("item-previous-price").innerHTML = "79999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.67";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 256";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 48/13/48";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Qualcomm Snapdragon 8 Gen 1";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-huawei-nova-11i-8-128gb-mint-green-mao-lx9n"){
       document.getElementById("item-name").innerHTML = "Смартфон HUAWEI nova 11i 8/128Gb Mint Green (MAO-LX9N)";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.8/2388x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "15999 ₽";
       document.getElementById("item-previous-price").innerHTML = "17999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.8/2388x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 48/2";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Qualcomm Snapdragon 680 2.4 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-256gb-nanosim-esim-deep-purple"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 14 Pro 256GB nanoSim/eSim Deep Purple";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/2556x1179 Пикс";
       document.getElementById("item-current-price").innerHTML = "120499 ₽";
       document.getElementById("item-previous-price").innerHTML = "129999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/2556x1179 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана OLED";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A16 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 256";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 48/12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A16 Bionic";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-gt3-240w-16-1tb-booster-black"){
       document.getElementById("item-name").innerHTML = "Смартфон realme GT3 240W 16/1TB Booster Black";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.74/2772x1240 Пикс";
       document.getElementById("item-current-price").innerHTML = "69999 ₽";
       document.getElementById("item-previous-price").innerHTML = "79999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.74/2772x1240 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 1024";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 50/8/2/AF";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Qualcomm Snapdragon 8+ Gen 1 3 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-9a-32gb-glacial-blue"){
       document.getElementById("item-name").innerHTML = "Смартфон Xiaomi Redmi 9A 32GB Glacial Blue";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.53/1600x720 Пикс";
       document.getElementById("item-current-price").innerHTML = "4999 ₽";
       document.getElementById("item-previous-price").innerHTML = "8999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.53/1600x720 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 13";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Mediatek 2 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-s23-ultra-256gb-phantblack-sm-s918b-ds"){
       document.getElementById("item-name").innerHTML = "Смартфон Samsung Galaxy S23 Ultra 256GB Phant.Black (SM-S918B/DS)";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.8/3088x1440 Пикс";
       document.getElementById("item-current-price").innerHTML = "102999 ₽";
       document.getElementById("item-previous-price").innerHTML = "109999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.8/3088x1440 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 256";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 12/200/10/10";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 12";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Qualcomm Snapdragon 8 Gen 2";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-honor-x8-6-128gb-midnight-black-5109acxu"){
       document.getElementById("item-name").innerHTML = "Смартфон HONOR X8 6/128GB Midnight Black (5109ACXU)";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.7/2388x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "14999 ₽";
       document.getElementById("item-previous-price").innerHTML = "23999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.7/2388x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 64/5";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 6";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Qualcomm Snapdragon 680 4 x 2.4ГГц + 4 x 1.9ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-starlight"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 13 128GB nanoSim/eSim Starlight";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/2532x1170 Пикс";
       document.getElementById("item-current-price").innerHTML = "69999 ₽";
       document.getElementById("item-previous-price").innerHTML = "79999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/2532x1170 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана OLED";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A15 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A15 Bionic";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-s22-5g-8-128gb-phantom-black-sm-s901b-ds"){
       document.getElementById("item-name").innerHTML = "Смартфон Samsung Galaxy S22 5G 8/128GB Phantom Black (SM-S901B/DS)";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/2400x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "59999 ₽";
       document.getElementById("item-previous-price").innerHTML = "59999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/2400x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 12/50/10/TOF";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Samsung Exynos 2200 1 x 2.59 ГГц + 3 x 2.5 ГГц + 4 x 1.73 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-honor-x8-6128gb-titanium-silver"){
       document.getElementById("item-name").innerHTML = "Смартфон HONOR X8 6+128Gb Titanium Silver";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.7/2388x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "14999 ₽";
       document.getElementById("item-previous-price").innerHTML = "23999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.7/2388x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 64/5/2/2";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 6";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Qualcomm Snapdragon 680 2.4 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-c31-3-32-dark-green-rmx3501"){
       document.getElementById("item-name").innerHTML = "Смартфон realme C31 3/32 Dark Green (RMX3501)";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.5/1600x720 Пикс";
       document.getElementById("item-current-price").innerHTML = "5399 ₽";
       document.getElementById("item-previous-price").innerHTML = "12999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.5/1600x720 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 13/2/2";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 3";
+      document.getElementById("feature-info-8").innerHTML = "Процессор UNISOC Unisoc T612 1.82 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-huawei-nova-11i-8-128gb-starry-black-mao-lx9n"){
       document.getElementById("item-name").innerHTML = "Смартфон HUAWEI nova 11i 8/128Gb Starry Black (MAO-LX9N)";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.8/2388x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "15999 ₽";
       document.getElementById("item-previous-price").innerHTML = "17999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.8/2388x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 48/2";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Qualcomm Snapdragon 680 2.4 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-realme-c31-3-32-light-silver-rmx3501"){
       document.getElementById("item-name").innerHTML = "Смартфон realme C31 3/32 Light Silver (RMX3501)";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.5/1600x720 Пикс";
       document.getElementById("item-current-price").innerHTML = "5399 ₽";
       document.getElementById("item-previous-price").innerHTML = "12999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.5/1600x720 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 13/2/2";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 3";
+      document.getElementById("feature-info-8").innerHTML = "Процессор UNISOC Unisoc T612 1.82 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-vivo-v25e-8-128gb-sunrise-gold"){
       document.getElementById("item-name").innerHTML = "Смартфон vivo V25e 8/128Gb Sunrise Gold";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.44/2404x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "18999 ₽";
       document.getElementById("item-previous-price").innerHTML = "27999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.44/2404x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 64/2/2";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Mediatek Helio G99 2 x 2.2 ГГц + 6 x 2 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-10-2022-128gb-carbon-gray"){
       document.getElementById("item-name").innerHTML = "Смартфон Xiaomi Redmi 10 2022 128GB Carbon Gray";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.5/2400x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "11999 ₽";
       document.getElementById("item-previous-price").innerHTML = "18999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.5/2400x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 50/8/2/2";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Mediatek Helio G88 2 x 2 ГГц + 6 x 1.8 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-128gb-esim-deep-purple"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 14 Pro 128GB eSim Deep Purple";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/2556x1179 Пикс";
       document.getElementById("item-current-price").innerHTML = "106499 ₽";
       document.getElementById("item-previous-price").innerHTML = "119999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/2556x1179 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана OLED";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A16 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 48/12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A16 Bionic";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-128gb-nanosim-esim-deep-purple"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 14 Pro 128GB nanoSim/eSim Deep Purple";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/2556x1179 Пикс";
       document.getElementById("item-current-price").innerHTML = "109499 ₽";
       document.getElementById("item-previous-price").innerHTML = "119999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/2556x1179 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана OLED";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A16 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 48/12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A16 Bionic";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-xiaomi-redmi-10-2022-64gb-carbon-gray"){
       document.getElementById("item-name").innerHTML = "Смартфон Xiaomi Redmi 10 2022 64GB Carbon Gray";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.5/2400x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "9999 ₽";
       document.getElementById("item-previous-price").innerHTML = "16999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.5/2400x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 50/8/2/2";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Mediatek Helio G88 2 x 2 ГГц + 6 x 1.8 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-11-64gb-nanosim-esim-black"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 11 64GB nanoSim/eSim Black";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/1792x828 Пикс";
       document.getElementById("item-current-price").innerHTML = "45999 ₽";
       document.getElementById("item-previous-price").innerHTML = "57999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/1792x828 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана IPS";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A13 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A13 Bionic";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-samsung-galaxy-a54-256gb-awesome-white"){
       document.getElementById("item-name").innerHTML = "Смартфон Samsung Galaxy A54 256GB Awesome White";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.4/2340x1080 Пикс";
       document.getElementById("item-current-price").innerHTML = "37999 ₽";
       document.getElementById("item-previous-price").innerHTML = "37999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.4/2340x1080 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Не указана";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 256";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 50/12/5";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-8").innerHTML = "Процессор Samsung Exynos 1380 2.4 ГГц";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-11-128gb-nanosim-esim-black"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 11 128GB nanoSim/eSim Black";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/1792x828 Пикс";
       document.getElementById("item-current-price").innerHTML = "52999 ₽";
       document.getElementById("item-previous-price").innerHTML = "62999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/1792x828 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана IPS";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A13 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A13 Bionic";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-blue"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 13 128GB nanoSim/eSim Blue";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/2532x1170 Пикс";
       document.getElementById("item-current-price").innerHTML = "69999 ₽";
       document.getElementById("item-previous-price").innerHTML = "79999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/2532x1170 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана OLED";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A15 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A15 Bionic";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-13-128gb-nanosim-esim-midnight"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 13 128GB nanoSim/eSim Midnight";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.1/2532x1170 Пикс";
       document.getElementById("item-current-price").innerHTML = "69999 ₽";
       document.getElementById("item-previous-price").innerHTML = "79999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.1/2532x1170 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана OLED";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A15 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A15 Bionic";
       
       }
-      
-    
             
     if (currentUrl == "http://127.0.0.1:8000/phones/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple"){
       document.getElementById("item-name").innerHTML = "Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple";
       document.getElementById("feature-info-1").innerHTML = "Экран 6.7/2796x1290 Пикс";
       document.getElementById("item-current-price").innerHTML = "119999 ₽";
       document.getElementById("item-previous-price").innerHTML = "129999 ₽";
-      document.getElementById("feature-info-2").innerHTML = "Экран 6.7/2796x1290 Пикс";
-      
-      
-      
+      document.getElementById("feature-info-2").innerHTML = "Технология экрана OLED";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора A16 Bionic";
+      document.getElementById("feature-info-4").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-5").innerHTML = "Основная камера МПикс 48/12/12";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("feature-info-7").innerHTML = "Не указана";
+      document.getElementById("feature-info-8").innerHTML = "Процессор A16 Bionic";
       
       }
-      
-    
             
     </script>
 <footer class="footer">
@@ -503,7 +530,7 @@
               <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div class="footer-col"> 
             <h4>Помощь</h4>
             <ul>
               <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>

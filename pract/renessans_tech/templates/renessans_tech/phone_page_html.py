@@ -107,29 +107,29 @@ with open('phone_page1.html', 'w') as f:
           var slideIndex = 1;
           showSlides(slideIndex);
 
-          function plusSlides(n) {{
+          function plusSlides(n) {
             showSlides(slideIndex += n);
-          }}
+          }
 
-          function currentSlide(n) {{
+          function currentSlide(n) {
             showSlides(slideIndex = n);
-          }}
+          }
 
-          function showSlides(n) {{
+          function showSlides(n) {
             var i;
             var slides = document.getElementsByClassName("mySlides");
             var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}}
-            if (n < 1) {slideIndex = slides.length}}
-            for (i = 0; i < slides.length; i++) {{
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";
-            }}
-            for (i = 0; i < dots.length; i++) {{
+            }
+            for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
-            }}
+            }
             slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " active";
-          }}
+          }
           </script>
         <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
       </div>
@@ -179,15 +179,28 @@ with open('phone_page1.html', 'w') as f:
       document.getElementById("feature-info-1").innerHTML = "{screen}";
       document.getElementById("item-current-price").innerHTML = "{price}";
       document.getElementById("item-previous-price").innerHTML = "{old_price}";
+      document.getElementById("feature-info-2").innerHTML = "{techn_screen}";
+      document.getElementById("feature-info-3").innerHTML = "{proc_type}";
+      document.getElementById("feature-info-4").innerHTML = "{rom}";
+      document.getElementById("feature-info-5").innerHTML = "{osn_cam}";
+      document.getElementById("feature-info-6").innerHTML = "{front_cam}";
+      document.getElementById("feature-info-7").innerHTML = "{ram}";
+      document.getElementById("feature-info-8").innerHTML = "{proc}";
       
       }}
-      
-    
             """.format(link=prices[i]['nameTranslit'],
                         name = prices[i]['item_name'],
                        screen = prices[i]['Экран'],
                         price = str(prices[i]['item_discount_price']) + ' ₽',
-                        old_price = str(prices[i]['item_base_price']) + ' ₽'
+                        old_price = str(prices[i]['item_base_price']) + ' ₽',
+                       techn_screen = prices[i]['Технология экрана'],
+                       proc_type = prices[i]['Тип процессора'],
+                       rom = prices[i]['Встроенная память (ROM)'],
+                       osn_cam = prices[i]['Основная камера МПикс'],
+                       front_cam = prices[i]['Фронтальная камера МПик'],
+                       ram = prices[i]['Оперативная память (RAM)'],
+                       proc = prices[i]['Процессор']
+
                        ))
     f.write("""
     </script>
