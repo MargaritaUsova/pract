@@ -145,7 +145,10 @@ with open('phone_page1.html', 'w') as f:
           <li class="feature-2">Технология экрана: <span id="feature-info-2" class="text-highligt">OLED</span></li>
           <li class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
           <li class="feature-4">Встроенная память (ROM) <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
-          <li class="feature-5">Основная камера МПикс <span  id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-5">Основная камера: МПикс <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-6">Фронтальная камера МПикс: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-7">Оперативная память (RAM): <span id="feature-info-7" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-8">Процессор: <span id="feature-info-8" class="text-highligt">48/12/12</span></li>
         </ul>
         <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
           Подробнее на сайте М.Видео
@@ -176,10 +179,6 @@ with open('phone_page1.html', 'w') as f:
       document.getElementById("feature-info-1").innerHTML = "{screen}";
       document.getElementById("item-current-price").innerHTML = "{price}";
       document.getElementById("item-previous-price").innerHTML = "{old_price}";
-      document.getElementById("feature-info-2").innerHTML = "{techn_screen}";
-      
-      
-      
       
       }}
       
@@ -187,10 +186,8 @@ with open('phone_page1.html', 'w') as f:
             """.format(link=prices[i]['nameTranslit'],
                         name = prices[i]['item_name'],
                        screen = prices[i]['Экран'],
-                       price=str(prices[i]['item_discount_price']) + ' ₽',
-                       old_price = str(prices[i]['item_base_price']) + ' ₽',
-                       techn_screen = prices[i]['Экран']
-
+                        price = str(prices[i]['item_discount_price']) + ' ₽',
+                        old_price = str(prices[i]['item_base_price']) + ' ₽'
                        ))
     f.write("""
     </script>
@@ -241,7 +238,3 @@ with open('phone_page1.html', 'w') as f:
   </html>
     """
     )
-
-
-for i in prices:
-    print(prices[i]['Технология экрана'])
