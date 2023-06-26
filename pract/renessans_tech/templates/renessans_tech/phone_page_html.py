@@ -191,7 +191,7 @@ with open('phone_page1.html', 'w', encoding="utf-8") as f:
               <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div class="footer-col"> 
             <h4>Помощь</h4>
             <ul>
               <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
