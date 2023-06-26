@@ -80,15 +80,15 @@ with open('phone_page1.html', 'w') as f:
         <div class="slideshow-container">
 
           <div class="mySlides fade">
-            <img class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
+            <img id="item-photo-1" class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
           </div>
 
           <div class="mySlides fade">
-            <img class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
+            <img id="item-photo-2" class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
           </div>
 
           <div class="mySlides fade">
-            <img class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
+            <img id="item-photo-3" class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
           </div>
 
           <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -186,6 +186,9 @@ with open('phone_page1.html', 'w') as f:
       document.getElementById("feature-info-6").innerHTML = "{front_cam}";
       document.getElementById("feature-info-7").innerHTML = "{ram}";
       document.getElementById("feature-info-8").innerHTML = "{proc}";
+      document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
+      document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
+      document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
       
       }}
             """.format(link=prices[i]['nameTranslit'],
@@ -199,7 +202,10 @@ with open('phone_page1.html', 'w') as f:
                        osn_cam = prices[i]['Основная камера МПикс'],
                        front_cam = prices[i]['Фронтальная камера МПик'],
                        ram = prices[i]['Оперативная память (RAM)'],
-                       proc = prices[i]['Процессор']
+                       proc = prices[i]['Процессор'],
+                       photo1 = f'pictures/phones/img1/{i}.AVIF',
+                       photo2 = f'pictures/phones/img2/{i}.AVIF',
+                       photo3 = f'pictures/phones/img3/{i}.AVIF'
 
                        ))
     f.write("""

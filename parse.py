@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import json
 import urllib.request
+from PIL import Image
+import pillow_avif
+import os
 
 def get_data_names_prices_phones():
     cookies = {
@@ -283,7 +286,11 @@ def get_images_phones():
         phone_images = {}
         for i in prices['products']:
             phone_images[i['productId']] = {
-                'image' : 'http://static.mvideo.ru/' + i['images'][0]
+                'image' : 'http://static.mvideo.ru/' + i['images'][0],
+                'image1' : 'http://static.mvideo.ru/' + i['images'][1],
+                'image2' : 'http://static.mvideo.ru/' + i['images'][2],
+                'image3' : 'http://static.mvideo.ru/' + i['images'][3]
+
             }
     with open('phone_prices.json') as f2:
         prices = json.load(f2)
@@ -295,9 +302,38 @@ def get_images_phones():
 
     for i in prices:
         img = prices[i]['image']
+        img1 = prices[i]['image1']
+
+
         resource = urllib.request.urlopen(img)
         out = open(f"pract/renessans_tech/static/pictures/phones/{i}.jpg", 'wb')
         out.write(resource.read())
+        out.close()
+
+        resource = urllib.request.urlopen(img1)
+        out = open(f"pract/renessans_tech/static/pictures/phones/img1/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/phones/img1/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/phones/img1/{i}"+ '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/phones/img1/{i}.jpg")
+        out.close()
+
+        img2 = prices[i]['image2']
+        img3 = prices[i]['image3']
+        resource = urllib.request.urlopen(img2)
+        out = open(f"pract/renessans_tech/static/pictures/phones/img2/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/phones/img2/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/phones/img2/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/phones/img2/{i}.jpg")
+        out.close()
+
+        resource = urllib.request.urlopen(img3)
+        out = open(f"pract/renessans_tech/static/pictures/phones/img3/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/phones/img3/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/phones/img3/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/phones/img3/{i}.jpg")
         out.close()
 
 
@@ -1774,7 +1810,7 @@ def full_data_phones():
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
 def main():
-    full_data_phones()
+    get_images_phones()
 
 if __name__ == '__main__':
     main()
