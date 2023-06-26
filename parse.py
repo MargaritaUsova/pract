@@ -310,6 +310,7 @@ def get_images_phones():
         out.write(resource.read())
         out.close()
 
+    '''
         resource = urllib.request.urlopen(img1)
         out = open(f"pract/renessans_tech/static/pictures/phones/img1/{i}.jpg", 'wb')
         out.write(resource.read())
@@ -335,6 +336,8 @@ def get_images_phones():
         JPGimg.save(f"pract/renessans_tech/static/pictures/phones/img3/{i}" + '.AVIF', 'AVIF')
         os.remove(f"pract/renessans_tech/static/pictures/phones/img3/{i}.jpg")
         out.close()
+        
+    '''
 
 
 def get_data_laptops():
