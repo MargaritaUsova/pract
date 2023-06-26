@@ -1731,11 +1731,22 @@ def full_data_accessories():
     with open('accessories_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
-
+def clear_screen_data():
+    with open('phone_prices.json') as f1:
+        prices = json.load(f1)
+        new_screens = {}
+        for i in prices:
+            if '"' in prices[i]['Экран']:
+                new_screens[i] = {
+                    'Экран' : prices[i]['Экран'].replace('"', '')
+                }
+                prices[i].update(new_screens[i])
+        with open('phone_prices.json', 'w') as file:
+            json.dump(prices, file, indent=4, ensure_ascii=False)
 
 
 def main():
-    full_data_accessories()
+    clear_screen_data()
 
 if __name__ == '__main__':
     main()

@@ -8,10 +8,10 @@ register = template.Library()
 def is_current_page(request, param):
     return reverse(request.path).view_name == param
 
-with open('C:/Users/Пользователь/PycharmProjects/pract/phone_prices.json', encoding="utf-8") as f1:
+with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
     prices = json.load(f1)
 
-with open('phone_page1.html', 'w', encoding="utf-8") as f:
+with open('phone_page1.html', 'w') as f:
     f.write("""
     <!DOCTYPE html>
 {% load static %}
@@ -80,15 +80,15 @@ with open('phone_page1.html', 'w', encoding="utf-8") as f:
         <div class="slideshow-container">
 
           <div class="mySlides fade">
-            <img id="photo-1" class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
+            <img class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
           </div>
 
           <div class="mySlides fade">
-            <img id="photo-2" class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
+            <img class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
           </div>
 
           <div class="mySlides fade">
-            <img id="photo-3" class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
+            <img class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
           </div>
 
           <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -107,55 +107,55 @@ with open('phone_page1.html', 'w', encoding="utf-8") as f:
           var slideIndex = 1;
           showSlides(slideIndex);
 
-          function plusSlides(n) {
+          function plusSlides(n) {{
             showSlides(slideIndex += n);
-          }
+          }}
 
-          function currentSlide(n) {
+          function currentSlide(n) {{
             showSlides(slideIndex = n);
-          }
+          }}
 
-          function showSlides(n) {
+          function showSlides(n) {{
             var i;
             var slides = document.getElementsByClassName("mySlides");
             var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
+            if (n > slides.length) {slideIndex = 1}}
+            if (n < 1) {slideIndex = slides.length}}
+            for (i = 0; i < slides.length; i++) {{
                 slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
+            }}
+            for (i = 0; i < dots.length; i++) {{
                 dots[i].className = dots[i].className.replace(" active", "");
-            }
+            }}
             slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " active";
-          }
+          }}
           </script>
         <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
-          Смартфон
+          Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
         </p>
         <p style="font-weight: bold;">
           Характеристики:
         </p>
         <ul>
-          <li id="feature-1" class="feature-1">Экран: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</span></li>
-          <li id="feature-2" class="feature-2">Технология экрана: <span id="feature-info-2" class="text-highligt">OLED</span></li>
-          <li id="feature-3" class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
-          <li id="feature-4" class="feature-4">Встроенная память (ROM) <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
-          <li id="feature-5" class="feature-5">Основная камера МПикс <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li id="feature-1" class="feature-1">Экран: <p id="feature-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
+          <li class="feature-2">Технология экрана: <span class="text-highligt">OLED</span></li>
+          <li class="feature-3">Тип процессора: <span class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-4">Встроенная память (ROM) <span class="text-highligt">128 ГБ</span></li>
+          <li class="feature-5">Основная камера МПикс <span class="text-highligt">48/12/12</span></li>
         </ul>
         <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
           Подробнее на сайте М.Видео
         </a>
       </div>
       <div class="item-price-container">
-        <p id="item-current-price" class="item-current-price">
+        <p class="item-current-price">
           103 999 ₽
         </p>
-        <p id="item-previous-price" class="item-previous-price">
+        <p class="item-previous-price">
           119 999
         </p>
         <button class="add-to-cart">В корзину</button> <br>
@@ -171,11 +171,16 @@ with open('phone_page1.html', 'w', encoding="utf-8") as f:
     )
     for i in prices:
         f.write("""
-    if (currentUrl == "http://127.0.0.1:8000/phones/{link}") {{
+    if (currentUrl == "http://127.0.0.1:8000/phones/{link}"){{
       document.getElementById("item-name").innerHTML = "{name}";
-    }}
+      document.getElementById("feature-info-1").innerHTML = "{screen}";
+      
+      }}
+      
+    
             """.format(link=prices[i]['nameTranslit'],
                         name = prices[i]['item_name'],
+                       screen = prices[i]['Экран']
                        ))
     f.write("""
     </script>
