@@ -8,6 +8,21 @@
   <title>Компьютеры</title>
   <link rel="stylesheet" href="{% static 'css/phones.css' %}">
   <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#toTop').fadeIn();
+    } else {
+    $('#toTop').fadeOut();
+    }
+    });
+    $('#toTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+    });
+    });
+  </script>
 </head>
 <body>
 <header class="site-header">
@@ -103,7 +118,7 @@
     <a href="computers/monoblok-hp-24-df1062ny-bundle-pc-4x5d8ea">
         <img class="item-photo" src="{% static 'pictures/computers/30065782.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-hp-24-df1062ny-bundle-pc-4x5d8ea>
@@ -139,7 +154,7 @@
     <a href="computers/monoblok-nerpa-saimaa-i510-i510-2305222">
         <img class="item-photo" src="{% static 'pictures/computers/30063801.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-nerpa-saimaa-i510-i510-2305222>
@@ -175,7 +190,7 @@
     <a href="computers/monoblok-acer-aspire-c24-1650-dqbftmc00c">
         <img class="item-photo" src="{% static 'pictures/computers/30065367.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-acer-aspire-c24-1650-dqbftmc00c>
@@ -211,7 +226,7 @@
     <a href="computers/monoblok-msi-9s6-ae0711-261">
         <img class="item-photo" src="{% static 'pictures/computers/400147669.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-msi-9s6-ae0711-261>
@@ -247,7 +262,7 @@
     <a href="computers/monoblok-hp-24-cb1021nh">
         <img class="item-photo" src="{% static 'pictures/computers/30066138.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-hp-24-cb1021nh>
@@ -283,7 +298,7 @@
     <a href="computers/monoblok-irbis-mb2700">
         <img class="item-photo" src="{% static 'pictures/computers/30066146.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-irbis-mb2700>
@@ -319,7 +334,7 @@
     <a href="computers/monoblok-acer-aspire-c24-1700-dqbjwmc006">
         <img class="item-photo" src="{% static 'pictures/computers/30067652.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-acer-aspire-c24-1700-dqbjwmc006>
@@ -355,7 +370,7 @@
     <a href="computers/monoblok-lenovo-ideacentre-aio-3-24alc6-f0g100merk">
         <img class="item-photo" src="{% static 'pictures/computers/30065368.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-lenovo-ideacentre-aio-3-24alc6-f0g100merk>
@@ -391,7 +406,7 @@
     <a href="computers/monoblok-msi-modern-am272-9s6-af8211-286">
         <img class="item-photo" src="{% static 'pictures/computers/30066711.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-msi-modern-am272-9s6-af8211-286>
@@ -427,7 +442,7 @@
     <a href="computers/monoblok-msi-9s6-ae0311-826">
         <img class="item-photo" src="{% static 'pictures/computers/400147670.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-msi-9s6-ae0311-826>
@@ -463,7 +478,7 @@
     <a href="computers/monoblok-acer-aspire-c24-1650-dqbfter00n-serebristyi">
         <img class="item-photo" src="{% static 'pictures/computers/4199137.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-acer-aspire-c24-1650-dqbfter00n-serebristyi>
@@ -499,7 +514,7 @@
     <a href="computers/monoblok-irbis-mb2390">
         <img class="item-photo" src="{% static 'pictures/computers/30064482.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-irbis-mb2390>
@@ -535,7 +550,7 @@
     <a href="computers/monoblok-nerpa-saimaa-i510-i510-2405222">
         <img class="item-photo" src="{% static 'pictures/computers/30063804.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-nerpa-saimaa-i510-i510-2405222>
@@ -571,7 +586,7 @@
     <a href="computers/monoblok-hp-24-cb1022nh">
         <img class="item-photo" src="{% static 'pictures/computers/30066139.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-hp-24-cb1022nh>
@@ -607,7 +622,7 @@
     <a href="computers/monoblok-acer-c24-1700-dqbjfmc00e">
         <img class="item-photo" src="{% static 'pictures/computers/400130459.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-acer-c24-1700-dqbjfmc00e>
@@ -643,7 +658,7 @@
     <a href="computers/monoblok-irbis-mb2381">
         <img class="item-photo" src="{% static 'pictures/computers/30066144.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-irbis-mb2381>
@@ -679,7 +694,7 @@
     <a href="computers/monoblok-acer-aspire-c27-1700-dqbjkmc009">
         <img class="item-photo" src="{% static 'pictures/computers/30067651.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 5%">Кэшбек 5%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=computers/monoblok-acer-aspire-c27-1700-dqbjkmc009>
@@ -710,5 +725,50 @@
       </a>
     </div>
   </div>
-        </body>
+        
+    <DIV ID = "toTop" ><img style="width: 30px; opacity: 70%;" src="{% static 'pictures/arrow-icon.svg' %}" alt=""></DIV>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+    </body>
     </html>

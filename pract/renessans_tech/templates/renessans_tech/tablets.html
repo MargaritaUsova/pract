@@ -8,6 +8,21 @@
   <title>Планшеты</title>
   <link rel="stylesheet" href="{% static 'css/phones.css' %}">
   <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#toTop').fadeIn();
+    } else {
+    $('#toTop').fadeOut();
+    }
+    });
+    $('#toTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+    });
+    });
+  </script>
 </head>
 <body>
 <header class="site-header">
@@ -67,7 +82,7 @@
     <a href="tablets/planshet-huawei-matepad-se-ags5-w09-3-32gb-wifi-black">
         <img class="item-photo" src="{% static 'pictures/tablets/30065625.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-huawei-matepad-se-ags5-w09-3-32gb-wifi-black>
@@ -103,7 +118,7 @@
     <a href="tablets/planshet-samsung-galaxy-tab-a7-lite-lte-3-32gb-gray-sm-t225">
         <img class="item-photo" src="{% static 'pictures/tablets/30064024.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-samsung-galaxy-tab-a7-lite-lte-3-32gb-gray-sm-t225>
@@ -139,7 +154,7 @@
     <a href="tablets/planshet-samsung-galaxy-tab-a8-105-128gb-lte-gray-sm-x205">
         <img class="item-photo" src="{% static 'pictures/tablets/30064069.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-samsung-galaxy-tab-a8-105-128gb-lte-gray-sm-x205>
@@ -175,7 +190,7 @@
     <a href="tablets/planshet-huawei-matepad-se-ags5-w09-4-128gb-wifi-black">
         <img class="item-photo" src="{% static 'pictures/tablets/30065629.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-huawei-matepad-se-ags5-w09-4-128gb-wifi-black>
@@ -211,7 +226,7 @@
     <a href="tablets/planshet-huawei-matepad-se-ags5-w09-4-64gb-wifi-black">
         <img class="item-photo" src="{% static 'pictures/tablets/30065627.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-huawei-matepad-se-ags5-w09-4-64gb-wifi-black>
@@ -247,7 +262,7 @@
     <a href="tablets/planshet-huawei-matepad-se-ags5-l09-3-32gb-lte-black">
         <img class="item-photo" src="{% static 'pictures/tablets/30065626.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-huawei-matepad-se-ags5-l09-3-32gb-lte-black>
@@ -283,7 +298,7 @@
     <a href="tablets/planshet-xiaomi-redmi-pad-4-128gb-graphite-gray">
         <img class="item-photo" src="{% static 'pictures/tablets/30066075.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-xiaomi-redmi-pad-4-128gb-graphite-gray>
@@ -319,7 +334,7 @@
     <a href="tablets/planshet-honor-pad-8-6-128gb-w-fi-blue-hey-w09">
         <img class="item-photo" src="{% static 'pictures/tablets/400075550.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-honor-pad-8-6-128gb-w-fi-blue-hey-w09>
@@ -355,7 +370,7 @@
     <a href="tablets/planshet-apple-ipad-102-wi-fi-256gb-space-grey-mk2n3">
         <img class="item-photo" src="{% static 'pictures/tablets/30063252.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-apple-ipad-102-wi-fi-256gb-space-grey-mk2n3>
@@ -391,7 +406,7 @@
     <a href="tablets/planshet-digma-optima-1240c-2-32gb-black-rk3566">
         <img class="item-photo" src="{% static 'pictures/tablets/400037694.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-digma-optima-1240c-2-32gb-black-rk3566>
@@ -427,7 +442,7 @@
     <a href="tablets/planshet-apple-ipad-102-wi-fi-64gb-silver-mk2l3">
         <img class="item-photo" src="{% static 'pictures/tablets/30064044.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-apple-ipad-102-wi-fi-64gb-silver-mk2l3>
@@ -463,7 +478,7 @@
     <a href="tablets/planshet-honor-pad-x8-4-64gb-lte-blue-agm3-al09dhn">
         <img class="item-photo" src="{% static 'pictures/tablets/400113927.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-honor-pad-x8-4-64gb-lte-blue-agm3-al09dhn>
@@ -499,7 +514,7 @@
     <a href="tablets/planshet-huawei-matepad-se-ags5-l09-4-64gb-lte-black">
         <img class="item-photo" src="{% static 'pictures/tablets/30065628.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-huawei-matepad-se-ags5-l09-4-64gb-lte-black>
@@ -535,7 +550,7 @@
     <a href="tablets/planshet-samsung-galaxy-tab-a8-105-64gb-lte-gray-sm-x205">
         <img class="item-photo" src="{% static 'pictures/tablets/30064063.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-samsung-galaxy-tab-a8-105-64gb-lte-gray-sm-x205>
@@ -571,7 +586,7 @@
     <a href="tablets/planshet-samsung-galaxy-tab-a7-lite-lte-64gb-grey-sm-t225">
         <img class="item-photo" src="{% static 'pictures/tablets/30064020.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-samsung-galaxy-tab-a7-lite-lte-64gb-grey-sm-t225>
@@ -607,7 +622,7 @@
     <a href="tablets/planshet-samsung-galaxy-tab-a7-lite-wi-fi-32gb-gray-sm-t220">
         <img class="item-photo" src="{% static 'pictures/tablets/30064028.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-samsung-galaxy-tab-a7-lite-wi-fi-32gb-gray-sm-t220>
@@ -643,7 +658,7 @@
     <a href="tablets/planshet-apple-ipad-102-wi-fi-64gb-space-grey-mk2k3">
         <img class="item-photo" src="{% static 'pictures/tablets/30064042.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-apple-ipad-102-wi-fi-64gb-space-grey-mk2k3>
@@ -679,7 +694,7 @@
     <a href="tablets/planshet-digma-optima-8-x701-4g-ts8226pl">
         <img class="item-photo" src="{% static 'pictures/tablets/30054940.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-digma-optima-8-x701-4g-ts8226pl>
@@ -715,7 +730,7 @@
     <a href="tablets/planshet-huawei-matepad-104-4-128gb-wi-fi-matte-grey-bah4-w09--chehol-klaviatura">
         <img class="item-photo" src="{% static 'pictures/tablets/30066794.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-huawei-matepad-104-4-128gb-wi-fi-matte-grey-bah4-w09--chehol-klaviatura>
@@ -751,7 +766,7 @@
     <a href="tablets/planshet-huawei-matepad-se-ags5-l09-4-128gb-lte-black">
         <img class="item-photo" src="{% static 'pictures/tablets/30065770.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-huawei-matepad-se-ags5-l09-4-128gb-lte-black>
@@ -787,7 +802,7 @@
     <a href="tablets/planshet-samsung-galaxy-tab-a-80-lte-32gb-black-sm-t295">
         <img class="item-photo" src="{% static 'pictures/tablets/30063910.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-samsung-galaxy-tab-a-80-lte-32gb-black-sm-t295>
@@ -823,7 +838,7 @@
     <a href="tablets/planshet-realme-pad-rmp2103-4-64-gb-gray">
         <img class="item-photo" src="{% static 'pictures/tablets/30063160.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-realme-pad-rmp2103-4-64-gb-gray>
@@ -859,7 +874,7 @@
     <a href="tablets/planshet-huawei-matepad-11-2023-128gb-wi-fi-graphite-blackklav">
         <img class="item-photo" src="{% static 'pictures/tablets/30067460.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-huawei-matepad-11-2023-128gb-wi-fi-graphite-blackklav>
@@ -895,7 +910,7 @@
     <a href="tablets/planshet-samsung-galaxy-tab-a7-lite-lte-32gb-silver-sm-t225n">
         <img class="item-photo" src="{% static 'pictures/tablets/30064026.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 7%">Кэшбек 7%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 7%">Кэшбек 7%</p>
     </div>
     <div class="item-info">
     <a href=tablets/planshet-samsung-galaxy-tab-a7-lite-lte-32gb-silver-sm-t225n>
@@ -926,5 +941,50 @@
       </a>
     </div>
   </div>
-        </body>
+        
+    <DIV ID = "toTop" ><img style="width: 30px; opacity: 70%;" src="{% static 'pictures/arrow-icon.svg' %}" alt=""></DIV>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+    </body>
     </html>

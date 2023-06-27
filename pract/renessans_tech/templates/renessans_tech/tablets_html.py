@@ -15,6 +15,21 @@ with open('tablets.html', 'w') as f:
   <title>Планшеты</title>
   <link rel="stylesheet" href="{% static 'css/phones.css' %}">
   <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#toTop').fadeIn();
+    } else {
+    $('#toTop').fadeOut();
+    }
+    });
+    $('#toTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+    });
+    });
+  </script>
 </head>
 <body>
 <header class="site-header">
@@ -122,5 +137,50 @@ with open('tablets.html', 'w') as f:
                    yadra = prices[i]['Количество ядер'],
                    image=i
                    ))
-    f.write("""</body>
+    f.write("""
+    <DIV ID = "toTop" ><img style="width: 30px; opacity: 70%;" src="{% static 'pictures/arrow-icon.svg' %}" alt=""></DIV>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+    </body>
     </html>""")

@@ -15,6 +15,21 @@ with open('accessories.html', 'w') as f:
   <title>Аксессуары</title>
   <link rel="stylesheet" href="{% static 'css/phones.css' %}">
   <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#toTop').fadeIn();
+    } else {
+    $('#toTop').fadeOut();
+    }
+    });
+    $('#toTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+    });
+    });
+  </script>
 </head>
 <body>
 <header class="site-header">
@@ -91,7 +106,6 @@ with open('accessories.html', 'w') as f:
         <li>Для моделей с диагональю экрана: <span class="text-highligt">{models}</span></li>
         <li>Тип корпуса: <span class="text-highligt">{type}</span></li>
         <li>Материал чехла: <span class="text-highligt">{material}</span></li>
-
       </ul>
     </div>
     <div class="item-price-container">
@@ -118,6 +132,7 @@ with open('accessories.html', 'w') as f:
                    image=i
                    ))
     f.write("""
+    <DIV ID = "toTop" ><img style="width: 30px; opacity: 70%;" src="{% static 'pictures/arrow-icon.svg' %}" alt=""></DIV>
     <footer class="footer">
       <div class="container">
         <div class="row">
