@@ -203,9 +203,9 @@ with open('laptop_page.html', 'w') as f:
 
                        akk = prices[i]['Работа от аккумулятора'],
                        sens = prices[i]['Сенсорный экран'],
-                       photo1=f'pictures/phones/img1/{i}.AVIF',
-                       photo2=f'pictures/phones/img2/{i}.AVIF',
-                       photo3=f'pictures/phones/img3/{i}.AVIF'
+                       photo1=f'pictures/laptops/img1/{i}.AVIF',
+                       photo2=f'pictures/laptops/img2/{i}.AVIF',
+                       photo3=f'pictures/laptops/img3/{i}.AVIF'
 
                        ))
     f.write("""
