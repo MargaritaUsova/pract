@@ -208,6 +208,7 @@ with open('laptop_page.html', 'w') as f:
                        photo3=f'pictures/laptops/img3/{i}.AVIF'
 
                        ))
+
     f.write("""
     </script>
 <footer class="footer">
