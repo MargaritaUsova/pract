@@ -163,3 +163,18 @@ li {
 .text-highligt {
   color: black;
 }
+
+#toTop {
+
+  border:1px solid #ccc;
+  background:#f7f7f7;
+  text-align:center;
+  position:fixed;
+  padding: 4px 6px;
+  bottom:60px; /* отступ кнопки от нижнего края страницы*/
+  right:40px;
+  cursor:pointer;
+  display:none;
+  color:#333;
+  border-radius: 50%;
+  }
