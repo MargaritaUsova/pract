@@ -184,8 +184,9 @@ with open('laptop_page.html', 'w') as f:
       document.getElementById("feature-info-3").innerHTML = "{proc}";
       document.getElementById("feature-info-4").innerHTML = "{ram}";
       document.getElementById("feature-info-5").innerHTML = "{graph}";
-      document.getElementById("feature-info-6").innerHTML = "{akk}";
-      document.getElementById("feature-info-7").innerHTML = "{sens}";
+      document.getElementById("feature-info-6").innerHTML = "{ssd}";
+      document.getElementById("feature-info-7").innerHTML = "{akk}";
+      document.getElementById("feature-info-8").innerHTML = "{sens}";
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
@@ -200,7 +201,7 @@ with open('laptop_page.html', 'w') as f:
                        proc=prices[i]['Процессор'],
                        ram=prices[i]['Оперативная память (RAM)'],
                        graph=prices[i]['Графический контроллер'],
-
+                        ssd = prices[i]['Объем SSD'],
                        akk = prices[i]['Работа от аккумулятора'],
                        sens = prices[i]['Сенсорный экран'],
                        photo1=f'pictures/laptops/img1/{i}.AVIF',
