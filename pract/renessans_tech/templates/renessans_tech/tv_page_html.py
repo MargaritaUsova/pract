@@ -148,12 +148,12 @@ with open('tv_page.html', 'w') as f:
           <li class="feature-4">Поддержка Smart TV: <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
           <li class="feature-5">Технология HDR: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
           <li class="feature-6">Мощность фронтальных АС: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
-          <li class="feature-7">Встроенный модуль Bluetooth: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
-          <li class="feature-8">Технология QLED: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
-          <li class="feature-9">Операционная система: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
-          <li class="feature-10">Порт USB 2.0 тип A: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
-          <li class="feature-11">Воспроизведение с USB: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
-          <li class="feature-12">Технология OLED: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-7">Встроенный модуль Bluetooth: <span id="feature-info-7" class="text-highligt">лялллляя</span></li>
+          <li class="feature-8">Технология QLED: <span id="feature-info-8" class="text-highligt">лялллляя</span></li>
+          <li class="feature-9">Операционная система: <span id="feature-info-9" class="text-highligt">лялллляя</span></li>
+          <li class="feature-10">Порт USB 2.0 тип A: <span id="feature-info-10" class="text-highligt">лялллляя</span></li>
+          <li class="feature-11">Воспроизведение с USB: <span id="feature-info-11" class="text-highligt">лялллляя</span></li>
+          <li class="feature-12">Технология OLED: <span id="feature-info-12" class="text-highligt">лялллляя</span></li>
           
           </ul>
         <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">

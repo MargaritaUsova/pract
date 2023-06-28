@@ -145,7 +145,7 @@ with open('computer_page.html', 'w') as f:
         </p>
         <ul>
           <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
-          <li class="feature-2">Диагональ/разрешение: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-2">Диагональ/разрешение: <span id="feature-info-2" class="text-highligt">A16 Bionic</span></li>
           <li class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
           <li class="feature-4">Оперативная память (RAM): <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
           <li class="feature-5">Графический контроллер: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>

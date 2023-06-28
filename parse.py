@@ -838,8 +838,12 @@ def get_images_tv():
         phone_images = {}
         for i in prices['products']:
             phone_images[i['productId']] = {
-                'image' : 'http://static.mvideo.ru/' + i['images'][0]
+                'image': 'http://static.mvideo.ru/' + i['images'][0],
+                'image1': 'http://static.mvideo.ru/' + i['images'][1],
+                'image2': 'http://static.mvideo.ru/' + i['images'][2],
+                'image3': 'http://static.mvideo.ru/' + i['images'][1]
             }
+
     with open('tv_prices.json') as f2:
         prices = json.load(f2)
         for i in prices:
@@ -850,9 +854,37 @@ def get_images_tv():
 
     for i in prices:
         img = prices[i]['image']
+        img1 = prices[i]['image1']
+
         resource = urllib.request.urlopen(img)
         out = open(f"pract/renessans_tech/static/pictures/tv/{i}.jpg", 'wb')
         out.write(resource.read())
+        out.close()
+
+        resource = urllib.request.urlopen(img1)
+        out = open(f"pract/renessans_tech/static/pictures/tv/img1/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/tv/img1/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/tv/img1/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/tv/img1/{i}.jpg")
+        out.close()
+
+        img2 = prices[i]['image2']
+        img3 = prices[i]['image3']
+        resource = urllib.request.urlopen(img2)
+        out = open(f"pract/renessans_tech/static/pictures/tv/img2/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/tv/img2/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/tv/img2/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/tv/img2/{i}.jpg")
+        out.close()
+
+        resource = urllib.request.urlopen(img3)
+        out = open(f"pract/renessans_tech/static/pictures/tv/img3/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/tv/img3/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/tv/img3/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/tv/img3/{i}.jpg")
         out.close()
 
 
@@ -2096,19 +2128,18 @@ def main():
         print(mas)
     '''
     #full_data_computers()
-    get_images_computers()
-
+    get_images_tv()
     '''
-    with open('tv_prices.json') as file:
+    with open('computers_prices.json') as file:
         prices = json.load(file)
         new_screens = {}
         for i in prices:
-            if '"' in prices[i]['Экран']:
+            if '"' in prices[i]['Диагональ/разрешение']:
                 new_screens[i] = {
-                    'Экран': prices[i]['Экран'].replace('"', '')
+                    'Диагональ/разрешение': prices[i]['Диагональ/разрешение'].replace('"', '')
                 }
                 prices[i].update(new_screens[i])
-        with open('tv_prices.json', 'w') as file:
+        with open('computers_prices.json', 'w') as file:
             json.dump(prices, file, indent=4, ensure_ascii=False)
             
      '''
