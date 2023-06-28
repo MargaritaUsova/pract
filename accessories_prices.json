@@ -12,7 +12,14 @@
         "image": "http://static.mvideo.ru/Pdb/50174463.jpg",
         "item_cashback": "30%",
         "Для моделей с диагональю экрана": "Не указано",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50174463b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50174463b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50174463b.jpg"
     },
     "50173706": {
         "item_base_price": 5999,
@@ -28,7 +35,13 @@
         "Цвет": "Цвет прозрачный",
         "image": "http://static.mvideo.ru/Pdb/50173706.jpg",
         "item_cashback": "30%",
-        "Для моделей с диагональю экрана": "Не указано"
+        "Для моделей с диагональю экрана": "Не указано",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50173706b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50173706b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50173706b.jpg"
     },
     "50174460": {
         "item_base_price": 999,
@@ -43,7 +56,14 @@
         "image": "http://static.mvideo.ru/Pdb/50174460.jpg",
         "item_cashback": "30%",
         "Для моделей с диагональю экрана": "Не указано",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50174460b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50174460b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50174460b.jpg"
     },
     "50174114": {
         "item_base_price": 799,
@@ -58,7 +78,14 @@
         "item_cashback": "30%",
         "Для моделей с диагональю экрана": "Не указано",
         "Подходит для": "Не указано",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50174114b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50174114b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50174114b.jpg"
     },
     "50172027": {
         "item_base_price": 599,
@@ -70,10 +97,17 @@
         "nameTranslit": "chehol-red-line-ultimate-dlya-xiaomi-redmi-10c-chernyi",
         "Подходит для": "Подходит для Xiaomi Redmi Note 10C",
         "Тип корпуса": "Тип корпуса клип-кейс (накладка)",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.43\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.43",
         "image": "http://static.mvideo.ru/Pdb/50172027.jpg",
         "item_cashback": "30%",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50172027b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50172027b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50172027b.jpg"
     },
     "400095282": {
         "item_base_price": 1499,
@@ -84,11 +118,18 @@
         "brand": "TFN",
         "nameTranslit": "chehol-tfn-dlya-samsung-s23-ultra-hard-s-podderzhkoi-magsafe",
         "Подходит для": "Подходит для Samsung S23 Ultra",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.8\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.8",
         "image": "http://static.mvideo.ru/Pdb/400095282.jpg",
         "item_cashback": "30%",
         "Тип корпуса": "Не указан",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400095282b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400095282b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400095282b.jpg"
     },
     "400095366": {
         "item_base_price": 1499,
@@ -99,11 +140,18 @@
         "brand": "TFN",
         "nameTranslit": "chehol-tfn-dlya-samsung-s23-plus-hard-s-podderzhkoi-magsafe",
         "Подходит для": "Подходит для Samsung S23 Plus",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.7\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.7",
         "image": "http://static.mvideo.ru/Pdb/400095366.jpg",
         "item_cashback": "30%",
         "Тип корпуса": "Не указан",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400095366b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400095366b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400095366b.jpg"
     },
     "400106121": {
         "item_base_price": 599,
@@ -114,11 +162,18 @@
         "brand": "TFN",
         "nameTranslit": "chehol-tfn-dlya-samsung-a14-tpu",
         "Подходит для": "Подходит для Samsung A14",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.78\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.78",
         "image": "http://static.mvideo.ru/Pdb/400106121.jpg",
         "item_cashback": "30%",
         "Тип корпуса": "Не указан",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400106121b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400106121b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400106121b.jpg"
     },
     "50163807": {
         "item_base_price": 999,
@@ -134,7 +189,13 @@
         "image": "http://static.mvideo.ru/Pdb/50163807.jpg",
         "item_cashback": "30%",
         "Для моделей с диагональю экрана": "Не указано",
-        "Подходит для": "Не указано"
+        "Подходит для": "Не указано",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50163807b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50163807b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50163807b.jpg"
     },
     "50173707": {
         "item_base_price": 5999,
@@ -150,7 +211,13 @@
         "Цвет": "Цвет прозрачный",
         "image": "http://static.mvideo.ru/Pdb/50173707.jpg",
         "item_cashback": "30%",
-        "Для моделей с диагональю экрана": "Не указано"
+        "Для моделей с диагональю экрана": "Не указано",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50173707b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50173707b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50173707b.jpg"
     },
     "50175570": {
         "item_base_price": 2499,
@@ -165,7 +232,14 @@
         "image": "http://static.mvideo.ru/Pdb/50175570.jpg",
         "item_cashback": "30%",
         "Для моделей с диагональю экрана": "Не указано",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50175570b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50175570b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50175570b.jpg"
     },
     "400097321": {
         "item_base_price": 999,
@@ -176,11 +250,18 @@
         "brand": "vlp",
         "nameTranslit": "chehol-vlp-honor-x9a-1051083",
         "Подходит для": "Подходит для Honor X9a",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.67\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.67",
         "image": "http://static.mvideo.ru/Pdb/400097321.jpg",
         "item_cashback": "30%",
         "Тип корпуса": "Не указан",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400097321b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400097321b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400097321b.jpg"
     },
     "400102186": {
         "item_base_price": 799,
@@ -192,11 +273,17 @@
         "nameTranslit": "chehol-deppa-galaxy-a54-5g-88393",
         "Подходит для": "Подходит для Samsung Galaxy A54 5G",
         "Тип корпуса": "Тип корпуса накладка, бампер",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.4\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.4",
         "Тип застежки": "Тип застежки отсутствует",
         "image": "http://static.mvideo.ru/Pdb/400102186.jpg",
         "item_cashback": "30%",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400102186b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400102186b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400102186b.jpg"
     },
     "50173397": {
         "item_base_price": 499,
@@ -211,7 +298,14 @@
         "Для моделей с диагональю экрана": "Не указано",
         "Подходит для": "Не указано",
         "Тип корпуса": "Не указан",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50173397b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50173397b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50173397b.jpg"
     },
     "50173555": {
         "item_base_price": 1599,
@@ -228,7 +322,12 @@
         "Цвет": "Цвет прозрачный",
         "image": "http://static.mvideo.ru/Pdb/50173555.jpg",
         "item_cashback": "30%",
-        "Для моделей с диагональю экрана": "Не указано"
+        "Для моделей с диагональю экрана": "Не указано",
+        "Тип застежки": "Не указан",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50173555b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50173555b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50173555b.jpg"
     },
     "50173585": {
         "item_base_price": 1999,
@@ -246,7 +345,11 @@
         "image": "http://static.mvideo.ru/Pdb/50173585.jpg",
         "item_cashback": "30%",
         "Для моделей с диагональю экрана": "Не указано",
-        "Подходит для": "Не указано"
+        "Подходит для": "Не указано",
+        "Тип застежки": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50173585b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50173585b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50173585b.jpg"
     },
     "400095360": {
         "item_base_price": 1499,
@@ -257,11 +360,18 @@
         "brand": "TFN",
         "nameTranslit": "chehol-tfn-dlyasamsung-s23-hard-s-podderzhkoi-magsafe",
         "Подходит для": "Подходит для Samsung S23",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.7\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.7",
         "image": "http://static.mvideo.ru/Pdb/400095360.jpg",
         "item_cashback": "30%",
         "Тип корпуса": "Не указан",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400095360b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400095360b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400095360b.jpg"
     },
     "400097311": {
         "item_base_price": 799,
@@ -273,10 +383,17 @@
         "nameTranslit": "chehol-vlp-honor-x9a-1053053",
         "Подходит для": "Подходит для Honor X9a",
         "Тип корпуса": "Тип корпуса чехол",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.67\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.67",
         "image": "http://static.mvideo.ru/Pdb/400097311.jpg",
         "item_cashback": "30%",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400097311b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400097311b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400097311b.jpg"
     },
     "400099329": {
         "item_base_price": 799,
@@ -288,10 +405,17 @@
         "nameTranslit": "chehol-vlp-gloss-dlya-honor-x8a-prozrachnyi",
         "Подходит для": "Подходит для Honor X8a",
         "Тип корпуса": "Тип корпуса чехол",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.7\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.7",
         "image": "http://static.mvideo.ru/Pdb/400099329.jpg",
         "item_cashback": "30%",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400099329b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400099329b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400099329b.jpg"
     },
     "400102185": {
         "item_base_price": 799,
@@ -303,11 +427,17 @@
         "nameTranslit": "chehol-deppa-galaxy-a34-5g-88392",
         "Подходит для": "Подходит для Samsung Galaxy A34 5G",
         "Тип корпуса": "Тип корпуса накладка, бампер",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.5\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.5",
         "Тип застежки": "Тип застежки отсутствует",
         "image": "http://static.mvideo.ru/Pdb/400102185.jpg",
         "item_cashback": "30%",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/400102185b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400102185b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400102185b.jpg"
     },
     "50173554": {
         "item_base_price": 1599,
@@ -324,7 +454,12 @@
         "Цвет": "Цвет прозрачный",
         "image": "http://static.mvideo.ru/Pdb/50173554.jpg",
         "item_cashback": "30%",
-        "Для моделей с диагональю экрана": "Не указано"
+        "Для моделей с диагональю экрана": "Не указано",
+        "Тип застежки": "Не указан",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50173554b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50173554b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50173554b.jpg"
     },
     "50173586": {
         "item_base_price": 1999,
@@ -342,7 +477,11 @@
         "image": "http://static.mvideo.ru/Pdb/50173586.jpg",
         "item_cashback": "30%",
         "Для моделей с диагональю экрана": "Не указано",
-        "Подходит для": "Не указано"
+        "Подходит для": "Не указано",
+        "Тип застежки": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50173586b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50173586b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50173586b.jpg"
     },
     "50171054": {
         "item_base_price": 799,
@@ -354,10 +493,17 @@
         "nameTranslit": "chehol-deppa-gel-shockproof-honor-x8-prozrachnyi",
         "Подходит для": "Подходит для Honor X8",
         "Тип корпуса": "Тип корпуса клипкейс",
-        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.7\"",
+        "Для моделей с диагональю экрана": "Для моделей с диагональю экрана 6.7",
         "image": "http://static.mvideo.ru/Pdb/50171054.jpg",
         "item_cashback": "30%",
-        "Материал чехла": "Не указан"
+        "Материал чехла": "Не указан",
+        "Цвет": "Не указан",
+        "Тип застежки": "Не указан",
+        "Поддержка MagSafe": "Не указано",
+        "Вес": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50171054b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50171054b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50171054b.jpg"
     },
     "50173581": {
         "item_base_price": 1999,
@@ -375,6 +521,10 @@
         "image": "http://static.mvideo.ru/Pdb/50173581.jpg",
         "item_cashback": "30%",
         "Для моделей с диагональю экрана": "Не указано",
-        "Подходит для": "Не указано"
+        "Подходит для": "Не указано",
+        "Тип застежки": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/50173581b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/50173581b.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/50173581b.jpg"
     }
 }

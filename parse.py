@@ -1496,8 +1496,12 @@ def get_images_tablets():
         phone_images = {}
         for i in prices['products']:
             phone_images[i['productId']] = {
-                'image' : 'http://static.mvideo.ru/' + i['images'][0]
+                'image': 'http://static.mvideo.ru/' + i['images'][0],
+                'image1': 'http://static.mvideo.ru/' + i['images'][1],
+                'image2': 'http://static.mvideo.ru/' + i['images'][2],
+                'image3': 'http://static.mvideo.ru/' + i['images'][1]
             }
+
     with open('tablets_prices.json') as f2:
         prices = json.load(f2)
         for i in prices:
@@ -1508,9 +1512,37 @@ def get_images_tablets():
 
     for i in prices:
         img = prices[i]['image']
+        img1 = prices[i]['image1']
+
         resource = urllib.request.urlopen(img)
         out = open(f"pract/renessans_tech/static/pictures/tablets/{i}.jpg", 'wb')
         out.write(resource.read())
+        out.close()
+
+        resource = urllib.request.urlopen(img1)
+        out = open(f"pract/renessans_tech/static/pictures/tablets/img1/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/tablets/img1/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/tablets/img1/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/tablets/img1/{i}.jpg")
+        out.close()
+
+        img2 = prices[i]['image2']
+        img3 = prices[i]['image3']
+        resource = urllib.request.urlopen(img2)
+        out = open(f"pract/renessans_tech/static/pictures/tablets/img2/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/tablets/img2/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/tablets/img2/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/tablets/img2/{i}.jpg")
+        out.close()
+
+        resource = urllib.request.urlopen(img3)
+        out = open(f"pract/renessans_tech/static/pictures/tablets/img3/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/tablets/img3/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/tablets/img3/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/tablets/img3/{i}.jpg")
         out.close()
 
 
@@ -1530,8 +1562,13 @@ def full_data_tablets():
     with open('tablets_prices.json') as f1:
         prices = json.load(f1)
         ram = {}
+        rom = {}
         yadra = {}
+        type_p = {}
         proc = {}
+        wifi = {}
+        bl = {}
+        cam = {}
         for i in prices:
             if 'Оперативная память (RAM)' not in prices[i]:
                 ram[i] = {"Оперативная память (RAM)": "Не указана"}
@@ -1542,6 +1579,22 @@ def full_data_tablets():
             if 'Частота процессора' not in prices[i]:
                 proc[i] = {"Частота процессора": "Не указана"}
                 prices[i].update(proc[i])
+            if 'Встроенная память (ROM)' not in prices[i]:
+                rom[i] = {"Встроенная память (ROM)": "Не указана"}
+                prices[i].update(rom[i])
+            if 'Тип процессора' not in prices[i]:
+                type_p[i] = {"Тип процессора": "Не указан"}
+                prices[i].update(type_p[i])
+            if 'Поддержка Wi-Fi' not in prices[i]:
+                type_p[i] = {"Поддержка Wi-Fi": "Не указана"}
+                prices[i].update(type_p[i])
+            if 'Встроенный модуль Bluetooth' not in prices[i]:
+                bl[i] = {"Встроенный модуль Bluetooth": "Не указан"}
+                prices[i].update(bl[i])
+            if 'Основная камера МПикс' not in prices[i]:
+                cam[i] = {"Основная камера МПикс": "Не указана"}
+                prices[i].update(cam[i])
+
 
     with open('tablets_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
@@ -1788,8 +1841,12 @@ def get_images_accessories():
         phone_images = {}
         for i in prices['products']:
             phone_images[i['productId']] = {
-                'image' : 'http://static.mvideo.ru/' + i['images'][0]
+                'image': 'http://static.mvideo.ru/' + i['images'][0],
+                'image1': 'http://static.mvideo.ru/' + i['images'][1],
+                'image2': 'http://static.mvideo.ru/' + i['images'][1],
+                'image3': 'http://static.mvideo.ru/' + i['images'][1]
             }
+
     with open('accessories_prices.json') as f2:
         prices = json.load(f2)
         for i in prices:
@@ -1800,11 +1857,38 @@ def get_images_accessories():
 
     for i in prices:
         img = prices[i]['image']
+        img1 = prices[i]['image1']
+
         resource = urllib.request.urlopen(img)
         out = open(f"pract/renessans_tech/static/pictures/accessories/{i}.jpg", 'wb')
         out.write(resource.read())
         out.close()
 
+        resource = urllib.request.urlopen(img1)
+        out = open(f"pract/renessans_tech/static/pictures/accessories/img1/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/accessories/img1/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/accessories/img1/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/accessories/img1/{i}.jpg")
+        out.close()
+
+        img2 = prices[i]['image2']
+        img3 = prices[i]['image3']
+        resource = urllib.request.urlopen(img2)
+        out = open(f"pract/renessans_tech/static/pictures/accessories/img2/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/accessories/img2/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/accessories/img2/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/accessories/img2/{i}.jpg")
+        out.close()
+
+        resource = urllib.request.urlopen(img3)
+        out = open(f"pract/renessans_tech/static/pictures/accessories/img3/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/accessories/img3/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/accessories/img3/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/accessories/img3/{i}.jpg")
+        out.close()
 
 def get_cashback_accessories():
     with open('accessories_prices.json') as f1:
@@ -1823,8 +1907,12 @@ def full_data_accessories():
         prices = json.load(f1)
         screen = {}
         suits = {}
-        type = {}
+        type_k = {}
         material = {}
+        colour = {}
+        lock = {}
+        magsafe_it = {}
+        weight = {}
         for i in prices:
             if 'Для моделей с диагональю экрана' not in prices[i]:
                 screen[i] = {"Для моделей с диагональю экрана": "Не указано"}
@@ -1833,11 +1921,23 @@ def full_data_accessories():
                 suits[i] = {"Подходит для": "Не указано"}
                 prices[i].update(suits[i])
             if 'Тип корпуса' not in prices[i]:
-                type[i] = {"Тип корпуса": "Не указан"}
-                prices[i].update(type[i])
+                type_k[i] = {"Тип корпуса": "Не указан"}
+                prices[i].update(type_k[i])
             if 'Материал чехла' not in prices[i]:
                 material[i] = {"Материал чехла": "Не указан"}
                 prices[i].update(material[i])
+            if 'Цвет' not in prices[i]:
+                colour[i] = {"Цвет": "Не указан"}
+                prices[i].update(colour[i])
+            if 'Тип застежки' not in prices[i]:
+                lock[i] = {"Тип застежки": "Не указан"}
+                prices[i].update(lock[i])
+            if 'Поддержка MagSafe' not in prices[i]:
+                magsafe_it[i] = {"Поддержка MagSafe": "Не указано"}
+                prices[i].update(magsafe_it[i])
+            if 'Вес' not in prices[i]:
+                weight[i] = {"Вес": "Не указан"}
+                prices[i].update(weight[i])
 
     with open('accessories_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
@@ -2015,35 +2115,6 @@ def full_data_tablets():
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
 
-def full_data_accessories():
-    with open('accessories_prices.json') as f1:
-        prices = json.load(f1)
-        suits = []
-        corp = []
-        screen = []
-        material = []
-        col = []
-        type_z = []
-        mag_safe = []
-        weight = []
-        for i in prices:
-            if 'Подходит для' not in prices[i]:
-                suits[i] = {'Подходит для': 'Не указано'}
-                prices[i].update(suits[i])
-            if 'Тип корпуса' not in prices[i]:
-                corp[i] = {'Тип корпуса': 'Не указано'}
-                prices[i].update(corp[i])
-            if 'Для моделей с диагональю экрана' not in prices[i]:
-                screen[i] = {'Для моделей с диагональю экрана': 'Не указано'}
-                prices[i].update(screen[i])
-            if 'Материал чехла' not in prices[i]:
-                material[i] = {'Материал чехла': 'Не указано'}
-                prices[i].update(material[i])
-
-
-
-
-
     with open('accessories_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
@@ -2118,7 +2189,7 @@ def get_cashback_tvs():
 
 def main():
     '''
-    with open('computers_prices.json') as file:
+    with open('accessories_prices.json') as file:
         mas = []
         prices = json.load(file)
         for i in prices:
@@ -2127,19 +2198,19 @@ def main():
                     mas.append(j)
         print(mas)
     '''
-    #full_data_computers()
-    get_images_tv()
+    get_images_accessories()
+    #get_images_tablets()
     '''
-    with open('computers_prices.json') as file:
+    with open('accessories_prices.json') as file:
         prices = json.load(file)
         new_screens = {}
         for i in prices:
-            if '"' in prices[i]['Диагональ/разрешение']:
+            if '"' in prices[i]['Для моделей с диагональю экрана']:
                 new_screens[i] = {
-                    'Диагональ/разрешение': prices[i]['Диагональ/разрешение'].replace('"', '')
+                    'Для моделей с диагональю экрана': prices[i]['Для моделей с диагональю экрана'].replace('"', '')
                 }
                 prices[i].update(new_screens[i])
-        with open('computers_prices.json', 'w') as file:
+        with open('accessories_prices.json', 'w') as file:
             json.dump(prices, file, indent=4, ensure_ascii=False)
             
      '''

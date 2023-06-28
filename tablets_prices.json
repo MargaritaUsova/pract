@@ -7,13 +7,16 @@
         "item_name": "Планшет HUAWEI MatePad SE (AGS5-W09) 3/32Gb WiFi Black",
         "brand": "HUAWEI",
         "nameTranslit": "planshet-huawei-matepad-se-ags5-w09-3-32gb-wifi-black",
-        "Экран": "Экран 10.36\"/1200x2000 Пикс",
+        "Экран": "Экран 10.36/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Оперативная память (RAM)": "Оперативная память (RAM) 3",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц",
         "image": "http://static.mvideo.ru/Pdb/30065625.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30065625b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065625b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065625b.jpg"
     },
     "30064024": {
         "item_base_price": 12999,
@@ -23,13 +26,16 @@
         "item_name": "Планшет Samsung Galaxy Tab A7 Lite LTE 3/32Gb Gray (SM-T225)",
         "brand": "Samsung",
         "nameTranslit": "planshet-samsung-galaxy-tab-a7-lite-lte-3-32gb-gray-sm-t225",
-        "Экран": "Экран 8.7\"/1340x800 Пикс",
+        "Экран": "Экран 8.7/1340x800 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Оперативная память (RAM)": "Оперативная память (RAM) 3",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц",
         "image": "http://static.mvideo.ru/Pdb/30064024.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30064024b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064024b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064024b.jpg"
     },
     "30064069": {
         "item_base_price": 27999,
@@ -39,13 +45,16 @@
         "item_name": "Планшет Samsung Galaxy Tab A8 10.5 128GB LTE Gray (SM-X205)",
         "brand": "Samsung",
         "nameTranslit": "planshet-samsung-galaxy-tab-a8-105-128gb-lte-gray-sm-x205",
-        "Экран": "Экран 10.5\"/1920x1200 Пикс",
+        "Экран": "Экран 10.5/1920x1200 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 2 x 2 ГГц + 6 x 1.8 ГГц",
         "image": "http://static.mvideo.ru/Pdb/30064069.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30064069b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064069b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064069b.jpg"
     },
     "30065629": {
         "item_base_price": 17999,
@@ -55,13 +64,16 @@
         "item_name": "Планшет HUAWEI MatePad SE (AGS5-W09) 4/128Gb WiFi Black",
         "brand": "HUAWEI",
         "nameTranslit": "planshet-huawei-matepad-se-ags5-w09-4-128gb-wifi-black",
-        "Экран": "Экран 10.36\"/1200x2000 Пикс",
+        "Экран": "Экран 10.36/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц",
         "image": "http://static.mvideo.ru/Pdb/30065629.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30065629b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065629s.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065629b.jpg"
     },
     "30065627": {
         "item_base_price": 16899,
@@ -71,13 +83,16 @@
         "item_name": "Планшет HUAWEI MatePad SE (AGS5-W09) 4/64Gb WiFi Black",
         "brand": "HUAWEI",
         "nameTranslit": "planshet-huawei-matepad-se-ags5-w09-4-64gb-wifi-black",
-        "Экран": "Экран 10.36\"/1200x2000 Пикс",
+        "Экран": "Экран 10.36/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц",
         "image": "http://static.mvideo.ru/Pdb/30065627.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30065627b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065627s.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065627b.jpg"
     },
     "30065626": {
         "item_base_price": 14999,
@@ -87,13 +102,16 @@
         "item_name": "Планшет HUAWEI MatePad SE (AGS5-L09) 3/32Gb LTE Black",
         "brand": "HUAWEI",
         "nameTranslit": "planshet-huawei-matepad-se-ags5-l09-3-32gb-lte-black",
-        "Экран": "Экран 10.36\"/1200x2000 Пикс",
+        "Экран": "Экран 10.36/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Оперативная память (RAM)": "Оперативная память (RAM) 3",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц",
         "image": "http://static.mvideo.ru/Pdb/30065626.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30065626b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065626b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065626b.jpg"
     },
     "30066075": {
         "item_base_price": 24999,
@@ -103,13 +121,16 @@
         "item_name": "Планшет Xiaomi Redmi Pad 4/128GB Graphite Gray",
         "brand": "Xiaomi",
         "nameTranslit": "planshet-xiaomi-redmi-pad-4-128gb-graphite-gray",
-        "Экран": "Экран 10.61\"/1200x2000 Пикс",
+        "Экран": "Экран 10.61/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 2 x 2.2 ГГц + 6 x 2 ГГц",
         "image": "http://static.mvideo.ru/Pdb/30066075.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30066075b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30066075b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30066075b.jpg"
     },
     "400075550": {
         "item_base_price": 24999,
@@ -119,13 +140,16 @@
         "item_name": "Планшет HONOR Pad 8 6/128GB W-Fi Blue (HEY-W09)",
         "brand": "HONOR",
         "nameTranslit": "planshet-honor-pad-8-6-128gb-w-fi-blue-hey-w09",
-        "Экран": "Экран 12\"/1200x2000 Пикс",
+        "Экран": "Экран 12/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Оперативная память (RAM)": "Оперативная память (RAM) 6",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 1.9 ГГц",
         "image": "http://static.mvideo.ru/Pdb/400075550.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/400075550b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400075550b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400075550b.jpg"
     },
     "30063252": {
         "item_base_price": 43699,
@@ -135,7 +159,7 @@
         "item_name": "Планшет Apple iPad 10.2 Wi-Fi 256GB Space Grey (MK2N3)",
         "brand": "Apple",
         "nameTranslit": "planshet-apple-ipad-102-wi-fi-256gb-space-grey-mk2n3",
-        "Экран": "Экран 10.2\"/1620x2160 Пикс",
+        "Экран": "Экран 10.2/1620x2160 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 256",
         "Тип процессора": "Тип процессора A13 Bionic",
         "Поддержка Wi-Fi": "Поддержка Wi-Fi a/b/g/n/ac",
@@ -144,7 +168,10 @@
         "item_cashback": "7%",
         "Оперативная память (RAM)": "Не указана",
         "Количество ядер": "Не указано",
-        "Частота процессора": "Не указана"
+        "Частота процессора": "Не указана",
+        "image1": "http://static.mvideo.ru/Pdb/30063252b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30063252b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30063252b.jpg"
     },
     "400037694": {
         "item_base_price": 6999,
@@ -154,13 +181,16 @@
         "item_name": "Планшет Digma Optima 1240C 2/32Gb Black (RK3566)",
         "brand": "Digma",
         "nameTranslit": "planshet-digma-optima-1240c-2-32gb-black-rk3566",
-        "Экран": "Экран 10.1\"/1280x800 Пикс",
+        "Экран": "Экран 10.1/1280x800 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Оперативная память (RAM)": "Оперативная память (RAM) 2",
         "Количество ядер": "Количество ядер 4",
         "Частота процессора": "Частота процессора 1.6 ГГц",
         "image": "http://static.mvideo.ru/Pdb/400037694.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/400037694b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400037694b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400037694b.jpg"
     },
     "30064044": {
         "item_base_price": 31999,
@@ -170,7 +200,7 @@
         "item_name": "Планшет Apple iPad 10.2 Wi-Fi 64GB Silver (MK2L3)",
         "brand": "Apple",
         "nameTranslit": "planshet-apple-ipad-102-wi-fi-64gb-silver-mk2l3",
-        "Экран": "Экран 10.2\"/1620x2160 Пикс",
+        "Экран": "Экран 10.2/1620x2160 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Тип процессора": "Тип процессора A13 Bionic",
         "Поддержка Wi-Fi": "Поддержка Wi-Fi a/b/g/n/ac",
@@ -179,7 +209,10 @@
         "item_cashback": "7%",
         "Оперативная память (RAM)": "Не указана",
         "Количество ядер": "Не указано",
-        "Частота процессора": "Не указана"
+        "Частота процессора": "Не указана",
+        "image1": "http://static.mvideo.ru/Pdb/30064044b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064044b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064044b.jpg"
     },
     "400113927": {
         "item_base_price": 16999,
@@ -189,13 +222,16 @@
         "item_name": "Планшет HONOR Pad X8 4/64GB LTE Blue (AGM3-AL09DHN)",
         "brand": "HONOR",
         "nameTranslit": "planshet-honor-pad-x8-4-64gb-lte-blue-agm3-al09dhn",
-        "Экран": "Экран 10.1\"/1200x1920 Пикс",
+        "Экран": "Экран 10.1/1200x1920 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 1.5 ГГц",
         "image": "http://static.mvideo.ru/Pdb/400113927.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/400113927b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400113927b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400113927b.jpg"
     },
     "30065628": {
         "item_base_price": 16999,
@@ -205,13 +241,16 @@
         "item_name": "Планшет HUAWEI MatePad SE (AGS5-L09) 4/64Gb LTE Black",
         "brand": "HUAWEI",
         "nameTranslit": "planshet-huawei-matepad-se-ags5-l09-4-64gb-lte-black",
-        "Экран": "Экран 10.36\"/1200x2000 Пикс",
+        "Экран": "Экран 10.36/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц",
         "image": "http://static.mvideo.ru/Pdb/30065628.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30065628b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065628b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065628b.jpg"
     },
     "30064063": {
         "item_base_price": 22799,
@@ -221,13 +260,16 @@
         "item_name": "Планшет Samsung Galaxy Tab A8 10.5 64GB LTE Gray (SM-X205)",
         "brand": "Samsung",
         "nameTranslit": "planshet-samsung-galaxy-tab-a8-105-64gb-lte-gray-sm-x205",
-        "Экран": "Экран 10.5\"/1920x1200 Пикс",
+        "Экран": "Экран 10.5/1920x1200 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 2 x 2 ГГц + 6 x 1.8 ГГц",
         "image": "http://static.mvideo.ru/Pdb/30064063.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30064063b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064063b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064063b.jpg"
     },
     "30064020": {
         "item_base_price": 19999,
@@ -237,13 +279,16 @@
         "item_name": "Планшет Samsung Galaxy Tab A7 Lite LTE 64GB Grey (SM-T225)",
         "brand": "Samsung",
         "nameTranslit": "planshet-samsung-galaxy-tab-a7-lite-lte-64gb-grey-sm-t225",
-        "Экран": "Экран 8.7\"/1340x800 Пикс",
+        "Экран": "Экран 8.7/1340x800 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц",
         "image": "http://static.mvideo.ru/Pdb/30064020.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30064020b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064020b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064020b.jpg"
     },
     "30064028": {
         "item_base_price": 10999,
@@ -253,13 +298,16 @@
         "item_name": "Планшет Samsung Galaxy Tab A7 Lite Wi-Fi 32GB Gray (SM-T220)",
         "brand": "Samsung",
         "nameTranslit": "planshet-samsung-galaxy-tab-a7-lite-wi-fi-32gb-gray-sm-t220",
-        "Экран": "Экран 8.7\"/1340x800 Пикс",
+        "Экран": "Экран 8.7/1340x800 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Оперативная память (RAM)": "Оперативная память (RAM) 3",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц",
         "image": "http://static.mvideo.ru/Pdb/30064028.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30064028b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064028b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064028b.jpg"
     },
     "30064042": {
         "item_base_price": 31999,
@@ -269,7 +317,7 @@
         "item_name": "Планшет Apple iPad 10.2 Wi-Fi 64GB Space Grey (MK2K3)",
         "brand": "Apple",
         "nameTranslit": "planshet-apple-ipad-102-wi-fi-64gb-space-grey-mk2k3",
-        "Экран": "Экран 10.2\"/1620x2160 Пикс",
+        "Экран": "Экран 10.2/1620x2160 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Тип процессора": "Тип процессора A13 Bionic",
         "Поддержка Wi-Fi": "Поддержка Wi-Fi a/b/g/n/ac",
@@ -278,7 +326,10 @@
         "item_cashback": "7%",
         "Оперативная память (RAM)": "Не указана",
         "Количество ядер": "Не указано",
-        "Частота процессора": "Не указана"
+        "Частота процессора": "Не указана",
+        "image1": "http://static.mvideo.ru/Pdb/30064042b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064042b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064042b.jpg"
     },
     "30054940": {
         "item_base_price": 6999,
@@ -288,13 +339,16 @@
         "item_name": "Планшет Digma Optima 8 X701 4G (TS8226PL)",
         "brand": "Digma",
         "nameTranslit": "planshet-digma-optima-8-x701-4g-ts8226pl",
-        "Экран": "Экран 8\"/1280x800 Пикс",
+        "Экран": "Экран 8/1280x800 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Оперативная память (RAM)": "Оперативная память (RAM) 3",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 1.6 ГГц",
         "image": "http://static.mvideo.ru/Pdb/30054940.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30054940b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30054940b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30054940b.jpg"
     },
     "30066794": {
         "item_base_price": 27999,
@@ -304,13 +358,16 @@
         "item_name": "Планшет HUAWEI MatePad 10.4 4/128GB WI-FI Matte Grey (BAH4-W09) + чехол-клавиатура",
         "brand": "HUAWEI",
         "nameTranslit": "planshet-huawei-matepad-104-4-128gb-wi-fi-matte-grey-bah4-w09--chehol-klaviatura",
-        "Экран": "Экран 10.4\"/1200x2000 Пикс",
+        "Экран": "Экран 10.4/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 2.0 ГГц + 1.7 ГГц",
         "image": "http://static.mvideo.ru/Pdb/30066794.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30066794b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30066794b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30066794b.jpg"
     },
     "30065770": {
         "item_base_price": 18999,
@@ -320,13 +377,16 @@
         "item_name": "Планшет HUAWEI MatePad SE (AGS5-L09) 4/128Gb LTE Black",
         "brand": "HUAWEI",
         "nameTranslit": "planshet-huawei-matepad-se-ags5-l09-4-128gb-lte-black",
-        "Экран": "Экран 10.36\"/1200x2000 Пикс",
+        "Экран": "Экран 10.36/1200x2000 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 128",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц",
         "image": "http://static.mvideo.ru/Pdb/30065770.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30065770b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065770b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065770b.jpg"
     },
     "30063910": {
         "item_base_price": 13399,
@@ -336,13 +396,16 @@
         "item_name": "Планшет Samsung Galaxy Tab A 8.0 LTE 32Gb Black (SM-T295)",
         "brand": "Samsung",
         "nameTranslit": "planshet-samsung-galaxy-tab-a-80-lte-32gb-black-sm-t295",
-        "Экран": "Экран 8\"/1280x800 Пикс",
+        "Экран": "Экран 8/1280x800 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Оперативная память (RAM)": "Оперативная память (RAM) 2",
         "Количество ядер": "Количество ядер 4",
         "Частота процессора": "Частота процессора 2 ГГц",
         "image": "http://static.mvideo.ru/Pdb/30063910.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30063910b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30063910b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30063910b.jpg"
     },
     "30063160": {
         "item_base_price": 22999,
@@ -352,13 +415,16 @@
         "item_name": "Планшет realme Pad RMP2103 4/64 ГБ Gray",
         "brand": "realme",
         "nameTranslit": "planshet-realme-pad-rmp2103-4-64-gb-gray",
-        "Экран": "Экран 10.4\"/2000x1200 Пикс",
+        "Экран": "Экран 10.4/2000x1200 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 64",
         "Оперативная память (RAM)": "Оперативная память (RAM) 4",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 2 ГГц",
         "image": "http://static.mvideo.ru/Pdb/30063160.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30063160b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30063160b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30063160b.jpg"
     },
     "30067460": {
         "item_base_price": 39999,
@@ -375,7 +441,10 @@
         "Основная камера МПикс": "Основная камера МПикс 13",
         "image": "http://static.mvideo.ru/Pdb/30067460.jpg",
         "item_cashback": "7%",
-        "Частота процессора": "Не указана"
+        "Частота процессора": "Не указана",
+        "image1": "http://static.mvideo.ru/Pdb/30067460b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30067460b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30067460b.jpg"
     },
     "30064026": {
         "item_base_price": 12999,
@@ -385,12 +454,15 @@
         "item_name": "Планшет Samsung Galaxy Tab A7 Lite LTE 32GB Silver (SM-T225N)",
         "brand": "Samsung",
         "nameTranslit": "planshet-samsung-galaxy-tab-a7-lite-lte-32gb-silver-sm-t225n",
-        "Экран": "Экран 8.7\"/1340x800 Пикс",
+        "Экран": "Экран 8.7/1340x800 Пикс",
         "Встроенная память (ROM)": "Встроенная память (ROM) 32",
         "Оперативная память (RAM)": "Оперативная память (RAM) 3",
         "Количество ядер": "Количество ядер 8",
         "Частота процессора": "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц",
         "image": "http://static.mvideo.ru/Pdb/30064026.jpg",
-        "item_cashback": "7%"
+        "item_cashback": "7%",
+        "image1": "http://static.mvideo.ru/Pdb/30064026b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064026b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064026b.jpg"
     }
 }

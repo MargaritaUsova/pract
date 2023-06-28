@@ -1,10 +1,662 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+{% load static %}
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аксессуары</title>
+  <link rel="stylesheet" href="{% static 'css/phone_page.css' %}">
+  <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
 <body>
-  АКСУССУАРЫ
-</body>
-</html>
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
+
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
+        </a>
+        <a class="cathegory-items" href = '/phones'>
+          Смартфоны
+        </a>
+        <a  class="cathegory-items" href = '/laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="/tv">
+          Телевизоры
+        </a>
+        <a class="cathegory-items" href = '/computers'>
+          Компьютеры
+        </a>
+        <a  class="cathegory-items" href = '/tablets'>
+          Планшеты
+        </a>
+        <a style="color: #ff0078;"class="cathegory-items" href = '/accessories'>
+          Аксессуары
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = '/basket'>
+          Корзина
+        </a>
+      </div>
+
+    </header> <br>
+    <div class="item-box">
+      <div class="item-photo-container">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img id="item-photo-1" class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img id="item-photo-2" class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img id="item-photo-3" class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+      </div>
+      <div class="item-info">
+        <p id="item-name" class="item-name">
+          Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+        </p>
+        <p style="font-weight: bold;">
+          Характеристики:
+        </p>
+        <ul>
+          <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
+          <li class="feature-2">Подходит для: <span id="feature-info-2" class="text-highligt">OLED</span></li>
+          <li class="feature-3">Тип корпуса: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-4">Для моделей с диагональю экрана: <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-5">Материал чехла: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-6">Цвет: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-7">Тип застежки: <span id="feature-info-7" class="text-highligt">лялллляя</span></li>
+          <li class="feature-8">Поддержка MagSafe: <span id="feature-info-8" class="text-highligt">лялллляя</span></li>
+          <li class="feature-9">Вес: <span id="feature-info-9" class="text-highligt">лялллляя</span></li>
+          
+          </ul>
+        <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
+          Подробнее на сайте М.Видео
+        </a>
+      </div>
+      <div class="item-price-container">
+        <p id="item-current-price" class="item-current-price">
+          103 999 ₽
+        </p>
+        
+        <button class="add-to-cart">В корзину</button> <br>
+        <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+          <button class="credit-btn">Купить в кредит</button>
+        </a>
+      </div>
+    </div>
+
+  <script>
+    const currentUrl = window.location.href;
+    
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-tfn-dlya-honor-x6-tpu-prozrachnyi"){
+      document.getElementById("item-name").innerHTML = "Чехол TFN для Honor X6 TPU прозрачный";
+      document.getElementById("feature-info-1").innerHTML = "TFN";
+      document.getElementById("item-current-price").innerHTML = "499 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Honor X6";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса накладка";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50174463.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50174463.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50174463.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-apple-iphone-14-pro-clear-magsafe"){
+      document.getElementById("item-name").innerHTML = "Чехол Apple iPhone 14 Pro Clear MagSafe";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "5999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Apple iPhone 14 Pro";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса клип-кейс (накладка)";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Материал чехла поликарбонат";
+      document.getElementById("feature-info-6").innerHTML = "Цвет прозрачный";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50173706.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50173706.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50173706.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-tfn-dlya-honor-70-slimskin-chernyi"){
+      document.getElementById("item-name").innerHTML = "Чехол TFN для Honor 70 Slimskin черный";
+      document.getElementById("feature-info-1").innerHTML = "TFN";
+      document.getElementById("item-current-price").innerHTML = "999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Honor 70";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса накладка";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50174460.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50174460.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50174460.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-vlp-gloss-dlya-honor-70-prozrachnyi"){
+      document.getElementById("item-name").innerHTML = "Чехол vlp Gloss для Honor 70 прозрачный";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Не указано";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса чехол";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50174114.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50174114.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50174114.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-red-line-ultimate-dlya-xiaomi-redmi-10c-chernyi"){
+      document.getElementById("item-name").innerHTML = "Чехол Red Line Ultimate для Xiaomi Redmi 10C черный";
+      document.getElementById("feature-info-1").innerHTML = "Red Line";
+      document.getElementById("item-current-price").innerHTML = "599 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Xiaomi Redmi Note 10C";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса клип-кейс (накладка)";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.43";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50172027.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50172027.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50172027.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-tfn-dlya-samsung-s23-ultra-hard-s-podderzhkoi-magsafe"){
+      document.getElementById("item-name").innerHTML = "Чехол TFN для Samsung S23 Ultra HARD с поддержкой MagSafe";
+      document.getElementById("feature-info-1").innerHTML = "TFN";
+      document.getElementById("item-current-price").innerHTML = "1499 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Samsung S23 Ultra";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.8";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400095282.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400095282.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400095282.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-tfn-dlya-samsung-s23-plus-hard-s-podderzhkoi-magsafe"){
+      document.getElementById("item-name").innerHTML = "Чехол TFN для Samsung S23 Plus HARD с поддержкой MagSafe";
+      document.getElementById("feature-info-1").innerHTML = "TFN";
+      document.getElementById("item-current-price").innerHTML = "1499 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Samsung S23 Plus";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.7";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400095366.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400095366.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400095366.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-tfn-dlya-samsung-a14-tpu"){
+      document.getElementById("item-name").innerHTML = "Чехол TFN для Samsung A14 TPU";
+      document.getElementById("feature-info-1").innerHTML = "TFN";
+      document.getElementById("item-current-price").innerHTML = "599 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Samsung A14";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.78";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400106121.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400106121.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400106121.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-tfn-iphone-13-silicone-black-tfn-ss-ip13sbk"){
+      document.getElementById("item-name").innerHTML = "Чехол TFN iPhone 13 Silicone Black (TFN-SС-IP13SBK)";
+      document.getElementById("feature-info-1").innerHTML = "TFN";
+      document.getElementById("item-current-price").innerHTML = "999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Не указано";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса клип-кейс (накладка)";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Материал чехла пластик";
+      document.getElementById("feature-info-6").innerHTML = "Цвет черный";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50163807.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50163807.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50163807.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-apple-iphone-14-pro-max-clear-magsafe"){
+      document.getElementById("item-name").innerHTML = "Чехол Apple iPhone 14 Pro Max Clear MagSafe";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "5999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Apple iPhone 14 Pro Max";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса клип-кейс (накладка)";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Материал чехла поликарбонат";
+      document.getElementById("feature-info-6").innerHTML = "Цвет прозрачный";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50173707.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50173707.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50173707.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-samsung-silicone-cover-a54-black-ef-pa546tbegru"){
+      document.getElementById("item-name").innerHTML = "Чехол Samsung Silicone Cover A54 Black (EF-PA546TBEGRU)";
+      document.getElementById("feature-info-1").innerHTML = "Samsung";
+      document.getElementById("item-current-price").innerHTML = "2499 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Samsung Galaxy A54 5G";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса клипкейс";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50175570.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50175570.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50175570.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-vlp-honor-x9a-1051083"){
+      document.getElementById("item-name").innerHTML = "Чехол vlp Honor X9a 1051083";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Honor X9a";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.67";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400097321.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400097321.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400097321.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-deppa-galaxy-a54-5g-88393"){
+      document.getElementById("item-name").innerHTML = "Чехол Deppa Galaxy A54 5G (88393)";
+      document.getElementById("feature-info-1").innerHTML = "Deppa";
+      document.getElementById("item-current-price").innerHTML = "799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Samsung Galaxy A54 5G";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса накладка, бампер";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.4";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Тип застежки отсутствует";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400102186.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400102186.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400102186.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-tfn-dlya-realme-c31-tpu-clear"){
+      document.getElementById("item-name").innerHTML = "Чехол TFN для Realme C31 TPU clear";
+      document.getElementById("feature-info-1").innerHTML = "TFN";
+      document.getElementById("item-current-price").innerHTML = "499 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Не указано";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50173397.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50173397.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50173397.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-vlp-gloss-case-magsafe-dlya-iphone-14-pro-max-prozrachnyi"){
+      document.getElementById("item-name").innerHTML = "Чехол vlp Gloss case MagSafe для iPhone 14 Pro Max прозрачный";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "1599 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Apple iPhone 14 Pro Max";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса чехол";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Материал чехла поликарбонат/ термополиуретан";
+      document.getElementById("feature-info-6").innerHTML = "Цвет прозрачный";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Поддержка MagSafe Да";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50173555.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50173555.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50173555.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-vlp-silicone-s-magsafe-dlya-iphone-14-pro-purple"){
+      document.getElementById("item-name").innerHTML = "Чехол vlp Silicone с MagSafe для iPhone 14 Pro Purple";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "1999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Не указано";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса чехол";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Материал чехла силикон";
+      document.getElementById("feature-info-6").innerHTML = "Цвет фиолетовый темный";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Поддержка MagSafe Да";
+      document.getElementById("feature-info-9").innerHTML = "Вес 11";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50173585.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50173585.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50173585.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-tfn-dlyasamsung-s23-hard-s-podderzhkoi-magsafe"){
+      document.getElementById("item-name").innerHTML = "Чехол TFN для Samsung S23 HARD с поддержкой MagSafe";
+      document.getElementById("feature-info-1").innerHTML = "TFN";
+      document.getElementById("item-current-price").innerHTML = "1499 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Samsung S23";
+      document.getElementById("feature-info-3").innerHTML = "Не указан";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.7";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400095360.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400095360.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400095360.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-vlp-honor-x9a-1053053"){
+      document.getElementById("item-name").innerHTML = "Чехол vlp Honor X9a 1053053";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Honor X9a";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса чехол";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.67";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400097311.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400097311.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400097311.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-vlp-gloss-dlya-honor-x8a-prozrachnyi"){
+      document.getElementById("item-name").innerHTML = "Чехол vlp Gloss для Honor X8a прозрачный";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Honor X8a";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса чехол";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.7";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400099329.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400099329.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400099329.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-deppa-galaxy-a34-5g-88392"){
+      document.getElementById("item-name").innerHTML = "Чехол Deppa Galaxy A34 5G (88392)";
+      document.getElementById("feature-info-1").innerHTML = "Deppa";
+      document.getElementById("item-current-price").innerHTML = "799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Samsung Galaxy A34 5G";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса накладка, бампер";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.5";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Тип застежки отсутствует";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/400102185.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/400102185.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/400102185.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-zashhitnyi-vlp-gloss-case-magsafe-dlya-iphone-14-pro-prozrachnyi"){
+      document.getElementById("item-name").innerHTML = "Чехол защитный vlp Gloss case MagSafe для iPhone 14 Pro прозрачный";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "1599 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Apple iPhone 14 Pro";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса чехол";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Материал чехла поликарбонат/ термополиуретан";
+      document.getElementById("feature-info-6").innerHTML = "Цвет прозрачный";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Поддержка MagSafe Да";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50173554.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50173554.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50173554.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-vlp-silicone-s-magsafe-dlya-iphone-14-promax-purple"){
+      document.getElementById("item-name").innerHTML = "Чехол vlp Silicone с MagSafe для iPhone 14 ProMax Purple";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "1999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Не указано";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса чехол";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Материал чехла силикон";
+      document.getElementById("feature-info-6").innerHTML = "Цвет фиолетовый темный";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Поддержка MagSafe Да";
+      document.getElementById("feature-info-9").innerHTML = "Вес 15";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50173586.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50173586.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50173586.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-deppa-gel-shockproof-honor-x8-prozrachnyi"){
+      document.getElementById("item-name").innerHTML = "Чехол Deppa Gel Shockproof Honor X8 прозрачный";
+      document.getElementById("feature-info-1").innerHTML = "Deppa";
+      document.getElementById("item-current-price").innerHTML = "799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Подходит для Honor X8";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса клипкейс";
+      document.getElementById("feature-info-4").innerHTML = "Для моделей с диагональю экрана 6.7";
+      document.getElementById("feature-info-5").innerHTML = "Не указан";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Не указано";
+      document.getElementById("feature-info-9").innerHTML = "Не указан";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50171054.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50171054.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50171054.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/accessories/chehol-vlp-silicone-s-magsafe-dlya-iphone-14-pro-black"){
+      document.getElementById("item-name").innerHTML = "Чехол vlp Silicone с MagSafe для iPhone 14 Pro Black";
+      document.getElementById("feature-info-1").innerHTML = "vlp";
+      document.getElementById("item-current-price").innerHTML = "1499 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Не указано";
+      document.getElementById("feature-info-3").innerHTML = "Тип корпуса чехол";
+      document.getElementById("feature-info-4").innerHTML = "Не указано";
+      document.getElementById("feature-info-5").innerHTML = "Материал чехла силикон";
+      document.getElementById("feature-info-6").innerHTML = "Цвет черный";
+      document.getElementById("feature-info-7").innerHTML = "Не указан";
+      document.getElementById("feature-info-8").innerHTML = "Поддержка MagSafe Да";
+      document.getElementById("feature-info-9").innerHTML = "Вес 11";
+      
+      document.getElementById("item-photo-1").src = "{% static 'pictures/accessories/img1/50173581.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/accessories/img2/50173581.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/accessories/img3/50173581.AVIF' %}";
+
+      }
+            
+    </script>
+<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="/about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col"> 
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+  </body>
+  </html>
+    
