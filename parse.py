@@ -562,7 +562,7 @@ def get_characteristics_laptops():
         json.dump(prices, file, indent=4, ensure_ascii=False)
 
 
-def get_images_laptops():
+def get_images_laptopsssss():
     with open('laptops_data/laptops_list.json') as f1:
         prices = json.load(f1)
         phone_images = {}
@@ -1129,9 +1129,14 @@ def get_images_computers():
         prices = json.load(f1)
         phone_images = {}
         for i in prices['products']:
+
             phone_images[i['productId']] = {
-                'image' : 'http://static.mvideo.ru/' + i['images'][0]
+                'image': 'http://static.mvideo.ru/' + i['images'][0],
+                'image1': 'http://static.mvideo.ru/' + i['images'][1],
+                'image2': 'http://static.mvideo.ru/' + i['images'][2],
+                'image3': 'http://static.mvideo.ru/' + i['images'][0]
             }
+            
     with open('computers_prices.json') as f2:
         prices = json.load(f2)
         for i in prices:
@@ -1142,9 +1147,37 @@ def get_images_computers():
 
     for i in prices:
         img = prices[i]['image']
+        img1 = prices[i]['image1']
+
         resource = urllib.request.urlopen(img)
         out = open(f"pract/renessans_tech/static/pictures/computers/{i}.jpg", 'wb')
         out.write(resource.read())
+        out.close()
+
+        resource = urllib.request.urlopen(img1)
+        out = open(f"pract/renessans_tech/static/pictures/computers/img1/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/computers/img1/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/computers/img1/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/computers/img1/{i}.jpg")
+        out.close()
+
+        img2 = prices[i]['image2']
+        img3 = prices[i]['image3']
+        resource = urllib.request.urlopen(img2)
+        out = open(f"pract/renessans_tech/static/pictures/computers/img2/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/computers/img2/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/computers/img2/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/computers/img2/{i}.jpg")
+        out.close()
+
+        resource = urllib.request.urlopen(img3)
+        out = open(f"pract/renessans_tech/static/pictures/computers/img3/{i}.jpg", 'wb')
+        out.write(resource.read())
+        JPGimg = Image.open(f"pract/renessans_tech/static/pictures/computers/img3/{i}.jpg")
+        JPGimg.save(f"pract/renessans_tech/static/pictures/computers/img3/{i}" + '.AVIF', 'AVIF')
+        os.remove(f"pract/renessans_tech/static/pictures/computers/img3/{i}.jpg")
         out.close()
 
 
@@ -1167,6 +1200,7 @@ def full_data_computers():
         ram = {}
         comtroller = {}
         ssd = {}
+        hdd = {}
         for i in prices:
             if 'Тип процессора' not in prices[i]:
                 proc[i] = {"Тип процессора": "Не указан"}
@@ -1180,6 +1214,9 @@ def full_data_computers():
             if 'Объем SSD' not in prices[i]:
                 ssd[i] = {"Объем SSD": "Не указан"}
                 prices[i].update(ssd[i])
+            if 'Объем HDD' not in prices[i]:
+                hdd[i] = {"Объем HDD": "Не указан"}
+                prices[i].update(hdd[i])
 
     with open('computers_prices.json', 'w') as file:
         json.dump(prices, file, indent=4, ensure_ascii=False)
@@ -2049,7 +2086,7 @@ def get_cashback_tvs():
 
 def main():
     '''
-    with open('tv_prices.json') as file:
+    with open('computers_prices.json') as file:
         mas = []
         prices = json.load(file)
         for i in prices:
@@ -2058,8 +2095,8 @@ def main():
                     mas.append(j)
         print(mas)
     '''
-    full_data_tvs()
-    #get_images_laptops()
+    #full_data_computers()
+    get_images_computers()
 
     '''
     with open('tv_prices.json') as file:

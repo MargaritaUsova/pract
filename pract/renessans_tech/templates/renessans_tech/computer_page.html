@@ -1,10 +1,528 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+{% load static %}
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Компьютеры</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="{% static 'css/phone_page.css' %}">
+  <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
 <body>
-    КОМПЬЮТЕРЫ
-</body>
-</html>
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
+
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
+        </a>
+        <a class="cathegory-items" href = '/phones'>
+          Смартфоны
+        </a>
+        <a class="cathegory-items" href = '/laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="/tv">
+          Телевизоры
+        </a>
+        <a style="color: #ff0078;" class="cathegory-items" href = '/computers'>
+          Компьютеры
+        </a>
+        <a class="cathegory-items" href = '/tablets'>
+          Планшеты
+        </a>
+        <a class="cathegory-items" href = '/accessories'>
+          Аксессуары
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = '/basket'>
+          Корзина
+        </a>
+      </div>
+
+    </header> <br>
+    <div class="item-box">
+      <div class="item-photo-container">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img id="item-photo-1" class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img id="item-photo-2" class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img id="item-photo-3" class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+      </div>
+      <div class="item-info">
+        <p id="item-name" class="item-name">
+          Смартфон Apple iPhone 14 Pro Max 128GB nanoSim/eSim Deep Purple
+        </p>
+        <p style="font-weight: bold;">
+          Характеристики:
+        </p>
+        <ul>
+          <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
+          <li class="feature-2">Диагональ/разрешение: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-4">Оперативная память (RAM): <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-5">Графический контроллер: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-6">Объем SSD: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          </ul>
+        <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
+          Подробнее на сайте М.Видео
+        </a>
+      </div>
+      <div class="item-price-container">
+        <p id="item-current-price" class="item-current-price">
+          103 999 ₽
+        </p>
+        <p id="item-previous-price" class="item-previous-price">
+          119 999
+        </p>
+        <button class="add-to-cart">В корзину</button> <br>
+        <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+          <button class="credit-btn">Купить в кредит</button>
+        </a>
+      </div>
+    </div>
+
+  <script>
+    const currentUrl = window.location.href;
+    
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-irbis-mb2385"){
+      document.getElementById("item-name").innerHTML = "Моноблок Irbis MB2385";
+      document.getElementById("feature-info-1").innerHTML = "Irbis";
+      document.getElementById("item-current-price").innerHTML = "54999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "58999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 1135G7 2.4 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066145.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066145.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066145.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-hp-24-df1062ny-bundle-pc-4x5d8ea"){
+      document.getElementById("item-name").innerHTML = "Моноблок HP 24-df1062ny Bundle PC (4X5D8EA)";
+      document.getElementById("feature-info-1").innerHTML = "HP";
+      document.getElementById("item-current-price").innerHTML = "49999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "61999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 1135G7 2.4 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Не указан";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30065782.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30065782.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30065782.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-nerpa-saimaa-i510-i510-2305222"){
+      document.getElementById("item-name").innerHTML = "Моноблок Nerpa Saimaa I510 (I510-2305222)";
+      document.getElementById("feature-info-1").innerHTML = "Nerpa";
+      document.getElementById("item-current-price").innerHTML = "49999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "56799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 11400 2.6 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics 730";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30063801.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30063801.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30063801.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-aspire-c24-1650-dqbftmc00c"){
+      document.getElementById("item-name").innerHTML = "Моноблок Acer Aspire C24-1650 DQ.BFTMC.00C";
+      document.getElementById("feature-info-1").innerHTML = "Acer";
+      document.getElementById("item-current-price").innerHTML = "54999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "54999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i3 1115G4 1.7 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30065367.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30065367.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30065367.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-msi-9s6-ae0711-261"){
+      document.getElementById("item-name").innerHTML = "Моноблок MSI 9S6-AE0711-261";
+      document.getElementById("feature-info-1").innerHTML = "MSI";
+      document.getElementById("item-current-price").innerHTML = "64590 ₽";
+      document.getElementById("item-previous-price").innerHTML = "64590 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i3 Intel Core i3 1.2 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 0.512 ТБx512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/400147669.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/400147669.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/400147669.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-hp-24-cb1021nh"){
+      document.getElementById("item-name").innerHTML = "Моноблок HP 24-cb1021nh";
+      document.getElementById("feature-info-1").innerHTML = "HP";
+      document.getElementById("item-current-price").innerHTML = "54999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "64999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 1235U";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066138.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066138.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066138.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-irbis-mb2700"){
+      document.getElementById("item-name").innerHTML = "Моноблок Irbis MB2700";
+      document.getElementById("feature-info-1").innerHTML = "Irbis";
+      document.getElementById("item-current-price").innerHTML = "49999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "66999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 27"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 1135G7 2.4 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066146.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066146.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066146.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-aspire-c24-1700-dqbjwmc006"){
+      document.getElementById("item-name").innerHTML = "Моноблок Acer Aspire C24-1700 DQ.BJWMC.006";
+      document.getElementById("feature-info-1").innerHTML = "Acer";
+      document.getElementById("item-current-price").innerHTML = "74999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "82999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 1235U";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 1 ТБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30067652.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30067652.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30067652.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-lenovo-ideacentre-aio-3-24alc6-f0g100merk"){
+      document.getElementById("item-name").innerHTML = "Моноблок Lenovo IdeaCentre AIO 3 24ALC6 F0G100MERK";
+      document.getElementById("feature-info-1").innerHTML = "Lenovo";
+      document.getElementById("item-current-price").innerHTML = "51999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "61999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора AMD Ryzen 3 5300U 2.6 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Radeon Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30065368.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30065368.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30065368.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-msi-modern-am272-9s6-af8211-286"){
+      document.getElementById("item-name").innerHTML = "Моноблок MSI Modern AM272 9S6-AF8211-286";
+      document.getElementById("feature-info-1").innerHTML = "MSI";
+      document.getElementById("item-current-price").innerHTML = "85999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "85999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 27"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i7 1260P 3.4 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066711.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066711.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066711.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-msi-9s6-ae0311-826"){
+      document.getElementById("item-name").innerHTML = "Моноблок MSI 9S6-AE0311-826";
+      document.getElementById("feature-info-1").innerHTML = "MSI";
+      document.getElementById("item-current-price").innerHTML = "64690 ₽";
+      document.getElementById("item-previous-price").innerHTML = "64690 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i3 Intel Core i3 3.7 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 0.25 ТБx250 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/400147670.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/400147670.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/400147670.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-aspire-c24-1650-dqbfter00n-serebristyi"){
+      document.getElementById("item-name").innerHTML = "Моноблок Acer Aspire C24-1650 DQ.BFTER.00N серебристый";
+      document.getElementById("feature-info-1").innerHTML = "Acer";
+      document.getElementById("item-current-price").innerHTML = "69990 ₽";
+      document.getElementById("item-previous-price").innerHTML = "69990 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i3 i3-1115G4";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/4199137.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/4199137.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/4199137.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-irbis-mb2390"){
+      document.getElementById("item-name").innerHTML = "Моноблок Irbis MB2390";
+      document.getElementById("feature-info-1").innerHTML = "Irbis";
+      document.getElementById("item-current-price").innerHTML = "31999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "35999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Celeron N4020 1.1 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics 600";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30064482.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30064482.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30064482.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-nerpa-saimaa-i510-i510-2405222"){
+      document.getElementById("item-name").innerHTML = "Моноблок Nerpa Saimaa I510 (I510-2405222)";
+      document.getElementById("feature-info-1").innerHTML = "Nerpa";
+      document.getElementById("item-current-price").innerHTML = "59999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "67999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 27"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 11400 2.6 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics 730";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30063804.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30063804.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30063804.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-hp-24-cb1022nh"){
+      document.getElementById("item-name").innerHTML = "Моноблок HP 24-cb1022nh";
+      document.getElementById("feature-info-1").innerHTML = "HP";
+      document.getElementById("item-current-price").innerHTML = "54999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "64999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 1235U 3.3 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066139.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066139.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066139.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-c24-1700-dqbjfmc00e"){
+      document.getElementById("item-name").innerHTML = "Моноблок Acer C24-1700 DQ.BJFMC.00E";
+      document.getElementById("feature-info-1").innerHTML = "Acer";
+      document.getElementById("item-current-price").innerHTML = "66490 ₽";
+      document.getElementById("item-previous-price").innerHTML = "73990 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i3 1215U 900 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/400130459.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/400130459.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/400130459.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-irbis-mb2381"){
+      document.getElementById("item-name").innerHTML = "Моноблок Irbis MB2381";
+      document.getElementById("feature-info-1").innerHTML = "Irbis";
+      document.getElementById("item-current-price").innerHTML = "29999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "36999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 23.8"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Celeron N5095 2.0 ГГц";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066144.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066144.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066144.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-aspire-c27-1700-dqbjkmc009"){
+      document.getElementById("item-name").innerHTML = "Моноблок Acer Aspire C27-1700 DQ.BJKMC.009";
+      document.getElementById("feature-info-1").innerHTML = "Acer";
+      document.getElementById("item-current-price").innerHTML = "79999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "87999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Диагональ/разрешение 27"/1920x1080 пикс.";
+      document.getElementById("feature-info-3").innerHTML = "Тип процессора Intel Core i5 1235U";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
+      document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
+      document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
+      
+
+      document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30067651.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30067651.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30067651.AVIF' %}";
+
+      }
+            
+    </script>
+<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="/about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col"> 
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+  </body>
+  </html>
+    

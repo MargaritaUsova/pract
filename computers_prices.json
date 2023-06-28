@@ -13,7 +13,10 @@
         "Графический контроллер": "Графический контроллер Intel Iris Xe Graphics",
         "Объем SSD": "Объем SSD 512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30066145.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30066145b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30066145b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30066145.jpg"
     },
     "30065782": {
         "item_base_price": 61999,
@@ -30,7 +33,10 @@
         "Объем HDD": "Объем HDD 1 ТБ",
         "image": "http://static.mvideo.ru/Pdb/30065782.jpg",
         "item_cashback": "5%",
-        "Объем SSD": "Не указан"
+        "Объем SSD": "Не указан",
+        "image1": "http://static.mvideo.ru/Pdb/30065782b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065782b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065782.jpg"
     },
     "30063801": {
         "item_base_price": 56799,
@@ -46,7 +52,10 @@
         "Графический контроллер": "Графический контроллер Intel UHD Graphics 730",
         "Объем SSD": "Объем SSD 512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30063801.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30063801b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30063801b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30063801.jpg"
     },
     "30065367": {
         "item_base_price": 54999,
@@ -62,7 +71,10 @@
         "Графический контроллер": "Графический контроллер Intel UHD Graphics",
         "Объем SSD": "Объем SSD 256 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30065367.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30065367b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065367s.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065367.jpg"
     },
     "400147669": {
         "item_base_price": 64590,
@@ -78,7 +90,10 @@
         "Графический контроллер": "Графический контроллер UHD Graphics",
         "Объем SSD": "Объем SSD 0.512 ТБx512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/400147669.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/400147669b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400147669b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400147669.jpg"
     },
     "30066138": {
         "item_base_price": 64999,
@@ -94,7 +109,10 @@
         "Графический контроллер": "Графический контроллер Intel Iris Xe Graphics",
         "Объем SSD": "Объем SSD 256 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30066138.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30066138b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30066138b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30066138.jpg"
     },
     "30066146": {
         "item_base_price": 66999,
@@ -110,7 +128,10 @@
         "Графический контроллер": "Графический контроллер Intel Iris Xe Graphics",
         "Объем SSD": "Объем SSD 512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30066146.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30066146b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30066146b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30066146.jpg"
     },
     "30067652": {
         "item_base_price": 82999,
@@ -126,7 +147,10 @@
         "Графический контроллер": "Графический контроллер Intel Iris Xe Graphics",
         "Объем SSD": "Объем SSD 1 ТБ",
         "image": "http://static.mvideo.ru/Pdb/30067652.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30067652b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30067652b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30067652.jpg"
     },
     "30065368": {
         "item_base_price": 61999,
@@ -142,7 +166,10 @@
         "Графический контроллер": "Графический контроллер Radeon Graphics",
         "Объем SSD": "Объем SSD 256 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30065368.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30065368b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30065368b20.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30065368.jpg"
     },
     "30066711": {
         "item_base_price": 85999,
@@ -158,7 +185,10 @@
         "Графический контроллер": "Графический контроллер Intel Iris Xe Graphics",
         "Объем SSD": "Объем SSD 512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30066711.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30066711b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30066711s.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30066711.jpg"
     },
     "400147670": {
         "item_base_price": 64690,
@@ -174,7 +204,10 @@
         "Графический контроллер": "Графический контроллер UHD Graphics",
         "Объем SSD": "Объем SSD 0.25 ТБx250 ГБ",
         "image": "http://static.mvideo.ru/Pdb/400147670.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/400147670b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400147670b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400147670.jpg"
     },
     "4199137": {
         "item_base_price": 69990,
@@ -190,7 +223,10 @@
         "Графический контроллер": "Графический контроллер UHD Graphics",
         "Объем SSD": "Объем SSD 512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/4199137.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/4199137b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/4199137b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/4199137.jpg"
     },
     "30064482": {
         "item_base_price": 35999,
@@ -206,7 +242,10 @@
         "Графический контроллер": "Графический контроллер Intel UHD Graphics 600",
         "Объем SSD": "Объем SSD 256 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30064482.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30064482b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30064482b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30064482.jpg"
     },
     "30063804": {
         "item_base_price": 67999,
@@ -222,7 +261,10 @@
         "Графический контроллер": "Графический контроллер Intel UHD Graphics 730",
         "Объем SSD": "Объем SSD 512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30063804.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30063804b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30063804b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30063804.jpg"
     },
     "30066139": {
         "item_base_price": 64999,
@@ -238,7 +280,10 @@
         "Графический контроллер": "Графический контроллер Intel Iris Xe Graphics",
         "Объем SSD": "Объем SSD 256 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30066139.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30066139b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30066139b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30066139.jpg"
     },
     "400130459": {
         "item_base_price": 73990,
@@ -254,7 +299,10 @@
         "Графический контроллер": "Графический контроллер UHD Graphics",
         "Объем SSD": "Объем SSD 512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/400130459.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/400130459b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/400130459b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/400130459.jpg"
     },
     "30066144": {
         "item_base_price": 36999,
@@ -270,7 +318,10 @@
         "Графический контроллер": "Графический контроллер Intel UHD Graphics",
         "Объем SSD": "Объем SSD 256 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30066144.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30066144b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30066144b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30066144.jpg"
     },
     "30067651": {
         "item_base_price": 87999,
@@ -286,6 +337,9 @@
         "Графический контроллер": "Графический контроллер Intel Iris Xe Graphics",
         "Объем SSD": "Объем SSD 512 ГБ",
         "image": "http://static.mvideo.ru/Pdb/30067651.jpg",
-        "item_cashback": "5%"
+        "item_cashback": "5%",
+        "image1": "http://static.mvideo.ru/Pdb/30067651b.jpg",
+        "image2": "http://static.mvideo.ru/Pdb/30067651b1.jpg",
+        "image3": "http://static.mvideo.ru/Pdb/30067651.jpg"
     }
 }
