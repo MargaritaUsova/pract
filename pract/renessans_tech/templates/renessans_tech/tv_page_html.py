@@ -143,11 +143,18 @@ with open('tv_page.html', 'w') as f:
         </p>
         <ul>
           <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
-          <li class="feature-2">Диагональ/разрешение: <span id="feature-info-2" class="text-highligt">OLED</span></li>
-          <li class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
-          <li class="feature-4">Оперативная память (RAM): <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
-          <li class="feature-5">Графический контроллер: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
-          <li class="feature-6">Объем SSD: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-2">Экран: <span id="feature-info-2" class="text-highligt">OLED</span></li>
+          <li class="feature-3">Частота обновления: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-4">Поддержка Smart TV: <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-5">Технология HDR: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-6">Мощность фронтальных АС: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-7">Встроенный модуль Bluetooth: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-8">Технология QLED: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-9">Операционная система: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-10">Порт USB 2.0 тип A: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-11">Воспроизведение с USB: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          <li class="feature-12">Технология OLED: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
+          
           </ul>
         <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
           Подробнее на сайте М.Видео
@@ -180,8 +187,16 @@ with open('tv_page.html', 'w') as f:
       document.getElementById("item-previous-price").innerHTML = "{old_price}";
       document.getElementById("feature-info-2").innerHTML = "{diag}";
       document.getElementById("feature-info-3").innerHTML = "{proc}";
-      document.getElementById("feature-info-4").innerHTML = "{ram}";
-      document.getElementById("feature-info-5").innerHTML = "{graph}";
+      document.getElementById("feature-info-4").innerHTML = "{smart}";
+      document.getElementById("feature-info-5").innerHTML = "{hdr}";
+      document.getElementById("feature-info-6").innerHTML = "{f_as}";
+      document.getElementById("feature-info-7").innerHTML = "{bluetooth}";
+      document.getElementById("feature-info-8").innerHTML = "{qled}";
+      document.getElementById("feature-info-9").innerHTML = "{os}";
+      document.getElementById("feature-info-10").innerHTML = "{usb_a}";
+      document.getElementById("feature-info-11").innerHTML = "{usb}";
+      document.getElementById("feature-info-12").innerHTML = "{oled}";
+      
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
@@ -192,10 +207,17 @@ with open('tv_page.html', 'w') as f:
                        brand=prices[i]['brand'],
                        price=str(prices[i]['item_discount_price']) + ' ₽',
                        old_price=str(prices[i]['item_base_price']) + ' ₽',
-                       diag =prices[i]['Диагональ/разрешение'],
-                       proc=prices[i]['Тип процессора'],
-                       ram=prices[i]['Оперативная память (RAM)'],
-                       graph=prices[i]['Графический контроллер'],
+                       diag =prices[i]['Экран'],
+                       proc=prices[i]['Частота обновления'],
+                       smart=prices[i]['Поддержка Smart TV'],
+                       hdr=prices[i]['Технология HDR'],
+                       f_as=prices[i]['Мощность фронтальных АС'],
+                       bluetooth=prices[i]['Встроенный модуль Bluetooth'],
+                       qled=prices[i]['Технология QLED'],
+                       os=prices[i]['Операционная система'],
+                       usb_a=prices[i]['Порт USB 2.0 тип A'],
+                       usb=prices[i]['Воспроизведение с USB'],
+                       oled=prices[i]['Технология OLED'],
 
                        photo1=f'pictures/tv/img1/{i}.AVIF',
                        photo2=f'pictures/tv/img2/{i}.AVIF',

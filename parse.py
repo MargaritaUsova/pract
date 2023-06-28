@@ -1843,17 +1843,17 @@ def full_data_laptops():
 def full_data_tvs():
     with open('tv_prices.json') as f1:
         prices = json.load(f1)
-        diag = []
-        proc_type = []
-        ram = []
-        graph_proc = []
-        ssd = []
-        bl = []
-        qled = []
-        os = []
-        usb_a = []
-        usb = []
-        oled = []
+        diag = {}
+        proc_type = {}
+        ram = {}
+        graph_proc = {}
+        ssd = {}
+        bl = {}
+        qled = {}
+        os = {}
+        usb_a = {}
+        usb = {}
+        oled = {}
         for i in prices:
             if 'Экран' not in prices[i]:
                 diag[i] = {'Экран': 'Не указан'}
@@ -2034,6 +2034,17 @@ def get_images_laptops():
         os.remove(f"pract/renessans_tech/static/pictures/laptops/img3/{i}.jpg")
         out.close()
 
+def get_cashback_tvs():
+    with open('tv_prices.json') as f1:
+        prices = json.load(f1)
+        item_cashback = {}
+        for i in prices:
+            item_cashback[i] = {'item_cashback': '5%'}
+            prices[i].update(item_cashback[i])
+
+    with open('tv_prices.json', 'w') as file:
+        json.dump(prices, file, indent=4, ensure_ascii=False)
+
 
 
 def main():
@@ -2047,23 +2058,23 @@ def main():
                     mas.append(j)
         print(mas)
     '''
-    #full_data_tvs()
+    full_data_tvs()
     #get_images_laptops()
 
-    with open('laptop_prices.json') as file:
+    '''
+    with open('tv_prices.json') as file:
         prices = json.load(file)
         new_screens = {}
         for i in prices:
-            if '"' in prices[i]['Диагональ/разрешение']:
+            if '"' in prices[i]['Экран']:
                 new_screens[i] = {
-                    'Диагональ/разрешение': prices[i]['Диагональ/разрешение'].replace('"', '')
+                    'Экран': prices[i]['Экран'].replace('"', '')
                 }
                 prices[i].update(new_screens[i])
-        with open('laptop_prices.json', 'w') as file:
+        with open('tv_prices.json', 'w') as file:
             json.dump(prices, file, indent=4, ensure_ascii=False)
             
-            
-
+     '''
 
 
 

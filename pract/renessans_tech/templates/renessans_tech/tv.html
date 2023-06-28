@@ -5,9 +5,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Смартфоны</title>
+  <title>Телевизоры</title>
   <link rel="stylesheet" href="{% static 'css/phones.css' %}">
   <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#toTop').fadeIn();
+    } else {
+    $('#toTop').fadeOut();
+    }
+    });
+    $('#toTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+    });
+    });
+  </script>
 </head>
 <body>
 <header class="site-header">
@@ -64,520 +79,10 @@
 
          <div class="item-box">
     <div class="item-photo-container">
-    <a href="tv/televizor-hisense-55a6bg">
-        <img class="item-photo" src="{% static 'pictures/tv/10030412.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-hisense-55a6bg>
-        <p class="item-name">
-            Телевизор Hisense 55A6BG
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Hisense</span></li>
-        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        24999 ₽
-      </p>
-      <p class="item-previous-price">
-        34999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-philips-43pus7406-60">
-        <img class="item-photo" src="{% static 'pictures/tv/10027344.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-philips-43pus7406-60>
-        <p class="item-name">
-            Телевизор Philips 43PUS7406/60
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Philips</span></li>
-        <li>Экран: <span class="text-highligt">Экран 43"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        21999 ₽
-      </p>
-      <p class="item-previous-price">
-        37999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-hisense-50e7hq">
-        <img class="item-photo" src="{% static 'pictures/tv/10030422.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-hisense-50e7hq>
-        <p class="item-name">
-            Телевизор Hisense 50E7HQ
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Hisense</span></li>
-        <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        34599 ₽
-      </p>
-      <p class="item-previous-price">
-        34599
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-artel-a32kh5500">
-        <img class="item-photo" src="{% static 'pictures/tv/10031346.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-artel-a32kh5500>
-        <p class="item-name">
-            Телевизор Artel A32KH5500
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Artel</span></li>
-        <li>Экран: <span class="text-highligt">Экран 32"/1366x768 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        11999 ₽
-      </p>
-      <p class="item-previous-price">
-        15999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-haier-50-smart-tv-s1">
-        <img class="item-photo" src="{% static 'pictures/tv/10031853.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-haier-50-smart-tv-s1>
-        <p class="item-name">
-            Телевизор Haier 50 Smart TV S1
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Haier</span></li>
-        <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        27999 ₽
-      </p>
-      <p class="item-previous-price">
-        27999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-skyworth-32ste6600">
-        <img class="item-photo" src="{% static 'pictures/tv/400138188.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-skyworth-32ste6600>
-        <p class="item-name">
-            Телевизор SKYWORTH 32STE6600
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">SKYWORTH</span></li>
-        <li>Экран: <span class="text-highligt">Экран 32"/1366x768 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        12999 ₽
-      </p>
-      <p class="item-previous-price">
-        12999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-hisense-55u7hq">
-        <img class="item-photo" src="{% static 'pictures/tv/10030424.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-hisense-55u7hq>
-        <p class="item-name">
-            Телевизор Hisense 55U7HQ
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Hisense</span></li>
-        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        59999 ₽
-      </p>
-      <p class="item-previous-price">
-        74999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-haier-50-smart-tv-s3">
-        <img class="item-photo" src="{% static 'pictures/tv/10031854.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-haier-50-smart-tv-s3>
-        <p class="item-name">
-            Телевизор Haier 50 Smart TV S3
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Haier</span></li>
-        <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        34999 ₽
-      </p>
-      <p class="item-previous-price">
-        43999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-haier-43-smart-tv-s1">
-        <img class="item-photo" src="{% static 'pictures/tv/10031852.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-haier-43-smart-tv-s1>
-        <p class="item-name">
-            Телевизор Haier 43 Smart TV S1
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Haier</span></li>
-        <li>Экран: <span class="text-highligt">Экран 43"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        22999 ₽
-      </p>
-      <p class="item-previous-price">
-        22999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-haier-55-smart-tv-ax-pro">
-        <img class="item-photo" src="{% static 'pictures/tv/10030670.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-haier-55-smart-tv-ax-pro>
-        <p class="item-name">
-            Телевизор Haier 55 Smart TV AX Pro
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Haier</span></li>
-        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        59999 ₽
-      </p>
-      <p class="item-previous-price">
-        59999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-hisense-65u7hq">
-        <img class="item-photo" src="{% static 'pictures/tv/10030428.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-hisense-65u7hq>
-        <p class="item-name">
-            Телевизор Hisense 65U7HQ
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Hisense</span></li>
-        <li>Экран: <span class="text-highligt">Экран 65"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        74999 ₽
-      </p>
-      <p class="item-previous-price">
-        84999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-artel-ua50h3502">
-        <img class="item-photo" src="{% static 'pictures/tv/10031390.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-artel-ua50h3502>
-        <p class="item-name">
-            Телевизор Artel UA50H3502
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Artel</span></li>
-        <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        21999 ₽
-      </p>
-      <p class="item-previous-price">
-        38999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-haier-32-smart-tv-s1">
-        <img class="item-photo" src="{% static 'pictures/tv/10031851.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-haier-32-smart-tv-s1>
-        <p class="item-name">
-            Телевизор Haier 32 Smart TV S1
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Haier</span></li>
-        <li>Экран: <span class="text-highligt">Экран 32"/1920x1080 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        15999 ₽
-      </p>
-      <p class="item-previous-price">
-        15999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-vityaz-32lh0202">
-        <img class="item-photo" src="{% static 'pictures/tv/10021227.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-vityaz-32lh0202>
-        <p class="item-name">
-            Телевизор Витязь 32LH0202
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Витязь</span></li>
-        <li>Экран: <span class="text-highligt">Экран 32"/1366x768 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Нет</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        7199 ₽
-      </p>
-      <p class="item-previous-price">
-        7199
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-hi-vhix-32f199msa">
-        <img class="item-photo" src="{% static 'pictures/tv/400078123.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-hi-vhix-32f199msa>
-        <p class="item-name">
-            Телевизор Hi VHIX-32F199MSA
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Hi</span></li>
-        <li>Экран: <span class="text-highligt">Экран 32"/1920x1080 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        8999 ₽
-      </p>
-      <p class="item-previous-price">
-        10999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
     <a href="tv/televizor-haier-55-smart-tv-s3">
         <img class="item-photo" src="{% static 'pictures/tv/10031855.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=tv/televizor-haier-55-smart-tv-s3>
@@ -608,20 +113,20 @@
   </div>
              <div class="item-box">
     <div class="item-photo-container">
-    <a href="tv/televizor-grundig-50-gfu-7800b">
-        <img class="item-photo" src="{% static 'pictures/tv/10031216.jpg' %}">
+    <a href="tv/televizor-yandeks-43---umnyi-televizor-s-alisoi-yndx-00071">
+        <img class="item-photo" src="{% static 'pictures/tv/10031656.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
-    <a href=tv/televizor-grundig-50-gfu-7800b>
+    <a href=tv/televizor-yandeks-43---umnyi-televizor-s-alisoi-yndx-00071>
         <p class="item-name">
-            Телевизор Grundig 50 GFU 7800B
+            Телевизор Яндекс 43'' - умный телевизор с Алисой (YNDX-00071)
         </p>
       </a>
       <ul>
-        <li>Бренд: <span class="text-highligt">Grundig</span></li>
-        <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
+        <li>Бренд: <span class="text-highligt">Yandex</span></li>
+        <li>Экран: <span class="text-highligt">Экран 43"/3840x2160 Пикс"</span></li>
         <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
 
         
@@ -632,7 +137,7 @@
         24999 ₽
       </p>
       <p class="item-previous-price">
-        42999
+        24999
       </p>
       <button class="add-to-cart">В корзину</button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
@@ -642,20 +147,20 @@
   </div>
              <div class="item-box">
     <div class="item-photo-container">
-    <a href="tv/televizor-artel-ua43h3401">
-        <img class="item-photo" src="{% static 'pictures/tv/10031348.jpg' %}">
+    <a href="tv/televizor-haier-65-smart-tv-ax-pro">
+        <img class="item-photo" src="{% static 'pictures/tv/10030671.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
-    <a href=tv/televizor-artel-ua43h3401>
+    <a href=tv/televizor-haier-65-smart-tv-ax-pro>
         <p class="item-name">
-            Телевизор Artel UA43H3401
+            Телевизор Haier 65 Smart TV AX Pro
         </p>
       </a>
       <ul>
-        <li>Бренд: <span class="text-highligt">Artel</span></li>
-        <li>Экран: <span class="text-highligt">Экран 43"/1920x1080 Пикс"</span></li>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
+        <li>Экран: <span class="text-highligt">Экран 65"/3840x2160 Пикс"</span></li>
         <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
 
         
@@ -663,10 +168,10 @@
     </div>
     <div class="item-price-container">
       <p class="item-current-price">
-        16999 ₽
+        59999 ₽
       </p>
       <p class="item-previous-price">
-        23999
+        69999
       </p>
       <button class="add-to-cart">В корзину</button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
@@ -676,19 +181,19 @@
   </div>
              <div class="item-box">
     <div class="item-photo-container">
-    <a href="tv/televizor-hisense-50a6bg">
-        <img class="item-photo" src="{% static 'pictures/tv/10030411.jpg' %}">
+    <a href="tv/televizor-haier-50-smart-tv-s1">
+        <img class="item-photo" src="{% static 'pictures/tv/10031853.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
-    <a href=tv/televizor-hisense-50a6bg>
+    <a href=tv/televizor-haier-50-smart-tv-s1>
         <p class="item-name">
-            Телевизор Hisense 50A6BG
+            Телевизор Haier 50 Smart TV S1
         </p>
       </a>
       <ul>
-        <li>Бренд: <span class="text-highligt">Hisense</span></li>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
         <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
         <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
 
@@ -697,44 +202,10 @@
     </div>
     <div class="item-price-container">
       <p class="item-current-price">
-        29999 ₽
+        27999 ₽
       </p>
       <p class="item-previous-price">
-        29999
-      </p>
-      <button class="add-to-cart">В корзину</button> <br>
-      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
-        <button class="credit-btn">Купить в кредит</button>
-      </a>
-    </div>
-  </div>
-             <div class="item-box">
-    <div class="item-photo-container">
-    <a href="tv/televizor-hisense-55e7hq">
-        <img class="item-photo" src="{% static 'pictures/tv/10030423.jpg' %}">
-      </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
-    </div>
-    <div class="item-info">
-    <a href=tv/televizor-hisense-55e7hq>
-        <p class="item-name">
-            Телевизор Hisense 55E7HQ
-        </p>
-      </a>
-      <ul>
-        <li>Бренд: <span class="text-highligt">Hisense</span></li>
-        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
-        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
-
-        
-        </ul>
-    </div>
-    <div class="item-price-container">
-      <p class="item-current-price">
-        29999 ₽
-      </p>
-      <p class="item-previous-price">
-        39999
+        27999
       </p>
       <button class="add-to-cart">В корзину</button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
@@ -747,7 +218,7 @@
     <a href="tv/televizor-haier-55-smart-tv-s1">
         <img class="item-photo" src="{% static 'pictures/tv/10031388.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
     <a href=tv/televizor-haier-55-smart-tv-s1>
@@ -778,20 +249,530 @@
   </div>
              <div class="item-box">
     <div class="item-photo-container">
-    <a href="tv/televizor-hisense-32a4k">
-        <img class="item-photo" src="{% static 'pictures/tv/400101354.jpg' %}">
+    <a href="tv/televizor-haier-65-smart-tv-s3">
+        <img class="item-photo" src="{% static 'pictures/tv/10031856.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
-    <a href=tv/televizor-hisense-32a4k>
+    <a href=tv/televizor-haier-65-smart-tv-s3>
         <p class="item-name">
-            Телевизор Hisense 32A4K
+            Телевизор Haier 65 Smart TV S3
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
+        <li>Экран: <span class="text-highligt">Экран 65"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        54999 ₽
+      </p>
+      <p class="item-previous-price">
+        59999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-skyworth-32ste6600">
+        <img class="item-photo" src="{% static 'pictures/tv/400138188.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-skyworth-32ste6600>
+        <p class="item-name">
+            Телевизор SKYWORTH 32STE6600
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">SKYWORTH</span></li>
+        <li>Экран: <span class="text-highligt">Экран 32"/1366x768 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        12999 ₽
+      </p>
+      <p class="item-previous-price">
+        12999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-vityaz-24lh0201">
+        <img class="item-photo" src="{% static 'pictures/tv/10021226.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-vityaz-24lh0201>
+        <p class="item-name">
+            Телевизор Витязь 24LH0201
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Витязь</span></li>
+        <li>Экран: <span class="text-highligt">Экран 24"/1366x768 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Нет</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        4999 ₽
+      </p>
+      <p class="item-previous-price">
+        5899
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-hisense-55u7hq">
+        <img class="item-photo" src="{% static 'pictures/tv/10030424.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-hisense-55u7hq>
+        <p class="item-name">
+            Телевизор Hisense 55U7HQ
         </p>
       </a>
       <ul>
         <li>Бренд: <span class="text-highligt">Hisense</span></li>
+        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        69999 ₽
+      </p>
+      <p class="item-previous-price">
+        69999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-lg-50uq76003ld">
+        <img class="item-photo" src="{% static 'pictures/tv/10031295.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-lg-50uq76003ld>
+        <p class="item-name">
+            Телевизор LG 50UQ76003LD
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">LG</span></li>
+        <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        39499 ₽
+      </p>
+      <p class="item-previous-price">
+        42999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-hisense-50a6bg">
+        <img class="item-photo" src="{% static 'pictures/tv/10030411.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-hisense-50a6bg>
+        <p class="item-name">
+            Телевизор Hisense 50A6BG
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Hisense</span></li>
+        <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        29999 ₽
+      </p>
+      <p class="item-previous-price">
+        29999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-artel-ua32h3200">
+        <img class="item-photo" src="{% static 'pictures/tv/10031347.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-artel-ua32h3200>
+        <p class="item-name">
+            Телевизор Artel UA32H3200
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Artel</span></li>
         <li>Экран: <span class="text-highligt">Экран 32"/1366x768 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        14999 ₽
+      </p>
+      <p class="item-previous-price">
+        17999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-hisense-55e7hq">
+        <img class="item-photo" src="{% static 'pictures/tv/10030423.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-hisense-55e7hq>
+        <p class="item-name">
+            Телевизор Hisense 55E7HQ
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Hisense</span></li>
+        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        44999 ₽
+      </p>
+      <p class="item-previous-price">
+        44999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-philips-55pus7406-60">
+        <img class="item-photo" src="{% static 'pictures/tv/10027336.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-philips-55pus7406-60>
+        <p class="item-name">
+            Телевизор Philips 55PUS7406/60
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Philips</span></li>
+        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        26999 ₽
+      </p>
+      <p class="item-previous-price">
+        45999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-hisense-55a6bg">
+        <img class="item-photo" src="{% static 'pictures/tv/10030412.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-hisense-55a6bg>
+        <p class="item-name">
+            Телевизор Hisense 55A6BG
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Hisense</span></li>
+        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        34999 ₽
+      </p>
+      <p class="item-previous-price">
+        34999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-hi-vhix-40f152msy">
+        <img class="item-photo" src="{% static 'pictures/tv/10025203.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-hi-vhix-40f152msy>
+        <p class="item-name">
+            Телевизор Hi VHIX-40F152MSY
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Hi</span></li>
+        <li>Экран: <span class="text-highligt">Экран 40"/1920x1080 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        10999 ₽
+      </p>
+      <p class="item-previous-price">
+        12499
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-hisense-65a6bg">
+        <img class="item-photo" src="{% static 'pictures/tv/10030413.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-hisense-65a6bg>
+        <p class="item-name">
+            Телевизор Hisense 65A6BG
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Hisense</span></li>
+        <li>Экран: <span class="text-highligt">Экран 65"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        49999 ₽
+      </p>
+      <p class="item-previous-price">
+        49999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-toshiba-65c350le">
+        <img class="item-photo" src="{% static 'pictures/tv/400076954.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-toshiba-65c350le>
+        <p class="item-name">
+            Телевизор Toshiba 65C350LE
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Toshiba</span></li>
+        <li>Экран: <span class="text-highligt">Экран 65"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        49999 ₽
+      </p>
+      <p class="item-previous-price">
+        64999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-haier-55-smart-tv-s7">
+        <img class="item-photo" src="{% static 'pictures/tv/400095987.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-haier-55-smart-tv-s7>
+        <p class="item-name">
+            Телевизор Haier 55 Smart TV S7
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
+        <li>Экран: <span class="text-highligt">Экран 55"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        59999 ₽
+      </p>
+      <p class="item-previous-price">
+        79999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-haier-50-smart-tv-s3">
+        <img class="item-photo" src="{% static 'pictures/tv/10031854.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-haier-50-smart-tv-s3>
+        <p class="item-name">
+            Телевизор Haier 50 Smart TV S3
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
+        <li>Экран: <span class="text-highligt">Экран 50"/3840x2160 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        34999 ₽
+      </p>
+      <p class="item-previous-price">
+        43999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-haier-32-smart-tv-s1">
+        <img class="item-photo" src="{% static 'pictures/tv/10031851.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-haier-32-smart-tv-s1>
+        <p class="item-name">
+            Телевизор Haier 32 Smart TV S1
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
+        <li>Экран: <span class="text-highligt">Экран 32"/1920x1080 Пикс"</span></li>
         <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
 
         
@@ -812,19 +793,19 @@
   </div>
              <div class="item-box">
     <div class="item-photo-container">
-    <a href="tv/televizor-yandeks-43---umnyi-televizor-s-alisoi-yndx-00071">
-        <img class="item-photo" src="{% static 'pictures/tv/10031656.jpg' %}">
+    <a href="tv/televizor-haier-43-smart-tv-s1">
+        <img class="item-photo" src="{% static 'pictures/tv/10031852.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
-    <a href=tv/televizor-yandeks-43---umnyi-televizor-s-alisoi-yndx-00071>
+    <a href=tv/televizor-haier-43-smart-tv-s1>
         <p class="item-name">
-            Телевизор Яндекс 43'' - умный телевизор с Алисой (YNDX-00071)
+            Телевизор Haier 43 Smart TV S1
         </p>
       </a>
       <ul>
-        <li>Бренд: <span class="text-highligt">Yandex</span></li>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
         <li>Экран: <span class="text-highligt">Экран 43"/3840x2160 Пикс"</span></li>
         <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
 
@@ -833,10 +814,10 @@
     </div>
     <div class="item-price-container">
       <p class="item-current-price">
-        21999 ₽
+        22999 ₽
       </p>
       <p class="item-previous-price">
-        27999
+        22999
       </p>
       <button class="add-to-cart">В корзину</button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
@@ -846,19 +827,19 @@
   </div>
              <div class="item-box">
     <div class="item-photo-container">
-    <a href="tv/televizor-hisense-65a6bg">
-        <img class="item-photo" src="{% static 'pictures/tv/10030413.jpg' %}">
+    <a href="tv/televizor-haier-h65s9ug-pro">
+        <img class="item-photo" src="{% static 'pictures/tv/10030005.jpg' %}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбэком 10%">Кэшбек 10%</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
     </div>
     <div class="item-info">
-    <a href=tv/televizor-hisense-65a6bg>
+    <a href=tv/televizor-haier-h65s9ug-pro>
         <p class="item-name">
-            Телевизор Hisense 65A6BG
+            Телевизор Haier H65S9UG PRO
         </p>
       </a>
       <ul>
-        <li>Бренд: <span class="text-highligt">Hisense</span></li>
+        <li>Бренд: <span class="text-highligt">Haier</span></li>
         <li>Экран: <span class="text-highligt">Экран 65"/3840x2160 Пикс"</span></li>
         <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
 
@@ -867,10 +848,10 @@
     </div>
     <div class="item-price-container">
       <p class="item-current-price">
-        34999 ₽
+        119999 ₽
       </p>
       <p class="item-previous-price">
-        49999
+        149999
       </p>
       <button class="add-to-cart">В корзину</button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
@@ -878,5 +859,84 @@
       </a>
     </div>
   </div>
-        </body>
+             <div class="item-box">
+    <div class="item-photo-container">
+    <a href="tv/televizor-artel-a32kh5500">
+        <img class="item-photo" src="{% static 'pictures/tv/10031346.jpg' %}">
+      </a>
+      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 5%">Кэшбек 5%</p>
+    </div>
+    <div class="item-info">
+    <a href=tv/televizor-artel-a32kh5500>
+        <p class="item-name">
+            Телевизор Artel A32KH5500
+        </p>
+      </a>
+      <ul>
+        <li>Бренд: <span class="text-highligt">Artel</span></li>
+        <li>Экран: <span class="text-highligt">Экран 32"/1366x768 Пикс"</span></li>
+        <li>Поддержка Smart TV <span class="text-highligt">Поддержка Smart TV Да</span></li>
+
+        
+        </ul>
+    </div>
+    <div class="item-price-container">
+      <p class="item-current-price">
+        16999 ₽
+      </p>
+      <p class="item-previous-price">
+        16999
+      </p>
+      <button class="add-to-cart">В корзину</button> <br>
+      <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
+        <button class="credit-btn">Купить в кредит</button>
+      </a>
+    </div>
+  </div>
+        
+    <DIV ID = "toTop" ><img style="width: 30px; opacity: 70%;" src="{% static 'pictures/arrow-icon.svg' %}" alt=""></DIV>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+    </body>
     </html>

@@ -20,7 +20,7 @@ with open('laptop_page.html', 'w') as f:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>Ноутбуки</title>
   <link rel="stylesheet" href="{% static 'css/phone_page.css' %}">
   <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
