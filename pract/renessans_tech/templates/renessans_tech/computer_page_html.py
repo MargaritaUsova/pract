@@ -90,10 +90,6 @@ with open('computer_page.html', 'w') as f:
             <img id="item-photo-2" class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
           </div>
 
-          <div class="mySlides fade">
-            <img id="item-photo-3" class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
-          </div>
-
           <a class="prev" onclick="plusSlides(-1)">❮</a>
           <a class="next" onclick="plusSlides(1)">❯</a>
 
@@ -103,7 +99,6 @@ with open('computer_page.html', 'w') as f:
           <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
           </div>
 
           <script>
@@ -144,7 +139,7 @@ with open('computer_page.html', 'w') as f:
           Характеристики:
         </p>
         <ul>
-          <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
+          <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</span></li>
           <li class="feature-2">Диагональ/разрешение: <span id="feature-info-2" class="text-highligt">A16 Bionic</span></li>
           <li class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
           <li class="feature-4">Оперативная память (RAM): <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
