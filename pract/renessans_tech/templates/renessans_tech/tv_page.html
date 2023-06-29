@@ -1,5 +1,4 @@
-
-    <!DOCTYPE html>
+ <!DOCTYPE html>
 {% load static %}
 <html lang="ru">
 <head>
@@ -73,10 +72,6 @@
             <img id="item-photo-2" class="item-photo " src="{% static 'pictures/test-2.avif' %}" style="width:100%">
           </div>
 
-          <div class="mySlides fade">
-            <img id="item-photo-3" class="item-photo " src="{% static 'pictures/test-3.avif' %}" style="width:100%">
-          </div>
-
           <a class="prev" onclick="plusSlides(-1)">❮</a>
           <a class="next" onclick="plusSlides(1)">❯</a>
 
@@ -86,7 +81,6 @@
           <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
           </div>
 
           <script>
@@ -127,7 +121,7 @@
           Характеристики:
         </p>
         <ul>
-          <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
+          <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</span></li>
           <li class="feature-2">Экран: <span id="feature-info-2" class="text-highligt">OLED</span></li>
           <li class="feature-3">Частота обновления: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
           <li class="feature-4">Поддержка Smart TV: <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
@@ -139,7 +133,7 @@
           <li class="feature-10">Порт USB 2.0 тип A: <span id="feature-info-10" class="text-highligt">лялллляя</span></li>
           <li class="feature-11">Воспроизведение с USB: <span id="feature-info-11" class="text-highligt">лялллляя</span></li>
           <li class="feature-12">Технология OLED: <span id="feature-info-12" class="text-highligt">лялллляя</span></li>
-          
+
           </ul>
         <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
           Подробнее на сайте М.Видео
@@ -161,7 +155,7 @@
 
   <script>
     const currentUrl = window.location.href;
-    
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-55-smart-tv-s3"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 55 Smart TV S3";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -178,13 +172,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031855.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031855.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031855.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-yandeks-43---umnyi-televizor-s-alisoi-yndx-00071"){
       document.getElementById("item-name").innerHTML = "Телевизор Яндекс 43'' - умный телевизор с Алисой (YNDX-00071)";
       document.getElementById("feature-info-1").innerHTML = "Yandex";
@@ -201,13 +195,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031656.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031656.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031656.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-65-smart-tv-ax-pro"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 65 Smart TV AX Pro";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -224,13 +218,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10030671.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10030671.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10030671.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-50-smart-tv-s1"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 50 Smart TV S1";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -247,13 +241,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031853.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031853.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031853.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-55-smart-tv-s1"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 55 Smart TV S1";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -270,13 +264,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031388.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031388.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031388.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-65-smart-tv-s3"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 65 Smart TV S3";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -293,13 +287,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031856.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031856.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031856.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-skyworth-32ste6600"){
       document.getElementById("item-name").innerHTML = "Телевизор SKYWORTH 32STE6600";
       document.getElementById("feature-info-1").innerHTML = "SKYWORTH";
@@ -316,13 +310,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/400138188.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/400138188.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/400138188.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-vityaz-24lh0201"){
       document.getElementById("item-name").innerHTML = "Телевизор Витязь 24LH0201";
       document.getElementById("feature-info-1").innerHTML = "Витязь";
@@ -339,13 +333,13 @@
       document.getElementById("feature-info-10").innerHTML = "Порт USB 2.0 тип A 1";
       document.getElementById("feature-info-11").innerHTML = "Воспроизведение с USB Да";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10021226.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10021226.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10021226.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-hisense-55u7hq"){
       document.getElementById("item-name").innerHTML = "Телевизор Hisense 55U7HQ";
       document.getElementById("feature-info-1").innerHTML = "Hisense";
@@ -362,13 +356,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10030424.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10030424.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10030424.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-lg-50uq76003ld"){
       document.getElementById("item-name").innerHTML = "Телевизор LG 50UQ76003LD";
       document.getElementById("feature-info-1").innerHTML = "LG";
@@ -385,13 +379,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031295.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031295.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031295.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-hisense-50a6bg"){
       document.getElementById("item-name").innerHTML = "Телевизор Hisense 50A6BG";
       document.getElementById("feature-info-1").innerHTML = "Hisense";
@@ -408,13 +402,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10030411.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10030411.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10030411.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-artel-ua32h3200"){
       document.getElementById("item-name").innerHTML = "Телевизор Artel UA32H3200";
       document.getElementById("feature-info-1").innerHTML = "Artel";
@@ -431,13 +425,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031347.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031347.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031347.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-hisense-55e7hq"){
       document.getElementById("item-name").innerHTML = "Телевизор Hisense 55E7HQ";
       document.getElementById("feature-info-1").innerHTML = "Hisense";
@@ -454,13 +448,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10030423.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10030423.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10030423.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-philips-55pus7406-60"){
       document.getElementById("item-name").innerHTML = "Телевизор Philips 55PUS7406/60";
       document.getElementById("feature-info-1").innerHTML = "Philips";
@@ -477,13 +471,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10027336.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10027336.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10027336.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-hisense-55a6bg"){
       document.getElementById("item-name").innerHTML = "Телевизор Hisense 55A6BG";
       document.getElementById("feature-info-1").innerHTML = "Hisense";
@@ -500,13 +494,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10030412.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10030412.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10030412.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-hi-vhix-40f152msy"){
       document.getElementById("item-name").innerHTML = "Телевизор Hi VHIX-40F152MSY";
       document.getElementById("feature-info-1").innerHTML = "Hi";
@@ -523,13 +517,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10025203.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10025203.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10025203.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-hisense-65a6bg"){
       document.getElementById("item-name").innerHTML = "Телевизор Hisense 65A6BG";
       document.getElementById("feature-info-1").innerHTML = "Hisense";
@@ -546,13 +540,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10030413.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10030413.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10030413.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-toshiba-65c350le"){
       document.getElementById("item-name").innerHTML = "Телевизор Toshiba 65C350LE";
       document.getElementById("feature-info-1").innerHTML = "Toshiba";
@@ -569,13 +563,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/400076954.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/400076954.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/400076954.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-55-smart-tv-s7"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 55 Smart TV S7";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -592,13 +586,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/400095987.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/400095987.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/400095987.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-50-smart-tv-s3"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 50 Smart TV S3";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -615,13 +609,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031854.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031854.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031854.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-32-smart-tv-s1"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 32 Smart TV S1";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -638,13 +632,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031851.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031851.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031851.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-43-smart-tv-s1"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier 43 Smart TV S1";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -661,13 +655,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031852.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031852.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031852.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-haier-h65s9ug-pro"){
       document.getElementById("item-name").innerHTML = "Телевизор Haier H65S9UG PRO";
       document.getElementById("feature-info-1").innerHTML = "Haier";
@@ -684,13 +678,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Технология OLED Да";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10030005.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10030005.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10030005.AVIF' %}";
 
       }
-            
+
     if (currentUrl == "http://127.0.0.1:8000/tv/televizor-artel-a32kh5500"){
       document.getElementById("item-name").innerHTML = "Телевизор Artel A32KH5500";
       document.getElementById("feature-info-1").innerHTML = "Artel";
@@ -707,13 +701,13 @@
       document.getElementById("feature-info-10").innerHTML = "Не указан";
       document.getElementById("feature-info-11").innerHTML = "Не указано";
       document.getElementById("feature-info-12").innerHTML = "Не указана";
-      
+
       document.getElementById("item-photo-1").src = "{% static 'pictures/tv/img1/10031346.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tv/img2/10031346.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tv/img3/10031346.AVIF' %}";
 
       }
-            
+
     </script>
 <footer class="footer">
       <div class="container">
@@ -727,7 +721,7 @@
               <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
             </ul>
           </div>
-          <div class="footer-col"> 
+          <div class="footer-col">
             <h4>Помощь</h4>
             <ul>
               <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
@@ -760,4 +754,3 @@
    </footer>
   </body>
   </html>
-    
