@@ -117,7 +117,7 @@
             dots[slideIndex-1].className += " active";
           }
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+        <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 10%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -127,7 +127,7 @@
           Характеристики:
         </p>
         <ul>
-          <li class="feature-1">Экран: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
+          <li class="feature-1">Экран: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</span></li>
           <li class="feature-2">Технология экрана: <span id="feature-info-2" class="text-highligt">OLED</span></li>
           <li class="feature-3">Тип процессора: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
           <li class="feature-4">Встроенная память (ROM) <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
@@ -172,6 +172,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067439.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067439.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067439.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -190,6 +191,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067636.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067636.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067636.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -208,6 +210,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30064918.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30064918.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30064918.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -226,6 +229,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/400148134.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/400148134.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/400148134.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -244,6 +248,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063682.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063682.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063682.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -262,6 +267,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067223.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067223.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067223.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -280,6 +286,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/50170400.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/50170400.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/50170400.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -298,6 +305,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063535.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063535.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063535.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -316,6 +324,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063482.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063482.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063482.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -334,6 +343,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30065649.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30065649.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30065649.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -352,6 +362,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063689.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063689.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063689.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -370,6 +381,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067635.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067635.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067635.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -388,6 +400,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30064210.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30064210.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30064210.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -406,6 +419,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30065350.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30065350.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30065350.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -424,6 +438,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063379.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063379.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063379.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10бебриков";
       
       }
             
@@ -442,6 +457,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30064943.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30064943.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30064943.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -460,6 +476,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30064911.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30064911.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30064911.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -478,6 +495,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063640.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063640.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063640.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -496,6 +514,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063492.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063492.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063492.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -514,6 +533,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30067243.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30067243.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30067243.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -532,6 +552,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063236.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063236.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063236.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -550,6 +571,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063538.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063538.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063538.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -568,6 +590,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30063534.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30063534.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30063534.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
@@ -586,6 +609,7 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/phones/img1/30064939.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/phones/img2/30064939.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/phones/img3/30064939.AVIF' %}";
+      document.getElementById("cashback_calculate").src = "10%";
       
       }
             
