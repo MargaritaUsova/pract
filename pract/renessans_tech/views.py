@@ -2,11 +2,27 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from django.template import loader
 from .models import Task
+
+
+from cart.forms  import CartAddProductForm
+
+
+def product_detail(request, id, slug):
+    product = get_object_or_404(Task,
+                                id=id,
+                                slug=slug,
+                                available=True)
+    cart_product_form = CartAddProductForm()
+    return render(request, 'pract/renessans_tech/detail.html', {'product': product,
+                                                        'cart_product_form': cart_product_form})
 def index(request):
     return render(request, 'renessans_tech/index.html', {'title' : 'Главная страница сайта'})
 
 def phones(request):
     return render(request, 'renessans_tech/phones1.html')
+
+def basket(request):
+    return render(request, 'renessans_tech/basket.html')
 
 def laptops(request):
     return render(request, 'renessans_tech/laptops.html')

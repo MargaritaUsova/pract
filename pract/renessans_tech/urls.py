@@ -2,6 +2,7 @@ from django.urls import path
 from . import views
 import json
 
+
 urlpatterns = [
     path('', views.index, name = 'index'),
     path('phones', views.phones),
@@ -13,7 +14,6 @@ urlpatterns = [
     path('basket', views.basket),
     path('about_us', views.about_us),
     path('popular_items', views.popular_items),
-
 ]
 
 with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
