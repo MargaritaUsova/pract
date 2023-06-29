@@ -1,5 +1,5 @@
 import json
-from django.urls import reverse
+import math
 from django import template
 from django.urls import reverse
 
@@ -132,7 +132,7 @@ with open('laptop_page.html', 'w') as f:
             dots[slideIndex-1].className += " active";
           }
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+                <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 10%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -190,7 +190,8 @@ with open('laptop_page.html', 'w') as f:
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', '{calculate}');
+      
       }}
             """.format(link=prices[i]['nameTranslit'],
                        name=prices[i]['item_name'],
@@ -206,9 +207,12 @@ with open('laptop_page.html', 'w') as f:
                        sens = prices[i]['Сенсорный экран'],
                        photo1=f'pictures/laptops/img1/{i}.AVIF',
                        photo2=f'pictures/laptops/img2/{i}.AVIF',
-                       photo3=f'pictures/laptops/img3/{i}.AVIF'
+                       photo3=f'pictures/laptops/img3/{i}.AVIF',
+        calculate = 'Купите этот товар и получите кэшбек ' + str(math.floor(int(prices[i]['item_cashback'][:-1])
+                                                                            * prices[i][
+                                                                                'item_discount_price'] / 100)) + ' ₽'
 
-                       ))
+        ))
 
     f.write("""
     </script>

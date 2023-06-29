@@ -117,7 +117,7 @@
             dots[slideIndex-1].className += " active";
           }
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+                <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 10%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -172,7 +172,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30067605.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30067605.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30067605.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3799 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-haier-i1510sd-jb0b1be00ru"){
@@ -190,7 +191,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400106264.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400106264.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400106264.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2799 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-15-i3-8-256gb-space-grey-bdr-wdi"){
@@ -208,7 +210,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400106660.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400106660.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400106660.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 4299 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-16-r5-16-512-silver-hym-w56"){
@@ -226,7 +229,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30066660.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30066660.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30066660.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 5599 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-53013err-bod-wdh9-matebook-d15-i5-8gb-512gb-my-s"){
@@ -244,7 +248,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30066688.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30066688.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30066688.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 4999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-16-16-512-space-gray-brn-f56"){
@@ -262,7 +267,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400136875.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400136875.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400136875.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 6799 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-15-i5-8-512gb-space-grey-bdr-wdh"){
@@ -280,7 +286,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400106659.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400106659.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400106659.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 4999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-53013plv-bod-wdi9-matebook-d15-i3-8gb-256gb-sp-gr"){
@@ -298,7 +305,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30066689.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30066689.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30066689.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-15-m2-8-512gb-space-gray-mqkq3"){
@@ -316,7 +324,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30067705.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30067705.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30067705.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 18799 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-asus-m515da-ej1697"){
@@ -334,7 +343,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30067507.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30067507.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30067507.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3799 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-14-16-512-space-gray-fri-f56"){
@@ -352,7 +362,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400136873.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400136873.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400136873.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 6599 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-16-8-512-space-gray-brn-f58"){
@@ -370,7 +381,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400136878.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400136878.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400136878.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 6199 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-igrovoi-thunderobot-911-plus-x-jt009we07ru"){
@@ -388,7 +400,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30065211.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30065211.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30065211.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 8999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-asus-m1502ia-bq093"){
@@ -406,7 +419,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30067509.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30067509.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30067509.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 4799 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-matebook-d15-i5-1155g7-16-512-bode-wfh9-spacegray"){
@@ -424,7 +438,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30067463.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30067463.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30067463.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 5999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-13-m1-8-256-space-gray"){
@@ -442,7 +457,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30064273.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30064273.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30064273.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 8679 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-13-m1-8-256-gold-mgnd3"){
@@ -460,7 +476,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30064275.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30064275.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30064275.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 8679 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-13-m1-8-256-silver"){
@@ -478,7 +495,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30064274.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30064274.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30064274.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 8679 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-matebook-d16-rlef-x-i5-16gb-512gb-space-gray"){
@@ -496,7 +514,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30066686.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30066686.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30066686.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 6999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-haier-noutbuk-haier-a1440sm"){
@@ -514,7 +533,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400121699.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400121699.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400121699.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-honor-magicbook-x-14-8-512-space-gray-ndr-wdh"){
@@ -532,7 +552,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400136876.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400136876.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400136876.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 4999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-igrovoi-thunderobot-911-air-wave-d-i5-11400h-rtx3050-8gb-ssd256-dos"){
@@ -550,7 +571,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/400079994.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/400079994.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/400079994.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 5999 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-apple-macbook-air-15-m2-8-256gb-space-gray-mqkp3"){
@@ -568,7 +590,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30067704.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30067704.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30067704.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 16499 ₽');
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/laptops/noutbuk-huawei-matebook-e-drc-w56-16512gb-grey"){
@@ -586,7 +609,8 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/laptops/img1/30065457.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/laptops/img2/30065457.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/laptops/img3/30065457.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 8999 ₽');
+      
       }
             
     </script>

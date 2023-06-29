@@ -112,7 +112,7 @@
             dots[slideIndex-1].className += " active";
           }
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+        <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 5%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -149,7 +149,7 @@
 
   <script>
     const currentUrl = window.location.href;
-
+    
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-irbis-mb2385"){
       document.getElementById("item-name").innerHTML = "Моноблок Irbis MB2385";
       document.getElementById("feature-info-1").innerHTML = "Irbis";
@@ -160,14 +160,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066145.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066145.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066145.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2749 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-hp-24-df1062ny-bundle-pc-4x5d8ea"){
       document.getElementById("item-name").innerHTML = "Моноблок HP 24-df1062ny Bundle PC (4X5D8EA)";
       document.getElementById("feature-info-1").innerHTML = "HP";
@@ -178,14 +180,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
       document.getElementById("feature-info-6").innerHTML = "Не указан";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30065782.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30065782.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30065782.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2499 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-nerpa-saimaa-i510-i510-2305222"){
       document.getElementById("item-name").innerHTML = "Моноблок Nerpa Saimaa I510 (I510-2305222)";
       document.getElementById("feature-info-1").innerHTML = "Nerpa";
@@ -196,14 +200,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics 730";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30063801.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30063801.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30063801.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2499 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-aspire-c24-1650-dqbftmc00c"){
       document.getElementById("item-name").innerHTML = "Моноблок Acer Aspire C24-1650 DQ.BFTMC.00C";
       document.getElementById("feature-info-1").innerHTML = "Acer";
@@ -214,14 +220,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30065367.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30065367.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30065367.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2749 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-msi-9s6-ae0711-261"){
       document.getElementById("item-name").innerHTML = "Моноблок MSI 9S6-AE0711-261";
       document.getElementById("feature-info-1").innerHTML = "MSI";
@@ -232,14 +240,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер UHD Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 0.512 ТБx512 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/400147669.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/400147669.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/400147669.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3229 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-hp-24-cb1021nh"){
       document.getElementById("item-name").innerHTML = "Моноблок HP 24-cb1021nh";
       document.getElementById("feature-info-1").innerHTML = "HP";
@@ -250,14 +260,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066138.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066138.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066138.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2749 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-irbis-mb2700"){
       document.getElementById("item-name").innerHTML = "Моноблок Irbis MB2700";
       document.getElementById("feature-info-1").innerHTML = "Irbis";
@@ -268,14 +280,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066146.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066146.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066146.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2499 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-aspire-c24-1700-dqbjwmc006"){
       document.getElementById("item-name").innerHTML = "Моноблок Acer Aspire C24-1700 DQ.BJWMC.006";
       document.getElementById("feature-info-1").innerHTML = "Acer";
@@ -286,14 +300,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 1 ТБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30067652.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30067652.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30067652.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3749 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-lenovo-ideacentre-aio-3-24alc6-f0g100merk"){
       document.getElementById("item-name").innerHTML = "Моноблок Lenovo IdeaCentre AIO 3 24ALC6 F0G100MERK";
       document.getElementById("feature-info-1").innerHTML = "Lenovo";
@@ -304,14 +320,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Radeon Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30065368.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30065368.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30065368.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2599 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-msi-modern-am272-9s6-af8211-286"){
       document.getElementById("item-name").innerHTML = "Моноблок MSI Modern AM272 9S6-AF8211-286";
       document.getElementById("feature-info-1").innerHTML = "MSI";
@@ -322,14 +340,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066711.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066711.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066711.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 4299 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-msi-9s6-ae0311-826"){
       document.getElementById("item-name").innerHTML = "Моноблок MSI 9S6-AE0311-826";
       document.getElementById("feature-info-1").innerHTML = "MSI";
@@ -340,14 +360,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер UHD Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 0.25 ТБx250 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/400147670.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/400147670.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/400147670.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3234 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-aspire-c24-1650-dqbfter00n-serebristyi"){
       document.getElementById("item-name").innerHTML = "Моноблок Acer Aspire C24-1650 DQ.BFTER.00N серебристый";
       document.getElementById("feature-info-1").innerHTML = "Acer";
@@ -358,14 +380,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер UHD Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/4199137.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/4199137.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/4199137.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3499 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-irbis-mb2390"){
       document.getElementById("item-name").innerHTML = "Моноблок Irbis MB2390";
       document.getElementById("feature-info-1").innerHTML = "Irbis";
@@ -376,14 +400,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics 600";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30064482.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30064482.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30064482.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1599 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-nerpa-saimaa-i510-i510-2405222"){
       document.getElementById("item-name").innerHTML = "Моноблок Nerpa Saimaa I510 (I510-2405222)";
       document.getElementById("feature-info-1").innerHTML = "Nerpa";
@@ -394,14 +420,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 16";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics 730";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30063804.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30063804.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30063804.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2999 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-hp-24-cb1022nh"){
       document.getElementById("item-name").innerHTML = "Моноблок HP 24-cb1022nh";
       document.getElementById("feature-info-1").innerHTML = "HP";
@@ -412,14 +440,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel Iris Xe Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066139.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066139.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066139.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2749 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-c24-1700-dqbjfmc00e"){
       document.getElementById("item-name").innerHTML = "Моноблок Acer C24-1700 DQ.BJFMC.00E";
       document.getElementById("feature-info-1").innerHTML = "Acer";
@@ -430,14 +460,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер UHD Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 512 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/400130459.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/400130459.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/400130459.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3324 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-irbis-mb2381"){
       document.getElementById("item-name").innerHTML = "Моноблок Irbis MB2381";
       document.getElementById("feature-info-1").innerHTML = "Irbis";
@@ -448,14 +480,16 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 8";
       document.getElementById("feature-info-5").innerHTML = "Графический контроллер Intel UHD Graphics";
       document.getElementById("feature-info-6").innerHTML = "Объем SSD 256 ГБ";
-
+      
 
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30066144.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30066144.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30066144.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1499 ₽');
+      
+      
       }
-
+            
     if (currentUrl == "http://127.0.0.1:8000/computers/monoblok-acer-aspire-c27-1700-dqbjkmc009"){
       document.getElementById("item-name").innerHTML = "Моноблок Acer Aspire C27-1700 DQ.BJKMC.009";
       document.getElementById("feature-info-1").innerHTML = "Acer";
@@ -471,7 +505,9 @@
       document.getElementById("item-photo-1").src = "{% static 'pictures/computers/img1/30067651.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/computers/img2/30067651.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/computers/img3/30067651.AVIF' %}";
-
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3999 ₽');
+      
+      
       }
             
     </script>
