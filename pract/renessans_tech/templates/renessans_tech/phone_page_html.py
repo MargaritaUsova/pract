@@ -1,5 +1,5 @@
 import json
-from django.urls import reverse
+import math
 from django import template
 from django.urls import reverse
 
@@ -189,7 +189,7 @@ with open('phone_page1.html', 'w') as f:
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
-      document.getElementById("cashback_calculate").src = "{calculate}";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', '{calculate}');
       
       }}
             """.format(link=prices[i]['nameTranslit'],
@@ -207,7 +207,8 @@ with open('phone_page1.html', 'w') as f:
                        photo1 = f'pictures/phones/img1/{i}.AVIF',
                        photo2 = f'pictures/phones/img2/{i}.AVIF',
                        photo3 = f'pictures/phones/img3/{i}.AVIF',
-                       calculate = prices[i]['item_cashback']
+                       calculate = 'Купите этот товар и получите кэшбек ' + str(math.floor(int(prices[i]['item_cashback'][:-1])
+                                                                                           * prices[i]['item_discount_price'] / 100)) + ' ₽'
 
                        ))
     f.write("""
