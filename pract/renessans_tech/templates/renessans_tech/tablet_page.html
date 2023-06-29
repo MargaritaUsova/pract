@@ -128,15 +128,11 @@
         </p>
         <ul>
           <li class="feature-1">Бренд: <span id="feature-info-1" class="text-highligt">6.1"/2556x1179 Пикс</p></li>
-          <li class="feature-2">Подходит для: <span id="feature-info-2" class="text-highligt">OLED</span></li>
-          <li class="feature-3">Тип корпуса: <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
-          <li class="feature-4">Для моделей с диагональю экрана: <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
-          <li class="feature-5">Материал чехла: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
-          <li class="feature-6">Цвет: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
-          <li class="feature-7">Тип застежки: <span id="feature-info-7" class="text-highligt">лялллляя</span></li>
-          <li class="feature-8">Поддержка MagSafe: <span id="feature-info-8" class="text-highligt">лялллляя</span></li>
-          <li class="feature-9">Вес: <span id="feature-info-9" class="text-highligt">лялллляя</span></li>
-          
+          <li class="feature-2">Экран: <span id="feature-info-2" class="text-highligt">OLED</span></li>
+          <li class="feature-3">Встроенная память (ROM): <span id="feature-info-3" class="text-highligt">A16 Bionic</span></li>
+          <li class="feature-4">Оперативная память (RAM): <span id="feature-info-4" class="text-highligt">128 ГБ</span></li>
+          <li class="feature-5">Количество ядер: <span id="feature-info-5" class="text-highligt">48/12/12</span></li>
+          <li class="feature-6">Частота процессора: <span id="feature-info-6" class="text-highligt">лялллляя</span></li>
           </ul>
         <a style="color:#ff0078;" href = "https://www.mvideo.ru/products/smartfon-apple-iphone-14-pro-max-128gb-nanosim-esim-deep-purple-30064939">
           Подробнее на сайте М.Видео
@@ -146,7 +142,9 @@
         <p id="item-current-price" class="item-current-price">
           103 999 ₽
         </p>
-        
+        <p id="item-previous-price" class="item-previous-price">
+          119 999
+        </p>
         <button class="add-to-cart">В корзину</button> <br>
         <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
           <button class="credit-btn">Купить в кредит</button>
@@ -156,4 +154,435 @@
 
   <script>
     const currentUrl = window.location.href;
+    
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-w09-3-32gb-wifi-black"){
+      document.getElementById("item-name").innerHTML = "Планшет HUAWEI MatePad SE (AGS5-W09) 3/32Gb WiFi Black";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "10699 ₽";
+      document.getElementById("item-previous-price").innerHTML = "12499 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.36/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065625.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065625.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065625.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a7-lite-lte-3-32gb-gray-sm-t225"){
+      document.getElementById("item-name").innerHTML = "Планшет Samsung Galaxy Tab A7 Lite LTE 3/32Gb Gray (SM-T225)";
+      document.getElementById("feature-info-1").innerHTML = "Samsung";
+      document.getElementById("item-current-price").innerHTML = "12999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "12999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 8.7/1340x800 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064024.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064024.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064024.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a8-105-128gb-lte-gray-sm-x205"){
+      document.getElementById("item-name").innerHTML = "Планшет Samsung Galaxy Tab A8 10.5 128GB LTE Gray (SM-X205)";
+      document.getElementById("feature-info-1").innerHTML = "Samsung";
+      document.getElementById("item-current-price").innerHTML = "22499 ₽";
+      document.getElementById("item-previous-price").innerHTML = "27999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.5/1920x1200 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 x 2 ГГц + 6 x 1.8 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064069.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064069.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064069.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-w09-4-128gb-wifi-black"){
+      document.getElementById("item-name").innerHTML = "Планшет HUAWEI MatePad SE (AGS5-W09) 4/128Gb WiFi Black";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "15999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "17999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.36/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065629.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065629.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065629.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-w09-4-64gb-wifi-black"){
+      document.getElementById("item-name").innerHTML = "Планшет HUAWEI MatePad SE (AGS5-W09) 4/64Gb WiFi Black";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "13999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "16899 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.36/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065627.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065627.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065627.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-l09-3-32gb-lte-black"){
+      document.getElementById("item-name").innerHTML = "Планшет HUAWEI MatePad SE (AGS5-L09) 3/32Gb LTE Black";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "12499 ₽";
+      document.getElementById("item-previous-price").innerHTML = "14999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.36/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065626.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065626.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065626.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-xiaomi-redmi-pad-4-128gb-graphite-gray"){
+      document.getElementById("item-name").innerHTML = "Планшет Xiaomi Redmi Pad 4/128GB Graphite Gray";
+      document.getElementById("feature-info-1").innerHTML = "Xiaomi";
+      document.getElementById("item-current-price").innerHTML = "20999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "24999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.61/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 x 2.2 ГГц + 6 x 2 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30066075.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30066075.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30066075.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-honor-pad-8-6-128gb-w-fi-blue-hey-w09"){
+      document.getElementById("item-name").innerHTML = "Планшет HONOR Pad 8 6/128GB W-Fi Blue (HEY-W09)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "23999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "24999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 12/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 6";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 1.9 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/400075550.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/400075550.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/400075550.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-apple-ipad-102-wi-fi-256gb-space-grey-mk2n3"){
+      document.getElementById("item-name").innerHTML = "Планшет Apple iPad 10.2 Wi-Fi 256GB Space Grey (MK2N3)";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "43699 ₽";
+      document.getElementById("item-previous-price").innerHTML = "43699 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.2/1620x2160 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 256";
+      document.getElementById("feature-info-4").innerHTML = "Не указана";
+      document.getElementById("feature-info-5").innerHTML = "Не указано";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30063252.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30063252.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30063252.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-digma-optima-1240c-2-32gb-black-rk3566"){
+      document.getElementById("item-name").innerHTML = "Планшет Digma Optima 1240C 2/32Gb Black (RK3566)";
+      document.getElementById("feature-info-1").innerHTML = "Digma";
+      document.getElementById("item-current-price").innerHTML = "5299 ₽";
+      document.getElementById("item-previous-price").innerHTML = "6999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.1/1280x800 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 2";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 4";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 1.6 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/400037694.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/400037694.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/400037694.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-apple-ipad-102-wi-fi-64gb-silver-mk2l3"){
+      document.getElementById("item-name").innerHTML = "Планшет Apple iPad 10.2 Wi-Fi 64GB Silver (MK2L3)";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "29999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "31999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.2/1620x2160 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-4").innerHTML = "Не указана";
+      document.getElementById("feature-info-5").innerHTML = "Не указано";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064044.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064044.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064044.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-honor-pad-x8-4-64gb-lte-blue-agm3-al09dhn"){
+      document.getElementById("item-name").innerHTML = "Планшет HONOR Pad X8 4/64GB LTE Blue (AGM3-AL09DHN)";
+      document.getElementById("feature-info-1").innerHTML = "HONOR";
+      document.getElementById("item-current-price").innerHTML = "13999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "16999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.1/1200x1920 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 1.5 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/400113927.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/400113927.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/400113927.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-l09-4-64gb-lte-black"){
+      document.getElementById("item-name").innerHTML = "Планшет HUAWEI MatePad SE (AGS5-L09) 4/64Gb LTE Black";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "14999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "16999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.36/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065628.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065628.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065628.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a8-105-64gb-lte-gray-sm-x205"){
+      document.getElementById("item-name").innerHTML = "Планшет Samsung Galaxy Tab A8 10.5 64GB LTE Gray (SM-X205)";
+      document.getElementById("feature-info-1").innerHTML = "Samsung";
+      document.getElementById("item-current-price").innerHTML = "22799 ₽";
+      document.getElementById("item-previous-price").innerHTML = "22799 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.5/1920x1200 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 x 2 ГГц + 6 x 1.8 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064063.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064063.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064063.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a7-lite-lte-64gb-grey-sm-t225"){
+      document.getElementById("item-name").innerHTML = "Планшет Samsung Galaxy Tab A7 Lite LTE 64GB Grey (SM-T225)";
+      document.getElementById("feature-info-1").innerHTML = "Samsung";
+      document.getElementById("item-current-price").innerHTML = "19999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "19999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 8.7/1340x800 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064020.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064020.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064020.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a7-lite-wi-fi-32gb-gray-sm-t220"){
+      document.getElementById("item-name").innerHTML = "Планшет Samsung Galaxy Tab A7 Lite Wi-Fi 32GB Gray (SM-T220)";
+      document.getElementById("feature-info-1").innerHTML = "Samsung";
+      document.getElementById("item-current-price").innerHTML = "10999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "10999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 8.7/1340x800 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064028.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064028.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064028.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-apple-ipad-102-wi-fi-64gb-space-grey-mk2k3"){
+      document.getElementById("item-name").innerHTML = "Планшет Apple iPad 10.2 Wi-Fi 64GB Space Grey (MK2K3)";
+      document.getElementById("feature-info-1").innerHTML = "Apple";
+      document.getElementById("item-current-price").innerHTML = "29999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "31999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.2/1620x2160 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-4").innerHTML = "Не указана";
+      document.getElementById("feature-info-5").innerHTML = "Не указано";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064042.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064042.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064042.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-digma-optima-8-x701-4g-ts8226pl"){
+      document.getElementById("item-name").innerHTML = "Планшет Digma Optima 8 X701 4G (TS8226PL)";
+      document.getElementById("feature-info-1").innerHTML = "Digma";
+      document.getElementById("item-current-price").innerHTML = "4999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "6999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 8/1280x800 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 1.6 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30054940.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30054940.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30054940.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-104-4-128gb-wi-fi-matte-grey-bah4-w09--chehol-klaviatura"){
+      document.getElementById("item-name").innerHTML = "Планшет HUAWEI MatePad 10.4 4/128GB WI-FI Matte Grey (BAH4-W09) + чехол-клавиатура";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "21499 ₽";
+      document.getElementById("item-previous-price").innerHTML = "27999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.4/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 2.0 ГГц + 1.7 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30066794.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30066794.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30066794.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-l09-4-128gb-lte-black"){
+      document.getElementById("item-name").innerHTML = "Планшет HUAWEI MatePad SE (AGS5-L09) 4/128Gb LTE Black";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "16999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "18999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.36/1200x2000 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065770.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065770.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065770.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a-80-lte-32gb-black-sm-t295"){
+      document.getElementById("item-name").innerHTML = "Планшет Samsung Galaxy Tab A 8.0 LTE 32Gb Black (SM-T295)";
+      document.getElementById("feature-info-1").innerHTML = "Samsung";
+      document.getElementById("item-current-price").innerHTML = "9499 ₽";
+      document.getElementById("item-previous-price").innerHTML = "13399 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 8/1280x800 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 2";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 4";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30063910.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30063910.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30063910.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-realme-pad-rmp2103-4-64-gb-gray"){
+      document.getElementById("item-name").innerHTML = "Планшет realme Pad RMP2103 4/64 ГБ Gray";
+      document.getElementById("feature-info-1").innerHTML = "realme";
+      document.getElementById("item-current-price").innerHTML = "14999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "22999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 10.4/2000x1200 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 64";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30063160.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30063160.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30063160.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-11-2023-128gb-wi-fi-graphite-blackklav"){
+      document.getElementById("item-name").innerHTML = "Планшет HUAWEI MatePad 11 2023 128GB Wi-Fi Graphite Black+клав.";
+      document.getElementById("feature-info-1").innerHTML = "HUAWEI";
+      document.getElementById("item-current-price").innerHTML = "39999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "39999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 1600x2560 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 128";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 6";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30067460.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30067460.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30067460.AVIF' %}";
+
+      }
+            
+    if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a7-lite-lte-32gb-silver-sm-t225n"){
+      document.getElementById("item-name").innerHTML = "Планшет Samsung Galaxy Tab A7 Lite LTE 32GB Silver (SM-T225N)";
+      document.getElementById("feature-info-1").innerHTML = "Samsung";
+      document.getElementById("item-current-price").innerHTML = "12999 ₽";
+      document.getElementById("item-previous-price").innerHTML = "12999 ₽";
+      document.getElementById("feature-info-2").innerHTML = "Экран 8.7/1340x800 Пикс";
+      document.getElementById("feature-info-3").innerHTML = "Встроенная память (ROM) 32";
+      document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
+      document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
+      document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц";
+      document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064026.AVIF' %}";
+      document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064026.AVIF' %}";
+      document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064026.AVIF' %}";
+
+      }
+            
+    </script>
+<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Сервис</h4>
+            <ul>
+              <li><a href="/about_us">О нас</a></li>
+              <li><a href="https://rencredit.ru/about/">О банке</a></li>
+              <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+              <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer-col"> 
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+              <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+              <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Услуги</h4>
+            <ul>
+              <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+              <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+              <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+              <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <div class="contact-info">
+            <ul>
+              <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+              <li><a href="#">8 800 200-0-981</a></li>
+              <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+              <li><a href="#">8 495 783-46-23</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+  </body>
+  </html>
     
