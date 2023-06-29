@@ -117,7 +117,7 @@ with open('computers.html', 'w') as f:
       <p class="item-previous-price">
         {previous_price}
       </p>
-      <button class="add-to-cart">В корзину</button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
