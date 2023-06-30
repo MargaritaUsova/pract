@@ -1,5 +1,5 @@
 import json
-from django.urls import reverse
+import math
 from django import template
 from django.urls import reverse
 
@@ -79,7 +79,7 @@ with open('accessories_page.html', 'w') as f:
     <div class="item-box">
       <div class="item-photo-container">
         <img id="item-photo-1" class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
-         <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+        <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 30%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -134,6 +134,7 @@ with open('accessories_page.html', 'w') as f:
       document.getElementById("feature-info-7").innerHTML = "{lock}";
       document.getElementById("feature-info-8").innerHTML = "{maf_safe}";
       document.getElementById("feature-info-9").innerHTML = "{weight}";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', '{calculate}');
       
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
@@ -156,7 +157,10 @@ with open('accessories_page.html', 'w') as f:
 
                        photo1=f'pictures/accessories/img1/{i}.AVIF',
                        photo2=f'pictures/accessories/img2/{i}.AVIF',
-                       photo3=f'pictures/accessories/img3/{i}.AVIF'
+                       photo3=f'pictures/accessories/img3/{i}.AVIF',
+                       calculate='Купите этот товар и получите кэшбек ' + str(
+                           math.floor(int(prices[i]['item_cashback'][:-1])
+                                      * prices[i]['item_discount_price'] / 100)) + ' ₽'
 
                        ))
 

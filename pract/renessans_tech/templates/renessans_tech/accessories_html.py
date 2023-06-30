@@ -1,6 +1,5 @@
 import json
-from django.urls import reverse
-
+import math
 with open('/Users/margaritausova/Documents/pract/accessories_prices.json') as f1:
     prices = json.load(f1)
 
@@ -92,7 +91,7 @@ with open('accessories.html', 'w') as f:
     <a href="accessories/{nameTranslit}">
         <img class="item-photo" src="{{% static 'pictures/accessories/{image}.jpg' %}}">
       </a>
-      <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {cashback}">Кэшбек {cashback}</p>
+      <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек {cashback_calculate}  ₽">Кэшбек {cashback}</p>
     </div>
     <div class="item-info">
     <a href=accessories/{nameTranslit}>
@@ -129,7 +128,10 @@ with open('accessories.html', 'w') as f:
                    cur_price=prices[i]['item_discount_price'],
                    previous_price=prices[i]['item_base_price'],
                    nameTranslit=prices[i]['nameTranslit'],
-                   image=i
+                   image=i,
+                   cashback_calculate=str(math.floor(int(prices[i]['item_cashback'][:-1])
+                                                     * prices[i]['item_discount_price'] / 100))
+
                    ))
     f.write("""
     <DIV ID = "toTop" ><img style="width: 30px; opacity: 70%;" src="{% static 'pictures/arrow-icon.svg' %}" alt=""></DIV>

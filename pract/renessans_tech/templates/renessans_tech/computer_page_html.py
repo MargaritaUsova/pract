@@ -129,7 +129,7 @@ with open('computer_page.html', 'w') as f:
             dots[slideIndex-1].className += " active";
           }
           </script>
-        <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 5%</p>
+        <p id = "cashback_calculate" class="cashback-text" data-tooltip='Купите этот товар с кэшбеком calculate'>Кэшбек 5%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -180,12 +180,12 @@ with open('computer_page.html', 'w') as f:
       document.getElementById("feature-info-4").innerHTML = "{ram}";
       document.getElementById("feature-info-5").innerHTML = "{graf}";
       document.getElementById("feature-info-6").innerHTML = "{ssd}";
-      
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', '{calculate}');
 
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
-      document.getElementById("cashback_calculate").setAttribute('data-tooltip', '{calculate}');
+      
       
       
       }}

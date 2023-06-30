@@ -191,11 +191,11 @@ with open('tv_page.html', 'w') as f:
       document.getElementById("feature-info-10").innerHTML = "{usb_a}";
       document.getElementById("feature-info-11").innerHTML = "{usb}";
       document.getElementById("feature-info-12").innerHTML = "{oled}";
-      
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', '{calculate}');
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
-      document.getElementById("cashback_calculate").setAttribute('data-tooltip', '{calculate}');
+      
     
       }}
             """.format(link=prices[i]['nameTranslit'],
@@ -218,7 +218,9 @@ with open('tv_page.html', 'w') as f:
                        photo1=f'pictures/tv/img1/{i}.AVIF',
                        photo2=f'pictures/tv/img2/{i}.AVIF',
                        photo3=f'pictures/tv/img3/{i}.AVIF',
-                       calculate = 'Купите этот товар и получите кэшбек ' + str(math.floor(int(prices[i]['item_cashback'][:-1])))
+                       calculate='Купите этот товар и получите кэшбек ' + str(
+                           math.floor(int(prices[i]['item_cashback'][:-1])
+                                      * prices[i]['item_discount_price'] / 100)) + ' ₽'
                        ))
     f.write("""
     </script>

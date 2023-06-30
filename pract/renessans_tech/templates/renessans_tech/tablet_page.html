@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 {% load static %}
 <html lang="ru">
 <head>
@@ -111,7 +112,8 @@
             dots[slideIndex-1].className += " active";
           }
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+                <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 7%</p>
+
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -159,10 +161,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 748 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065625.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065625.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065625.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a7-lite-lte-3-32gb-gray-sm-t225"){
@@ -175,10 +179,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 909 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064024.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064024.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064024.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a8-105-128gb-lte-gray-sm-x205"){
@@ -191,10 +197,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 x 2 ГГц + 6 x 1.8 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1574 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064069.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064069.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064069.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-w09-4-128gb-wifi-black"){
@@ -207,10 +215,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1119 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065629.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065629.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065629.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-w09-4-64gb-wifi-black"){
@@ -223,10 +233,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 979 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065627.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065627.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065627.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-l09-3-32gb-lte-black"){
@@ -239,10 +251,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 874 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065626.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065626.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065626.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-xiaomi-redmi-pad-4-128gb-graphite-gray"){
@@ -255,10 +269,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 x 2.2 ГГц + 6 x 2 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1469 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30066075.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30066075.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30066075.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-honor-pad-8-6-128gb-w-fi-blue-hey-w09"){
@@ -271,10 +287,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 6";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 1.9 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1679 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/400075550.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/400075550.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/400075550.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-apple-ipad-102-wi-fi-256gb-space-grey-mk2n3"){
@@ -287,10 +305,12 @@
       document.getElementById("feature-info-4").innerHTML = "Не указана";
       document.getElementById("feature-info-5").innerHTML = "Не указано";
       document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 3058 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30063252.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30063252.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30063252.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-digma-optima-1240c-2-32gb-black-rk3566"){
@@ -303,10 +323,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 2";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 4";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 1.6 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 370 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/400037694.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/400037694.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/400037694.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-apple-ipad-102-wi-fi-64gb-silver-mk2l3"){
@@ -319,10 +341,12 @@
       document.getElementById("feature-info-4").innerHTML = "Не указана";
       document.getElementById("feature-info-5").innerHTML = "Не указано";
       document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2099 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064044.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064044.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064044.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-honor-pad-x8-4-64gb-lte-blue-agm3-al09dhn"){
@@ -335,10 +359,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 1.5 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 979 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/400113927.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/400113927.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/400113927.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-l09-4-64gb-lte-black"){
@@ -351,10 +377,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1049 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065628.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065628.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065628.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a8-105-64gb-lte-gray-sm-x205"){
@@ -367,10 +395,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 x 2 ГГц + 6 x 1.8 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1595 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064063.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064063.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064063.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a7-lite-lte-64gb-grey-sm-t225"){
@@ -383,10 +413,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1399 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064020.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064020.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064020.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a7-lite-wi-fi-32gb-gray-sm-t220"){
@@ -399,10 +431,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 769 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064028.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064028.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064028.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-apple-ipad-102-wi-fi-64gb-space-grey-mk2k3"){
@@ -415,10 +449,12 @@
       document.getElementById("feature-info-4").innerHTML = "Не указана";
       document.getElementById("feature-info-5").innerHTML = "Не указано";
       document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2099 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064042.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064042.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064042.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-digma-optima-8-x701-4g-ts8226pl"){
@@ -431,10 +467,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 1.6 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 349 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30054940.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30054940.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30054940.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-104-4-128gb-wi-fi-matte-grey-bah4-w09--chehol-klaviatura"){
@@ -447,10 +485,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 2.0 ГГц + 1.7 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1504 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30066794.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30066794.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30066794.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-se-ags5-l09-4-128gb-lte-black"){
@@ -463,10 +503,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.4ГГц + 4 x 1.9ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1189 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30065770.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30065770.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30065770.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a-80-lte-32gb-black-sm-t295"){
@@ -479,10 +521,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 2";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 4";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 664 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30063910.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30063910.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30063910.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-realme-pad-rmp2103-4-64-gb-gray"){
@@ -495,10 +539,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 4";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 2 ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 1049 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30063160.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30063160.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30063160.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-huawei-matepad-11-2023-128gb-wi-fi-graphite-blackklav"){
@@ -511,10 +557,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 6";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Не указана";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 2799 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30067460.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30067460.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30067460.AVIF' %}";
-
+      
       }
             
     if (currentUrl == "http://127.0.0.1:8000/tablets/planshet-samsung-galaxy-tab-a7-lite-lte-32gb-silver-sm-t225n"){
@@ -527,10 +575,12 @@
       document.getElementById("feature-info-4").innerHTML = "Оперативная память (RAM) 3";
       document.getElementById("feature-info-5").innerHTML = "Количество ядер 8";
       document.getElementById("feature-info-6").innerHTML = "Частота процессора 4 x 2.3ГГц + 4 x 1.8ГГц";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', 'Купите этот товар и получите кэшбек 909 ₽');
+      
       document.getElementById("item-photo-1").src = "{% static 'pictures/tablets/img1/30064026.AVIF' %}";
       document.getElementById("item-photo-2").src = "{% static 'pictures/tablets/img2/30064026.AVIF' %}";
       document.getElementById("item-photo-3").src = "{% static 'pictures/tablets/img3/30064026.AVIF' %}";
-
+      
       }
             
     </script>
@@ -579,3 +629,4 @@
    </footer>
   </body>
   </html>
+    

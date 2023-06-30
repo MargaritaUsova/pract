@@ -1,5 +1,5 @@
 import json
-from django.urls import reverse
+import math
 from django import template
 from django.urls import reverse
 
@@ -127,7 +127,8 @@ with open('tablet_page.html', 'w') as f:
             dots[slideIndex-1].className += " active";
           }
           </script>
-        <p class="cashback-text" data-tooltip="Купите этот товар с кэшбеком 10%">Кэшбек 10%</p>
+                <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 7%</p>
+
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -178,10 +179,12 @@ with open('tablet_page.html', 'w') as f:
       document.getElementById("feature-info-4").innerHTML = "{ram}";
       document.getElementById("feature-info-5").innerHTML = "{yadra}";
       document.getElementById("feature-info-6").innerHTML = "{proc}";
+      document.getElementById("cashback_calculate").setAttribute('data-tooltip', '{calculate}');
+      
       document.getElementById("item-photo-1").src = "{{% static '{photo1}' %}}";
       document.getElementById("item-photo-2").src = "{{% static '{photo2}' %}}";
       document.getElementById("item-photo-3").src = "{{% static '{photo3}' %}}";
-
+      
       }}
             """.format(link=prices[i]['nameTranslit'],
                        name=prices[i]['item_name'],
@@ -196,9 +199,13 @@ with open('tablet_page.html', 'w') as f:
 
                        photo1=f'pictures/tablets/img1/{i}.AVIF',
                        photo2=f'pictures/tablets/img2/{i}.AVIF',
-                       photo3=f'pictures/tablets/img3/{i}.AVIF'
+                       photo3=f'pictures/tablets/img3/{i}.AVIF',
+                    calculate = 'Купите этот товар и получите кэшбек ' + str(math.floor(int(prices[i]['item_cashback'][:-1])
+                                                                            * prices[i][
+                                                                                'item_discount_price'] / 100)) + ' ₽'
 
-                       ))
+
+        ))
 
     f.write("""
     </script>
