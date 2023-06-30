@@ -117,7 +117,8 @@ li {
 }
 
 .add-to-cart,
-.credit-btn {
+.credit-btn,
+.in-cart-btn {
   padding: 8px;
   margin-bottom: 8px;
   font-size: 16px;
@@ -135,7 +136,13 @@ li {
   transition: opacity 0.15s,
               box-shadow background-color 0.3s;
 }
-.credit-btn {
+
+.add-to-cart:before {
+  content: "В корзину";
+}
+
+.credit-btn,
+.in-cart-btn {
   color: #ff0078;
   background-color: white;
   border: none;
@@ -144,6 +151,15 @@ li {
   border-radius: 1px;
   border-radius: 6px;
 }
+
+.in-cart-btn {
+  background-color: #f9dfeb;
+}
+
+.in-cart-btn:before {
+  content: "В корзине";
+}
+
 
 .add-to-cart:hover,
 .credit-btn:hover {
