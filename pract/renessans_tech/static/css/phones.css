@@ -187,7 +187,7 @@ li {
   text-align:center;
   position:fixed;
   padding: 4px 6px;
-  bottom:60px; /* отступ кнопки от нижнего края страницы*/
+  bottom:60px; /  * отступ кнопки от нижнего края страницы*/
   right:40px;
   cursor:pointer;
   display:none;
