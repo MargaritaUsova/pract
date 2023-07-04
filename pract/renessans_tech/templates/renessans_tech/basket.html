@@ -1,49 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+{% load static %}
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Корзина</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Корзина</title>
+  <link rel="stylesheet" href="{% static 'css/basket.css' %}">
+  <link rel="stylesheet" href="{% static 'css/header-footer.css' %}">
 </head>
+
 <body>
- <h1>Your shopping cart</h1>
-    <table class="cart">
-        <thead>
-        <tr>
-            <th>Image</th>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Remove</th>
-            <th>Unit price</th>
-            <th>Price</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% for item in cart %}
-            {% with product=item.product %}
-                <tr>
-                    <td>
-                        <a href="{{ product.get_absolute_url }}">
+<header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-left">
+          <img src="{% static 'pictures/city.svg' %}">
+          <a>Москва</a>
+        </div>
+        <div class="site-header-top-middle">
+          <a href="https://rencredit.ru/">Для жизни</a>
+          <a href="https://rencredit.ru/sme/">Для бизнеса</a>
+          <a href="https://rencredit.ru/about/">О банке</a>
+          <a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a>
+        </div>
+        <div class="site-header-top-right">
+          <img src="{% static 'pictures/mobile-bank.svg' %}">
+          <a href="https://rencredit.ru/services/mobile-bank/" style="padding-right: 15px;">Мобильный банк</a>
+          <img src="{% static 'pictures/internet-bank.svg' %}">
+          <a href="https://ib.rencredit.ru/#/login">Интернет-банк</a>
+        </div>
+      </div>
 
-                        </a>
-                    </td>
-                    <td>{{ product.name }}</td>
-                    <td>{{ item.quantity }}</td>
-                    <td><a href="{% url "cart:cart_remove" product.id%}">Remove</a></td>
-                    <td class="num">${{ item.price }}</td>
-                    <td class="num">${{ item.total_price }}</td>
-                </tr>
-            {% endwith %}
-        {% endfor %}
-        <tr class="total">
-            <td>Total</td>
-            <td colspan="4"></td>
-            <td class="num">${{ cart.get_total_price }}</td>
-        </tr>
-        </tbody>
-    </table>
-    <p class="text-right">
+      <div class="site-header-bottom">
+        <a href='/'>
+          <img class="logo" src="{% static 'pictures/new_logo.svg' %}">
+        </a>
+        <a style="color: #ff0078;"class="cathegory-items" href = 'phones'>
+          Смартфоны
+        </a>
+        <a class="cathegory-items" href = 'laptops'>
+          Ноутбуки
+        </a>
+        <a class="cathegory-items" href="tv">
+          Телевизоры
+        </a>
+        <a class="cathegory-items" href = 'computers'>
+          Компьютеры
+        </a>
+        <a class="cathegory-items" href = 'tablets'>
+          Планшеты
+        </a>
+        <a class="cathegory-items" href = 'accessories'>
+          Аксессуары
+        </a>
+        <a class="cathegory-items">
+          Поиск
+        </a>
+        <a class="shopping-cart" href = 'basket'>
+          Корзина
+        </a>
+      </div>
 
-        <a href="/#" class="button">Checkout</a>
-    </p>
+    </header> <br>
+
+    <div class="main-body-cart">
+    <div class="shop-cart">
+      <!-- Title -->
+      <div class="title">
+        Корзина
+      </div>
+
+      <!-- Товар #1 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn">
+            <img src="{% static 'pictures/delete.svg' %}">
+          </span>
+          <span class="like-btn">
+            <img src="{% static 'pictures/heart.png' %}">
+          </span>
+        </div>
+
+        <div class="item-image">
+          <img src="{% static 'pictures/item-1.avif' %}">
+        </div>
+
+        <div class="description">
+          <p class="item-name">Смартфон Apple iPhone 14 Pro 256GB nanoSim/eSim Deep Purple</p>
+        </div>
+
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <span>-</span>
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <span>+</span>
+          </button>
+        </div>
+        <div class="cashback">
+          <span>Кэшбек 10%</span>
+        </div>
+        <div class="total-price">120499 ₽</div>
+
+      </div>
+
+      <!-- Товар #2 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn">
+            <img src="{% static 'pictures/delete.svg' %}">
+          </span>
+          <span class="like-btn">
+            <img src="{% static 'pictures/heart.png' %}">
+          </span>
+        </div>
+
+        <div class="item-image">
+          <img src="{% static 'pictures/item-2.jpg' %}">
+        </div>
+
+        <div class="description">
+          <p class="item-name">Чехол защитный vlp Gloss case MagSafe для iPhone 14 Pro прозрачный</p>
+        </div>
+
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <span>-</span>
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <span>+</span>
+          </button>
+        </div>
+        <div class="cashback">
+          <span>Кэшбек 10%</span>
+        </div>
+        <div class="total-price">1599 ₽</div>
+
+      </div>
+
+      <!-- Товар #3 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn">
+            <img src="{% static 'pictures/delete.svg' %}">
+          </span>
+          <span class="like-btn">
+            <img src="{% static 'pictures/heart.png' %}">
+          </span>
+        </div>
+
+        <div class="item-image">
+          <img src="{% static 'pictures/item-3.avif' %}">
+        </div>
+
+        <div class="description">
+          <p class="item-name">Ноутбук Apple MacBook Air 13 M1/8/256 Space Gray</p>
+        </div>
+
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <span>-</span>
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <span>+</span>
+          </button>
+        </div>
+        <div class="cashback">
+          <span>Кэшбек 10%</span>
+        </div>
+        <div class="total-price">86799 ₽</div>
+
+      </div>
+
+    </div>
+
+    <div class="in-total">
+      <div class="upper-part">
+        <div class="left-upper-part">
+          <p>Общая сумма</p>
+          <p>Кэшбек</p>
+        </div>
+        <div class="right-upper-part">
+          <p>208 897 ₽</p>
+          <p>20 887 ₽</p>
+        </div>
+     </div>
+     <div class="bottom-part">
+        <button class="add-to-cart">Оформить заказ</button>
+        <a href="https://anketa.rencredit.ru/app/credit/site/#anketa">
+          <button class="credit-button">Купить в кредит</button>
+        </a>
+
+     </div>
+    </div>
+
+  </div>
+
+    <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer-col">
+                    <h4>Сервис</h4>
+                    <ul>
+                      <li><a href="about_us">О нас</a></li>
+                      <li><a href="https://rencredit.ru/about/">О банке</a></li>
+                      <li><a href="https://rencredit.ru/addresses/">Отделения и банкоматы</a></li>
+                      <li><a href="https://rencredit.ru/services/">Сервисы и услуги</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Помощь</h4>
+                    <ul>
+                      <li><a href="https://rencredit.ru/support/faq/">Поддержка клиентов</a></li>
+                      <li><a href="https://rencredit.ru/support/appeals/">Обратная связь</a></li>
+                      <li><a href="https://rencredit.ru/doc/support/forms/formy-tipovykh-spravok/">Форма справок и документов</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Услуги</h4>
+                    <ul>
+                      <li><a href="https://rencredit.ru/loans/">Кредиты</a></li>
+                      <li><a href="https://rencredit.ru/cards/">Карты</a></li>
+                      <li><a href="https://rencredit.ru/deposits/">Вклады</a></li>
+                      <li><a href="https://rencredit.ru/investments/">Инвестиции</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <div class="contact-info">
+                    <ul>
+                      <p style="color: #bbbbbb; font-size: 12px;">круглосуточно, бесплатно по России</p>
+                      <li><a href="#">8 800 200-0-981</a></li>
+                      <p style="color: #bbbbbb; font-size: 12px;">Номер может использоваться для исходящих вызовов</p>
+                      <li><a href="#">8 495 783-46-23</a></li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </footer>
 </body>
 </html>
