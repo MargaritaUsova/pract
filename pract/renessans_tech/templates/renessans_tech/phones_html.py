@@ -1,7 +1,6 @@
 import json
 import math
 
-
 with open('/Users/margaritausova/Documents/pract/phone_prices.json') as f1:
     prices = json.load(f1)
 
@@ -84,7 +83,7 @@ with open('phones1.html', 'w') as f:
       </div>
 
     </header> <br>
-    
+
     """)
 
     for i in prices:
@@ -106,7 +105,7 @@ with open('phones1.html', 'w') as f:
         <li>Экран: <span class="text-highligt">{screen}"</span></li>
         <li>Тип процессора: <span class="text-highligt">{proc}</span></li>
         <li>Встроенная память (ROM) <span class="text-highligt">{rom}</span></li>
-        
+
         <li>Основная камера МПикс <span class="text-highligt">{camera}</span></li>
       </ul>
     </div>
@@ -124,19 +123,19 @@ with open('phones1.html', 'w') as f:
     </div>
   </div>
         """.format(price=prices[i]['item_discount_price'],
-                   name = prices[i]['item_name'],
+                   name=prices[i]['item_name'],
                    cashback=prices[i]['item_cashback'],
-                   screen = prices[i]['Экран'],
-                   brand = prices[i]['brand'],
-                   proc = prices[i]['Процессор'],
-                   rom = prices[i]['Встроенная память (ROM)'],
-                   camera = prices[i]['Основная камера МПикс'],
-                   cur_price = prices[i]['item_discount_price'],
-                   previous_price = prices[i]['item_base_price'],
-                   nameTranslit = prices[i]['nameTranslit'],
-                   image = i,
-                   cashback_calculate = str(math.floor(int(prices[i]['item_cashback'][:-1])
-                                                                                           * prices[i]['item_discount_price'] / 100))
+                   screen=prices[i]['Экран'],
+                   brand=prices[i]['brand'],
+                   proc=prices[i]['Процессор'],
+                   rom=prices[i]['Встроенная память (ROM)'],
+                   camera=prices[i]['Основная камера МПикс'],
+                   cur_price=prices[i]['item_discount_price'],
+                   previous_price=prices[i]['item_base_price'],
+                   nameTranslit=prices[i]['nameTranslit'],
+                   image=i,
+                   cashback_calculate=str(math.floor(int(prices[i]['item_cashback'][:-1])
+                                                     * prices[i]['item_discount_price'] / 100))
                    ))
     f.write("""
     <DIV ID = "toTop" ><img style="width: 30px; opacity: 70%;" src="{% static 'pictures/arrow-icon.svg' %}" alt=""></DIV>

@@ -1,7 +1,7 @@
 import json
 import math
 
-with open('/Users/margaritausova/Documents/pract/laptop_prices.json') as f1:
+with open('/Users/margaritausova/Documents/6сем/pract/laptop_prices.json') as f1:
     prices = json.load(f1)
 
 with open('laptops.html', 'w') as f:
@@ -80,6 +80,8 @@ with open('laptops.html', 'w') as f:
         <a class="shopping-cart" href = 'basket'>
           Корзина
         </a>
+
+        {% include 'cart/menu_cart.html' %}
       </div>
 
     </header> <br>
@@ -92,6 +94,7 @@ with open('laptops.html', 'w') as f:
     <a href="laptops/{nameTranslit}">
         <img class="item-photo" src="{{% static 'pictures/laptops/{image}.jpg' %}}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек {cashback_calculate}  ₽">Кэшбек {cashback}</p>
     </div>
     <div class="item-info">
@@ -105,7 +108,7 @@ with open('laptops.html', 'w') as f:
         <li>Диагональ/разрешение: <span class="text-highligt">{diagonal}"</span></li>
         <li>Процессор: <span class="text-highligt">{proc}</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">{ram}</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -115,7 +118,11 @@ with open('laptops.html', 'w') as f:
       <p class="item-previous-price">
         {previous_price}
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{{% url 'cart_add' {id} %}}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -126,14 +133,15 @@ with open('laptops.html', 'w') as f:
                    cashback=prices[i]['item_cashback'],
                    brand=prices[i]['brand'],
                    proc=prices[i]['Процессор'],
-                   ram = prices[i]['Оперативная память (RAM)'],
-                   diagonal = prices[i]['Диагональ/разрешение'],
+                   ram=prices[i]['Оперативная память (RAM)'],
+                   diagonal=prices[i]['Диагональ/разрешение'],
                    cur_price=prices[i]['item_discount_price'],
                    previous_price=prices[i]['item_base_price'],
                    nameTranslit=prices[i]['nameTranslit'],
                    image=i,
+                   id=i,
                    cashback_calculate=str(math.floor(int(prices[i]['item_cashback'][:-1])
-                                                                                           * prices[i]['item_discount_price'] / 100))
+                                                     * prices[i]['item_discount_price'] / 100))
                    ))
     f.write("""
     <DIV ID = "toTop" ><img style="width: 30px; opacity: 70%;" src="{% static 'pictures/arrow-icon.svg' %}" alt=""></DIV>
@@ -180,5 +188,6 @@ with open('laptops.html', 'w') as f:
         </div>
       </div>
    </footer>
+    <script src = "https://unpkg.com/htmx.org@1.7.0"></script>
     </body>
     </html>""")

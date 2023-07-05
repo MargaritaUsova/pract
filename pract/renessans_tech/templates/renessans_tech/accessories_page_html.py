@@ -9,7 +9,7 @@ def is_current_page(request, param):
     return reverse(request.path).view_name == param
 
 
-with open('/Users/margaritausova/Documents/pract/accessories_prices.json') as f1:
+with open('/Users/margaritausova/Documents/6сем/pract/accessories_prices.json') as f1:
     prices = json.load(f1)
 
 with open('accessories_page.html', 'w') as f:
@@ -79,7 +79,7 @@ with open('accessories_page.html', 'w') as f:
     <div class="item-box">
       <div class="item-photo-container">
         <img id="item-photo-1" class="item-photo" src="{% static 'pictures/test-1.avif' %}" style="width:100%">
-        <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 30%</p>
+        <p id = "cashback_calculate" class="cashback-text" data-tooltip="Купите этот товар с кэшбеком {calculate}">Кэшбек 10%</p>
       </div>
       <div class="item-info">
         <p id="item-name" class="item-name">
@@ -159,7 +159,7 @@ with open('accessories_page.html', 'w') as f:
                        photo2=f'pictures/accessories/img2/{i}.AVIF',
                        photo3=f'pictures/accessories/img3/{i}.AVIF',
                        calculate='Купите этот товар и получите кэшбек ' + str(
-                           math.floor(int(prices[i]['item_cashback'][:-1])
+                           math.floor(int(10)
                                       * prices[i]['item_discount_price'] / 100)) + ' ₽'
 
                        ))

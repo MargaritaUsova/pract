@@ -1,6 +1,6 @@
 import json
 import math
-with open('/Users/margaritausova/Documents/pract/accessories_prices.json') as f1:
+with open('/Users/margaritausova/Documents/6сем/pract/accessories_prices.json') as f1:
     prices = json.load(f1)
 
 with open('accessories.html', 'w') as f:
@@ -119,7 +119,7 @@ with open('accessories.html', 'w') as f:
   </div>
         """.format(price=prices[i]['item_discount_price'],
                    name=prices[i]['item_name'],
-                   cashback=prices[i]['item_cashback'],
+                   cashback="10%" ,
                    suits=prices[i]['Подходит для'],
                    brand=prices[i]['brand'],
                    models=prices[i]['Для моделей с диагональю экрана'],
@@ -129,7 +129,7 @@ with open('accessories.html', 'w') as f:
                    previous_price=prices[i]['item_base_price'],
                    nameTranslit=prices[i]['nameTranslit'],
                    image=i,
-                   cashback_calculate=str(math.floor(int(prices[i]['item_cashback'][:-1])
+                   cashback_calculate=str(math.floor(int(10)
                                                      * prices[i]['item_discount_price'] / 100))
 
                    ))

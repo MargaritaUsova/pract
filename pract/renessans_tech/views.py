@@ -3,7 +3,6 @@ from django.http import HttpResponse
 from django.template import loader
 from .models import Task
 
-
 from cart.forms  import CartAddProductForm
 
 

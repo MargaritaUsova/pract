@@ -73,6 +73,8 @@
         <a class="shopping-cart" href = 'basket'>
           Корзина
         </a>
+
+        {% include 'cart/menu_cart.html' %}
       </div>
 
     </header> <br>
@@ -82,6 +84,7 @@
     <a href="laptops/noutbuk-asus-vivobook-15-m1502i-90nb0y52-m002r0">
         <img class="item-photo" src="{% static 'pictures/laptops/30067605.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 3799  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -95,7 +98,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор AMD Ryzen 5 4600H 3 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -105,7 +108,11 @@
       <p class="item-previous-price">
         53999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30067605 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -116,6 +123,7 @@
     <a href="laptops/noutbuk-haier-i1510sd-jb0b1be00ru">
         <img class="item-photo" src="{% static 'pictures/laptops/400106264.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 2799  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -129,7 +137,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i3 1115G4 3 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -139,7 +147,11 @@
       <p class="item-previous-price">
         36999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400106264 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -150,6 +162,7 @@
     <a href="laptops/noutbuk-honor-magicbook-x-15-i3-8-256gb-space-grey-bdr-wdi">
         <img class="item-photo" src="{% static 'pictures/laptops/400106660.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 4299  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -163,7 +176,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i3 1115G4 3.0 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -173,7 +186,11 @@
       <p class="item-previous-price">
         42999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400106660 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -184,6 +201,7 @@
     <a href="laptops/noutbuk-honor-magicbook-16-r5-16-512-silver-hym-w56">
         <img class="item-photo" src="{% static 'pictures/laptops/30066660.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 5599  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -197,7 +215,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 16.1/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор AMD Ryzen 5 5600H 3.3 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 16</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -207,7 +225,11 @@
       <p class="item-previous-price">
         69999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30066660 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -218,6 +240,7 @@
     <a href="laptops/noutbuk-huawei-53013err-bod-wdh9-matebook-d15-i5-8gb-512gb-my-s">
         <img class="item-photo" src="{% static 'pictures/laptops/30066688.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 4999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -231,7 +254,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 1135G7 2.4 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -241,7 +264,11 @@
       <p class="item-previous-price">
         66999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30066688 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -252,6 +279,7 @@
     <a href="laptops/noutbuk-honor-magicbook-x-16-16-512-space-gray-brn-f56">
         <img class="item-photo" src="{% static 'pictures/laptops/400136875.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 6799  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -265,7 +293,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 16/1920x1200 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 12450H 3.3 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 16</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -275,7 +303,11 @@
       <p class="item-previous-price">
         75999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400136875 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -286,6 +318,7 @@
     <a href="laptops/noutbuk-honor-magicbook-x-15-i5-8-512gb-space-grey-bdr-wdh">
         <img class="item-photo" src="{% static 'pictures/laptops/400106659.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 4999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -299,7 +332,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 1135G7 2.4 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -309,7 +342,11 @@
       <p class="item-previous-price">
         49999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400106659 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -320,6 +357,7 @@
     <a href="laptops/noutbuk-huawei-53013plv-bod-wdi9-matebook-d15-i3-8gb-256gb-sp-gr">
         <img class="item-photo" src="{% static 'pictures/laptops/30066689.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 3999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -333,7 +371,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i3 1115G4 3.0 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -343,7 +381,11 @@
       <p class="item-previous-price">
         51999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30066689 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -354,6 +396,7 @@
     <a href="laptops/noutbuk-apple-macbook-air-15-m2-8-512gb-space-gray-mqkq3">
         <img class="item-photo" src="{% static 'pictures/laptops/30067705.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 18799  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -367,7 +410,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.3/2880x1864 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Apple M2</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -377,7 +420,11 @@
       <p class="item-previous-price">
         187999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30067705 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -388,6 +435,7 @@
     <a href="laptops/noutbuk-asus-m515da-ej1697">
         <img class="item-photo" src="{% static 'pictures/laptops/30067507.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 3799  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -401,7 +449,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор AMD Ryzen 5 3500U 2.1 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -411,7 +459,11 @@
       <p class="item-previous-price">
         49999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30067507 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -422,6 +474,7 @@
     <a href="laptops/noutbuk-honor-magicbook-x-14-16-512-space-gray-fri-f56">
         <img class="item-photo" src="{% static 'pictures/laptops/400136873.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 6599  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -435,7 +488,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 14/1920x1200 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 3.3 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 16</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -445,7 +498,11 @@
       <p class="item-previous-price">
         73999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400136873 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -456,6 +513,7 @@
     <a href="laptops/noutbuk-honor-magicbook-x-16-8-512-space-gray-brn-f58">
         <img class="item-photo" src="{% static 'pictures/laptops/400136878.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 6199  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -469,7 +527,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 16/1920x1200 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 12450H 3.3 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -479,7 +537,11 @@
       <p class="item-previous-price">
         68999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400136878 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -490,6 +552,7 @@
     <a href="laptops/noutbuk-igrovoi-thunderobot-911-plus-x-jt009we07ru">
         <img class="item-photo" src="{% static 'pictures/laptops/30065211.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 8999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -503,7 +566,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 17.3/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 12450H 2.0 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 16</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -513,7 +576,11 @@
       <p class="item-previous-price">
         104999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30065211 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -524,6 +591,7 @@
     <a href="laptops/noutbuk-asus-m1502ia-bq093">
         <img class="item-photo" src="{% static 'pictures/laptops/30067509.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 4799  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -537,7 +605,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор AMD Ryzen 7 4800H 2.9 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 16</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -547,7 +615,11 @@
       <p class="item-previous-price">
         59999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30067509 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -558,6 +630,7 @@
     <a href="laptops/noutbuk-huawei-matebook-d15-i5-1155g7-16-512-bode-wfh9-spacegray">
         <img class="item-photo" src="{% static 'pictures/laptops/30067463.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 5999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -571,7 +644,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 1155G7 2.5 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 16</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -581,7 +654,11 @@
       <p class="item-previous-price">
         68999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30067463 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -592,6 +669,7 @@
     <a href="laptops/noutbuk-apple-macbook-air-13-m1-8-256-space-gray">
         <img class="item-photo" src="{% static 'pictures/laptops/30064273.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 8679  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -605,7 +683,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 13.3/2560x1600 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Apple M1</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -615,7 +693,11 @@
       <p class="item-previous-price">
         86799
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30064273 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -626,6 +708,7 @@
     <a href="laptops/noutbuk-apple-macbook-air-13-m1-8-256-gold-mgnd3">
         <img class="item-photo" src="{% static 'pictures/laptops/30064275.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 8679  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -639,7 +722,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 13.3/2560x1600 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Apple M1</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -649,7 +732,11 @@
       <p class="item-previous-price">
         86799
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30064275 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -660,6 +747,7 @@
     <a href="laptops/noutbuk-apple-macbook-air-13-m1-8-256-silver">
         <img class="item-photo" src="{% static 'pictures/laptops/30064274.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 8679  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -673,7 +761,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 13.3/2560x1600 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Apple M1</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -683,7 +771,11 @@
       <p class="item-previous-price">
         86799
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30064274 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -694,6 +786,7 @@
     <a href="laptops/noutbuk-huawei-matebook-d16-rlef-x-i5-16gb-512gb-space-gray">
         <img class="item-photo" src="{% static 'pictures/laptops/30066686.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 6999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -707,7 +800,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 16/1920x1200 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 12450H 2.0 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 16</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -717,7 +810,11 @@
       <p class="item-previous-price">
         79899
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30066686 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -728,6 +825,7 @@
     <a href="laptops/noutbuk-haier-noutbuk-haier-a1440sm">
         <img class="item-photo" src="{% static 'pictures/laptops/400121699.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 1999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -741,7 +839,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 14/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Celeron N4020C 1.1 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 4</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -751,7 +849,11 @@
       <p class="item-previous-price">
         19999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400121699 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -762,6 +864,7 @@
     <a href="laptops/noutbuk-honor-magicbook-x-14-8-512-space-gray-ndr-wdh">
         <img class="item-photo" src="{% static 'pictures/laptops/400136876.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 4999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -775,7 +878,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 14/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 1135G7 2.4 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -785,7 +888,11 @@
       <p class="item-previous-price">
         55999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400136876 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -796,6 +903,7 @@
     <a href="laptops/noutbuk-igrovoi-thunderobot-911-air-wave-d-i5-11400h-rtx3050-8gb-ssd256-dos">
         <img class="item-photo" src="{% static 'pictures/laptops/400079994.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 5999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -809,7 +917,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.6/1920x1080 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 11400H 2.7 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -819,7 +927,11 @@
       <p class="item-previous-price">
         85999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 400079994 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -830,6 +942,7 @@
     <a href="laptops/noutbuk-apple-macbook-air-15-m2-8-256gb-space-gray-mqkp3">
         <img class="item-photo" src="{% static 'pictures/laptops/30067704.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 16499  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -843,7 +956,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 15.3/2880x1864 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Apple M2</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 8</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -853,7 +966,11 @@
       <p class="item-previous-price">
         164999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30067704 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -864,6 +981,7 @@
     <a href="laptops/noutbuk-huawei-matebook-e-drc-w56-16512gb-grey">
         <img class="item-photo" src="{% static 'pictures/laptops/30065457.jpg' %}">
       </a>
+
       <p class="cashback-text" data-tooltip="Купите этот товар и получите кэшбек 8999  ₽">Кэшбек 10%</p>
     </div>
     <div class="item-info">
@@ -877,7 +995,7 @@
         <li>Диагональ/разрешение: <span class="text-highligt">Диагональ/разрешение 12.6/2560x1600 пикс."</span></li>
         <li>Процессор: <span class="text-highligt">Процессор Intel Core i5 1130G7 1.8 ГГц</span></li>
         <li>Оперативная память (RAM)<span class="text-highligt">Оперативная память (RAM) 16</span></li>
-        
+
       </ul>
     </div>
     <div class="item-price-container">
@@ -887,7 +1005,11 @@
       <p class="item-previous-price">
         89999
       </p>
-      <button class="add-to-cart" onclick="this.className='in-cart-btn'"></button> <br>
+      <button class="add-to-cart" onclick="this.className='in-cart-btn'"
+        hx-get="{% url 'cart_add' 30065457 %}"
+        hx-target="#menu-cart-button"
+        hx-swap="outerHTML"
+      ></button> <br>
       <a href = 'https://anketa.rencredit.ru/app/credit/site/#anketa'>
         <button class="credit-btn">Купить в кредит</button>
       </a>
@@ -938,5 +1060,6 @@
         </div>
       </div>
    </footer>
+    <script src = "https://unpkg.com/htmx.org@1.7.0"></script>
     </body>
     </html>
